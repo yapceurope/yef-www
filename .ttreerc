@@ -7,7 +7,7 @@ ignore = ^#
 ignore = \.swp$
 ignore = \.ttreerc
 
-copy = \.(gif|ico|jpe?g|png|ps)$ 
+copy = \.(gif|ico|jpe?g|pdf|png|ps)$ 
 copy = \.(css|cgi|txt)$
 copy = \.(tar|tar\.gz|gz|tgz|zip|bz2)$
 
