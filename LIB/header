@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>[% template.title %]</title>
+<link rev="made" href="mailto:richard.foley@yapceurope.org" />
+</head>
+
+<body style="background-color: white">
+
+[ <a href="index.html">YAPC::Europe</a> |
+<a href="news.html">News</a> |
+<a href="conferences.html">Conferences</a> |
+<a href="workshops.html">Workshops</a> |
+<a href="people.html">Who's who</a> |
+<a href="contact.html">Contact</a> 
+]
+
+<hr />
