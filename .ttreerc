@@ -1,7 +1,7 @@
 recurse
 preserve 
 
-ignore = \b200?\b
+ignore = \b20\d\d\b
 ignore = \b(CVS|RCS|LIB)\b
 ignore = ^#
 ignore = \.swp$
