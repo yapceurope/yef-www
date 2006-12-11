@@ -7,15 +7,26 @@
 </head>
 
 <body style="background-color: white">
-<table border="0" cellpadding="20" cellspacing="0">
-<tr><td valign="top" alignt="left">
-
-<a href="index.html">Home</a> |
-<a href="news.html">News</a> |
-<a href="conferences.html">Conferences</a> |
-<a href="workshops.html">Workshops</a> |
-<a href="hackathons.html">Hackathons</a> |
-<a href="foundation.html">Foundation</a> |
-<a href="contact.html">Contact</a> 
-
-<hr />
+<table border="0" >
+	<!-- first row -->
+	<tr>
+		<td>
+			<!-- logo -->
+			<a href="index.html"><img src="tn-yef.jpg"></a>
+		</td>
+		<td>
+			<!-- title -->
+			<center>
+				<h1>YAPC Europe Foundation - [% title %] </h1>
+			</center>
+			<hr />
+		</td>
+	</tr>
+	<!-- second row -->
+	<tr valign=top>
+		<td>
+			<!-- nav -->
+[% INCLUDE LIB/nav %]
+		</td>
+		<td>
+			<!-- content -->
