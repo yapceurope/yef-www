@@ -7,7 +7,7 @@
 </head>
 
 <body style="background-color: white">
-<table border="0" >
+<table border="0" cellpadding="5">
 	<!-- first row -->
 	<tr>
 		<td>
