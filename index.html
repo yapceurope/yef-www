@@ -22,9 +22,13 @@ workshops, and other events.</p>
 
 <p>
 <h1><a href="news.html">News</a></h1>
+[% PROCESS news_items %]
 <ul>
-<li>5 December 2006: <a href="news.html#20061205">Announcement: YAPC Venue Committee</a></li>
-<li>August 2006: <a href="news.html#20060000"><b>YAPC::Europe 2007</b> will be held in Vienna.</a></li>
+[% USE date %]
+[% FOREACH item = news.list %]
+<li>[% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]:
+    <a href="news.html#[% item.date %]">[% item.title %]</a></li>
+[% LAST IF loop.count >= 3 ; END %]
 </ul>
 </p>
 
