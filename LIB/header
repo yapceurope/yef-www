@@ -17,7 +17,7 @@
 		<td>
 			<!-- title -->
 			<center>
-				<h1>YAPC Europe Foundation - [% title %] </h1>
+				<h1>YAPC Europe Foundation - [% template.title %] </h1>
 			</center>
 			<hr />
 		</td>
