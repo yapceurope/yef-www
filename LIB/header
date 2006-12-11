@@ -7,26 +7,14 @@
 </head>
 
 <body style="background-color: white">
-<table border="0" cellpadding="5">
-	<!-- first row -->
-	<tr>
-		<td>
-			<!-- logo -->
-			<a href="index.html"><img src="img/tn-yef.jpg"></a>
-		</td>
-		<td>
-			<!-- title -->
-			<center>
-				<h1>YAPC Europe Foundation - [% template.title %] </h1>
-			</center>
-			<hr />
-		</td>
-	</tr>
-	<!-- second row -->
-	<tr valign=top>
-		<td>
-			<!-- nav -->
-[% INCLUDE LIB/nav %]
-		</td>
-		<td>
-			<!-- content -->
+<div id="banner">
+  <!-- logo -->
+  <a href="index.html"><img src="img/tn-yef.jpg"></a>
+  [% INCLUDE LIB/nav %]
+</div>
+<div id="content">
+ <center>
+  <h1>YAPC Europe Foundation - [% template.title %] </h1>
+ </center>
+ <hr />
+ <!-- content -->
