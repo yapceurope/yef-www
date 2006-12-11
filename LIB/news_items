@@ -2,7 +2,7 @@
  news = { list => [], year => {} } ;
  BLOCK add_news_item;
      item = { date => date, title => title, text => content };
-     year = item.date.match( '^(\d\d\d\d)' ).0;
+     year = item.date.match( '(\d\d\d\d)$' ).0;
      news.list.push(item);
      IF ! news.year.exists( year ); news.year.$year = [ ]; END;
      news.year.$year.push( item );
@@ -11,7 +11,7 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
-   date  = '2006-12-05'
+   date  = '00:00:00 05-12-2006'
    title = 'Announcement: YAPC Venue Committee'
 %]
 <p>
@@ -42,7 +42,7 @@ We look forward to working with you.
 [% END %]
 
 [% WRAPPER add_news_item
-   date  = '2006-09-01'
+   date  = '00:00:00 01-09-2006'
    title = 'Vienna selected for YAPC::Europe 2007'
 %]
 <p>
