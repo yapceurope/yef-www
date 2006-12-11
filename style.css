@@ -64,3 +64,28 @@ a:link { font-weight: bold; }
 //a:active { color: #000066; text-decoration: none; }
 //a:hover { background-color:#000066; color: #ffffff; text-decoration: none; }
 
+div.banner {
+  margin: 0;
+  font-size: 80% /*smaller*/;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: left;
+  position: fixed;
+  top: 22em;
+}
+div.banner p {
+  margin: 0; 
+  padding: 0.3em 0.4em;
+  background: #900;
+  border: thin outset #900;
+  color: white;
+}
+
+div.banner a, div.banner em { display: block; margin: 0 0.5em }
+div.banner a, div.banner em { border-top: 2px groove #900 }
+div.banner a:first-child { border-top: none }
+div.banner em { color: #CFC }
+
+div.banner a:link { text-decoration: none; color: blue }
+div.banner a:visited { text-decoration: none; color: blue }
+div.banner a:hover { text-decoration: none; color: yellow }
