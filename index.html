@@ -21,15 +21,18 @@ workshops, and other events.</p>
 </p>
 
 <p>
-<h1><a href="news.html">News</a></h1>
+<h1>News</h1>
 [% PROCESS news_items %]
-<ul>
 [% USE date %]
 [% FOREACH item = news.list %]
-<li>[% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]:
-    <a href="news.html#[% item.date %]">[% item.title %]</a></li>
+    <a href="news.html#[% item.date %]">[% item.title %]</a> - 
+[% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]
+<br />
 [% LAST IF loop.count >= 3 ; END %]
 </ul>
+</p>
+<p>
+<a href="news.html">view all news items</a>
 </p>
 
 
