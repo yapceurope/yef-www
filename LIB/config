@@ -1,4 +1,7 @@
 [%
+	yef		= "<a href='index.html'>YEF</a>"
+	yapceurope	= "<a href='index.html'>YAPC::Europe</a>"
+	foundation	= "<a href='index.html'>YAPC::Europe Foundation</a>"
 	conference	= "<a href='conference.html'>conference</a>"
 	conferences	= "<a href='conferences.html'>conferences</a>"
 	hackathon	= "<a href='hackathon.html'>hackathon</a>"
