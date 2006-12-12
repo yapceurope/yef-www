@@ -8,7 +8,7 @@
 <body style="background-color: white">
 <div id="banner">
   <!-- logo -->
-  <a href="index.html"><img src="img/tn-yapc-logo-round.jpg"></a>
+  <a href="index.html"><img src="img/tn-yapc-logo.jpg"></a>
   [% INCLUDE LIB/nav %]
 </div>
 <div id="content">
