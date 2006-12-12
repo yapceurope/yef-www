@@ -3,6 +3,7 @@
  BLOCK add_news_item;
      item = { date => date, title => title, text => content };
      year = item.date.match( '(\d\d\d\d)$' ).0;
+     item.anchor = item.date.match( '(\d\d)-(\d\d)-(\d\d\d\d)' ).reverse.join('');
      news.list.push(item);
      IF ! news.year.exists( year ); news.year.$year = [ ]; END;
      news.year.$year.push( item );

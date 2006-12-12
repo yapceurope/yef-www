@@ -6,7 +6,7 @@
 [% FOREACH year = news.year.keys.nsort.reverse %]
 <h1>[% year %]</h1>
 [% FOREACH item = news.year.$year %]
-<a name="[% item.date %]" />
+<a name="[% item.anchor %]" />
 <h2>[% item.title %]</h2>
 <h3>[% date.format( item.date, format='%B %e', locale='C') %]</h3>
 [% item.text %]

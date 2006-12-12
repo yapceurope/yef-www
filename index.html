@@ -25,7 +25,7 @@ workshops, and other events.</p>
 [% PROCESS news_items %]
 [% USE date %]
 [% FOREACH item = news.list %]
-    <a href="news.html#[% item.date %]">[% item.title %]</a> - 
+    <a href="news.html#[% item.anchor %]">[% item.title %]</a> - 
 [% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]
 <br />
 [% LAST IF loop.count >= 3 ; END %]
