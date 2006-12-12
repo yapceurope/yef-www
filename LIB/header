@@ -3,12 +3,12 @@
 <head>
 <title>YAPC::Europe Foundation - [% template.title %]</title>
 <link rev="made" href="mailto:www@yapceurope.org" />
-<link rel="stylesheet" href="/style.css" type="text/css" media=all>
+<link rel="stylesheet" href="[% root %]/style.css" type="text/css" media=all>
 </head>
 <body style="background-color: white">
 <div id="banner">
   <!-- logo -->
-  <a href="/index.html"><img src="/img/tn-yapc-logo.jpg"></a>
+  <a href="[% root %]/index.html"><img src="[% root %]/img/tn-yapc-logo.jpg"></a>
   [% INCLUDE LIB/nav %]
 </div>
 <div id="content">
