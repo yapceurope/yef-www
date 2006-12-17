@@ -13,28 +13,37 @@ Sometimes a conference may also include a [% hackathon %].
 
 <p>
 <h2>European Conferences</h2>
-The next <a href="http://vienna.yapceurope.org">YAPC::Europe</a>
-will take place in Vienna from 29-31 August, 2007.
-<ul>
-<li><a href="http://vienna.yapceurope.org">Vienna, Austria - 2007</a></li>
-<li><a href="http://www.birmingham2006.com">Birmingham, UK - 2006</a></li>
-<li><a href="http://www.yapceurope.org/2005">Braga, Portugal - 2005</a></li>
-<li><a href="http://www.yapceurope.org/2004">Belfast, UK - 2004</a></li>
-<li><a href="http://www.yapceurope.org/2003">Paris, France - 2003</a></li>
-<li><a href="http://www.yapceurope.org/2002">Munich, Germany - 2002</a></li>
-<li><a href="http://www.yapceurope.org/2001">Amsterdam, The Netherlands - 2001</a></li>
-<li><a href="http://www.yapceurope.org/2000">London, UK - 2000</a></li>
-</ul>
+[% PROCESS conference_items %]
+[% FOREACH item = conferences %]
+The next <a href="[% item.url %]">YAPC::Europe</a>
+will take place in [% item.city %] on [% item.date %].
+[% LAST IF loop.count >= 1; END %]
+</p>
+
+<p>
+<table border=1 cellpadding=4>
+<tr><th>Year</th><th>Conference</th></tr>
+[% FOREACH item = conferences %]
+<tr>
+  <td valign="top">[% item.year %]</td> 
+  <td valign="top"><a name="[% item.anchor %]" /><a 
+      href="[% item.url %]">[% item.city %],  [% item.country %]</a></td></tr>
+[% END %]
+</table>
 </p>
 
 
 <p>
 <h2>Other YAPCs</h2>
-<ul>
-<li><a href="http://yapcasia.org">YAPC::Asia</a></li>
-<li><a href="http://www.osdc.com.au/yapc/">YAPC::Australia</a></li>
-<li><a href="http://yapc.org/America">YAPC::NA (North America)</a></li>
-<li><a href="http://perl.org.br/bin/view/YAPC/WebHome">YAPC::SA (South America)</a></li>
-</ul>
+Annually, by geographic region.
+</p>
+
+<p>
+<table border=1 cellpadding=4>
+<tr><td valign="top"><a href="http://yapcasia.org">YAPC::Asia</a></td></tr>
+<tr><td valign="top"><a href="http://www.osdc.com.au/yapc/">YAPC::Australia</a></td></tr>
+<tr><td valign="top"><a href="http://yapc.org/America">YAPC::NA (North America)</a></td></tr>
+<tr><td valign="top"><a href="http://perl.org.br/bin/view/YAPC/WebHome">YAPC::SA (South America)</a></td></tr>
+</table>
 </p>
 

@@ -10,8 +10,11 @@ organisation which works to promote Perl in Europe through [% conferences %],
 <p>
 <h1>Upcoming Events</h1>
 <h2><a href="conferences.html">Conferences</a></h2>
+[% PROCESS conference_items %]
 <ul>
-<li><a href="http://vienna.yapceurope.org">YAPC::Europe::2007</a>, 29-31 August, 2007</li>
+[% FOREACH item = conferences %]
+<li><a href="[% item.url %]">YAPC::Europe::[% item.year %]</a>, [% item.date %]</li>
+[% LAST IF loop.count >= 1; END %]
 </ul>
 <h2><a href="workshops.html">Workshops</a></h2>
 <ul>
