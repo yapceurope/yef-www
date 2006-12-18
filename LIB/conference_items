@@ -19,57 +19,57 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '2006'
+   date  = '30 August-1 September, 2006'
    city => 'Birmingham'
    country => 'UK'
-   url => 'http://www.birmingham2006.com'
+   url => 'http://www.birmingham2006.com/'
 %]
 [% END %] 
 
 [% WRAPPER add_conference_item
-   date  = '2005'
+   date  = '31 August-2 September, 2005'
    city => 'Braga'
    country => 'Portugal'
-   url => 'http://www.yapceurope.org/2005'
+   url => 'http://www.yapceurope.org/2005/'
 %]
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '2004'
+   date  = '15-17 September, 2004'
    city => 'Belfast'
    country => 'UK'
-   url => 'http://www.yapceurope.org/2004'
+   url => 'http://www.yapceurope.org/2004/'
 %]
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '2003'
+   date  = '23-25 July, 2003'
    city => 'Paris'
    country => 'France'
-   url => 'http://www.yapceurope.org/2003'
+   url => 'http://www.yapceurope.org/2003/'
 %]
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '2002'
+   date  = '18-20 September, 2002'
    city => 'Munich'
    country => 'Germany'
-   url => 'http://www.yapceurope.org/2002'
+   url => 'http://www.yapceurope.org/2002/'
 %]
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '2001'
+   date  = '2-4 August, 2001'
    city => 'Amsterdam'
    country => 'The Netherlands'
-   url => 'http://www.yapceurope.org/2001'
+   url => 'http://www.yapceurope.org/2001/'
 %]
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '2000'
+   date  = '22-24 September, 2000'
    city => 'London'
    country => 'UK'
-   url => 'http://www.yapceurope.org/2000'
+   url => 'http://www.yapceurope.org/2000/'
 %]
 [% END %]
