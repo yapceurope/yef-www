@@ -12,17 +12,14 @@ organisation which works to promote Perl in Europe through [% conferences %],
 <h2><a href="conferences.html">Conferences</a></h2>
 [% USE date %]
 [% PROCESS conference_items %]
-<ul>
 [% FOREACH item = conferences %]
-<li><a href="[% item.url %]">YAPC::Europe::[% item.year %]</a> - [% item.date %]</li>
+<a href="[% item.url %]">YAPC::Europe::[% item.year %]</a> - [% item.date %]<br />
 [% LAST IF loop.count >= 1; END %]
-</ul>
 <h2><a href="workshops.html">Workshops</a></h2>
 [% PROCESS workshop_items %]
-<ul>
 [% FOREACH item = workshops.list %]
 [% LAST IF date.format( item.startdate, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
-<li><a href="[% item.url %]">[% item.name %]</a> - 
+<a href="[% item.url %]">[% item.name %]</a> - 
 [% date.format( item.startdate, format='%B %e', locale='C') %]
 [% IF item.enddate %]
  - 
@@ -33,11 +30,12 @@ organisation which works to promote Perl in Europe through [% conferences %],
 [% END %]
 [% END %], 
  [% date.format(item.startdate, format='%Y', locale='C') %]
-</li>
+<br />
 [% LAST IF loop.count >= 3 %]
 [% END %]
+</p>
 
-</ul>
+<p>
 <h2><a href="hackathon.html">Hackathons</a></h2>
 </p>
 
