@@ -96,3 +96,6 @@ a:link { font-weight: bold; }
 #banner a:visited { text-decoration: none; color: blue }
 #banner a:hover { text-decoration: none; color: yellow }
 
+#viewmore {
+  font-size: 80% /*smaller*/;
+}

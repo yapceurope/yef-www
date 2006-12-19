@@ -9,13 +9,21 @@ organisation which works to promote Perl in Europe through [% conferences %],
 
 <p>
 <h1>Upcoming Events</h1>
-<h2><a href="conferences.html">Conferences</a></h2>
+<h2>Conferences</h2>
 [% USE date %]
 [% PROCESS conference_items %]
 [% FOREACH item = conferences %]
 <a href="[% item.url %]">YAPC::Europe::[% item.year %]</a> - [% item.date %]<br />
 [% LAST IF loop.count >= 1; END %]
-<h2><a href="workshops.html">Workshops</a></h2>
+</p>
+<p>
+<div id="viewmore">
+<a href="conferences.html">view all Conferences</a>
+</div>
+</p>
+
+<p>
+<h2>Workshops</h2>
 [% PROCESS workshop_items %]
 [% FOREACH item = workshops.list %]
 [% LAST IF date.format( item.startdate, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
@@ -34,10 +42,20 @@ organisation which works to promote Perl in Europe through [% conferences %],
 [% LAST IF loop.count >= 3 %]
 [% END %]
 </p>
+<p>
+<div id="viewmore">
+<a href="workshops.html">view all Workshops</a>
+</div>
+</p>
 
 <p>
-<h2><a href="hackathon.html">Hackathons</a></h2>
+<h2>Hackathons</h2>
 There are no upcoming events of this type.<br />
+</p>
+<p>
+<div id="viewmore">
+<a href="hackathons.html">view all Hackathons</a>
+</div>
 </p>
 
 <p>
@@ -52,7 +70,7 @@ There are no upcoming events of this type.<br />
 </ul>
 </p>
 <p>
-<a href="news.html">view all news items</a>
+<div id="viewmore">
+<a href="news.html">view all News items</a>
+</div>
 </p>
-
-
