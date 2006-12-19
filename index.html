@@ -25,7 +25,7 @@ organisation which works to promote Perl in Europe through [% conferences %],
 <li><a href="[% item.url %]">[% item.name %]</a> - 
 [% date.format( item.startdate, format='%B %e', locale='C') %]
 [% IF item.enddate %]
- -
+ - 
 [% IF date.format( item.enddate, format='%m') == date.format( item.startdate, format='%m') %]
     [% date.format( item.enddate, format='%e', locale='C') %]
 [% ELSE %]
