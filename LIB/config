@@ -9,6 +9,6 @@
     hackathons  = "<a href='$root/hackathons.html'>hackathons</a>"
     workshop    = "<a href='$root/workshops.html'>workshop</a>"
     workshops   = "<a href='$root/workshops.html'>workshops</a>"
-    venue       = "<a href='$root/venues.html'>venue</a>"
-    venues      = "<a href='$root/venues.html'>venues</a>"
+    venue       = "<a href='$root/venue.html'>venue</a>"
+    venues      = "<a href='$root/venue.html'>venues</a>"
 %]
