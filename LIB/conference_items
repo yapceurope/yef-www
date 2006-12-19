@@ -8,7 +8,7 @@
  END
 %]
 
-[% # Add new YAPC::Europs just below, in reverse chronological order. %]
+[% # Add new YAPC::Europes just below, in reverse chronological order. %]
 
 [% WRAPPER add_conference_item
    date  => '29-31 August, 2007'
