@@ -23,7 +23,7 @@
    name => 'German Perl Workshop'
    country => 'Germany'
    city => 'Munich'
-   language => 'German'
+   language => 'German, English'
 %]
 [% END %]
 
@@ -38,13 +38,56 @@
 [% END %]
 
 [% WRAPPER add_workshop_item
-   begindate => '00:00:00 26-02-2006'
-   enddate => '00:00:00 28-02-2006'
-   url => 'http://www.osdc.org.il'
-   name => 'OSDC::Israel::2006'
-   country => 'Israel'
-   city => 'Tel Aviv'
+   begindate => '00:00:00 25-11-2006'
+   enddate => '00:00:00 26-11-2006'
+   url => 'http://conferences.yapceurope.org/fpw2006/'
+   name => 'French Perl Workshop'
+   country => 'France'
+   city => 'Lyon'
+   language => 'French'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 22-06-2006'
+   enddate => '00:00:00 23-06-2006'
+   url => 'http://conferences.yapceurope.org/ipw2006/'
+   name => 'Italian Perl Workshop'
+   country => 'Italy'
+   city => 'Pisa'
    language => ''
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 15-06-2006'
+   enddate => '00:00:00 16-06-2006'
+   url => 'http://www.perlworkshop.no/2006/'
+   name => 'Nordic Perl Workshop'
+   country => 'Norway'
+   city => 'Oslo'
+   language => 'English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 08-06-2006'
+   enddate => '00:00:00 09-06-2006'
+   url => 'http://conferences.yapceurope.org/apw2006/'
+   name => 'Austrian Perl Workshop'
+   country => 'Austria'
+   city => 'Vienna'
+   language => 'German, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 17-05-2006'
+   url => 'http://workshop.perlpromo.nl'
+   name => 'Dutch Perl Workshop'
+   country => 'Netherlands'
+   city => 'Arnhem'
+   language => 'Dutch'
 %]
 [% END %]
 
@@ -59,4 +102,14 @@
 %]
 [% END %]
 
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 26-02-2006'
+   enddate => '00:00:00 28-02-2006'
+   url => 'http://www.osdc.org.il'
+   name => 'OSDC::Israel::2006'
+   country => 'Israel'
+   city => 'Tel Aviv'
+   language => ''
+%]
+[% END %]
 
