@@ -24,10 +24,10 @@ committee for other reasons, please mail
 <tr><td colspan=4 align=left bgcolor=eeeeee><b>[% year %]</b></td></tr>
 [% FOREACH item = workshops.year.$year %]
 <tr><td valign="top"><a name="[% item.anchor %]" />
-[% date.format( item.startdate, format='%B %e', locale='C') %]
+[% date.format( item.begindate, format='%B %e', locale='C') %]
 [% IF item.enddate %] 
  - 
-[% IF date.format( item.enddate, format='%m') == date.format( item.startdate, format='%m') %]
+[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
     [% date.format( item.enddate, format='%e', locale='C') %]
 [% ELSE %]
     [% date.format( item.enddate, format='%B %e', locale='C') %]

@@ -18,15 +18,15 @@ Sometimes a conference may also include a [% hackathon %].
 [% FOREACH item = conferences %]
 The next <a href="[% item.url %]">YAPC::Europe</a>
 will take place in [% item.city %] on 
-[% date.format( item.startdate, format='%B %e', locale='C') %]
+[% date.format( item.begindate, format='%B %e', locale='C') %]
 [% IF item.enddate %]
  - 
-[% IF date.format( item.enddate, format='%m') == date.format( item.startdate, format='%m') %]
+[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
     [% date.format( item.enddate, format='%e', locale='C') %]
 [% ELSE %]
     [% date.format( item.enddate, format='%B %e', locale='C') %]
 [% END %]
-[% END %], [% date.format(item.startdate, '%Y') %].
+[% END %], [% date.format(item.begindate, '%Y') %].
 [% LAST IF loop.count >= 1; END %]
 </p>
 

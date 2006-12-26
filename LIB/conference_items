@@ -1,9 +1,9 @@
 [%
  conferences = [] ;
  BLOCK add_conference_item;
-     item = { startdate => startdate, url => url, city => city, country => country, enddate => enddate };
-     item.year = item.startdate.match( '(\d\d\d\d)$' ).0;
-     item.anchor = item.startdate.match('(\d\d\d\d)$').item.city;
+     item = { begindate => begindate, url => url, city => city, country => country, enddate => enddate };
+     item.year = item.begindate.match( '(\d\d\d\d)$' ).0;
+     item.anchor = item.begindate.match('(\d\d\d\d)$').item.city;
      conferences.push(item);
  END
 %]
@@ -11,7 +11,7 @@
 [% # Add new YAPC::Europes just below, in reverse chronological order. %]
 
 [% WRAPPER add_conference_item
-   startdate  => '00:00:00 29-08-2007'
+   begindate  => '00:00:00 29-08-2007'
    enddate => '00:00:00 31-08-2007'
    country => 'Austria'
    city => 'Vienna'
@@ -20,7 +20,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   startdate  => '00:00:00 30-08-2006'
+   begindate  => '00:00:00 30-08-2006'
    enddate => '00:00:00 01-09-2006'
    city => 'Birmingham'
    country => 'UK'
@@ -29,7 +29,7 @@
 [% END %] 
 
 [% WRAPPER add_conference_item
-   startdate  => '00:00:00 31-08-2005'
+   begindate  => '00:00:00 31-08-2005'
    enddate => '00:00:00 02-09-2005'
    city => 'Braga'
    country => 'Portugal'
@@ -38,7 +38,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   startdate  => '00:00:00 15-09-2004'
+   begindate  => '00:00:00 15-09-2004'
    enddate => '00:00:00 17-09-2004'
    city => 'Belfast'
    country => 'UK'
@@ -47,7 +47,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   startdate  => '00:00:00 23-07-2003'
+   begindate  => '00:00:00 23-07-2003'
    enddate => '00:00:00 25-07-2003'
    city => 'Paris'
    country => 'France'
@@ -56,7 +56,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   startdate  => '00:00:00 18-09-2002'
+   begindate  => '00:00:00 18-09-2002'
    enddate => '00:00:00 20-09-2002'
    city => 'Munich'
    country => 'Germany'
@@ -65,7 +65,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   startdate  => '00:00:00 02-08-2001'
+   begindate  => '00:00:00 02-08-2001'
    enddate => '00:00:00 04-08-2001'
    city => 'Amsterdam'
    country => 'The Netherlands'
@@ -74,7 +74,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   startdate  => '00:00:00 22-09-2000'
+   begindate  => '00:00:00 22-09-2000'
    enddate => '00:00:00 24-09-2000'
    city => 'London'
    country => 'UK'

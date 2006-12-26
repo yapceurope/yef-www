@@ -1,13 +1,13 @@
 [% 
   workshops = { list => [], year => {} } ;
   BLOCK add_workshop_item;
-    item = { startdate => startdate, enddate => enddate, url => url,
+    item = { begindate => begindate, enddate => enddate, url => url,
              name => name, city => city, country => country, 
              language => language };
     item.anchor = (item.date.match('(\d\d)-(\d\d)-(\d\d\d\d)').reverse.join(''));
 
   workshops.list.push(item);
-  year = item.startdate.match( '(\d\d\d\d)$' ).0;
+  year = item.begindate.match( '(\d\d\d\d)$' ).0;
   IF ! workshops.year.exists(year); workshops.year.$year = []; END;
   workshops.year.$year.push(item);
 
@@ -17,7 +17,7 @@
 [% # Add new workshops just below, in reverse chronological order. %]
 
 [% WRAPPER add_workshop_item
-   startdate => '00:00:00 21-02-2007'
+   begindate => '00:00:00 21-02-2007'
    enddate => '00:00:00 23-02-2007'
    url => 'http://www.perl-workshop.de/de/2007/index.html'
    name => 'German Perl Workshop'
@@ -28,7 +28,7 @@
 [% END %]
 
 [% WRAPPER add_workshop_item
-   startdate => '00:00:00 09-12-2006'
+   begindate => '00:00:00 09-12-2006'
    url => 'http://london.pm.org/lpw/'
    name => 'London Perl Workshop'
    country => 'UK' 
@@ -38,7 +38,7 @@
 [% END %]
 
 [% WRAPPER add_workshop_item
-   startdate => '00:00:00 26-02-2006'
+   begindate => '00:00:00 26-02-2006'
    enddate => '00:00:00 28-02-2006'
    url => 'http://www.osdc.org.il'
    name => 'OSDC::Israel::2006'
@@ -49,7 +49,7 @@
 [% END %]
 
 [% WRAPPER add_workshop_item
-   startdate => '00:00:00 01-03-2006'
+   begindate => '00:00:00 01-03-2006'
    enddate => '00:00:00 03-03-2006'
    url => 'http://www.perl-workshop.de/2006'
    name => 'German Perl Workshop'
