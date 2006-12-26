@@ -1,7 +1,7 @@
 [%
  conferences = [] ;
  BLOCK add_conference_item;
-     item = { begindate => begindate, url => url, city => city, country => country, enddate => enddate };
+     item = { begindate => begindate, url => url, city => city, country => country, enddate => enddate, theme => theme };
      item.year = item.begindate.match( '(\d\d\d\d)$' ).0;
      item.anchor = item.begindate.match('(\d\d\d\d)$').item.city;
      conferences.push(item);
@@ -15,6 +15,7 @@
    enddate => '00:00:00 31-08-2007'
    country => 'Austria'
    city => 'Vienna'
+   theme => 'Social Perl'
    url => 'http://vienna.yapceurope.org'
 %]
 [% END %]
@@ -24,6 +25,7 @@
    enddate => '00:00:00 01-09-2006'
    city => 'Birmingham'
    country => 'UK'
+   theme =>  ''
    url => 'http://www.birmingham2006.com/'
 %]
 [% END %] 
@@ -33,6 +35,7 @@
    enddate => '00:00:00 02-09-2005'
    city => 'Braga'
    country => 'Portugal'
+   theme =>  'Perl Everywhere'
    url => 'http://www.yapceurope.org/2005/'
 %]
 [% END %]
@@ -42,6 +45,7 @@
    enddate => '00:00:00 17-09-2004'
    city => 'Belfast'
    country => 'UK'
+   theme => 'Perl for Profit'
    url => 'http://www.yapceurope.org/2004/'
 %]
 [% END %]
@@ -51,6 +55,7 @@
    enddate => '00:00:00 25-07-2003'
    city => 'Paris'
    country => 'France'
+   theme => ''
    url => 'http://www.yapceurope.org/2003/'
 %]
 [% END %]
@@ -60,6 +65,7 @@
    enddate => '00:00:00 20-09-2002'
    city => 'Munich'
    country => 'Germany'
+   theme => 'The Science of Perl'
    url => 'http://www.yapceurope.org/2002/'
 %]
 [% END %]
@@ -69,6 +75,7 @@
    enddate => '00:00:00 04-08-2001'
    city => 'Amsterdam'
    country => 'The Netherlands'
+   theme => 'Secure Perl'
    url => 'http://www.yapceurope.org/2001/'
 %]
 [% END %]
@@ -79,5 +86,6 @@
    city => 'London'
    country => 'UK'
    url => 'http://www.yapceurope.org/2000/'
+   theme => 'The Art of Perl'
 %]
 [% END %]
