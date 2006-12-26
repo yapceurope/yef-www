@@ -1,5 +1,6 @@
 <hr />
-<i>Copyright © 2003-[% date.format( date.now, '%Y' ) %] YAPC::Europe Foundation</i>
+<i>Copyright © 2003-[% date.format( date.now, '%Y' ) %] YAPC::Europe
+Foundation</i><br /><br />
 </div>
 </body>
 </html>
