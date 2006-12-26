@@ -33,7 +33,7 @@
    name => 'German Perl Workshop'
    country => 'Germany'
    city => 'Munich'
-   language => 'German, English'
+   language => 'German'
 %]
 [% END %]
 
@@ -115,11 +115,125 @@
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 26-02-2006'
    enddate => '00:00:00 28-02-2006'
-   url => 'http://www.osdc.org.il'
+   url => 'http://www.osdc.org.il/2006/'
    name => 'OSDC::Israel::2006'
    country => 'Israel'
-   city => 'Tel Aviv'
+   city => 'Netanya'
    language => ''
 %]
 [% END %]
 
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 26-11-2005'
+   url => 'http://london.pm.org/lpw'
+   name => 'London Perl Workshop'
+   country => 'UK'
+   city => 'London'
+   language => 'English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 22-10-2005'
+   enddate => '00:00:00 23-10-2005'
+   url => 'http://perlworkshop.dk/2005/'
+   name => 'Nordic Perl Workshop'
+   country => 'Sweden'
+   city => 'Stockholm'
+   language => 'English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 22-10-2005'
+   url => 'http://perl.org.hu/english/hpw2005.html'
+   name => 'Hungarian Perl Workshop'
+   country => 'Hungary'
+   city => 'Budapest'
+   language => 'Hungarian, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 23-06-2005'
+   enddate => '00:00:00 24-06-2005'
+   url => 'http://conferences.yapceurope.org/ipw2005/'
+   name => 'Italian Perl Workshop'
+   country => 'Italy'
+   city => 'Pisa'
+   language => ''
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 09-06-2005'
+   enddate => '00:00:00 10-06-2005'
+   url => 'http://conferences.yapceurope.org/fpw2005/'
+   name => 'French Perl Workshop'
+   country => 'France'
+   city => 'Marseille'
+   language => 'French'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 09-06-2005'
+   enddate => '00:00:00 10-06-2005'
+   url => 'http://conferences.yapceurope.org/apw2005/'
+   name => 'Austrian Perl Workshop'
+   country => 'Austria'
+   city => 'Vienna'
+   language => 'German, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 25-02-2005'
+   url => 'http://workshop.perlpromo.nl/'
+   name => 'Dutch Perl Workshop'
+   country => 'Netherlands'
+   city => 'Arnhem'
+   language => 'Dutch'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 17-02-2005'
+   url => 'http://www.perl.org.il/YAPC/2005'
+   name => 'YAPC::Israel'
+   country => 'Israel'
+   city => 'Herzliya'
+   language => ''
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 09-02-2005'
+   enddate => '00:00:00 11-02-2005'
+   url => 'http://www.perl-workshop.de/2005'
+   name => 'German Perl Workshop'
+   country => 'Germany'
+   city => 'Dresden'
+   language => 'German'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 28-08-2004'
+   url => 'http://perl.org.hu/english/hpw2004.html'
+   name => 'Hungarian Perl Workshop'
+   country => 'Hungary'
+   city => 'Budapest'
+   language => 'Hungarian, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 26-08-2002'
+   url => 'http://perl.org.hu/english/hpw2002.html'
+   name => 'Hungarian Perl Workshop'
+   country => 'Hungary'
+   city => 'Budapest'
+   language => 'Hungarian, English'
+%]
+[% END %]
