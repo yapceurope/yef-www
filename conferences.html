@@ -2,38 +2,38 @@
    title = 'Conferences'
 %]
 
-YAPC conferences are annual events for each regional area.  Typically, each [%
-venue %] is at a new host city each year.  By contrast, [% workshops %] are
-available in more locations, and are often held in the same location each year.
+'YAPC' stands for 'Yet Another Perl Conference'.  The YAPC conferences
+are annual events, organized by geographic region.  In Europe, a different
+host city and theme are selected each year by the [% venue %] committee.
+</p>
+<p>
+By contrast, several [% workshops %] are offered each year, and particular
+workshops often return to the same location each year.  Additionally,
+YEF has no hand in determining the location of workshops.
 While conferences appeal most to the intermediate to expert level, many offer a
 beginner's track or tutorials.  Most conferences are conducted in English,
-while [% workshops %] tend to be local language based (usually plus English).
+while workshops tend to be local language based (usually plus English).
 Sometimes a conference may also include a [% hackathon %].
 </p>
 
 <p>
-<h2>European Conferences</h2>
+<h2>YAPC::Europe</h2>
+
 [% USE date %]
 [% PROCESS conference_items %]
-[% FOREACH item = conferences %]
-The next <a href="[% item.url %]">YAPC::Europe</a>
-will take place in [% item.city %] on 
-[% date.format( item.begindate, format='%B %e', locale='C') %]
-[% IF item.enddate %]
- - 
-[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
-    [% date.format( item.enddate, format='%e', locale='C') %]
-[% ELSE %]
-    [% date.format( item.enddate, format='%B %e', locale='C') %]
-[% END %]
-[% END %], [% date.format(item.begindate, '%Y') %].
-[% LAST IF loop.count >= 1; END %]
-</p>
-
-<p>
 <table border=1 cellpadding=4>
-<tr><th>Date</th><th>Conference</th></tr>
+<tr><th>Date</th><th>Location</th></tr>
+[% SET prev_header_printed = 0 %]
+
 [% FOREACH item = conferences %]
+[%IF date.format( item.begindate, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
+<tr><td colspan=4 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
+[% ELSE %]
+[% IF prev_header_printed < 1 %]
+<tr><td colspan=4 align=left bgcolor=eeeeee><b>Previous Conferences</b></td></tr>
+[% SET prev_header_printed = 1 %]
+[% END %]
+[% END %]
 <tr>
   <td valign="top">
 [% date.format( item.begindate, format='%B %e', locale='C') %]
@@ -55,10 +55,7 @@ will take place in [% item.city %] on
 
 <p>
 <h2>Other YAPCs</h2>
-Annually, by geographic region.
-</p>
 
-<p>
 <table border=1 cellpadding=4>
 <tr><td valign="top"><a href="http://yapcasia.org">YAPC::Asia</a></td></tr>
 <tr><td valign="top"><a href="http://www.osdc.com.au/yapc/">YAPC::Australia</a></td></tr>
