@@ -25,7 +25,7 @@
    enddate => '00:00:00 01-09-2006'
    city => 'Birmingham'
    country => 'UK'
-   theme =>  ''
+   theme =>  'The Accessibility of Perl'
    url => 'http://www.birmingham2006.com/'
 %]
 [% END %] 
