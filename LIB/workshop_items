@@ -17,6 +17,16 @@
 [% # Add new workshops just below, in reverse chronological order. %]
 
 [% WRAPPER add_workshop_item
+   begindate => '00:00:00 16-03-2007'
+   url => 'http://workshop.perlpromo.nl'
+   name => 'Dutch Perl Workshop'
+   country => 'Netherlands'
+   city => 'Arnhem'
+   language => 'Dutch'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
    begindate => '00:00:00 21-02-2007'
    enddate => '00:00:00 23-02-2007'
    url => 'http://www.perl-workshop.de/de/2007/index.html'
@@ -86,7 +96,7 @@
    url => 'http://workshop.perlpromo.nl'
    name => 'Dutch Perl Workshop'
    country => 'Netherlands'
-   city => 'Arnhem'
+   city => 'Delft'
    language => 'Dutch'
 %]
 [% END %]
