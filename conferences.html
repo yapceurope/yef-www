@@ -32,10 +32,20 @@ will take place in [% item.city %] on
 
 <p>
 <table border=1 cellpadding=4>
-<tr><th>Year</th><th>Conference</th></tr>
+<tr><th>Date</th><th>Conference</th></tr>
 [% FOREACH item = conferences %]
 <tr>
-  <td valign="top">[% item.year %]</td> 
+  <td valign="top">
+[% date.format( item.begindate, format='%B %e', locale='C') %]
+[% IF item.enddate %]
+ - 
+[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
+    [% date.format( item.enddate, format='%e', locale='C') %]
+[% ELSE %]
+    [% date.format( item.enddate, format='%B %e', locale='C') %]
+[% END %]
+[% END %], [% date.format(item.begindate, '%Y') %]
+</td> 
   <td valign="top"><a name="[% item.anchor %]" /><a 
       href="[% item.url %]">[% item.city %],  [% item.country %]</a></td></tr>
 [% END %]
