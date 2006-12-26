@@ -12,7 +12,17 @@ organisation which works to promote Perl in Europe through [% conferences %],
 [% USE date %]
 [% PROCESS conference_items %]
 [% FOREACH item = conferences %]
-<a href="[% item.url %]">YAPC::Europe::[% item.year %]</a> - [% item.date %]<br />
+<a href="[% item.url %]">YAPC::Europe::[% item.year %]</a> - 
+[% date.format( item.startdate, format='%B %e', locale='C') %]
+[% IF item.enddate %]
+ - 
+[% IF date.format( item.enddate, format='%m') == date.format( item.startdate, format='%m') %]
+    [% date.format( item.enddate, format='%e', locale='C') %]
+[% ELSE %]
+    [% date.format( item.enddate, format='%B %e', locale='C') %]
+[% END %]
+[% END %], [% date.format(item.startdate, '%Y') %]<br />
+
 [% LAST IF loop.count >= 1; END %]
 [% PROCESS workshop_items %]
 [% FOREACH item = workshops.list %]

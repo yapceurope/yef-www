@@ -1,9 +1,9 @@
 [%
  conferences = [] ;
  BLOCK add_conference_item;
-     item = { date => date, url => url, city => city, country => country };
-     item.year = item.date.match( '(\d\d\d\d)$' ).0;
-     item.anchor = item.date.match('(\d\d\d\d)$').item.city;
+     item = { startdate => startdate, url => url, city => city, country => country, enddate => enddate };
+     item.year = item.startdate.match( '(\d\d\d\d)$' ).0;
+     item.anchor = item.startdate.match('(\d\d\d\d)$').item.city;
      conferences.push(item);
  END
 %]
@@ -11,7 +11,8 @@
 [% # Add new YAPC::Europes just below, in reverse chronological order. %]
 
 [% WRAPPER add_conference_item
-   date  => '29-31 August, 2007'
+   startdate  => '00:00:00 29-08-2007'
+   enddate => '00:00:00 31-08-2007'
    country => 'Austria'
    city => 'Vienna'
    url => 'http://vienna.yapceurope.org'
@@ -19,7 +20,8 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '30 August-1 September, 2006'
+   startdate  => '00:00:00 30-08-2006'
+   enddate => '00:00:00 01-09-2006'
    city => 'Birmingham'
    country => 'UK'
    url => 'http://www.birmingham2006.com/'
@@ -27,7 +29,8 @@
 [% END %] 
 
 [% WRAPPER add_conference_item
-   date  = '31 August-2 September, 2005'
+   startdate  => '00:00:00 31-08-2005'
+   enddate => '00:00:00 02-09-2005'
    city => 'Braga'
    country => 'Portugal'
    url => 'http://www.yapceurope.org/2005/'
@@ -35,7 +38,8 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '15-17 September, 2004'
+   startdate  => '00:00:00 15-09-2004'
+   enddate => '00:00:00 17-09-2004'
    city => 'Belfast'
    country => 'UK'
    url => 'http://www.yapceurope.org/2004/'
@@ -43,7 +47,8 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '23-25 July, 2003'
+   startdate  => '00:00:00 23-07-2003'
+   enddate => '00:00:00 25-07-2003'
    city => 'Paris'
    country => 'France'
    url => 'http://www.yapceurope.org/2003/'
@@ -51,7 +56,8 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '18-20 September, 2002'
+   startdate  => '00:00:00 18-09-2002'
+   enddate => '00:00:00 20-09-2002'
    city => 'Munich'
    country => 'Germany'
    url => 'http://www.yapceurope.org/2002/'
@@ -59,7 +65,8 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '2-4 August, 2001'
+   startdate  => '00:00:00 02-08-2001'
+   enddate => '00:00:00 04-08-2001'
    city => 'Amsterdam'
    country => 'The Netherlands'
    url => 'http://www.yapceurope.org/2001/'
@@ -67,7 +74,8 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   date  = '22-24 September, 2000'
+   startdate  => '00:00:00 22-09-2000'
+   enddate => '00:00:00 24-09-2000'
    city => 'London'
    country => 'UK'
    url => 'http://www.yapceurope.org/2000/'
