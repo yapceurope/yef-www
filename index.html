@@ -30,32 +30,31 @@ organization on European events.
 [% END %]
 [% END %], [% date.format(item.begindate, '%Y') %]<br />
 
-[% LAST IF loop.count >= 1; END %]
-[% PROCESS workshop_items %]
-[% FOREACH item = workshops.list %]
-[% LAST IF date.format( item.begindate, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
-<a href="[% item.url %]">[% item.name %]</a> - 
-[% date.format( item.begindate, format='%B %e', locale='C') %]
-[% IF item.enddate %]
- - 
-[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
-    [% date.format( item.enddate, format='%e', locale='C') %]
-[% ELSE %]
-    [% date.format( item.enddate, format='%B %e', locale='C') %]
-[% END %]
-[% END %], 
- [% date.format(item.begindate, format='%Y', locale='C') %]
-<br />
-[% LAST IF loop.count >= 3 %]
-[% END %]
-</p>
-<p>
-<div id="viewmore">
-view all: <a href="conferences.html">conferences</a>,
-<a href="workshops.html">workshops</a>, 
-[% hackathons %] 
-</div>
-</p>
+<dl>
+<dt><strong><a name="item_conferences">Conferences</a></strong><br />
+</dt>
+<dd>
+<b><a href="conferences.html">YAPC::Europe::2007</a></b><br>Vienna, 29 - 31 August, 2007</a><br>
+<a href="conferences.html">read more</a>
+</dd>
+<p></p>
+<dt><strong><a name="item_workshops">Upcoming Workshops</a></strong><br />
+</dt>
+<dd>
+Canceled: OSDC::Israel::2007 20-22 Feb 2007<br>
+
+<a href="http://www.perl-workshop.de/de/2007/index.html">German Perl Workshop</a> 21-23 Feb 2007<br>
+<a href="http://workshop.perlpromo.nl/">Dutch Perl Workshop</a>March 16<br>
+</dd>
+<p><a href="workshops.html">Previous workshops</a> and more workshop information.</p>
+<!--<dt><strong>Other Perl events</strong></dt>-->
+</dl>
+<hr>
+<p>Founded in the Netherlands, as the ``YAPC::Europe Foundation'' or 'YEF', the
+current board also has members from England, Germany and France.  Adhoc
+committee members will be co-opted from relevant countries based on experience.</p>
+<p>We look forward to helping, guiding and just plain 'being there' for groups of
+like-minded Perl enthusiasts in and around Europe.</p>
 
 <p>
 <h1>News</h1>
