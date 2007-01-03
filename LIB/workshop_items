@@ -237,3 +237,37 @@
    language => 'Hungarian, English'
 %]
 [% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 28-02-2001'
+   enddate => '00:00:00 02-03-2001'
+   url => 'http://www.perl-workshop.de/2001',
+   name => 'German Perl Workshop'
+   country => 'Germany'
+   city => 'Bonn-Rhein-Sieg'
+   language => 'German, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 08-03-2000'
+   enddate => '00:00:00 10-03-2000'
+   url => 'http://www.perl-workshop.de/2000',
+   name => 'German Perl Workshop'
+   country => 'Germany'
+   city => 'Bonn-Rhein-Sieg'
+   language => 'German, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 17-02-1999'
+   enddate => '00:00:00 19-02-1999'
+   url => 'http://www.perl-workshop.de/1999/',
+   name => 'German Perl Workshop'
+   country => 'Germany'
+   city => 'Bonn-Rhein-Sieg'
+   language => 'German, English'
+%]
+[% END %]
+
