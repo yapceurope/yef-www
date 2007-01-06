@@ -219,33 +219,22 @@
 [% END %]
 
 [% WRAPPER add_workshop_item
-   begindate => '00:00:00 26-02-2004'
-   url => 'http://www.perl.org.il/YAPC/2004',
-   name => 'YAPC::Israel'
-   country => 'Israel'
-   city => 'Herzliya'
-   language => 'Hebrew, English'
+   begindate => '00:00:00 11-12-2004'
+   url => 'http://london.pm.org/lpw/'
+   name => 'London Perl Workshop'
+   country => 'UK' 
+   city => 'London'
+   language => 'English'
 %]
 [% END %]
 
 [% WRAPPER add_workshop_item
-   begindate => '00:00:00 05-03-2004'
-   url => 'http://workshop.perlpromo.nl'
-   name => 'Dutch Perl Workshop'
-   country => 'Netherlands'
-   city => 'Arnhem'
-   language => 'Dutch'
-%]
-[% END %]
-
-[% WRAPPER add_workshop_item
-   begindate => '00:00:00 27-03-2004'
-   enddate => '00:00:00 28-03-2004'
-   url => 'http://www.perlworkshop.dk/2004/'
-   name => 'Nordic Perl Workshop'
-   country => 'Denmark'
-   city => 'Copenhagen'
-   language => 'Dutch, English'
+   begindate => '00:00:00 28-08-2004'
+   url => 'http://perl.org.hu/english/hpw2004.html'
+   name => 'Hungarian Perl Workshop'
+   country => 'Hungary'
+   city => 'Budapest'
+   language => 'Hungarian, English'
 %]
 [% END %]
 
@@ -256,28 +245,6 @@
    name => 'Austrian Perl Workshop'
    country => 'Austria'
    city => 'Vienna'
-   language => 'German, English'
-%]
-[% END %]
-
-[% WRAPPER add_workshop_item
-   begindate => '00:00:00 06-06-2004'
-   enddate => '00:00:00 07-06-2004'
-   url => 'http://conferences.yapceurope.org/fpw2004/'
-   name => 'French Perl Workshop'
-   country => 'France'
-   city => 'Paris'
-   language => 'French-English'
-%]
-[% END %]
-
-[% WRAPPER add_workshop_item
-   begindate => '00:00:00 29-06-2004'
-   enddate => '00:00:00 01-07-2004'
-   url => 'http://www.perlworkshop.de/2004/',
-   name => 'German Perl Workshop'
-   country => 'Germany'
-   city => 'Schorndorf - Stuttgart',
    language => 'German, English'
 %]
 [% END %]
@@ -294,36 +261,61 @@
 [% END %]
 
 [% WRAPPER add_workshop_item
-   begindate => '00:00:00 28-08-2004'
-   url => 'http://perl.org.hu/english/hpw2004.html'
-   name => 'Hungarian Perl Workshop'
-   country => 'Hungary'
-   city => 'Budapest'
-   language => 'Hungarian, English'
+   begindate => '00:00:00 29-06-2004'
+   enddate => '00:00:00 01-07-2004'
+   url => 'http://www.perlworkshop.de/2004/',
+   name => 'German Perl Workshop'
+   country => 'Germany'
+   city => 'Schorndorf - Stuttgart',
+   language => 'German, English'
 %]
 [% END %]
 
 [% WRAPPER add_workshop_item
-   begindate => '00:00:00 11-12-2004'
-   url => 'http://london.pm.org/lpw/'
-   name => 'London Perl Workshop'
-   country => 'UK' 
-   city => 'London'
-   language => 'English'
+   begindate => '00:00:00 06-06-2004'
+   enddate => '00:00:00 07-06-2004'
+   url => 'http://conferences.yapceurope.org/fpw2004/'
+   name => 'French Perl Workshop'
+   country => 'France'
+   city => 'Paris'
+   language => 'French-English'
 %]
 [% END %]
 
-
 [% WRAPPER add_workshop_item
-   begindate => '00:00:00 25-04-2003'
-   enddate => '00:00:00 26-04-2003'
-   url => 'http://www.perlworkshop.dk/2003',
-   name => 'Scandinavian Perl Workshop'
+   begindate => '00:00:00 27-03-2004'
+   enddate => '00:00:00 28-03-2004'
+   url => 'http://www.perlworkshop.dk/2004/'
+   name => 'Nordic Perl Workshop'
    country => 'Denmark'
-   city => 'Copenhagen',
+   city => 'Copenhagen'
    language => 'Dutch, English'
 %]
 [% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 05-03-2004'
+   url => 'http://workshop.perlpromo.nl'
+   name => 'Dutch Perl Workshop'
+   country => 'Netherlands'
+   city => 'Arnhem'
+   language => 'Dutch'
+%]
+[% END %]
+
+
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 26-02-2004'
+   url => 'http://www.perl.org.il/YAPC/2004',
+   name => 'YAPC::Israel'
+   country => 'Israel'
+   city => 'Herzliya'
+   language => 'Hebrew, English'
+%]
+[% END %]
+
+
 
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 11-05-2003'
@@ -345,6 +337,18 @@
    language => 'German, English'
 %]
 [% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 25-04-2003'
+   enddate => '00:00:00 26-04-2003'
+   url => 'http://www.perlworkshop.dk/2003',
+   name => 'Scandinavian Perl Workshop'
+   country => 'Denmark'
+   city => 'Copenhagen',
+   language => 'Dutch, English'
+%]
+[% END %]
+
 
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 26-08-2002'
