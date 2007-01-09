@@ -56,20 +56,15 @@ view all: <a href="conferences.html">conferences</a>,
 [% hackathons %] 
 </div>
 </p>
+<a href="http://www.perl-workshop.de/de/2007/index.html">German Perl Workshop</a> 21-23 Feb 2007<br>
+</dd>
+<p><a href="workshops.html">Previous workshops</a> and more workshop information.</p>
+<!--<dt><strong>Other Perl events</strong></dt>-->
+</dl>
+<hr>
+<p>Founded in the Netherlands, as the ``YAPC::Europe Foundation'' or 'YEF', the
+current board also has members from England, Germany and France.  Adhoc
+committee members will be co-opted from relevant countries based on experience.</p>
+<p>We look forward to helping, guiding and just plain 'being there' for groups of
+like-minded Perl enthusiasts in and around Europe.</p>
 
-<p>
-<h1>News</h1>
-[% PROCESS news_items %]
-[% USE date %]
-[% FOREACH item = news.list %]
-    <a href="news.html#[% item.anchor %]">[% item.title %]</a> - 
-[% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]
-<br />
-[% LAST IF loop.count >= 3 ; END %]
-</ul>
-</p>
-<p>
-<div id="viewmore">
-<a href="news.html">view all news items</a>
-</div>
-</p>
