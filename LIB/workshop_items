@@ -322,7 +322,7 @@
    url => 'http://www.perl.org.il/YAPC/2003',
    name => 'YAPC::Israel'
    country => 'Israel'
-   city => 'Herzliya'
+   city => 'Haifa'
    language => 'Hebrew, English'
 %]
 [% END %]
