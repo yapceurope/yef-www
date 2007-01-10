@@ -61,11 +61,11 @@ view all: <a href="conferences.html">conferences</a>,
 <h1>News</h1>
 [% PROCESS news_items %]
 [% USE date %]
-[% FOREACH item = news.list %]
+[% FOREACH item = news.list.splice( 0, 2 ) %]
     <a href="news.html#[% item.anchor %]">[% item.title %]</a> - 
 [% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]
 <br />
-[% LAST IF loop.count >= 3 ; END %]
+[% END %]
 </ul>
 </p>
 <p>
