@@ -333,7 +333,7 @@
    url => 'http://www.perl-workshop.de/2003/',
    name => 'German Perl Workshop'
    country => 'Germany'
-   city => 'Bonn-Rhein-Sieg'
+   city => 'Bonn'
    language => 'German, English'
 %]
 [% END %]
@@ -366,7 +366,7 @@
    url => 'http://www.perl-workshop.de/2002/',
    name => 'German Perl Workshop'
    country => 'Germany'
-   city => 'Bonn-Rhein-Sieg'
+   city => 'Sankt Augustin, Bonn-Rhein-Sieg'
    language => 'German, English'
 %]
 [% END %]
@@ -377,7 +377,7 @@
    url => 'http://www.perl-workshop.de/2001',
    name => 'German Perl Workshop'
    country => 'Germany'
-   city => 'Bonn-Rhein-Sieg'
+   city => 'Sankt Augustin, Bonn-Rhein-Sieg'
    language => 'German, English'
 %]
 [% END %]
@@ -388,7 +388,7 @@
    url => 'http://www.perl-workshop.de/2000',
    name => 'German Perl Workshop'
    country => 'Germany'
-   city => 'Bonn-Rhein-Sieg'
+   city => 'Sankt Augustin, Bonn-Rhein-Sieg'
    language => 'German, English'
 %]
 [% END %]
@@ -399,7 +399,7 @@
    url => 'http://www.perl-workshop.de/1999/',
    name => 'German Perl Workshop'
    country => 'Germany'
-   city => 'Bonn-Rhein-Sieg'
+   city => 'Sankt Augustin, Bonn-Rhein-Sieg'
    language => 'German, English'
 %]
 [% END %]
