@@ -7,6 +7,8 @@
     conferences = "<a href='$root/conferences.html'>conferences</a>"
     hackathon   = "<a href='$root/hackathons.html'>hackathon</a>"
     hackathons  = "<a href='$root/hackathons.html'>hackathons</a>"
+    meet 	= "<a href='$root/meets.html'>meet </a>"
+    meets	= "<a href='$root/meets.html'>meets</a>"
     workshop    = "<a href='$root/workshops.html'>workshop</a>"
     workshops   = "<a href='$root/workshops.html'>workshops</a>"
     venue       = "<a href='$root/venue.html'>venue</a>"
