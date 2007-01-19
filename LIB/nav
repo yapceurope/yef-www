@@ -1,4 +1,3 @@
-<div class="banner">
 <ul>
 	<li> <a href="[% root %]/index.html">Home</a>
 	<li> <a href="[% root %]/news.html">News</a>
@@ -9,4 +8,3 @@
 	<li> <a href="[% root %]/foundation.html">Foundation</a>
 	<li> <a href="[% root %]/contact.html">Contact</a>
 </ul>
-</div>

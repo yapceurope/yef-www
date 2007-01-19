@@ -6,14 +6,17 @@
 <link rel="stylesheet" href="[% root %]/style.css" type="text/css" media=all>
 </head>
 <body style="background-color: white">
+  <!-- logo 
 <div id="banner">
-  <!-- logo -->
   <a href="[% root %]/index.html"><img src="[% root %]/img/tn-yapc-logo.jpg"></a>
-  [% INCLUDE LIB/nav %]
 </div>
-<div id="content">
- <center>
+	-->
+<center> 
+<a href="[% root %]/index.html"><img src="[% root %]/logo/yef.png"></a>
   <h1>YAPC Europe Foundation - [% template.title %] </h1>
- </center>
- <hr />
+</center> 
+<table border=0><tr><td valign=top>
+  [% INCLUDE LIB/nav %]
+</td><td align=left>&nbsp;
+</td><td align=left>
  <!-- content -->
