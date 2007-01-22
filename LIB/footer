@@ -1,4 +1,4 @@
-    <div id="footer"><p>Copyright &copy; 2003-[% date.format( date.now, '%Y' ) %] YAPC::Europe Foundation</p></div>
+    <div id="footer"><p>Copyright &copy; 2003-[% USE Date; date.format( date.now, '%Y' ) %] YAPC::Europe Foundation</p></div>
   </div>
 </div>
 </body>
