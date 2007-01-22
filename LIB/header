@@ -3,17 +3,18 @@
 <head>
 <title>YAPC::Europe Foundation - [% template.title %]</title>
 <link rev="made" href="mailto:www@yapceurope.org" />
-<link rel="stylesheet" href="[% root %]/style.css" type="text/css" media=all>
+<link rel="stylesheet" href="[% root %]/style.css" type="text/css" media="screen, projection" />
 </head>
-<body style="background-color: white">
-<div id="banner">
-  <!-- logo -->
-  <a href="[% root %]/index.html"><img src="[% root %]/img/sm_yef.jpg"></a>
-  [% INCLUDE LIB/nav %]
-</div>
-<div id="content">
- <center>
-  <h1>YAPC Europe Foundation - [% template.title %] </h1>
- </center>
- <hr />
- <!-- content -->
+<body>
+<div id="main">
+  <div id="preheader"><a href="#content" title="Skip past menu to page content">Skip to Content</a></div>
+  <div id="header">
+    <h1><a href="[% root %]/index.html">YAPC (Yet Another Perl Conference) Europe<!--<img src="[% root %]/img/tn-yapc-logo.jpg">--></a></h1>
+
+  </div>
+  <div id="menu">
+    [% INCLUDE LIB/nav %]
+  </div>
+  <div id="content">
+    <h1>YAPC Europe Foundation - [% template.title %] </h1>
+    <!-- content -->

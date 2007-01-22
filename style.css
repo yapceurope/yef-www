@@ -1,101 +1,143 @@
-/************************/
-/* base styles          */
-/************************/
-
 body {
-    margin: 0px;
-    margin-right: 10px;
-//    background-color: #cacce3;
+   font-family: "Georgia", "Times New Roman", serif;
+   font-size: 90%;
+   margin: 0;
+   padding: 0;
+   line-height: 1.4;
+   background: #f3f3f3 url('img/bggrad.png') top repeat-x;
+   text-align: center;	/*IE doesn't like using margins to centre content*/
+   color: #333;
 }
-
-div,td,th,p,font,li,ul,dt,dd,dl,form,blockquote,tr,table,h1,h2,h3,h4,h5,textarea,select,input
-{
-    /* set explicit default for IE */
-    /* position: relative; */
-    font-family: verdana,helvetica,Arial,sans-serif;
-    font-size: 8pt;
-    z-index:0; 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lucida Grande", Verdana, Arial, Helvetica, serif;
+  margin: 0 0 .2em 0;
+  padding: 0 0 .2em 0;
 }
-
-h1 { font-size: 14pt; }
-h2 { font-size: 12pt; }
-h3 { font-size: 10pt; }
-h4, h5 { font-size: 9pt; }
-h6, h7 { font-size: 8pt; }
-
-textarea {
-    color: #000000;
-    border: 1px #000000 solid;
-    width: 200px;
+h1 {
+  font-size: 1.3em;
 }
-
-select {
-    color: #000000;
-    width: 200px;
-    z-index:1;
+h2 {
+  font-size: 1.2em;
 }
-
-/* input[type="text"] {
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px #000000 solid;
-    width: 200px;
-} */
-
-input[type="password"] {
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px #000000 solid;
-    width: 200px;
+h3, h4, h5, h6 {
+  font-size: 1.1em;
 }
-
-input[type="submit"] {
-    cursor:pointer;
+p {
+   margin-bottom: 1em;
 }
-
-input[type="button"] {
-    cursor:pointer;
+a:link, a:visited {
+  text-decoration: none;
+  color: #039;
 }
-
-dt { font-weight: bold; }
-
-a:link { font-weight: bold; }
-//a:link { color: #000066; text-decoration:none; }
-//a:visited { color: #000066; text-decoration:none; }
-//a:active { color: #000066; text-decoration: none; }
-//a:hover { background-color:#000066; color: #ffffff; text-decoration: none; }
-
-#banner {
-  margin: 0;
-  font-size: 80% /*smaller*/;
-  font-weight: bold;
-  line-height: 1.1;
+a:hover {
+   text-decoration: underline;
+}
+#main {
+  margin: 0 auto;
+  padding: .5em 1em;
+  width: 50em;
+  background: #fff;
+}
+#preheader {
+  background-color: #f3f3f3;
+  margin: 0 0 .5em 0;
+  padding: .5em;
+  font-size: .8em;
   text-align: left;
-  position: fixed;
-  top: 10px;
-  left: 0px;
-  width: 195px;
+}
+#header {
+  position: relative;
+  margin: .5em 0;
+  /* So header h1 uses this as parent element for positioning */
+  height: 78px; /* Same as masthead image + 10px top + 10px bottom */
+}
+   /*And now for some image replacement*/
+#header h1 {
+   position: absolute;
+   right: 0;
+   top: 10px;
+   text-indent: -5000px;
+   width: 300px;
+   height: 69px;
+   padding: 0;
+   margin: 0;
+   background: url('img/yapclogo12.png') left top no-repeat;
+}
+#menu {
+  margin: .5em 0;
+  clear: both;
+  line-height: 2;
+}
+#menu ul {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0;
+  /*padding: 72px 0 0 0;*/
+  /*background: #b34800 url('img/menubg.png') top repeat-x*/
+  /*border: 1px solid red;*/
+  background: #fff7d5;
+  /*border: 2px solid #fff2bf;*/
+  /*border: 1px solid #dfd7b5;
+  border-width: 1px 0;*/
+}
+#menu li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+#menu a:link, #menu a:visited {
+  display: block;
+  float: left;
+  padding: 0 .7em;
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: .9em;
+  color: #039;
+  /*border-right: 1px solid #dfd7b5;
+  border-left: 1px solid #fdf5d3;*/
+}
+#menu a:hover {
+   background: #fc0;
+   color: #fff;
+   text-decoration: none;
 }
 #content {
-   margin-left: 210px;
+  margin: .5em 0;
+  text-align: left; /* Reset IE hack */
+  /*border: 1px solid #ccc;*/
 }
-#banner p {
-  margin: 0; 
-  padding: 0.3em 0.4em;
-  background: #900;
-  border: thin outset #900;
-  color: white;
+#upcomingevents {
 }
-
-#banner a, div.banner em { display: block; margin: 0 0.5em }
-#banner a, div.banner em { border-top: 2px groove #900 }
-#banner a:first-child { border-top: none }
-#banner em { color: #CFC }
-
-#banner a:link { text-decoration: none; color: blue }
-#banner a:visited { text-decoration: none; color: blue }
-#banner a:hover { text-decoration: none; color: yellow }
-
-#viewmore {
-  font-size: 80% /*smaller*/;
+#upcomingevents ol, #upcomingevents ul {
+  margin: 0;
+  padding: .1em .7em;
+}
+#upcomingevents li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#upcomingevents div {
+  width: 15em;
+  /*margin: .8em;*/
+  float: left;
+  /*background: #fff7d5;*/
+}
+#upcomingevents div h3 {
+  display: inline;
+}
+#upcomingevents div h3 a:link, #upcomingevents div h3 a:visited {
+  display: block;
+  margin: 0;
+  padding: .1em .7em;
+  background: #fff7d5;
+}
+/*#upcomingevents div h3 a:link, #upcomingevents div h3 a:visited {
+   color: #fff;
+}*/
+#footer {
+  clear:both;
+  display: block;
+  font-style: italic;
 }

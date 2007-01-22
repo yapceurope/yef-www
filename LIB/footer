@@ -1,7 +1,5 @@
-<hr />
-<i>Copyright &copy; 2003-[% date.format( date.now, '%Y' ) %] YAPC::Europe
-Foundation</i><br /><br />
+    <div id="footer"><p>Copyright &copy; 2003-[% date.format( date.now, '%Y' ) %] YAPC::Europe Foundation</p></div>
+  </div>
 </div>
 </body>
 </html>
-

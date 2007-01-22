@@ -1,75 +1,75 @@
 [% META
    title = 'Home' 
 %]
-
-<p>
-The <strong>YAPC::Europe Foundation</strong> (YEF) is a non-profit
-organisation which works to promote Perl in Europe primarily through
-public events.
-</p>
-<p>
-YEF is not affiliated with 
-<a href="http://www.perlfoundation.org">The Perl Foundation</a> (TPF),
-which operates worldwide and has a broader mission of supporting Perl.
-However, the two organizations sometimes cooperate on European events.
-</p>
-
-<p>
-<h1>Upcoming Events</h1>
+    <p>
+    The <strong>YAPC::Europe Foundation</strong> (YEF) is a non-profit
+    organisation which works to promote Perl in Europe primarily through
+    public events.
+    </p>
+    <p>
+    YEF is not affiliated with 
+    <a href="http://www.perlfoundation.org">The Perl Foundation</a> (TPF),
+    which operates worldwide and has a broader mission of supporting Perl.
+    However, the two organizations sometimes cooperate on European events.
+    </p>
+    <div id="upcomingevents">
+      <h2>Upcoming Events</h2>
+      <p>[% hackathons %]</p>
+      <div id="conferences">
+        <h3><a href="conferences.html">Conferences</a></h3>
+        <ol id="conferenceitems">
 [% USE date %]
 [% PROCESS conference_items %]
 [% FOREACH item = conferences %]
-<a href="[% item.url %]">YAPC::Europe::[% item.year %]</a> - 
-[% date.format( item.begindate, format='%B %e', locale='C') %]
+          <li><dl>
+            <dt><a href="[% item.url %]">YAPC::Europe::[% item.year %]</a></dt>
+            <dd>[% date.format( item.begindate, format='%B %e', locale='C') %]
 [% IF item.enddate %]
- - 
+- 
 [% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
-    [% date.format( item.enddate, format='%e', locale='C') %]
+[% date.format( item.enddate, format='%e', locale='C') %]
 [% ELSE %]
-    [% date.format( item.enddate, format='%B %e', locale='C') %]
+[% date.format( item.enddate, format='%B %e', locale='C') %]
 [% END %]
-[% END %], [% date.format(item.begindate, '%Y') %]<br />
-
+[% END %], [% date.format(item.begindate, '%Y') %]</dd>
+          </dl></li>
+        </ol>
+      </div>
+      <div id="workshops">
+        <h3><a href="workshops.html">Workshops</a></h3>
+        <ol id="workshopitems">
 [% LAST IF loop.count >= 1; END %]
 [% PROCESS workshop_items %]
 [% FOREACH item = workshops.list %]
 [% LAST IF date.format( item.begindate, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
-<a href="[% item.url %]">[% item.name %]</a> - 
-[% date.format( item.begindate, format='%B %e', locale='C') %]
+          <li><dl>
+            <dt><a href="[% item.url %]">[% item.name %]</a></dt>
+            <dd>[% date.format( item.begindate, format='%B %e', locale='C') %]
 [% IF item.enddate %]
- - 
+- 
 [% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
-    [% date.format( item.enddate, format='%e', locale='C') %]
+[% date.format( item.enddate, format='%e', locale='C') %]
 [% ELSE %]
-    [% date.format( item.enddate, format='%B %e', locale='C') %]
+[% date.format( item.enddate, format='%B %e', locale='C') %]
 [% END %]
 [% END %], 
- [% date.format(item.begindate, format='%Y', locale='C') %]
-<br />
+[% date.format(item.begindate, format='%Y', locale='C') %]</dd>
+          </dl></li>
 [% LAST IF loop.count >= 3 %]
 [% END %]
-</p>
-<p>
-<div id="viewmore">
-view all: <a href="conferences.html">conferences</a>,
-<a href="workshops.html">workshops</a>, 
-[% hackathons %] 
-</div>
-</p>
-
-<p>
-<h1>News</h1>
+        </ol>
+      </div>
+      <div id="news">
+        <h3><a href="news.html">News</a></h3>
+        <ol id="newsitems">
 [% PROCESS news_items %]
 [% USE date %]
 [% FOREACH item = news.list.splice( 0, 2 ) %]
-    <a href="news.html#[% item.anchor %]">[% item.title %]</a> - 
-[% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]
-<br />
+          <li><dl>
+            <dt><a href="news.html#[% item.anchor %]">[% item.title %]</a></dt>
+            <dd>[% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]</dd>
+          </dl></li>
 [% END %]
-</ul>
-</p>
-<p>
-<div id="viewmore">
-<a href="news.html">view all news items</a>
-</div>
-</p>
+        </ol>
+      </div>
+    </div>
