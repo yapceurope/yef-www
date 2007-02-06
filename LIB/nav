@@ -4,7 +4,7 @@
     <li><a href="[% root %]/conferences.html">Conferences</a></li>
     <li><a href="[% root %]/workshops.html">Workshops</a></li>
     <li><a href="[% root %]/hackathons.html">Hackathons</a></li>
-    <li><a href="[% root %]/meets.html">Meets</a></li>
     <li><a href="[% root %]/foundation.html">Foundation</a></li>
+    <li><a href="[% root %]/credits.html">Credits</a></li>
     <li><a href="[% root %]/contact.html">Contact</a></li>
   </ul>
