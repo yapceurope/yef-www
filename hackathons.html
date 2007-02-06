@@ -17,6 +17,38 @@ the <a href="http://mail.pm.org/mailman/listinfo/hackathons">hackathon
 mailing list</a> (all geographic regions).
 </p>
 
-<p>
-There have been no European hackathons to date.
+[% USE date %]
+[% PROCESS hackathon_items %]
+<table border=1 cellpadding=4>
+<tr><th>Date</th><th>Location</th></tr>
+[% SET prev_header_printed = 0 %]
+
+[% FOREACH item = hackathons %]
+[%IF date.format( item.begindate, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
+<tr><td colspan=3 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
+[% ELSE %]
+[% IF prev_header_printed < 1 %]
+<tr><td colspan=3 align=left bgcolor=eeeeee><b>Previous Conferences</b></td></tr>
+[% SET prev_header_printed = 1 %]
+[% END %]
+[% END %]
+<tr>
+  <td valign="top">
+[% date.format( item.begindate, format='%B %e', locale='C') %]
+[% IF item.enddate %]
+ - 
+[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
+    [% date.format( item.enddate, format='%e', locale='C') %]
+[% ELSE %]
+    [% date.format( item.enddate, format='%B %e', locale='C') %]
+[% END %]
+[% END %], [% date.format(item.begindate, '%Y') %]
+</td> 
+  <td valign="top"><a name="[% item.anchor %]" /><a 
+      href="[% item.url %]">[% item.city %],  [% item.country %]</a></td>
+
+  </tr>
+[% END %]
+</table>
 </p>
+
