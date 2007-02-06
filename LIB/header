@@ -3,7 +3,7 @@
 <head>
 <title>YAPC::Europe Foundation - [% template.title %]</title>
 <link rev="made" href="mailto:www@yapceurope.org" />
-<link rel="stylesheet" href="[% root %]style.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="[% root %]/style.css" type="text/css" media="screen, projection" />
 </head>
 <body>
 <div id="main">
@@ -11,7 +11,7 @@
   <div id="header">
 <center>
     <h1>
-<a href="[% root %]index.html">YAPC (Yet Another Perl Conference) Europe</a>
+<a href="[% root %]/index.html">YAPC (Yet Another Perl Conference) Europe</a>
 </h1>
 </center>
 
