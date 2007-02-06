@@ -12,7 +12,7 @@
 
 [% WRAPPER add_hackathon_item
    begindate  => '16:00:00 02-03-2007'
-   enddate => '17:00:00 31-03-2007'
+   enddate => '17:00:00 04-03-2007'
    country => 'The Netherlands'
    city => 'Arnhem'
    url => 'http://conferences.yapceurope.org/hack2007nl'
