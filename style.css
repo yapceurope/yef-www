@@ -49,22 +49,30 @@ a:hover {
   position: relative;
   margin: .5em 0;
   /* So header h1 uses this as parent element for positioning */
-  height: 78px; /* Same as masthead image + 10px top + 10px bottom */
+  height: 60px; /* Same as masthead image */
 }
    /*And now for some image replacement*/
 #header h1 {
-   position: absolute;
-   right: 0;
-   top: 10px;
-   text-indent: -5000px;
-   width: 300px;
-   height: 69px;
-   padding: 0;
-   margin: 0;
-   background: url('img/yapclogo12.png') left top no-repeat;
+  position: absolute;
+  right: 1px; /* Looks better than 0 */
+  top: 0;
+  text-indent: -5000px;
+  width: 300px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  background: url('img/yapclogo12.png') left top no-repeat;
+  z-index: 5;
+}
+#header h1 a {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  width: 300px;
+  height: 60px;
+  z-index: 10;
 }
 #menu {
-  margin: .5em 0;
   clear: both;
   line-height: 2;
 }
@@ -73,13 +81,8 @@ a:hover {
   float: left;
   width: 100%;
   padding: 0;
-  /*padding: 72px 0 0 0;*/
-  /*background: #b34800 url('img/menubg.png') top repeat-x*/
-  /*border: 1px solid red;*/
+  margin: 0 0 .5em 0;
   background: #fff7d5;
-  /*border: 2px solid #fff2bf;*/
-  /*border: 1px solid #dfd7b5;
-  border-width: 1px 0;*/
 }
 #menu li {
   display: inline;
@@ -94,8 +97,6 @@ a:hover {
   font-weight: bold;
   font-size: .9em;
   color: #039;
-  /*border-right: 1px solid #dfd7b5;
-  border-left: 1px solid #fdf5d3;*/
 }
 #menu a:hover {
    background: #fc0;
@@ -103,26 +104,14 @@ a:hover {
    text-decoration: none;
 }
 #content {
-  margin: .5em 0;
   text-align: left; /* Reset IE hack */
-  /*border: 1px solid #ccc;*/
 }
 #upcomingevents {
 }
-#upcomingevents ol, #upcomingevents ul {
-  margin: 0;
-  padding: .1em .7em;
-}
-#upcomingevents li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 #upcomingevents div {
-  width: 15em;
-  /*margin: .8em;*/
   float: left;
-  /*background: #fff7d5;*/
+  width: 12.29em;
+  margin: 0 .1em 1em .1em;
 }
 #upcomingevents div h3 {
   display: inline;
@@ -130,14 +119,48 @@ a:hover {
 #upcomingevents div h3 a:link, #upcomingevents div h3 a:visited {
   display: block;
   margin: 0;
-  padding: .1em .7em;
+  padding: 0 .5em;
   background: #fff7d5;
 }
-/*#upcomingevents div h3 a:link, #upcomingevents div h3 a:visited {
-   color: #fff;
-}*/
+j+#upcomingevents div h3 a:hover {
+  background: #fc0;
+  color: #fff;
+  text-decoration: none;
+}
+#upcomingevents ol, #upcomingevents ul {
+  margin: 0;
+  padding: 0;
+  background: #fff url('img/itemsbg.png') top repeat-x;
+}
+#upcomingevents li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#upcomingevents dl {
+  padding: 0;
+  margin: 0;
+}
+#upcomingevents li dt {
+  padding: .2em;
+  margin: 0;
+}
+#upcomingevents li dd {
+  padding: .1em;
+  margin: 0 0 0 1em;
+  border: 1px solid #f3f3f3;
+  background: #fcfcfc;
+}
 #footer {
   clear:both;
   display: block;
-  font-style: italic;
+  /*margin: 1em 0;*/
+  padding: .5em;
+   font-style: italic;
+  font-size: .8em;
+  background: #f3f3f3;
+}
+#footer p {
+  padding: 0;
+  margin: 0;
 }

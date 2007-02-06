@@ -11,7 +11,7 @@
   <div id="header">
 <center>
     <h1>
-<a href="[% root %]index.html"> <img src="[% root %]img/yef-logo.jpg"> </a>
+<a href="[% root %]index.html">YAPC (Yet Another Perl Conference) Europe</a>
 </h1>
 </center>
 
@@ -20,5 +20,5 @@
     [% INCLUDE LIB/nav %]
   </div>
   <div id="content">
-    <h1>YAPC Europe Foundation - [% template.title %] </h1>
+    <h1>YAPC Europe Foundation - [% template.title %]</h1>
     <!-- content -->
