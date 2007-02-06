@@ -146,10 +146,7 @@ j+#upcomingevents div h3 a:hover {
   margin: 0;
 }
 #upcomingevents li dd {
-  padding: .1em;
   margin: 0 0 0 1em;
-  border: 1px solid #f3f3f3;
-  background: #fcfcfc;
 }
 #footer {
   clear:both;
