@@ -32,7 +32,7 @@
    begindate => '00:00:00 16-03-2007'
    url => 'http://www.perlworkshop.nl'
    name => 'Dutch Perl Workshop'
-   country => 'Netherlands'
+   country => 'The Netherlands'
    city => 'Arnhem'
    language => 'Dutch'
 %]
@@ -107,7 +107,7 @@
    begindate => '00:00:00 17-05-2006'
    url => 'http://workshop.perlpromo.nl'
    name => 'Dutch Perl Workshop'
-   country => 'Netherlands'
+   country => 'The Netherlands'
    city => 'Delft'
    language => 'Dutch'
 %]
@@ -203,7 +203,7 @@
    begindate => '00:00:00 25-02-2005'
    url => 'http://workshop.perlpromo.nl/'
    name => 'Dutch Perl Workshop'
-   country => 'Netherlands'
+   country => 'The Netherlands'
    city => 'Arnhem'
    language => 'Dutch'
 %]
@@ -309,7 +309,7 @@
    begindate => '00:00:00 05-03-2004'
    url => 'http://workshop.perlpromo.nl'
    name => 'Dutch Perl Workshop'
-   country => 'Netherlands'
+   country => 'The Netherlands'
    city => 'Arnhem'
    language => 'Dutch'
 %]
