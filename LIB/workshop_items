@@ -30,7 +30,7 @@
 
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 16-03-2007'
-   url => 'http://workshop.perlpromo.nl'
+   url => 'http://www.perlworkshop.nl'
    name => 'Dutch Perl Workshop'
    country => 'Netherlands'
    city => 'Arnhem'
