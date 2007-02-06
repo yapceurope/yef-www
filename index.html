@@ -22,7 +22,7 @@
 [% PROCESS conference_items %]
 [% FOREACH item = conferences %]
           <li><dl>
-            <dt><a href="[% item.url %]">YAPC::Europe::[% item.year %]</a></dt>
+            <dt><a href="[% item.url %]">YAPC::Europe [% item.year %]</a></dt>
             <dd>[% date.format( item.begindate, format='%B %e', locale='C') %]
 [% IF item.enddate %]
 - 
