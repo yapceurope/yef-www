@@ -14,3 +14,4 @@
     venue       = "<a href='$root/venue.html'>venue</a>"
     venues      = "<a href='$root/venue.html'>venues</a>"
 %]
+[% USE date %]

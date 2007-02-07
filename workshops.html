@@ -25,7 +25,6 @@ committee for other reasons, please mail
 <table border=1 cellpadding=4>
 <tr><th>Date</th><th>Workshop</th><th>Location</th><th>Language</th></tr>
 [% PROCESS workshop_items %]
-[% USE date %]
 [% FOREACH year = workshops.year.keys.nsort.reverse %]
 <tr><td colspan=4 align=left bgcolor=eeeeee><b>[% year %]</b></td></tr>
 [% FOREACH item = workshops.year.$year %]

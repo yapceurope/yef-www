@@ -1,5 +1,5 @@
     <div id="footer"><p><i>
-Copyright &copy; 2003-[% USE Date; date.format( date.now, '%Y' ) %] 
+Copyright &copy; 2003-[% date.format( date.now, '%Y' ) %] 
 <a href="[% root %]/index.html">YAPC::Europe Foundation</a>
     </i></p></div>
   </div>
