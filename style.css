@@ -61,7 +61,7 @@ a:hover {
   height: 60px;
   padding: 0;
   margin: 0;
-  background: url('img/yapclogo12.png') left top no-repeat;
+  background: url('img/logo.png') left top no-repeat;
   z-index: 5;
 }
 #header h1 a {
