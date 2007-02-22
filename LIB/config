@@ -1,5 +1,5 @@
 [%
-    root        = root || "/"
+    root        = root || "http://www.yapceurope.org/"
     yef         = "<a href='$root/index.html'>YEF</a>"
     yapceurope  = "<a href='$root/index.html'>YAPC::Europe</a>"
     foundation  = "<a href='$root/index.html'>YAPC::Europe Foundation</a>"
