@@ -12,6 +12,7 @@ copy = \.(gif|ico|jpe?g|pdf|png|ps)$
 copy = \.(css|cgi|txt)$
 copy = \.(tar|tar\.gz|gz|tgz|zip|bz2)$
 
+pre_process = config 
 pre_process = header
 post_process = footer
 pre_chomp = 1
