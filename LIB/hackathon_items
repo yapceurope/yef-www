@@ -1,0 +1,21 @@
+[%
+ hackathons = [] ;
+ BLOCK add_hackathon_item;
+     item = { begindate => begindate, url => url, city => city, country => country, enddate => enddate };
+     item.year = item.begindate.match( '(\d\d\d\d)$' ).0;
+     item.anchor = item.begindate.match('(\d\d\d\d)$').item.city;
+     hackathons.push(item);
+ END
+%]
+
+[% # Add new YAPC::Europes just below, in reverse chronological order. %]
+
+[% WRAPPER add_hackathon_item
+   begindate  => '16:00:00 02-03-2007'
+   enddate => '17:00:00 04-03-2007'
+   country => 'The Netherlands'
+   city => 'Arnhem'
+   url => 'http://conferences.yapceurope.org/hack2007nl'
+%]
+[% END %]
+

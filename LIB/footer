@@ -1,5 +1,8 @@
-<hr />
-Site maintained by Richard Foley and Thomas Klausner for YAPC::Europe
+    <div id="footer"><p><i>
+Copyright &copy; 2003-[% date.format( date.now, '%Y' ) %] 
+<a href="[% root %]/index.html">YAPC::Europe Foundation</a>
+    </i></p></div>
+  </div>
+</div>
 </body>
 </html>
-

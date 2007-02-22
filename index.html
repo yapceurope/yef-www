@@ -1,40 +1,96 @@
 [% META
-   title = 'YAPC::Europe'
+   title = 'Home' 
 %]
-<img src="yef.jpg" alt="YAPC::Europe"  hspace=10 align="right">
-
-<p>The <strong>YAPC::Europe Foundation</strong> is here to provide support for Perl conferences in Europe. We're not an offshoot of <a href="http://www.yetanother.org">YAS</a>,
-our purpose is more focused on conference related business. Of course, though, we work hand in hand for the benefit of all.</p>
-<p>The aim is to provide a focal point, organise on-line registration, mailing
-lists, technical and conference advice and to generally support activities,
-encouraging Perl Conferences and Workshops in Europe and environs.</p>
-
-<p><a href="news.html"><b>YAPC::Europe 2007</b> will be held in Vienna.</a></p>
-
-<dl>
-<dt><strong><a name="item_conferences">Conferences</a></strong><br />
-</dt>
-<dd>
-<b><a href="conferences.html">YAPC::Europe::2007</a></b><br>Vienna, 29 - 31 August, 2007</a><br>
-<a href="conferences.html">read more</a>
+    <p>
+    The <strong>YAPC::Europe Foundation</strong> (YEF) is a non-profit
+    organization which works to promote Perl in Europe primarily through
+    public events.
+    </p>
+    <p>
+    YEF is not affiliated with 
+    <a href="http://www.perlfoundation.org">The Perl Foundation</a> (TPF),
+    which operates worldwide and has a broader mission of supporting Perl.
+    However, the two organizations sometimes cooperate on European events.
+    </p>
+    <div id="upcomingevents">
+      <h2>Upcoming Events</h2>
+      <div id="news">
+        <h3><a href="news.html">News</a></h3>
+        <ol id="newsitems">
+[% PROCESS news_items %]
+[% FOREACH item = news.list.splice( 0, 2 ) %]
+          <li><dl>
+            <dt><a href="news.html#[% item.anchor %]">[% item.title %]</a></dt>
+            <dd>[% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]
 </dd>
-<p></p>
-<dt><strong><a name="item_workshops">Upcoming Workshops</a></strong><br />
-</dt>
-<dd>
-<a href="http://www.perlworkshop.dk/2007/">Nordic Perl Workshop</a> 28-29 Apr 2007<br>
-<a href="http://www.perlworkshop.nl">Dutch Perl Workshop</a> 16 Mar 2007<br>
-<a href="http://www.perl-workshop.de/de/2007/index.html">German Perl Workshop</a> 21-23 Feb 2007<br>
-</dd>
-<p><a href="workshops.html">Previous workshops</a> and more workshop information.</p>
-<dt><strong><a name="item_hackathons">Upcoming Hackathons</a></strong><br />
-<dd><a href="http://conferences.yapceurope.org/hack2007nl">European Perl Hackathon</a> 2-4 Mar 2007<br>
-<!--<dt><strong>Other Perl events</strong></dt>-->
-</dl>
-<hr>
-<p>Founded in the Netherlands, as the ``YAPC::Europe Foundation'' or 'YEF', the
-current board also has members from England, Germany and France.  Adhoc
-committee members will be co-opted from relevant countries based on experience.</p>
-<p>We look forward to helping, guiding and just plain 'being there' for groups of
-like-minded Perl enthusiasts in and around Europe.</p>
-
+          </dl></li>
+[% END %]
+        </ol>
+      </div>
+      <div id="conferences">
+        <h3><a href="conferences.html">Conferences</a></h3>
+        <ol id="conferenceitems">
+[% PROCESS conference_items %]
+[% FOREACH item = conferences %]
+          <li><dl>
+            <dt><a href="[% item.url %]">YAPC::Europe [% item.year %]</a></dt>
+            <dd>[% date.format( item.begindate, format='%B %e', locale='C') %]
+[% IF item.enddate %]
+- 
+[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
+[% date.format( item.enddate, format='%e', locale='C') %]
+[% ELSE %]
+[% date.format( item.enddate, format='%B %e', locale='C') %]
+[% END %]
+[% END %], [% date.format(item.begindate, '%Y') %]</dd>
+          </dl></li>
+        </ol>
+      </div>
+      <div id="workshops">
+        <h3><a href="workshops.html">Workshops</a></h3>
+        <ol id="workshopitems">
+[% LAST IF loop.count >= 1; END %]
+[% PROCESS workshop_items %]
+[% FOREACH item = workshops.list %]
+[% LAST IF date.format( item.begindate, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
+          <li><dl>
+            <dt><a href="[% item.url %]">[% item.name %]</a></dt>
+            <dd>[% date.format( item.begindate, format='%B %e', locale='C') %]
+[% IF item.enddate %]
+- 
+[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
+[% date.format( item.enddate, format='%e', locale='C') %]
+[% ELSE %]
+[% date.format( item.enddate, format='%B %e', locale='C') %]
+[% END %]
+[% END %], 
+[% date.format(item.begindate, format='%Y', locale='C') %]</dd>
+          </dl></li>
+[% LAST IF loop.count >= 3 %]
+[% END %]
+        </ol>
+      </div>
+[% PROCESS hackathon_items %]
+      <div id="hackathons">
+        <h3><a href="hackathons.html">Hackathons</a></h3>
+        <ol id="hackathonitems">
+[% FOREACH item = hackathons.list %]
+[% LAST IF date.format( item.begindate, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
+          <li><dl>
+            <dt><a href="[% item.url %]">European Perl Hackathon</a></dt>
+            <dd>[% date.format( item.begindate, format='%B %e', locale='C') %]
+[% IF item.enddate %]
+- 
+[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
+[% date.format( item.enddate, format='%e', locale='C') %]
+[% ELSE %]
+[% date.format( item.enddate, format='%B %e', locale='C') %]
+[% END %]
+[% END %], 
+[% date.format(item.begindate, format='%Y', locale='C') %]</dd>
+          </dl></li>
+[% LAST IF loop.count >= 3 %]
+[% END %]
+        </ol>
+      </div>
+    </div>

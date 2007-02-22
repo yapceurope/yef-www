@@ -1,39 +1,52 @@
 [% META
-   title = 'YAPC::Europe - Hackathons'
+   title = 'Hackathons'
 %]
 
-<h1>YAPC::Europe Hackathons</h1>
-<p>Apart from the primary task of supporting Perl Conferences in Europe, we're
-also very here to do what we can for Perl Hackathons, where people
-can get together to fix outstanding bugs, add extra features,
-or just plain hack.</p>
-<p>If you want to add yours to this list, please send an email to:</p>
-<p><a href="mailto:hackathons@yapceurope.org">hackathons@yapceurope.org</a></p>
-<p>Here's a list of the ones we know about.</p>
 <p>
+Hackathons are events where people with a common interest in a project
+or projects gather to work on the code or documentation relating to that
+project.  They are not only for experts; curious people can also attend.
+Unlike [% workshops %] or [% conferences %], the goal of a hackathon is
+to produce actual code and allow participants to learn more about the
+specific project(s).
 </p>
 
-</table>
+<p>
+For general announcements and discussion of hackathons, consider joining
+the <a href="http://mail.pm.org/mailman/listinfo/hackathons">hackathon
+mailing list</a> (all geographic regions).
+</p>
 
-<h2>Hackathons</h2>
-
+[% PROCESS hackathon_items %]
 <table border=1 cellpadding=4>
-<tr><th>Date</th><th>Hackathon</th><th>Website</th></tr>
+<tr><th>Date</th><th>Location</th></tr>
+[% SET prev_header_printed = 0 %]
 
+[% FOREACH item = hackathons %]
+[%IF date.format( item.begindate, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
+<tr><td colspan=3 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
+[% ELSE %]
+[% IF prev_header_printed < 1 %]
+<tr><td colspan=3 align=left bgcolor=eeeeee><b>Previous Conferences</b></td></tr>
+[% SET prev_header_printed = 1 %]
+[% END %]
+[% END %]
 <tr>
-	<td colspan=3 align=left bgcolor=eeeeee>
-		<b>2007</b>
-	</td>
-<tr>
-	<td valign="top">
-		2 - 4 March
-	</td><td valign="top">
-		European Perl Hackathon
-	</td><td valign="top">
-		<a href="http://conferences.yapceurope.org/hack2007nl">conferences.yapceurope.org/hack2007nl</a>
-	</td>
-</tr>
-	
+  <td valign="top">
+[% date.format( item.begindate, format='%B %e', locale='C') %]
+[% IF item.enddate %]
+ - 
+[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
+    [% date.format( item.enddate, format='%e', locale='C') %]
+[% ELSE %]
+    [% date.format( item.enddate, format='%B %e', locale='C') %]
+[% END %]
+[% END %], [% date.format(item.begindate, '%Y') %]
+</td> 
+  <td valign="top"><a name="[% item.anchor %]" /><a 
+      href="[% item.url %]">[% item.city %],  [% item.country %]</a></td>
+
+  </tr>
+[% END %]
 </table>
-
-
+</p>

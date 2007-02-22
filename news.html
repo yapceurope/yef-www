@@ -1,29 +1,13 @@
 [% META
-   title = 'YAPC::Europe - News'
+   title = 'News'
 %]
-<p>
-</p>
-<h1><a name="news">News</a></h1>
-<p>
-<h2>Vienna selected for YAPC::Europe 2007</h2><br />
+[% PROCESS news_items %]
+[% FOREACH year = news.year.keys.nsort.reverse %]
+<h1>[% year %]</h1>
+[% FOREACH item = news.year.$year %]
+<a name="[% item.anchor %]"></a>
+<h2>[% item.title %]</h2>
+<h3>[% date.format( item.date, format='%B %e', locale='C') %]</h3>
+[% item.text %]
+[% END ; END %]
 
-YAPC::Europe Foundation is pleased to announce
-that Vienna, Austria has been chosen as the site for the 
-<a href="http://vienna.yapceurope.org/">YAPC::Europe 2007</a>,
-the eigth European YAPC.
-</p>
-<p>
-
-Vienna faced tough competition from Lyon, France and Pisa, Italy, and
-we hope that these groups will give us the opportunity to consider their
-proposals again in the future.
-</p>
-<p>
-
-We are confident that Vienna.pm's experienced team--which was responsible
-for several Austrian Perl Workshops--will put together a wonderful conference.
-The theme for the next YAPC::Europe will be 'Social Perl'.
-</p>
-<p>
-We hope to see you in Vienna next summer!
-</p>

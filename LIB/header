@@ -1,19 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>[% template.title %]</title>
-<link rev="made" href="mailto:richard.foley@yapceurope.org" />
+<title>YAPC::Europe Foundation - [% template.title %]</title>
+<link rev="made" href="mailto:www@yapceurope.org" />
+<link rel="stylesheet" href="[% root %]/style.css" type="text/css" media="screen, projection" />
 </head>
+<body>
+<div id="main">
+  <div id="preheader"><a href="#content" title="Skip past menu to page content">Skip to Content</a></div>
+  <div id="header">
+<center>
+    <h1>
+<a href="[% root %]/index.html">YAPC (Yet Another Perl Conference) Europe</a>
+</h1>
+</center>
 
-<body style="background-color: white">
-
-[ <a href="index.html">YAPC::Europe</a> |
-<a href="conferences.html">Conferences</a> |
-<a href="workshops.html">Workshops</a> |
-<a href="hackathons.html">Hackathons</a> |
-<a href="people.html">Who's who</a> |
-<a href="docs.html">Documents</a> |
-<a href="contact.html">Contact</a> 
-]
-
-<hr />
+  </div>
+  <div id="menu">
+    [% INCLUDE LIB/nav %]
+  </div>
+  <div id="content">
+    <h1>YAPC Europe Foundation - [% template.title %]</h1>
+    <!-- content -->

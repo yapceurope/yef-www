@@ -1,0 +1,163 @@
+body {
+   font-family: "Georgia", "Times New Roman", serif;
+   font-size: 90%;
+   margin: 0;
+   padding: 0;
+   line-height: 1.4;
+   background: #f3f3f3 url('img/bggrad.png') top repeat-x;
+   text-align: center;	/*IE doesn't like using margins to centre content*/
+   color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lucida Grande", Verdana, Arial, Helvetica, serif;
+  margin: 0 0 .2em 0;
+  padding: 0 0 .2em 0;
+}
+h1 {
+  font-size: 1.3em;
+}
+h2 {
+  font-size: 1.2em;
+}
+h3, h4, h5, h6 {
+  font-size: 1.1em;
+}
+p {
+   margin-bottom: 1em;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #039;
+}
+a:hover {
+   text-decoration: underline;
+}
+#main {
+  margin: 0 auto;
+  padding: .5em 1em;
+  width: 50em;
+  background: #fff;
+}
+#preheader {
+  background-color: #f3f3f3;
+  margin: 0 0 .5em 0;
+  padding: .5em;
+  font-size: .8em;
+  text-align: left;
+}
+#header {
+  position: relative;
+  margin: .5em 0;
+  /* So header h1 uses this as parent element for positioning */
+  height: 60px; /* Same as masthead image */
+}
+   /*And now for some image replacement*/
+#header h1 {
+  position: absolute;
+  right: 1px; /* Looks better than 0 */
+  top: 0;
+  text-indent: -5000px;
+  width: 300px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  background: url('img/logo.png') left top no-repeat;
+  z-index: 5;
+}
+#header h1 a {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  width: 300px;
+  height: 60px;
+  z-index: 10;
+}
+#menu {
+  clear: both;
+  line-height: 2;
+}
+#menu ul {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 .5em 0;
+  background: #fff7d5;
+}
+#menu li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+#menu a:link, #menu a:visited {
+  display: block;
+  float: left;
+  padding: 0 .7em;
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: .9em;
+  color: #039;
+}
+#menu a:hover {
+   background: #fc0;
+   color: #fff;
+   text-decoration: none;
+}
+#content {
+  text-align: left; /* Reset IE hack */
+}
+#upcomingevents {
+}
+#upcomingevents div {
+  float: left;
+  width: 12.29em;
+  margin: 0 .1em 1em .1em;
+}
+#upcomingevents div h3 {
+  display: inline;
+}
+#upcomingevents div h3 a:link, #upcomingevents div h3 a:visited {
+  display: block;
+  margin: 0;
+  padding: 0 .5em;
+  background: #fff7d5;
+}
+j+#upcomingevents div h3 a:hover {
+  background: #fc0;
+  color: #fff;
+  text-decoration: none;
+}
+#upcomingevents ol, #upcomingevents ul {
+  margin: 0;
+  padding: 0;
+  background: #fff url('img/itemsbg.png') top repeat-x;
+}
+#upcomingevents li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#upcomingevents dl {
+  padding: 0;
+  margin: 0;
+}
+#upcomingevents li dt {
+  padding: .2em;
+  margin: 0;
+}
+#upcomingevents li dd {
+  margin: 0 0 0 1em;
+}
+#footer {
+  clear:both;
+  display: block;
+  /*margin: 1em 0;*/
+  padding: .5em;
+   font-style: italic;
+  font-size: .8em;
+  background: #f3f3f3;
+}
+#footer p {
+  padding: 0;
+  margin: 0;
+}
