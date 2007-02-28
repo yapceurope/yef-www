@@ -4,7 +4,7 @@ body {
    margin: 0;
    padding: 0;
    line-height: 1.4;
-   background: #f3f3f3 url('img/bggrad.png') top repeat-x;
+   background: #f3f3f3 url('img/itemsbg.png') top repeat-x;
    text-align: center;	/*IE doesn't like using margins to centre content*/
    color: #333;
 }
