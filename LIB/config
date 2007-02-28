@@ -13,5 +13,6 @@
     workshops   = "<a href='$root/workshops.html'>workshops</a>"
     venue       = "<a href='$root/venue.html'>venue</a>"
     venues      = "<a href='$root/venue.html'>venues</a>"
+    events      = "<a href='$root/events.html'>events</a>"
 %]
 [% USE date %]
