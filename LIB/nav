@@ -7,6 +7,9 @@
     <li><a href="[% root %]/hackathons.html">Hackathons</a></li>
 -->
     <li><a href="[% root %]/events.html">Events</a></li>
+<!-- TO be added
+    <li><a href="[% root %]/organizers.html">Organizers</a></li>
+-->
     <li><a href="[% root %]/foundation.html">Foundation</a></li>
     <li><a href="[% root %]/credits.html">Credits</a></li>
     <li><a href="[% root %]/contact.html">Contact</a></li>
