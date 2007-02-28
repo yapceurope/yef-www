@@ -15,12 +15,12 @@
     <div id="upcomingevents">
       <h2>Upcoming Events</h2>
       <div id="news">
-        <h3><a href="news.html">News</a></h3>
+        <h3><a href="[% news_page %]">News</a></h3>
         <ol id="newsitems">
 [% PROCESS news_items %]
 [% FOREACH item = news.list.splice( 0, 2 ) %]
           <li><dl>
-            <dt><a href="news.html#[% item.anchor %]">[% item.title %]</a></dt>
+            <dt><a href="[% news_page %]#[% item.anchor %]">[% item.title %]</a></dt>
             <dd>[% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]
 </dd>
           </dl></li>
@@ -28,7 +28,7 @@
         </ol>
       </div>
       <div id="conferences">
-        <h3><a href="conferences.html">Conferences</a></h3>
+        <h3><a href="[% conferences_page %]">Conferences</a></h3>
         <ol id="conferenceitems">
 [% PROCESS conference_items %]
 [% FOREACH item = conferences %]
@@ -47,7 +47,7 @@
         </ol>
       </div>
       <div id="workshops">
-        <h3><a href="workshops.html">Workshops</a></h3>
+        <h3><a href="[% workshops_page %]">Workshops</a></h3>
         <ol id="workshopitems">
 [% LAST IF loop.count >= 1; END %]
 [% PROCESS workshop_items %]
@@ -72,7 +72,7 @@
       </div>
 [% PROCESS hackathon_items %]
       <div id="hackathons">
-        <h3><a href="hackathons.html">Hackathons</a></h3>
+        <h3><a href="[% hackathons_page %]">Hackathons</a></h3>
         <ol id="hackathonitems">
 [% FOREACH item = hackathons.list %]
 [% LAST IF date.format( item.begindate, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]

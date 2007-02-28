@@ -14,5 +14,18 @@
     venue       = "<a href='$root/venue.html'>venue</a>"
     venues      = "<a href='$root/venue.html'>venues</a>"
     events      = "<a href='$root/events.html'>events</a>"
+
+    conferences_page = "$root/conferences.html"
+    contact_page     = "$root/contact.html"
+    credits_page     = "$root/credits.html"
+    docs_page        = "$root/docs.html"
+    events_page      = "$root/events.html"
+    foundation_page  = "$root/foundation.html"
+    hackathons_page  = "$root/hackathons.html"
+    index_page       = "$root/index.html"
+    news_page        = "$root/news.html"
+    people_page      = "$root/people.html"
+    venues_page      = "$root/venue.html"
+    workshops_page   = "$root/workshops.html"
 %]
 [% USE date %]
