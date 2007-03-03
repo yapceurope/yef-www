@@ -16,6 +16,7 @@
     events      = "<a href='$root/events.html'>events</a>"
     organizers  = "<a href='$root/organizers.html'>organizers</a>"
 
+    act_page         = "$root/act.html"
     conferences_page = "$root/conferences.html"
     contact_page     = "$root/contact.html"
     credits_page     = "$root/credits.html"
