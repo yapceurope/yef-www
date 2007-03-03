@@ -20,6 +20,7 @@
     contact_page     = "$root/contact.html"
     credits_page     = "$root/credits.html"
     docs_page        = "$root/docs.html"
+    donation_page    = "$root/donation.html"
     events_page      = "$root/events.html"
     foundation_page  = "$root/foundation.html"
     hackathons_page  = "$root/hackathons.html"
