@@ -28,7 +28,7 @@
     index_page       = "$root/index.html"
     news_page        = "$root/news.html"
     organizers_page  = "$root/organizers.html"
-    payment_page     = "$root/people.html"
+    payment_page     = "$root/payment.html"
     people_page      = "$root/people.html"
     venues_page      = "$root/venue.html"
     workshops_page   = "$root/workshops.html"
