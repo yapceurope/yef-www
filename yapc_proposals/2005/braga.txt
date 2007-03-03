@@ -1,0 +1,244 @@
+[% META 
+   title = 'YAPC::Europe 2007 Proposal: Braga'
+%]
+<pre>
+Greetings,
+
+The Braga Perl Mongers would like to host YAPC::EU::2005 in Braga, Portugal :-)
+
+This is our proposal :-)
+
+This proposal can also be found online (in an easier way to browse through, we
+hope), at http://perl-hackers.net/index.cgi?YAPC::EU::Braga
+
+======
+
+Braga
+
+Some considerations on Braga:
+
+Location
+
+Braga is located in northern Portugal, fifty kilometres from the Atlantic sea,
+less then a hundred kilometres from the northern frontier with Spain. According
+to data from 2001, the city had about 115 thousand inhabitants in its center,
+and about 165 thousand overall by then.
+
+History
+
+Founded by the Romans, the city is over 2,000 years old (it was named Bracara
+Augusta by then). It has lots of interesting monuments and landscapes to see.
+
+The City 
+
+Though not a huge city, Braga has a bit of everything. There are several movie
+theatres and shopping centres, as well as gardens and theatres. In the Summer
+months (see section Dates), a variety of shows is available throughout the
+city.
+
+Located in Braga is the University of Minho which, with its over 17,000
+students, make Braga one of the youngest cities of Europe. 
+
+Language
+
+In Portugal, we speak Portuguese. (wow)
+
+However, the whole country is used to tourism, so you can easily find somebody
+who speaks English, French and other languages in the streets. You won't have
+any problem in hotels, airports, etc, either.
+
+Food
+
+Portuguese cuisine is outstanding, presenting a wide variety of main courses
+and desserts.
+
+Complete meals in the area around the university campus cost somewhere between
+5 and 10 euros, or even less, if you want plastic food. There are around 20
+restaurants in that vicinity, offering anything from traditional cooking to
+vegetarian food.
+
+Thousands of students eat in the area during school season, so capacity
+shouldn't be a problem.
+
+======
+
+Braga - Travel
+
+This section is about travelling to and inside Braga.
+
+Please note that we plan to have all these facts detailed in a webpage if we get to organize the conference.
+To Braga
+
+Traveling to Portugal isn't all that difficult or expensive, and neither is it to Braga.
+
+There are several options:
+
+By Airplane
+
+If one's coming by airplane, the closest airport is in Oporto, which is about
+45 kilometres away from Braga.
+
+You can proceed to Braga by taxi or even rent a car there. You can also go to
+the train station (there's one bus going there every 30 minutes) and get on a
+train to Braga.
+
+The airport of Lisbon is located at about 400 kilometres from Braga, but you
+can always consider the possibility of flying from there to Oporto or going
+directly by train (see below) to Braga.
+
+By Train
+
+Braga has a train station, which was redesigned early this year and now even
+includes a mall. It is located near the town center (5 minutes walking).
+
+By Car
+
+If you're driving, you'll find the accesses to be quite good, as they were
+improved for Euro 2004.
+
+Inside the city
+
+The range of choices within the city is also pretty good.
+
+By Bus
+
+The bus company that serves the city of Braga currently has 115 buses working
+(on average, 75,000 tickets are bought each day).
+
+There are also several other companies that make connections with other cities.
+You just need to go to the terminal exchange and check them out :-)
+
+By Taxi
+
+There are over a hundred taxis in the city (belonging to a couple of
+companies), which you can easily find in several specific points or phone to
+have one pick you up where you're at.
+
+By Car
+
+Whether you're bringing your own car or you're renting one in Portugal, know
+that it is easy to drive across town; everything is well signalized and traffic
+flows normally.
+
+On Foot
+
+It's rather nice to walk in Braga, and most hotels are within reasonable
+walking distance from the conference. In fact, most things will be at a
+reasonable enough distance from the hotel that one will be able to walk to
+them.
+
+It is strongly encouraged to visit the city walking :-)
+
+======
+
+Braga - Accommodations
+
+Braga has plenty of hotels, guest houses and lodgings. Moreover, the University
+will probably be willing to let people stay at the students residence (this
+means people can have a fairly good accommodation much cheaper than in a
+hotel).
+
+Hotel prices for single rooms seem to range from 30 to 80 euros. We can try to
+get special rates for the conference with a couple of hotels.
+
+======
+
+Dates
+
+The dates, which should be decided later on so they won't cause any conflict
+with any other major conference, would be around July/August 2005, which has
+some advantages. These are very pleasant months to be in Portugal. The weather
+is usually quite nice ("Sunny Portugal", Leon called it, with temperatures
+above 30 C) and attendees may take the time, either before or after YAPC (or
+both) to have their families in Portugal (or not) and go to local festivities
+(or calmer places); that is, one could come to YAPC alone and have his family
+coming the week after to spend their holidays visiting the country, in the time
+of the year where most festivities take place.
+
+Another good advantage of these dates are related to the University's
+facilities, which aren't much used during this period and hence might be used
+by us (see sections Facilities and Accommodations).
+
+======
+
+Facilities
+
+The University of Minho will let us use its facilities for the conference.
+
+There is one room with 500 seats, two rooms of 250 and four others of 200.
+Also, there are plenty of smaller rooms we can use as appropriate. We will also
+be able to use University equipment, such as projectors and other things.
+
+Outside the rooms where the conference is to be held, there are wide spaces
+where atendees can sit and chat. And if they want to, they can also go outside
+and lay on the green grass of one of the University's gardens.
+
+Inside the University campus there are coffees, restaurants and some stores.
+
+Being a public institution, the University is full of elevators and wheelchair
+accesses everywhere.
+
+======
+
+Internet Access
+
+The University is equipped with wi-fi, which will be available to participants
+in the conference at the very least in the conference rooms (and neighborhoods,
+of course). We will also try to give access to everyone along the whole campus
+(which is a considerable area).
+
+We'll also have a room with PC's for those not bringing laptops.
+
+======
+
+Past experience of the organizers
+
+The main organization of the conference will be done by us (AlbertoSimões and
+JoséAlvesCastro), with the help of the other Braga.pm mongers. We have been
+organizing conferences for some years (besides doing other stuff, of course).
+
+We usually have students volunteering to help in all the conferences we
+organize; with us and with them, we make a fairly good team :-)
+
+Regarding the Perl community, speakers of JOIN2003 and JOIN2004 (conferences we
+organized) include Leon Brocard, James Tisdall, Simon Cozens and Marty Pauley.
+You can ask them what they thought about Portugal and ourselves (by the way,
+Michael G Schwern is the first confirmed speaker for JOIN2005).
+
+=====
+
+Other things we're thinking about:
+
+Helping Team
+
+We're thinking on having a team dedicated to help whoever comes to the event.
+This would mean people would receive things such as maps and helpful contacts
+(including from people on this team) that they could use whenever they needed
+to (think "somebody gets lost").
+Events
+
+We're planning on having a dinner with everybody on the conference (regarding
+restaurants, we have several options for this).
+
+This would have a cost of less than 10 euros and would be paid along with the
+registration (for those wanting to go, of course). And yes, should somebody
+come along later after registration, it would still be possible to have that
+somebody too (provided we don't get 200 somebodies) :-)
+Useful Information
+
+We plan to have a webpage where we will post everything, such as how to get
+from a given airport to the venue (maps included), etc.
+
+======
+
+And that's our proposal :-)
+
+We hope you like it :-)
+
+
+Best regards,
+
+José Castro
+Alberto Simões
+
+</pre>
