@@ -11,8 +11,8 @@
 [% # Add new YAPC::Europes just below, in reverse chronological order. %]
 
 [% WRAPPER add_conference_item
-   begindate  => '00:00:00 29-08-2007'
-   enddate => '00:00:00 31-08-2007'
+   begindate  => '00:00:00 28-08-2007'
+   enddate => '00:00:00 30-08-2007'
    country => 'Austria'
    city => 'Vienna'
    theme => 'Social Perl'

@@ -12,6 +12,20 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '00:00:00 08-03-2007'
+   title = 'YAPC::Europe rescheduled'
+%]
+<p>
+The Vienna organizers have announced their intention to reschedule
+YAPC::Europe from Wednesday, 29 August - Friday, 31 August to
+<b>Tuesday, 28 August - Thursday, 30 August</b> because of a 
+large cardiologist's conference which is taking place during the weekend.
+By holding Y::E one day earlier, the team hopes to make it easier for
+attendees to find accommodations.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date = '00:00:00 22-02-2007'
    title = 'New YAPC::Europe website'
 %]
