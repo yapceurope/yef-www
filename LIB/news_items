@@ -12,6 +12,36 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '00:00:00 05-04-2007'
+   title = 'Call for Venue for YAPC::Europe::2008'
+%]
+<p>
+With preparations for YAPC::Europe::2007 well underway in Vienna, it is
+time for the YAPC::Europe Venue Committee to consider suitable hosts for
+the 2008 conference. Any dedicated group interested in hosting
+YAPC::Europe::2008 should send a brief statement of intent to
+venue@yapceurope.org. A full and complete application should then be
+sent to the same address prior to the deadline for applications, which
+is June 30, 2007.
+</p>
+<p>
+For more information about the requirements for hosting a conference,
+you may want to refer to the YAPC organisers documentation (administered
+by TPF) on 
+<a href="http://tpf.googlecode.com/svn/trunk/yapc/YAPC.pm">Google code</a>,
+or look at the
+<a href="http://www.yapceurope.org/organizers.html">examples 
+of previous European conferences</a>.
+</p>
+<p>
+Please direct any questions to venue@yapceurope.org, and a member of the
+committee will endeavour to respond as soon as possible. The public
+announcement of the location for the 2008 conference will be announced
+during the 2007 conference in Vienna.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date = '00:00:00 08-03-2007'
    title = 'YAPC::Europe rescheduled'
 %]
