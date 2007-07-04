@@ -1,0 +1,94 @@
+[% TAGS <% %> %]
+<h1>PROCEDURE</h1>
+
+<p>Adding paper documents to the electronic archive</p>
+<p>Latest modification: $Date$.
+by $Author$.</p>
+<h1>WHAT TO SCAN?</h1>
+
+<p>Every piece of paper received or produced by the Foundation
+or the Foundation members during their work for the Foundation.</p>
+<p>That includes: contracts, receipts, quotes, bank documents, etc.</p>
+<h1>SCANNING CONFIGURATION</h1>
+
+<ul>
+<li>
+<p>Scan in grayscale, 300 dpi</p>
+</li>
+<li>
+<p>Using the Gimp (or any other tool, but the commands are given for Gimp),
+convert the image to indexed mode (<i>Image-&gt;Mode-&gt;Indexed</i>), with
+the <i>Dithering options</i> set to <i>No color dithering</i>.</p>
+</li>
+<li>
+<p>Save as non-interlaced PNG.</p>
+</li>
+</ul>
+<h1>NAMING CONVENTIONS</h1>
+
+<p>Files should be named according to the following template:</p>
+<pre>    YYYY-MM-DD-GROUP-TITLE-PAGES.png</pre>
+
+<p>Do not add any <code>-</code> character other than those listed in the template.</p>
+<p>The fields are:</p>
+<ul>
+<li><a name="item_YYYY_MM_DD"></a><b>YYYY-MM-DD</b>
+<p>date</p>
+<p>This is the date of creation, signature or validation of the document
+(not the scanning date!).</p>
+</li>
+<li><a name="item_GROUP"></a><b>GROUP</b>
+<p>allows grouping by categories (e.g. YE2004, YE2005, bylaws, etc.)</p>
+</li>
+<li><a name="item_TITLE"></a><b>TITLE</b>
+<p>document title, following the <code>type_detail</code> pattern (the first <code>_</code> is 
+a separator).</p>
+<p>Types include: <code>receipt</code>, <code>contract</code>, <code>quote</code>, etc.</p>
+</li>
+<li><a name="item_PAGES"></a><b>PAGES</b>
+<p>(optional)</p>
+<p>Multipage document should end with the sheet number (<code>%02d</code>).</p>
+<p>Recto/verso document should furthermore end with <code>_recto</code> or <code>_verso</code>
+after the sheet number.</p>
+</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li><a name="item_single_sheet_document"></a><b>single sheet document</b>
+<pre>    YYYY-MM-DD-GROUP-TYPE_detail.png</pre>
+
+</li>
+<li><a name="item_single_sheet_recto_verso_document"></a><b>single sheet recto/verso document</b>
+<pre>    YYYY-MM-DD-GROUP-TYPE_detail-recto.png
+    YYYY-MM-DD-GROUP-TYPE_detail-recto.png</pre>
+
+</li>
+<li><a name="item_multipage_document"></a><b>multipage document</b>
+<pre>    YYYY-MM-DD-GROUP-TYPE_detail-01.png
+    YYYY-MM-DD-GROUP-TYPE_detail-02.png
+    YYYY-MM-DD-GROUP-TYPE_detail-03.png</pre>
+
+</li>
+<li><a name="item_multisheet_recto_verso_document"></a><b>multisheet recto/verso document</b>
+<pre>    YYYY-MM-DD-GROUP-TYPE_detail-01_recto.png
+    YYYY-MM-DD-GROUP-TYPE_detail-01_verso.png
+    YYYY-MM-DD-GROUP-TYPE_detail-02_recto.png
+    YYYY-MM-DD-GROUP-TYPE_detail-02_verso.png</pre>
+
+</li>
+<li><a name="item_multisheet_recto_verso_document__odd_pages_number_"></a><b>multisheet recto/verso document (odd pages number)</b>
+<pre>    YYYY-MM-DD-GROUP-TYPE_detail-01_recto.png
+    YYYY-MM-DD-GROUP-TYPE_detail-01_verso.png
+    YYYY-MM-DD-GROUP-TYPE_detail-02.png</pre>
+
+</li>
+</ul>
+<h1>PERL CODE FOR MANAGEMENT TOOLS</h1>
+
+<p>The following Perl code should help when writing tools to automatically
+manage those documents (if ever):</p>
+<pre>    my ( $year, $month, $day, $event, $type_detail, $pagination )
+        = split /-/, $filename;
+
+    my ( $type, $detail ) = split /_/, $type_detail, 2;</pre>
+
