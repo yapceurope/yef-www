@@ -80,7 +80,8 @@ for my $pod (@pod) {
 
         # output the html
         print $fh qq{[% META title = "$title" %]\n};
-        print $fh map { s{</?(?:body|html)>}{}g; $_ }
+        print $fh
+            map { s{</?(?:body|html)[^>]*>}{}g; s{</pre>(\s*)<pre>}{$1}g; $_ }
             Pod::POM::View::HTML->print($pom);
 
         close $fh;
