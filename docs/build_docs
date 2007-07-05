@@ -72,6 +72,7 @@ for my $pod (@pod) {
 
         # and only keep the first line
         $title = ( split /$/m, $title )[0];
+        $title =~ s/'/\\'/g; # protect '
 
         open my $fh, '>', $html or do {
             warn "Can't open $html: $!";
@@ -79,7 +80,7 @@ for my $pod (@pod) {
         };
 
         # output the html
-        print $fh qq{[% META title = "$title" %]\n};
+        print $fh qq{[% META title = '$title' %]\n};
         print $fh
             map { s{</?(?:body|html)[^>]*>}{}g; s{</pre>(\s*)<pre>}{$1}g; $_ }
             Pod::POM::View::HTML->print($pom);
