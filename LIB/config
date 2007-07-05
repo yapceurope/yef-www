@@ -20,7 +20,7 @@
     conferences_page = "$root/conferences.html"
     contact_page     = "$root/contact.html"
     credits_page     = "$root/credits.html"
-    docs_page        = "$root/docs.html"
+    docs_page        = "$root/docs/"
     donation_page    = "$root/donation.html"
     events_page      = "$root/events.html"
     foundation_page  = "$root/foundation.html"
