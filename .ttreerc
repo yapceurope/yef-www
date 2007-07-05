@@ -7,7 +7,7 @@ ignore = ^#
 ignore = \.svn
 ignore = \.swp$
 ignore = \.ttreerc
-ignore = Makefile
+ignore = build_docs
 
 copy = \.(gif|ico|jpe?g|pdf|png|ps)$ 
 copy = \.(css|cgi|txt)$

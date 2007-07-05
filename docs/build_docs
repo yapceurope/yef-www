@@ -1,0 +1,90 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use Getopt::Long;
+use File::Spec::Functions;
+use File::Glob;
+use File::Path;
+use File::Basename;
+use Pod::POM;
+use Pod::POM::View::HTML;
+use SVN::Client;
+
+my %config = (
+    srcdir  => catfile( updir, updir, 'yef' ),
+    dstdir  => curdir,
+    update  => 1,
+    force   => 0,
+    verbose => 0,
+);
+GetOptions( \%config, 'srcdir=s', 'dstdir=s', 'update!', 'force', 'verbose' )
+    or die << 'USAGE';
+Usage: build_docs --srcdir <srcdir> --dstdir <dstdir> [ --noupdate ] [ --force ]
+USAGE
+
+# source pod files
+my @pod = (
+    glob( catfile( $config{srcdir}, 'accepted_procedures', '*.pod' ) ),
+    glob(
+        catfile( $config{srcdir}, 'voting_archives', '*', 'votes', '*.pod' )
+    ),
+);
+
+# update the source working copy
+if ( $config{update} ) {
+    my $ctx = SVN::Client->new();
+
+    #$ctx->notify( sub { print "@_\n" } ); # FIXME print some info?
+    $ctx->update( $config{srcdir}, 'HEAD', 1 );
+}
+
+# loop on the pod and create the HTML files
+my $parser = Pod::POM->new();
+
+for my $pod (@pod) {
+
+    # compute the target
+    my $html = $pod;
+    $html =~ s/$config{srcdir}/$config{dstdir}/o;
+    $html =~ s/\.pod$/.html/;
+
+    # only process newer files
+    if ( $config{force} || ( ( stat $html )[9] || 0 ) < ( stat $pod )[9] ) {
+
+        print "$html\n" if $config{verbose};
+
+        # create the path if needed
+        if ( !-e ( my $path = dirname $html) ) {
+            mkpath( dirname($html) ) or do {
+                warn "Problem creating dir " . dirname($html) . ": $!";
+                next;
+            };
+        }
+
+        # parse the pod file
+        my $pom = $parser->parse_file($pod) or do {
+            warn $parser->error();
+            next;
+        };
+
+        # grab the text of the first section
+        my $title = $pom->head1()->[0]->content()->present();
+
+        # and only keep the first line
+        $title = ( split /$/m, $title )[0];
+
+        open my $fh, '>', $html or do {
+            warn "Can't open $html: $!";
+            next;
+        };
+
+        # output the html
+        print $fh qq{[% META title = "$title" %]\n};
+        print $fh map { s{</?(?:body|html)>}{}g; $_ }
+            Pod::POM::View::HTML->print($pom);
+
+        close $fh;
+    }
+
+}
+
