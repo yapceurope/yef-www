@@ -11,6 +11,18 @@
 [% # Add new YAPC::Europes just below, in reverse chronological order. %]
 
 [% WRAPPER add_conference_item
+   attendees => 'tbd',
+   begindate  => '00:00:00 20-08-2008'
+   enddate => '00:00:00 22-08-2008'
+   country => 'Denmark'
+   city => 'Copenhagen'
+   theme => 'Perl'
+   url => 'http://www.yapceurope.org'
+%]
+[% END %]
+
+[% WRAPPER add_conference_item
+   attendees => '340',
    begindate  => '00:00:00 28-08-2007'
    enddate => '00:00:00 30-08-2007'
    country => 'Austria'
@@ -21,6 +33,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
+   attendees => '228',
    begindate  => '00:00:00 30-08-2006'
    enddate => '00:00:00 01-09-2006'
    city => 'Birmingham'
@@ -31,6 +44,7 @@
 [% END %] 
 
 [% WRAPPER add_conference_item
+   attendees => '200+',
    begindate  => '00:00:00 31-08-2005'
    enddate => '00:00:00 02-09-2005'
    city => 'Braga'
@@ -41,6 +55,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
+   attendees => 'tbd',
    begindate  => '00:00:00 15-09-2004'
    enddate => '00:00:00 17-09-2004'
    city => 'Belfast'
@@ -51,6 +66,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
+   attendees => '220',
    begindate  => '00:00:00 23-07-2003'
    enddate => '00:00:00 25-07-2003'
    city => 'Paris'
@@ -61,6 +77,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
+   attendees => 'tbd',
    begindate  => '00:00:00 18-09-2002'
    enddate => '00:00:00 20-09-2002'
    city => 'Munich'
@@ -71,6 +88,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
+   attendees => 'tbd',
    begindate  => '00:00:00 02-08-2001'
    enddate => '00:00:00 04-08-2001'
    city => 'Amsterdam'
@@ -81,6 +99,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
+   attendees => 'tbd',
    begindate  => '00:00:00 22-09-2000'
    enddate => '00:00:00 24-09-2000'
    city => 'London'

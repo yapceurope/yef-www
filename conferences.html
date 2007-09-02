@@ -32,7 +32,7 @@ mailing list.
 
 [% PROCESS conference_items %]
 <table border=1 cellpadding=4>
-<tr><th>Date</th><th>Location</th><th>Theme</th></tr>
+<tr><th>Date</th><th>Location</th><th>Theme</th><th>Attendees</th></tr>
 [% SET prev_header_printed = 0 %]
 
 [% FOREACH item = conferences %]
@@ -59,6 +59,7 @@ mailing list.
   <td valign="top"><a name="[% item.anchor %]" /><a 
       href="[% item.url %]">[% item.city %],  [% item.country %]</a></td>
   <td valign="top"><em>[% item.theme %]</em></td>
+  <td valign="top">[% item.attendees %]</td>
 
   </tr>
 [% END %]

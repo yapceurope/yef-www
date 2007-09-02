@@ -17,6 +17,17 @@
 [% # Add new workshops just below, in reverse chronological order. %]
 
 [% WRAPPER add_workshop_item
+   begindate => '00:00:00 16-11-2007'
+   enddate => '00:00:00 17-11-2007'
+   url => 'http://conferences.mongueurs.net/fpw2007/',
+   name => 'French Perl Workshop'
+   country => 'France'
+   city => 'Lyon'
+   language => 'Francais'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
    begindate => '00:00:00 28-04-2007'
    enddate => '00:00:00 29-04-2007'
    url => 'http://www.perlworkshop.dk/2007/'
