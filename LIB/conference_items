@@ -1,7 +1,7 @@
 [%
  conferences = [] ;
  BLOCK add_conference_item;
-     item = { begindate => begindate, url => url, city => city, country => country, enddate => enddate, theme => theme };
+     item = { attendees => attendees, begindate => begindate, url => url, city => city, country => country, enddate => enddate, theme => theme };
      item.year = item.begindate.match( '(\d\d\d\d)$' ).0;
      item.anchor = item.begindate.match('(\d\d\d\d)$').item.city;
      conferences.push(item);

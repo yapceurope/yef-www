@@ -37,10 +37,10 @@ mailing list.
 
 [% FOREACH item = conferences %]
 [%IF date.format( item.begindate, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
-<tr><td colspan=3 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
+<tr><td colspan=4 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
 [% ELSE %]
 [% IF prev_header_printed < 1 %]
-<tr><td colspan=3 align=left bgcolor=eeeeee><b>Previous Conferences</b></td></tr>
+<tr><td colspan=4 align=left bgcolor=eeeeee><b>Previous Conferences</b></td></tr>
 [% SET prev_header_printed = 1 %]
 [% END %]
 [% END %]
@@ -60,7 +60,6 @@ mailing list.
       href="[% item.url %]">[% item.city %],  [% item.country %]</a></td>
   <td valign="top"><em>[% item.theme %]</em></td>
   <td valign="top">[% item.attendees %]</td>
-
   </tr>
 [% END %]
 </table>
