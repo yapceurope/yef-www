@@ -44,7 +44,7 @@
 [% END %] 
 
 [% WRAPPER add_conference_item
-   attendees => '200+',
+   attendees => '215',
    begindate  => '00:00:00 31-08-2005'
    enddate => '00:00:00 02-09-2005'
    city => 'Braga'
