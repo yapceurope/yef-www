@@ -1,0 +1,133 @@
+/*---	
+	Copyright (c) 2004-2006 Birmingham Perl Monger
+	birmingham.pm.org YAPC Europe 2006 XHTML Master CSS Selectors
+
+	$Revision: 1.0 $
+	
+	TOC
+	1.	Master Page Layout 
+	2.	Margins
+	
+---*/
+
+@import url(layout.css); 
+@import url(content.css);
+
+/* Begin: Master Page Layout */
+* html body {
+/*\*/
+	text-align:left;
+/* */
+}
+body {
+	font-family : Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin:0;
+	padding:0;
+	background-color: #ffffff;
+	border : 0;
+	font-size: 12px;
+}
+#pagecontainer {
+	margin:0 auto 0 auto;
+	width:780px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background: top right repeat-x #fff;
+}
+#pageheader {
+	position:relative;
+	width:764px;
+	margin:0 8px 2px 8px;
+	padding:8px 0 0 0;
+	text-align:right;
+	background-color:#fff;
+}
+#pagebody {
+	position:relative;
+	margin:0 8px 0 8px;
+	padding:0;
+	width:764px;
+}
+* html body #pagebody {
+	text-align:left;
+}
+#pagefooter {
+	visibility:hidden;
+	position:relative;
+	background: 0.5em 0.5em repeat-x;
+	margin:0 135px 0 135px;
+/*	border-bottom:1px solid #ccc; */
+}
+#pageBreadcrumbs {
+	font-family:Verdana,Arial,sans-serif;
+	position:relative;
+	width:776px;
+	padding:5px 0 5px 10px;
+	font-size:60%;
+	color:#cdc5c5;
+	background-color:#fff;
+	/*border-bottom:1px solid #e0e0e8;*/
+	letter-spacing:0.05em;
+}
+/* End: Master Page Layout */
+
+
+.clear-both {
+	clear:both;
+}
+.clear-none {
+	clear:none;
+}
+.clear-left {
+	clear:left;
+}
+.clear-right {
+	clear:right;
+}
+
+/* Begin: Margins */
+/*-- Top Margins --*/
+.mtop5{ margin-top:5px; }
+.mtop10{ margin-top:10px; }
+.mtop15{ margin-top:15px; }
+.mtop20{ margin-top:20px; }
+/*-- Right Margins --*/
+.mright5{ margin-right:5px; }
+.mright10{ margin-right:10px; }
+.mright15{ margin-right:15px; }
+.mright20{ margin-right:20px; }
+/*-- Bottom Margins --*/
+.mbot5{ margin-bottom:5px; }
+.mbot10{ margin-bottom:10px; }
+.mbot15{ margin-bottom:15px; }
+.mbot20{ margin-bottom:20px; }
+/*--: Left Margins --*/
+.mleft5 { margin-left:5px; }
+.mleft10 { margin-left:10px; }
+.mleft15 { margin-left:15px; }
+.mleft20 { margin-left:20px; }
+/* End: Margins */
+
+#HideSkips {
+	font-size: 0.1em;
+	color: White;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+
+#popupcontainer {
+	margin:5px auto 5px auto;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background: top right repeat-x #fff;
+}
+
+#popupbody {
+	position:relative;
+	margin:5px 5px 5px 5px;
+	padding:0;
+}
+* html body #popupbody {
+	text-align:left;
+}

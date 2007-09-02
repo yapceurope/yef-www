@@ -1,0 +1,16 @@
+body {
+	font-family:Verdana,Arial,sans-serif;
+	color:#000;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+h1 {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+}

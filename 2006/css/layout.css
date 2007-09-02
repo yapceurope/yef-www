@@ -1,0 +1,169 @@
+/*---	
+	Copyright (c) 2004-2006 Birmingham Perl Monger
+	birmingham.pm.org YAPC Europe 2006 XHTML Layout CSS Selectors
+
+	$Revision: 1.0 $
+	
+	TOC
+	1.	Page Header
+	2.	Page Body
+	3.	Page Footer
+	
+---*/
+
+
+/* Begin: Page Header */
+img#sitelogo {
+	position:absolute;
+	top:15px; right:0;
+	margin:0;
+	border:none;
+	z-index:1;
+}
+#top {
+	position:relative;
+	margin:0;
+	padding:0;
+	height:20px;
+}
+#top ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:right;
+}
+#top li {
+	float:left;
+	margin:0;
+	padding:0 15px 0 0;
+	font-size:65%;
+}
+#top li a:link, #page header li a:active, #pageheader li a:visited {
+	color:#999;
+	text-decoration:none;
+}
+#top li a:hover {
+	color:#778899;
+	text-decoration:underline;
+}
+#masthead {
+	position:relative;
+	margin:0;
+	padding:0;
+	height:136px;
+	background-color:#e5e5e5;
+}
+/* End: Page Header */
+
+
+/* Begin: Page Body */
+#navmenu {
+	background-color: #bbccdd;
+        height: 24px;
+        line-height: 24px;
+        font-size: 60%;
+        padding-left: 5px;
+        color: #333;
+	font-family: Arial, Sans-Serif;
+}
+#navmenu a:link, #navmenu a:visited {
+	color:#334;
+	text-decoration:none;
+}
+#navmenu a:hover {
+	color:#556;
+	text-decoration:underline;
+}
+
+#left {
+	position:absolute;
+	top:0; left:0;
+	width:125px;
+	padding:0;
+}
+html>body #left {
+	text-align:left;
+}
+#centre {
+	position:absolute;
+	margin:0 130px 0 130px;
+	padding:0;
+	width: 504px;
+}
+html>body #centre {
+	text-align:left;
+}
+#right {
+	position:absolute;
+	top:0; right:0;
+	width: 125px;
+	padding:0;
+}
+html>body #right {
+	text-align:left;
+}
+/* End: Page Body */
+
+
+/* Begin: Page Footer */
+#ftcontent {
+	width:750px;
+	margin:0 15px 0 15px;
+	padding:5px 0 10px 0;
+	text-align:left;
+	font-size:80%;
+	color:#999;
+	border-top:1px dashed #ccc;
+}
+#ftcontent a:link, #ftcontent a:visited, #ftcontent a:active {
+	color:#88aabb;
+	text-decoration:none;
+}
+#ftcontent a:hover {
+	color:#b00000;
+	text-decoration:none;
+}
+/* End: Page Footer */
+
+ 
+#tab1 {
+	position:absolute;
+	top:450px;
+	left:0;
+	visibility:visible;
+}
+
+#tab2 {
+	position:absolute;
+	top:450px;
+	left:0;
+	visibility:hidden;
+}
+
+#tab3 {
+	position:absolute;
+	top:450px;
+	left:0;
+	visibility:hidden;
+}
+
+#tab4 {
+	position:absolute;
+	top:450px;
+	left:0;
+	visibility:hidden;
+}
+
+#tab5 {
+	position:absolute;
+	top:450px;
+	left:0;
+	visibility:hidden;
+}
+
+#tab6 {
+	position:absolute;
+	top:450px;
+	left:0;
+	visibility:hidden;
+}
