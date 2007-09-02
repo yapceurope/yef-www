@@ -12,8 +12,8 @@
 
 [% WRAPPER add_conference_item
    attendees => 'tbd',
-   begindate  => '00:00:00 20-08-2008'
-   enddate => '00:00:00 22-08-2008'
+   begindate  => '00:00:00 01-08-2008'
+   enddate => '00:00:00 30-08-2008'
    country => 'Denmark'
    city => 'Copenhagen'
    theme => 'Perl'
