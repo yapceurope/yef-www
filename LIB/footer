@@ -1,6 +1,9 @@
     <div id="footer"><p><i>
 Copyright &copy; 2003-[% date.format( date.now, '%Y' ) %] 
-<a href="[% root %]/index.html">YAPC::Europe Foundation</a>
+<a href="[% root %]/index.html">YAPC::Europe Foundation</a> (YEF).
+The use of an onion to symbolize Perl is a trademark of 
+<a href="http://www.perlfoundation.org">The Perl Foundation</a> and
+is used with permission in the YEF logo.
     </i></p></div>
   </div>
 </div>
