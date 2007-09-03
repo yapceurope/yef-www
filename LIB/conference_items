@@ -77,7 +77,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   attendees => 'tbd',
+   attendees => '251',
    begindate  => '00:00:00 18-09-2002'
    enddate => '00:00:00 20-09-2002'
    city => 'Munich'
@@ -88,7 +88,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   attendees => 'tbd',
+   attendees => '300',
    begindate  => '00:00:00 02-08-2001'
    enddate => '00:00:00 04-08-2001'
    city => 'Amsterdam'
@@ -99,7 +99,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   attendees => 'tbd',
+   attendees => '170',
    begindate  => '00:00:00 22-09-2000'
    enddate => '00:00:00 24-09-2000'
    city => 'London'
