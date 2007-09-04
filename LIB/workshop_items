@@ -28,6 +28,17 @@
 [% END %]
 
 [% WRAPPER add_workshop_item
+   begindate => '00:00:00 27-10-2007'
+   url => 'http://bruxelles.pm.org/bpw_2007/index_en.html'
+   name => 'Belgian Perl Workshop'
+   country => 'Belgium'
+   city => 'Bruxelles/Brussels'
+   language => 'English (preferred), French, Dutch'
+%]
+[% END %]
+
+
+[% WRAPPER add_workshop_item
    begindate => '00:00:00 28-04-2007'
    enddate => '00:00:00 29-04-2007'
    url => 'http://www.perlworkshop.dk/2007/'
