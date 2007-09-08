@@ -39,7 +39,7 @@
    city => 'Birmingham'
    country => 'UK'
    theme =>  'The Accessibility of Perl'
-   url => 'http://www.birmingham2006.com/'
+   url => 'http://www.yapceurope.org/2006/'
 %]
 [% END %] 
 
