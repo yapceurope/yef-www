@@ -22,7 +22,7 @@
    name => 'Perl Workshop in Israel'
    country => 'Israel'
    city => 'TBA'
-   language => 'English'
+   language => 'Hebrew (preferred), English'
 %]
 [% END %]
 
