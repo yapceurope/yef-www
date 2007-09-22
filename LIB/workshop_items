@@ -47,6 +47,17 @@
 %]
 [% END %]
 
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 26-10-2007'
+   url => 'http://2007.perlrussia.ru/en/'
+   name => 'Russian Perl Workshop'
+   country => 'Russia'
+   city => 'Moscow'
+   language => 'Russian'
+%]
+[% END %]
+
+
 
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 28-04-2007'
