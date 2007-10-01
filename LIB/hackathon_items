@@ -1,16 +1,27 @@
 [%
  hackathons = [] ;
  BLOCK add_hackathon_item;
-     item = { begindate => begindate, url => url, city => city, country => country, enddate => enddate };
+     item = { begindate => begindate, url => url, city => city, country => country, enddate => enddate, name => name };
      item.year = item.begindate.match( '(\d\d\d\d)$' ).0;
      item.anchor = item.begindate.match('(\d\d\d\d)$').item.city;
      hackathons.push(item);
  END
 %]
 
-[% # Add new YAPC::Europes just below, in reverse chronological order. %]
+[% # Add new YAPC::Hackathons just below, in reverse chronological order. %]
 
 [% WRAPPER add_hackathon_item
+   name => 'Israeli Pub crawl/Hackathon'
+   begindate  => '00:00:00 01-01-2008'
+   enddate => '00:00:00 05-01-2008'
+   country => 'Israel'
+   city => 'Tel Aviv'
+   url => 'http://act.perl.org.il/ilpw2007/hackathon.html'
+%]
+[% END %]
+
+[% WRAPPER add_hackathon_item
+   name => 'European Perl Hackathon'
    begindate  => '16:00:00 02-03-2007'
    enddate => '17:00:00 04-03-2007'
    country => 'The Netherlands'
