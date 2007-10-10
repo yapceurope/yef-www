@@ -11,7 +11,7 @@
 [% # Add new YAPC::Europes just below, in reverse chronological order. %]
 
 [% WRAPPER add_conference_item
-   attendees => 'tbd',
+   attendees => '',
    begindate  => '00:00:00 01-08-2008'
    enddate => '00:00:00 30-08-2008'
    country => 'Denmark'
@@ -88,7 +88,7 @@
 [% END %]
 
 [% WRAPPER add_conference_item
-   attendees => '300',
+   attendees => '~ 300',
    begindate  => '00:00:00 02-08-2001'
    enddate => '00:00:00 04-08-2001'
    city => 'Amsterdam'
