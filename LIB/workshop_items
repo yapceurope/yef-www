@@ -306,7 +306,7 @@
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 20-05-2004'
    enddate => '00:00:00 22-05-2004'
-   url => 'http://vienna.pm.org/en_workshop.html',
+   url => 'http://vienna.pm.org/workshop2004/en_workshop.html',
    name => 'Austrian Perl Workshop'
    country => 'Austria'
    city => 'Vienna'
