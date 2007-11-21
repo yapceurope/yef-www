@@ -28,6 +28,7 @@
 
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 13-02-2008'
+   enddate => '00:00:00 15-02-2008'
    url => 'http://www.perl-workshop.de/de/2008/index.html',
    name => 'German Perl Workshop'
    country => 'Germany'
