@@ -39,10 +39,10 @@
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 23-02-2008'
    url => 'http://2008.perlukraine.org/',
-   name => 'First Ukranian Perl Workshop'
+   name => 'First Ukrainian Perl Workshop'
    country => 'Ukraine'
    city => 'Kiev'
-   language => 'Ukranian, Russian, English'
+   language => 'Ukrainian, Russian, English'
 %]
 [% END %]
 
