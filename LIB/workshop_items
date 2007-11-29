@@ -17,12 +17,32 @@
 [% # Add new workshops just below, in reverse chronological order. %]
 
 [% WRAPPER add_workshop_item
+   begindate => '00:00:00 16-05-2008'
+   url => 'http://www.perlworkshop.nl/',
+   name => 'Second Russian Perl Workshop'
+   country => 'Russia'
+   city => 'Moscow'
+   language => 'Russian, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
    begindate => '00:00:00 29-02-2008'
    url => 'http://www.perlworkshop.nl/',
    name => 'Dutch Perl Workshop'
    country => 'The Netherlands'
    city => 'Arnhem'
    language => 'Dutch, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 23-02-2008'
+   url => 'http://2008.perlukraine.org/',
+   name => 'First Eukranian Perl Workshop'
+   country => 'Ukraine'
+   city => 'Kiev'
+   language => 'Eukranian, Russian, English'
 %]
 [% END %]
 
