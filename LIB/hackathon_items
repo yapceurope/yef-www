@@ -11,6 +11,16 @@
 [% # Add new YAPC::Hackathons just below, in reverse chronological order. %]
 
 [% WRAPPER add_hackathon_item
+   name => 'Oslo QA Workshop'
+   begindate  => '00:00:00 05-04-2008'
+   enddate => '00:00:00 07-04-2008'
+   country => 'Norway'
+   city => 'Oslo'
+   url => 'http://perl-qa.hexten.net/wiki/index.php/OsloQAWorkshop2008'
+%]
+[% END %]
+
+[% WRAPPER add_hackathon_item
    name => 'Israeli Pub crawl/Hackathon'
    begindate  => '00:00:00 01-01-2008'
    enddate => '00:00:00 05-01-2008'
