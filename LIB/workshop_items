@@ -17,6 +17,17 @@
 [% # Add new workshops just below, in reverse chronological order. %]
 
 [% WRAPPER add_workshop_item
+   begindate => '00:00:00 18-09-2008'
+   enddate => '00:00:00 19-09-2008'
+   url => 'http://conferences.yapceurope.org/ipw2008/',
+   name => 'Fourth Italian Perl Workshop'
+   country => 'Italy'
+   city => 'Pisa'
+   language => 'Italy, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
    begindate => '00:00:00 16-05-2008'
    url => 'http://2008.perlrussia.ru/',
    name => 'Second Russian Perl Workshop'
