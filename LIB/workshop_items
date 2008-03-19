@@ -49,7 +49,6 @@
 %]
 [% END %]
 
-
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 16-05-2008'
    url => 'http://2008.perlrussia.ru/',
@@ -96,7 +95,7 @@
    url => 'http://act.perl.org.il/ilpw2007/',
    name => 'Perl Workshop in Israel'
    country => 'Israel'
-   city => 'TBA'
+   city => 'Ramat Efal'
    language => 'Hebrew (preferred), English'
 %]
 [% END %]
