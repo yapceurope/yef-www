@@ -17,6 +17,28 @@
 [% # Add new workshops just below, in reverse chronological order. %]
 
 [% WRAPPER add_workshop_item
+   begindate => '00:00:00 06-06-2008'
+   enddate => '00:00:00 07-06-2008'
+   url => 'http://workshop.perl.pt/',
+   name => 'Portuguese Perl Workshop'
+   country => 'Portugal'
+   city => 'Braga'
+   language => 'Portuguese, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
+   begindate => '00:00:00 30-05-2008'
+   enddate => '00:00:00 31-05-2008'
+   url => 'http://conferences.mongueurs.net/fpw2008/'
+   name => 'French Perl Workshop'
+   country => 'France'
+   city => 'Albi'
+   language => 'French, English'
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
    begindate => '00:00:00 18-09-2008'
    enddate => '00:00:00 19-09-2008'
    url => 'http://conferences.yapceurope.org/ipw2008/',
