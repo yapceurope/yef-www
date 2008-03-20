@@ -60,6 +60,15 @@
 [% END %]
 
 [% WRAPPER add_workshop_item
+   begindate => '00:00:00 15-04-2008'
+   name => 'Croatian Perl Workshop'
+   country => 'Croatia'
+   city => 'Zagreb'
+   language => ''
+%]
+[% END %]
+
+[% WRAPPER add_workshop_item
    begindate => '00:00:00 29-02-2008'
    url => 'http://www.perlworkshop.nl/',
    name => 'Dutch Perl Workshop'
