@@ -61,10 +61,11 @@
 
 [% WRAPPER add_workshop_item
    begindate => '00:00:00 15-04-2008'
+   url => 'http://groups.google.com/group/zagrebpm',
    name => 'Croatian Perl Workshop'
    country => 'Croatia'
    city => 'Zagreb'
-   language => ''
+   language => 'Croatian, English'
 %]
 [% END %]
 
