@@ -23,7 +23,7 @@
    name => 'Fourth Italian Perl Workshop'
    country => 'Italy'
    city => 'Pisa'
-   language => 'Italy, English'
+   language => 'Italian, English'
 %]
 [% END %]
 
