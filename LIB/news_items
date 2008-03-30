@@ -54,29 +54,6 @@ Looking forward to your submissions,<br>
 [% END %]
 
 
-<p>
-YAPC::Europe Foundation is pleased to announce that Copenhagen, Denmark
-has been chosen as the site for YAPC::Europe 2008, the ninth European
-YAPC. 
-</p>
-<p>
-Copenhagen faced stiff competition from Braga, Portugal, which hosted
-a memorable YAPC::Europe in 2005.  This year also marked the first
-submission from a group unaffiliated with Perlmongers: the
-Informatics department of Wellcome Trust Sanger Institute in
-Cambridge, United Kingdom.  We hope that both these groups will
-give us the opportunity to consider their proposals again in the
-future.
-</p>
-<p>
-We are confident that Copenhagen.pm's experienced team--which was
-responsible for several Nordic Perl Workshops--will put together a
-wonderful conference. 
-</p><p>
-We hope to see you in Copenhagen next summer! 
-</p>
-[% END %]
-
 [% WRAPPER add_news_item
    date = '00:00:00 29-08-2007'
    title = 'Copenhagen, Denmark to host YAPC::Europe 2008'
