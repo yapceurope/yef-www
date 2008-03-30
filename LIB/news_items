@@ -11,6 +11,67 @@
 %]
 [%# add new item just below, in reverse chronological order %]
 
+[% WRAPPER add_news_item
+   date = '00:00:00 30-03-2008'
+   title = 'Call for Venue for YAPC::Europe::2009'
+%]
+<p>
+While we are all looking forward to YAPC::Europe 2008 in Copenhagen,
+it's time for the YAPC::Europe Venue Committee to consider suitable
+hosts for the 2009 conference. Any dedicated group interested in hosting
+YAPC::Europe::2009 should send a brief statement of intent to
+venue@yapceurope.org as soon as possible. For this first statement of
+intent a few lines like "City.pm is interested in hosting YAPC::Europe
+2009" will be enough.
+</p>
+<p>
+A full and complete application should then be sent to the same address
+prior to the deadline for applications, which is June 30, 2008. The
+YAPC::Europe Venue Committee will inform applicants by July 31, 2008
+if their proposal was chosen. The public announcement of the location
+for the 2009 conference will be announced during the 2008 conference in
+Copenhagen.
+</p>
+<p>
+For more information about the requirements for hosting a conference,
+you may want to refer to the YAPC organisers documentation (administered
+by TPF) on Google code [1], or look at the examples of previous European
+conferences [2].
+</p>
+<p>
+Please direct any questions to venue@yapceurope.org, and a member of the
+committee will endeavour to respond as soon as possible.
+</p>
+<p>
+Looking forward to your submissions,<br>
+ <&nbsp;> Thomas Klausner<br>
+ <&nbsp;> on behalf of the YAPC::Europe Venue Committee<br>
+</p>
+[% END %]
+
+
+<p>
+YAPC::Europe Foundation is pleased to announce that Copenhagen, Denmark
+has been chosen as the site for YAPC::Europe 2008, the ninth European
+YAPC. 
+</p>
+<p>
+Copenhagen faced stiff competition from Braga, Portugal, which hosted
+a memorable YAPC::Europe in 2005.  This year also marked the first
+submission from a group unaffiliated with Perlmongers: the
+Informatics department of Wellcome Trust Sanger Institute in
+Cambridge, United Kingdom.  We hope that both these groups will
+give us the opportunity to consider their proposals again in the
+future.
+</p>
+<p>
+We are confident that Copenhagen.pm's experienced team--which was
+responsible for several Nordic Perl Workshops--will put together a
+wonderful conference. 
+</p><p>
+We hope to see you in Copenhagen next summer! 
+</p>
+[% END %]
 
 [% WRAPPER add_news_item
    date = '00:00:00 29-08-2007'
