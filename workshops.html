@@ -29,17 +29,17 @@ committee for other reasons, please mail
 <tr><td colspan=4 align=left bgcolor=eeeeee><b>[% year %]</b></td></tr>
 [% FOREACH item = workshops.year.$year %]
 <tr><td valign="top"><a name="[% item.anchor %]" />
-[% date.format( item.begindate, format='%B %e', locale='C') %]
-[% IF item.enddate %] 
+[% date.format( item.begin, format='%B %e', locale='C') %]
+[% IF item.end != item.begin %] 
  - 
-[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
-    [% date.format( item.enddate, format='%e', locale='C') %]
+[% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
+    [% date.format( item.end, format='%e', locale='C') %]
 [% ELSE %]
-    [% date.format( item.enddate, format='%B %e', locale='C') %]
+    [% date.format( item.end, format='%B %e', locale='C') %]
 [% END %]
 [% END %]
 </td>
-<td><a href="[% item.url %]">[% item.name %]</a></td>
+<td>[% IF item.url %]<a href="[% item.url %]">[% item.name %]</a>[% ELSE %][% item.name %][% END %]</td>
 <td>[% item.city %], [% item.country %]</td>
 <td>[% item.language %]</td></tr> 
 [% END; END %]
