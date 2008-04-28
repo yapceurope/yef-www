@@ -41,7 +41,7 @@ committee for other reasons, please mail
 </td>
 <td>[% IF item.url %]<a href="[% item.url %]">[% item.name %]</a>[% ELSE %][% item.name %][% END %]</td>
 <td>[% item.city %], [% item.country %]</td>
-<td>[% item.language %]</td></tr> 
+<td>[% item.languages.join(", ") %]</td></tr> 
 [% END; END %]
 </table>
 </p>
