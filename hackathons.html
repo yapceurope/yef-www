@@ -23,7 +23,7 @@ mailing list</a> (all geographic regions).
 [% SET prev_header_printed = 0 %]
 
 [% FOREACH item = hackathons %]
-[%IF date.format( item.begindate, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
+[%IF date.format( item.begin, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
 <tr><td colspan=3 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
 [% ELSE %]
 [% IF prev_header_printed < 1 %]
@@ -33,15 +33,15 @@ mailing list</a> (all geographic regions).
 [% END %]
 <tr>
   <td valign="top">
-[% date.format( item.begindate, format='%B %e', locale='C') %]
-[% IF item.enddate %]
+[% date.format( item.begin, format='%B %e', locale='C') %]
+[% IF item.end != item.begin %]
  - 
-[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
-    [% date.format( item.enddate, format='%e', locale='C') %]
+[% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
+    [% date.format( item.end, format='%e', locale='C') %]
 [% ELSE %]
-    [% date.format( item.enddate, format='%B %e', locale='C') %]
+    [% date.format( item.end, format='%B %e', locale='C') %]
 [% END %]
-[% END %], [% date.format(item.begindate, '%Y') %]
+[% END %], [% date.format(item.begin, '%Y') %]
 </td> 
   <td valign="top"><a name="[% item.anchor %]" /><a 
       href="[% item.url %]">[% item.name %]</a></td>
