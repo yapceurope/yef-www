@@ -12,7 +12,7 @@
     which operates worldwide and has a broader mission of supporting Perl.
     However, the two organizations sometimes cooperate on European events.
 	YEF encourages the use of conferencing software, like 
-	<a href="[% act_page %]")>ACT</a> for example,
+	<a href="[% act_page %]")>Act</a> for example,
 	to make management of resources easier - which solution to use is of course
 	at the discretion of the organisers of each event.
     </p>
@@ -37,16 +37,16 @@
 [% PROCESS conference_items %]
 [% FOREACH item = conferences %]
           <li><dl>
-            <dt><a href="[% item.url %]">YAPC::Europe [% item.year %]</a></dt>
-            <dd>[% date.format( item.begindate, format='%B %e', locale='C') %]
-[% IF item.enddate %]
+            <dt><a href="[% item.url %]">[% item.name %] [% item.year %]</a></dt>
+            <dd>[% date.format( item.begin, format='%B %e', locale='C') %]
+[% IF item.end %]
 - 
-[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
-[% date.format( item.enddate, format='%e', locale='C') %]
+[% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
+[% date.format( item.end, format='%e', locale='C') %]
 [% ELSE %]
-[% date.format( item.enddate, format='%B %e', locale='C') %]
+[% date.format( item.end, format='%B %e', locale='C') %]
 [% END %]
-[% END %], [% date.format(item.begindate, '%Y') %]</dd>
+[% END %], [% date.format(item.begin, '%Y') %]</dd>
           </dl></li>
         </ol>
       </div>
@@ -56,19 +56,19 @@
 [% LAST IF loop.count >= 1; END %]
 [% PROCESS workshop_items %]
 [% FOREACH item = workshops.list %]
-[% LAST IF date.format( item.begindate, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
+[% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
           <li><dl>
             <dt><a href="[% item.url %]">[% item.name %]</a></dt>
-            <dd>[% date.format( item.begindate, format='%B %e', locale='C') %]
-[% IF item.enddate %]
+            <dd>[% date.format( item.begin, format='%B %e', locale='C') %]
+[% IF item.end != item.begin %]
 - 
-[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
-[% date.format( item.enddate, format='%e', locale='C') %]
+[% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
+[% date.format( item.end, format='%e', locale='C') %]
 [% ELSE %]
-[% date.format( item.enddate, format='%B %e', locale='C') %]
+[% date.format( item.end, format='%B %e', locale='C') %]
 [% END %]
 [% END %], 
-[% date.format(item.begindate, format='%Y', locale='C') %]</dd>
+[% date.format(item.begin, format='%Y', locale='C') %]</dd>
           </dl></li>
 [% END %]
         </ol>
@@ -78,19 +78,19 @@
         <h3><a href="[% hackathons_page %]">Hackathons</a></h3>
         <ol id="hackathonitems">
 [% FOREACH item = hackathons.list %]
-[% LAST IF date.format( item.begindate, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
+[% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
           <li><dl>
             <dt><a href="[% item.url %]">[% item.name %]</a></dt>
-            <dd>[% date.format( item.begindate, format='%B %e', locale='C') %]
-[% IF item.enddate %]
+            <dd>[% date.format( item.begin, format='%B %e', locale='C') %]
+[% IF item.end %]
 - 
-[% IF date.format( item.enddate, format='%m') == date.format( item.begindate, format='%m') %]
-[% date.format( item.enddate, format='%e', locale='C') %]
+[% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
+[% date.format( item.end, format='%e', locale='C') %]
 [% ELSE %]
-[% date.format( item.enddate, format='%B %e', locale='C') %]
+[% date.format( item.end, format='%B %e', locale='C') %]
 [% END %]
 [% END %], 
-[% date.format(item.begindate, format='%Y', locale='C') %]</dd>
+[% date.format(item.begin, format='%Y', locale='C') %]</dd>
           </dl></li>
 [% LAST IF loop.count >= 3 %]
 [% END %]
