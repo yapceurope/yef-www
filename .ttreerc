@@ -13,6 +13,7 @@ copy = ^20\d\d\/ # <- why doesn't this work?!
 copy = \.(gif|ico|jpe?g|pdf|png|ps)$ 
 copy = \.(css|cgi|txt)$
 copy = \.(tar|tar\.gz|gz|tgz|zip|bz2)$
+copy = \.yml$
 
 pre_process = config 
 pre_process = header
