@@ -12,6 +12,23 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '20:49:00 02-07-2008'
+   title = 'Two proposals for YAPC::Europe::2009'
+%]
+
+<p>We got to very interesting and strong proposals from two nice cities to
+host YAPC::Europe 2009! The YEF Venue Commitee will now take a very close look
+at the proposals, ask any remaining questions, and try to find the best place
+for all of us too meet in 2009.</p>
+
+<p>The final location of YAPC::Europe 2009 will be announced during <a
+href="http://yapceurope2008.org">YAPC::Europe 2008 in Copenhagen</a>, so if
+you want to be among the first to know where to go in 2009, come to Copenhagen
+this summer!</p>
+
+[% END %]
+
+[% WRAPPER add_news_item
    date = '00:00:00 30-03-2008'
    title = 'Call for Venue for YAPC::Europe::2009'
 %]
