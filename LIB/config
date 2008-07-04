@@ -8,6 +8,7 @@
     credits_page     = "$root/credits.html"
     docs_page        = "$root/docs/"
     donation_page    = "$root/donation.html"
+    donating_page    = "$root/donating.html"
     events_page      = "$root/events.html"
     foundation_page  = "$root/foundation.html"
     hackathons_page  = "$root/hackathons.html"
