@@ -15,6 +15,7 @@
     venues      = "<a href='$root/venue.html'>venues</a>"
     events      = "<a href='$root/events.html'>events</a>"
     organizers  = "<a href='$root/organizers.html'>organizers</a>"
+    venue_committee  = "<a href='$root/venue_committee.html'>Venue Committee</a>"
 
     act_page         = "$root/act.html"
     conferences_page = "$root/conferences.html"
@@ -28,6 +29,7 @@
     index_page       = "$root/index.html"
     news_page        = "$root/news.html"
     organizers_page  = "$root/organizers.html"
+    venue_committee_page  = "$root/venue_committee.html"
     payment_page     = "$root/payment.html"
     people_page      = "$root/people.html"
     venues_page      = "$root/venue.html"
