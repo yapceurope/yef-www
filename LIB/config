@@ -36,7 +36,7 @@
     venues      = "<a href='$venue_page'>venues</a>"
     events      = "<a href='$events_page'>events</a>"
     organizers  = "<a href='$organizers_page'>organizers</a>"
-    venue_committee  = "<a href='$venue_commitee_page'>Venue Committee</a>"
+    venue_committee  = "<a href='$venue_committee_page'>Venue Committee</a>"
 
 %]
 [% USE date %]
