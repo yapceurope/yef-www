@@ -15,10 +15,10 @@
     index_page       = "$root/index.html"
     news_page        = "$root/news.html"
     organizers_page  = "$root/organizers.html"
-    venue_committee_page  = "$root/venue_committee.html"
     payment_page     = "$root/payment.html"
     people_page      = "$root/people.html"
     venues_page      = "$root/venue.html"
+    venue_committee_page  = "$root/venue.html"
     workshops_page   = "$root/workshops.html"
     meets_page	     = "$root/meets.html"
 
@@ -37,7 +37,7 @@
     venues      = "<a href='$venue_page'>venues</a>"
     events      = "<a href='$events_page'>events</a>"
     organizers  = "<a href='$organizers_page'>organizers</a>"
-    venue_committee  = "<a href='$venue_committee_page'>Venue Committee</a>"
+    venue_committee  = "<a href='$venue_page'>Venue Committee</a>"
 
 %]
 [% USE date %]
