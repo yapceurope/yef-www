@@ -18,6 +18,7 @@
     payment_page     = "$root/payment.html"
     people_page      = "$root/people.html"
     venues_page      = "$root/venue.html"
+    venue_page      = "$root/venue.html"
     venue_committee_page  = "$root/venue.html"
     workshops_page   = "$root/workshops.html"
     meets_page	     = "$root/meets.html"
