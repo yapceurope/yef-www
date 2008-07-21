@@ -36,6 +36,7 @@
         <ol id="conferenceitems">
 [% PROCESS conference_items %]
 [% FOREACH item = conferences %]
+[% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
           <li><dl>
             <dt><a href="[% item.url %]">[% item.name %] [% " " _ item.year %]</a></dt>
             <dd>[% date.format( item.begin, format='%B %e', locale='C') %]
@@ -48,12 +49,12 @@
 [% END %]
 [% END %], [% date.format(item.begin, '%Y') %]</dd>
           </dl></li>
+[% END %]
         </ol>
       </div>
       <div id="workshops">
         <h3><a href="[% workshops_page %]">Workshops</a></h3>
         <ol id="workshopitems">
-[% LAST IF loop.count >= 1; END %]
 [% PROCESS workshop_items %]
 [% FOREACH item = workshops.list %]
 [% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
