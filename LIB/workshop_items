@@ -5,7 +5,7 @@
   workshops = { list => [], year => {} } ;
   FOR item = confs ; 
       NEXT IF item.begin.match( 'xx' );
-      NEXT IF item.continent != 'Europe' || item.genre != 'workshop';
+      NEXT IF item.genre != 'workshop';
       workshops.list.push(item);
 
       year = item.begin.match( '(\d\d\d\d)$' ).0;

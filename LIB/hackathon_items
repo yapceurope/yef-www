@@ -5,7 +5,7 @@
  hackathons = [] ;
  FOR item = confs ; 
      NEXT IF item.begin.match('xx');
-     NEXT IF item.continent != 'Europe' || item.genre != 'hackathon';
+     NEXT IF item.genre != 'hackathon';
 
      item.year = item.begin.match( '(\d\d\d\d)$' ).0;
      item.anchor = item.begin.match('(\d\d\d\d)$').item.city;
