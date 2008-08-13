@@ -12,6 +12,16 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '08:50:00 13-08-2008'
+   title = 'YAPC::Europe::2009 will be in Lisbon'
+%]
+<p>During <a href="http://yapceurope2008.org">YAPC::Europe 2008</a> in
+Copenhagen the location of YAPC::Europe 2009 was announced to be <a
+href="http://yapceurope2009.org">Lisbon</a>.</p>
+
+[% END %]
+
+[% WRAPPER add_news_item
    date = '20:49:00 02-07-2008'
    title = 'Two proposals for YAPC::Europe::2009'
 %]
