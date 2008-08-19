@@ -9,6 +9,7 @@ ignore = \.swp$
 ignore = \.ttreerc
 ignore = domms_build
 ignore = build_docs
+ignore = build
 
 copy = ^20\d\d\/ # <- why doesn't this work?!
 copy = \.(gif|ico|jpe?g|pdf|png|ps)$ 
