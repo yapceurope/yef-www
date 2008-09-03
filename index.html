@@ -37,18 +37,7 @@
 [% PROCESS conference_items %]
 [% FOREACH item = conferences %]
 [% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
-          <li><dl>
-            <dt><a href="[% item.url %]">[% item.name %] [% " " _ item.year %]</a></dt>
-            <dd>[% date.format( item.begin, format='%B %e', locale='C') %]
-[% IF item.end %]
-- 
-[% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
-[% date.format( item.end, format='%e', locale='C') %]
-[% ELSE %]
-[% date.format( item.end, format='%B %e', locale='C') %]
-[% END %]
-[% END %], [% date.format(item.begin, '%Y') %]</dd>
-          </dl></li>
+[% PROCESS format_item item = item %]
 [% END %]
         </ol>
       </div>
@@ -58,19 +47,7 @@
 [% PROCESS workshop_items %]
 [% FOREACH item = workshops.list %]
 [% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
-          <li><dl>
-            <dt><a href="[% item.url %]">[% item.name %]</a></dt>
-            <dd>[% date.format( item.begin, format='%B %e', locale='C') %]
-[% IF item.end != item.begin %]
-- 
-[% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
-[% date.format( item.end, format='%e', locale='C') %]
-[% ELSE %]
-[% date.format( item.end, format='%B %e', locale='C') %]
-[% END %]
-[% END %], 
-[% date.format(item.begin, format='%Y', locale='C') %]</dd>
-          </dl></li>
+[% PROCESS format_item item = item %]
 [% END %]
         </ol>
       </div>
@@ -80,21 +57,24 @@
         <ol id="hackathonitems">
 [% FOREACH item = hackathons.list %]
 [% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
+[% PROCESS format_item item = item %]
+[% LAST IF loop.count >= 3 %]
+[% END %]
+        </ol>
+      </div>
+    </div>
+
+[% BLOCK format_item %]
           <li><dl>
-            <dt><a href="[% item.url %]">[% item.name %]</a></dt>
+            <dt>[% IF item.url %]<a href="[% item.url %]">[% item.name %]</a>[% ELSE %][% item.name %][% END %]</dt>
             <dd>[% date.format( item.begin, format='%B %e', locale='C') %]
-[% IF item.end %]
+[% IF item.end != item.begin %]
 - 
 [% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
 [% date.format( item.end, format='%e', locale='C') %]
 [% ELSE %]
 [% date.format( item.end, format='%B %e', locale='C') %]
 [% END %]
-[% END %], 
-[% date.format(item.begin, format='%Y', locale='C') %]</dd>
+[% END %], [% date.format(item.begin, '%Y') %]</dd>
           </dl></li>
-[% LAST IF loop.count >= 3 %]
 [% END %]
-        </ol>
-      </div>
-    </div>
