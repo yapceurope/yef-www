@@ -12,6 +12,19 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '12:30:00 30-09-2008'
+   title = 'Italian Perl Workshop a success'
+%]
+<p>
+Enrico Sorcinelli reports that the Italian Perl Workshop was a success.
+A new page, 
+<a href="http://www.yapceurope.org/workshops/stories.html">workshop
+stories</a>, has been created to chronicle the experiences of workshop
+organizers.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date = '08:50:00 13-08-2008'
    title = 'YAPC::Europe::2009 will be in Lisbon'
 %]
