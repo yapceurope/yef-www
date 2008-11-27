@@ -22,7 +22,7 @@
         <h3><a href="[% news_page %]">News</a></h3>
         <ol id="newsitems">
 [% PROCESS news_items %]
-[% FOREACH item = news.list.splice( 0, 2 ) %]
+[% FOREACH item = news.list.splice( 0, 3 ) %]
           <li><dl>
             <dt><a href="[% news_page %]#[% item.anchor %]">[% item.title %]</a></dt>
             <dd>[% date.format(item.date, format = '%B %e, %Y', locale='C' ) %]
