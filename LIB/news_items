@@ -24,6 +24,23 @@ which is responsible for reviewing proposals to host YAPC::Europe.
 [% END %]
 
 
+[% WRAPPER add_news_item
+   date = '09:30:00 21-11-2008'
+   title = 'YAPC::EU::2009 Newsletter #1'
+%]
+<p>
+The first <a href="http://use.perl.org/~cog/journal/37921">YAPC::EU::2009
+newsletter</a> has been published.  This edition of the newsletter
+contains announces the conference theme: Corporate Perl.  
+Other topics of the newsletter are: tentative dates and venue, notes
+about sponsors, and details on communication channels.  For more
+information, read the newsletter, and consider signing up to receive
+new information as soon as it is published.
+</p>
+[% END %]
+
+
+
 
 [% WRAPPER add_news_item
    date = '12:30:00 30-09-2008'
