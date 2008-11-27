@@ -12,6 +12,20 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '12:30:00 27-11-2008'
+   title = 'Lars Thegler and Anton Berezin join venue committee'
+%]
+<p>
+Lars Thegler and Anton Berezin were active in organizing YAPC::Europe
+2008 in Copenhagen.  They now join the YEF
+<a href="http://www.yapceurope.org/venue.html">venue committee</a>,
+which is responsible for reviewing proposals to host YAPC::Europe.
+</p>
+[% END %]
+
+
+
+[% WRAPPER add_news_item
    date = '12:30:00 30-09-2008'
    title = 'Italian Perl Workshop a success'
 %]
