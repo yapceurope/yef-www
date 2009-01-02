@@ -26,7 +26,7 @@ X-WR-CALNAME:Worldwide Perl Conferences
 %]BEGIN:VEVENT
 UID:[% conf.conf_id %]
 SUMMARY:[% conf.name %]
-LOCATION:[% conf.city %], [% conf.country %]
+LOCATION:[% IF conf.city %][% conf.city %], [% END %][% conf.country %]
 [% IF conf.url %]URL:[% conf.url %]
 [% END %]DTSTART;VALUE=DATE:[% begin %]
 [% IF end %]DTEND;VALUE=DATE:[% end.join('') %]
