@@ -18,6 +18,3 @@ copy = \.(tar|tar\.gz|gz|tgz|zip|bz2)$
 copy = \.yml$
 
 pre_process = config 
-pre_process = header
-post_process = footer
-pre_chomp = 1
