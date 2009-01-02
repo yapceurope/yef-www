@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>YAPC::Europe Foundation - [% template.title %]</title>
+<title>YAPC::Europe Foundation - [% title %]</title>
 <link rev="made" href="mailto:www@yapceurope.org" />
 <link rel="stylesheet" href="[% root %]/style.css" type="text/css" media="screen, projection" />
 </head>
@@ -20,5 +20,5 @@
     [% INCLUDE LIB/nav %]
   </div>
   <div id="content">
-    <h1>YAPC Europe Foundation - [% template.title %]</h1>
+    <h1>YAPC Europe Foundation - [% title %]</h1>
     <!-- content -->
