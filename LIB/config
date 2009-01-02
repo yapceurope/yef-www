@@ -40,6 +40,7 @@
     venue_committee  = "<a href='$venue_page'>Venue Committee</a>"
     events      = "<a href='$events_page'>events</a>"
     organizers  = "<a href='$organizers_page'>organizers</a>"
+    ical_link   = "<img src=\"/img/ical.png\" />&nbsp;<a href=\"webcal://www.yapceurope.org/ical/conferences.ics\">Subscribe to all Perl conferences in iCal</a>"
 
 %]
 [% USE date %]
