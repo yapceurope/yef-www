@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:YAPC Europe Foundation
+VERSION:2.0
+X-WR-CALNAME:Worldwide Perl Conferences
+[%
+ USE YAML;
+ USE date;
+ confs = YAML.undumpfile("conferences.yml");
+
+ FOR conf = confs ;
+     NEXT IF conf.begin.match( 'xx' );
+     NEXT IF conf.end.match( 'xx' );
+
+     begin = conf.begin.match( '(\d\d)/(\d\d)/(\d\d\d\d)' ).reverse.join('');
+
+     # iCalendar require DTEND to be one day after the last day
+     end = '';
+     IF conf.end != conf.begin ;
+         matches = conf.end.match( '(\d\d)/(\d\d)/(\d\d\d\d)' ).reverse;
+         end = date.calc.Add_Delta_Days( matches.0, matches.1, matches.2, 1);
+         FOREACH i = [ 1, 2 ];
+             IF end.$i.length == 1; end.$i = '0' _ end.$i; END;
+         END;
+     END;
+%]BEGIN:VEVENT
+UID:[% conf.conf_id %]
+SUMMARY:[% conf.name %]
+LOCATION:[% conf.city %], [% conf.country %]
+[% IF conf.url %]URL:[% conf.url %]
+[% END %]DTSTART;VALUE=DATE:[% begin %]
+[% IF end %]DTEND;VALUE=DATE:[% end.join('') %]
+[% END %]END:VEVENT
+[% END %]END:VCALENDAR
