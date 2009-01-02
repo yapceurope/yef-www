@@ -1,4 +1,4 @@
-[%
+[%-
     root        = root || "http://www.yapceurope.org/"
 
     index_page       = "$root/index.html"
@@ -42,5 +42,4 @@
     organizers  = "<a href='$organizers_page'>organizers</a>"
     ical_link   = "<img src=\"/img/ical.png\" />&nbsp;<a href=\"webcal://www.yapceurope.org/ical/conferences.ics\">Subscribe to all Perl conferences in iCal</a>"
 
-%]
-[% USE date %]
+%][% USE date -%]
