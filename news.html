@@ -1,4 +1,4 @@
-[% META
+[% WRAPPER html_page
    title = 'News'
 %]
 [% PROCESS news_items %]
@@ -10,4 +10,4 @@
 <h3>[% date.format( item.date, format='%B %e', locale='C') %]</h3>
 [% item.text %]
 [% END ; END %]
-
+[% END %]
