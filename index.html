@@ -35,8 +35,8 @@
         <h3><a href="[% conferences_page %]">Conferences</a></h3>
         <ol id="conferenceitems">
 [% PROCESS conference_items %]
-[% FOREACH item = conferences %]
-[% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
+[% FOREACH item = conferences.reverse %]
+[% NEXT IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
 [% PROCESS format_item item = item %]
 [% END %]
         </ol>
@@ -45,8 +45,8 @@
         <h3><a href="[% workshops_page %]">Workshops</a></h3>
         <ol id="workshopitems">
 [% PROCESS workshop_items %]
-[% FOREACH item = workshops.list %]
-[% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
+[% FOREACH item = workshops.list.reverse %]
+[% NEXT IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
 [% PROCESS format_item item = item %]
 [% END %]
         </ol>
@@ -55,10 +55,9 @@
       <div id="hackathons">
         <h3><a href="[% hackathons_page %]">Hackathons</a></h3>
         <ol id="hackathonitems">
-[% FOREACH item = hackathons.list %]
-[% LAST IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
+[% FOREACH item = hackathons.reverse %]
+[% NEXT IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
 [% PROCESS format_item item = item %]
-[% LAST IF loop.count >= 3 %]
 [% END %]
         </ol>
       </div>
