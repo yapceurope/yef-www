@@ -10,6 +10,66 @@
  END
 %]
 [%# add new item just below, in reverse chronological order %]
+
+[% WRAPPER add_news_item
+   date = '09:30:00 07-04-2009'
+   title = 'Call for Presentations for YAPC::Europe 2009'
+%]
+<p>
+YAPC::EU::2009, the 10th edition of the largest European Perl conference,
+will be held in Lisbon, Portugal, from the 3rd to the 5th of August, 2009.
+</p><p>
+This is the official Call for Presentations and here are the important
+deadlines:
+<ul>
+ <li> Deadline for talk proposals: April 30th 2009</li>
+ <li> Speaker notification: May 7th 2009</li>
+</ul>
+</p><p>
+This year's theme for the conference is Corporate Perl.
+</p><p>
+Here's what we're looking for:
+<ul>
+ <li> We're looking for talks on how corporate companies use Perl and why;</li>
+
+ <li> We're looking for talks to fit our beginner's track (if you want to
+submit one and don't know what about, reach us at
+organizers@yapceurope2009.org and we'll share with you our preliminary draft
+of an expected beginner's track);</li>
+
+ <li>And, as usual, there is also enough room for talks that don't fit any of
+those groups, so we'll be looking for and expecting dozens of proposal on
+everything that is Perl related.</li>
+</ul>
+</p><p>
+We'll be offering two kinds of time-slots for talks:
+<ul>
+ <li> 20 minutes</li>
+
+ <li> 40 minutes</li>
+</ul>
+</p><p>
+If you really need a different time-slot, get in touch with us and we'll see
+what we can do.
+
+</p><p>
+Speakers may submit multiple talks. All speakers will have their
+registration fee waived.
+<ul>
+ <li> To submit a talk, go to 
+<a href="http://yapceurope2009.org/ye2009/newtalk">http://yapceurope2009.org/ye2009/newtalk</a></li>
+
+ <li> If you don't have a user yet, please register at
+<a href="http://yapceurope2009.org/ye2009/register">http://yapceurope2009.org/ye2009/register</a></li>
+</ul>
+</p><p>
+For any inquiry, contact us at organizers@yapceurope2009.org, and don't
+forget to submit your proposals no later than midnight GMT on April 30th,
+2009.
+</p>
+[% END %]
+
+
 [% WRAPPER add_news_item
    date = '08:00:00 07-04-2009'
    title = 'Call for Venue for YAPC::Europe 2010'
