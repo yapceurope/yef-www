@@ -16,7 +16,8 @@
    title = 'Call for Presentations for YAPC::Europe 2009'
 %]
 <p>
-YAPC::EU::2009, the 10th edition of the largest European Perl conference,
+<a href="http://yapceurope.org/2009">YAPC::EU::2009</a>, 
+the 10th edition of the largest European Perl conference,
 will be held in Lisbon, Portugal, from the 3rd to the 5th of August, 2009.
 </p><p>
 This is the official Call for Presentations and here are the important
@@ -67,6 +68,9 @@ For any inquiry, contact us at organizers@yapceurope2009.org, and don't
 forget to submit your proposals no later than midnight GMT on April 30th,
 2009.
 </p>
+<p>
+Newsletters and other information are available on the 
+<a href="http://yapceurope2009.org/ye2009/wiki">YAPC::EU::2009 wiki</a>.
 [% END %]
 
 
