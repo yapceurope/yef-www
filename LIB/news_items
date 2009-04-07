@@ -12,7 +12,7 @@
 [%# add new item just below, in reverse chronological order %]
 [% WRAPPER add_news_item
    date = '08:00:00 07-04-2009'
-   title = 'Call for Venue for YAPC::Europe::2010'
+   title = 'Call for Venue for YAPC::Europe 2010'
 %]
 <p>
 While <a href="http://yapceurope2009.org/ye2009/">YAPC::Europe 2009</a> preparations are well underway in Lisbon,
