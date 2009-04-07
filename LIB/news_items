@@ -10,6 +10,34 @@
  END
 %]
 [%# add new item just below, in reverse chronological order %]
+[% WRAPPER add_news_item
+   date = '08:00:00 07-04-2009'
+   title = 'Call for Venue for YAPC::Europe::2010'
+%]
+<p>
+While <a href="http://yapceurope2009.org/ye2009/">YAPC::Europe 2009</a> preparations are well underway in Lisbon,
+it is time for the YAPC::Europe Foundation (YEF) to look for suitable sites
+for the 2010 conference.  Any dedicated group interested in hosting
+YAPC::Europe::2010 should send a brief statement of intent to
+venue@yapceurope.org.  This should be followed by a complete
+application.  The deadline for applications is June 30, 2009.
+</p><p>
+For details on how to prepare your complete application, consider the
+<a href="http://www.yapceurope.org/organizers.html">examples of previous conferences</a>.
+If your proposal is selected, it will be added to the others on this
+page (you will have the opportunity to remove private information
+first).  Be certain to include contact information (including telephone
+numbers) for at least two members of the group.
+</p><p>
+You may also direct any questions to the aforementioned email address.
+</p><p>
+A decision on the location will be publicly announced at the start
+of the Lisbon conference.
+</p><p>
+Looking forward to your submissions,<br />
+  &nbsp;Philippe Bruhat (BooK)<br />
+  &nbsp;on behalf of the YAPC::Europe Venue Committee<br />
+[% END %]
 
 [% WRAPPER add_news_item
    date = '12:30:00 27-11-2008'
