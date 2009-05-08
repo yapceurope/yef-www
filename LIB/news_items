@@ -13,7 +13,7 @@
 
 [% WRAPPER add_news_item
    date = '12:38:46 08-05-2009'
-   title = 'Call for Presentations for YAPC::Europe 2009'
+   title = 'YEF on Twitter'
 %]
 <p>
 In an effort to bring information in other formats, we have added
