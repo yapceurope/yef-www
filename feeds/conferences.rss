@@ -29,7 +29,7 @@ The YAPC::Europe Foundation (YEF) is a non-profit organization which works to pr
 [% END %]
 
 
-        <description><![CDATA[ [% 
+        <description><![CDATA[
   [% date.format( item.begin, format='%B %e', locale='C') %]
   [% IF item.end != item.begin %]
    -
