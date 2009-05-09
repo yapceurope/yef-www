@@ -8,7 +8,7 @@
 <link>http://www.yapceurope.org/news.html</link>
 <description>
 [% FOREACH item = news.list.splice(0, 1) %]
-<lastbuilddate>[% date.format( item.date, format='%a, %d %b %Y %R:%S', locale='C') %]</lastbuilddate>
+<lastbuilddate>[% date.format( localtime(), format='%a, %d %b %Y %R:%S', locale='C') %]</lastbuilddate>
 [% END %]
 <language>en-uk</language>
 
