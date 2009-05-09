@@ -14,11 +14,11 @@
 
 [% FOREACH year = news.year.keys.nsort.reverse %]
     <item>
-        <title>\[CDATA\[ [% item.title %] \]\]</title>
+        <title>[CDATA[ [% item.title %] ]]</title>
         <link>[% news_page %]#[% item.anchor %]</link>
         <guid>[% news_page %]#[% item.anchor %]</guid>
         <pubdate>[% date.format( item.date, format='%a, %d %b %Y %R:%S', locale='C') %]</pubdate>
-        <description>\[CDATA\[ [% item.text %] \]\]</description>
+        <description>[CDATA[ [% item.text %] ]]</description>
     </item>
 
 [% END %]
