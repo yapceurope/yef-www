@@ -13,7 +13,7 @@ ignore = build
 
 copy = ^20\d\d\/ # <- why doesn't this work?!
 copy = \.(gif|ico|jpe?g|pdf|png|ps)$ 
-copy = \.(css|cgi|txt)$
+copy = \.(css|cgi|txt|rss)$
 copy = \.(tar|tar\.gz|gz|tgz|zip|bz2)$
 copy = \.yml$
 
