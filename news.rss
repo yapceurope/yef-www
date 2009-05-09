@@ -6,18 +6,18 @@
 <channel>
 <title>YAPC::Europe Foundation News</title>
 <link>http://www.yapceurope.org/news.html</link>
-<description>
+<description>YAPC::Europe Foundation - News RSS 2.0</description> 
 [% FOREACH item = news.list.splice(0, 1) %]
-<lastbuilddate>[% date.format( localtime(), format='%a, %d %b %Y %R:%S', locale='C') %]</lastbuilddate>
+<lastBuildDate>[% date.format( localtime(), format='%a, %d %b %Y %R:%S %z', locale='C') %]</lastBuildDate>
 [% END %]
-<language>en-uk</language>
+<language>en-us</language>
 
 [% FOREACH year = news.year.keys.nsort.reverse %]
     <item>
         <title>[CDATA[ [% item.title %] ]]</title>
         <link>[% news_page %]#[% item.anchor %]</link>
         <guid>[% news_page %]#[% item.anchor %]</guid>
-        <pubdate>[% date.format( item.date, format='%a, %d %b %Y %R:%S', locale='C') %]</pubdate>
+        <pubDate>[% date.format( item.date, format='%a, %d %b %Y %R:%S %z', locale='C') %]</pubDate>
         <description>[CDATA[ [% item.text %] ]]</description>
     </item>
 
