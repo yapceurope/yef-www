@@ -6,7 +6,10 @@
 <channel>
 <title>YAPC::Europe Foundation News</title>
 <link>http://www.yapceurope.org/news.html</link>
-<description>YAPC::Europe Foundation - News Feed</description> 
+<description>
+<![CDATA[
+The YAPC::Europe Foundation (YEF) is a non-profit organization which works to promote Perl in Europe primarily through public events. 
+]]></description>
 <atom:link href="[% root %]/feeds/news.rss" rel="self" type="application/rss+xml" />
 [% FOREACH item = news.list.splice(0, 1) %]
 <lastBuildDate>[% date.format( localtime(), format='%a, %d %b %Y %R:%S %z', locale='C') %]</lastBuildDate>
