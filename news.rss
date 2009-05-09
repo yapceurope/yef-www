@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 [% PROCESS news_items %]
 
 <channel>
 <title>YAPC::Europe Foundation News</title>
 <link>http://www.yapceurope.org/news.html</link>
-<description>YAPC::Europe Foundation - News RSS 2.0</description> 
+<description>YAPC::Europe Foundation - News Feed</description> 
+<atom:link href="[% root %]/news.rss" rel="self" type="application/rss+xml" />
 [% FOREACH item = news.list.splice(0, 1) %]
 <lastBuildDate>[% date.format( localtime(), format='%a, %d %b %Y %R:%S %z', locale='C') %]</lastBuildDate>
 [% END %]
 <language>en-us</language>
 
 [% FOREACH year = news.year.keys.nsort.reverse %]
+[% FOREACH item = news.year.$year %]
     <item>
-        <title>[CDATA[ [% item.title %] ]]</title>
+        <title><![CDATA[ [% item.title %] ]]></title>
         <link>[% news_page %]#[% item.anchor %]</link>
-        <guid>[% news_page %]#[% item.anchor %]</guid>
+        <guid>[% news_page %]#[% item.anchor %]_[% date.format(item.date, format='%H%M%S', locale='C') %]</guid>
         <pubDate>[% date.format( item.date, format='%a, %d %b %Y %R:%S %z', locale='C') %]</pubDate>
-        <description>[CDATA[ [% item.text %] ]]</description>
+        <description><![CDATA[ [% item.text %] ]]></description>
     </item>
 
+[% END %]
 [% END %]
 
 </channel>
