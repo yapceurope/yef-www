@@ -12,6 +12,15 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '19:42:56 14-05-2009'
+   title = 'YEF on Identi.ca'
+%]
+<p>
+We have added <a href="http://identi.ca/yapceurope/">Identi.ca</a> as an
+alternative microblogging channel for announcements.
+[% END %]
+
+[% WRAPPER add_news_item
    date = '12:38:46 08-05-2009'
    title = 'YEF on Twitter'
 %]
