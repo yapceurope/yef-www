@@ -12,6 +12,17 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '23:32:44 21-05-2009'
+   title = 'YAPC::Europe 2009 Newsletter #5'
+%]
+The newest 
+<a href="http://yapceurope2009.org/ye2009/wiki?node=newsletter5">YAPC::Europe 
+2009 newsletter</a> (#5) has been released.  Read it to learn about
+early bird registration, confirmed speakers, training courses, banners
+for blogs and websites, and receipts.
+[% END %]
+
+[% WRAPPER add_news_item
    date = '19:42:56 14-05-2009'
    title = 'YEF on Identi.ca'
 %]
