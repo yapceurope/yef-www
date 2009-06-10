@@ -12,6 +12,16 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '13:17:00 10-06-2009'
+   title = 'Vienna.pm donates to YEF'
+%]
+Vienna.pm announced a generous donation of 2,500 Euros to YEF.  This
+money will enable YEF to continue to provide kickstart funds to
+Perl workshops and conferences, and to underwrite the costs of
+running the online payment system.
+[% END %]
+
+[% WRAPPER add_news_item
    date = '23:32:44 21-05-2009'
    title = 'YAPC::Europe 2009 Newsletter #5'
 %]
