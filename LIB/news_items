@@ -15,21 +15,25 @@
    date = '13:17:00 10-06-2009'
    title = 'Vienna.pm donates to YEF'
 %]
+<p>
 Vienna.pm announced a generous donation of 2,500 Euros to YEF.  This
 money will enable YEF to continue to provide kickstart funds to
 Perl workshops and conferences, and to underwrite the costs of
 running the online payment system.
+</p>
 [% END %]
 
 [% WRAPPER add_news_item
    date = '23:32:44 21-05-2009'
    title = 'YAPC::Europe 2009 Newsletter #5'
 %]
+<p>
 The newest 
 <a href="http://yapceurope2009.org/ye2009/wiki?node=newsletter5">YAPC::Europe 
 2009 newsletter</a> (#5) has been released.  Read it to learn about
 early bird registration, confirmed speakers, training courses, banners
 for blogs and websites, and receipts.
+</p>
 [% END %]
 
 [% WRAPPER add_news_item
@@ -39,6 +43,7 @@ for blogs and websites, and receipts.
 <p>
 We have added <a href="http://identi.ca/yapceurope/">Identi.ca</a> as an
 alternative microblogging channel for announcements.
+</p>
 [% END %]
 
 [% WRAPPER add_news_item
@@ -51,6 +56,7 @@ a <a href="http://twitter.com/yapceurope">Twitter</a> account for
 announcements.  Announcements will still be posted on our website,
 on <a href="http://use.perl.org">use.perl.org</a>, 
 <a href="http://www.perlmonks.org">Perlmonks</a>, and other locations.
+</p>
 [% END %]
 
 [% WRAPPER add_news_item
