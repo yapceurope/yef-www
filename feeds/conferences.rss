@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+[% PROCESS conference_items %]
+
+<channel>
+<title>YAPC Conferences</title>
+<link>http://www.yapceurope.org/conferences.html</link>
+<description>
+<![CDATA[
+The YAPC::Europe Foundation (YEF) is a non-profit organization which works to promote Perl in Europe primarily through public events. 
+]]></description>
+<atom:link href="[% root %]/feeds/conferences.rss" rel="self" type="application/rss+xml" />
+
+
+<lastBuildDate>[% date.format( localtime(), format='%a, %d %b %Y %R:%S %z', locale='C') %]</lastBuildDate>
+<language>en-us</language>
+
+[% FOREACH item = conferences.reverse %]
+    <item>
+        <title><![CDATA[ [% item.name %] ]]></title>
+        <link>[% conferences_page %]</link>
+        <guid>[% conferences_page %]#[% item.anchor %]</guid>
+
+[% IF date.format( item.begin, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
+        <pubDate>[% date.format( item.begin, format='%a, %d %b %Y %R:%S %z', locale='C') %]</pubDate>
+[% ELSE %]
+        <pubDate>[% date.format( localtime(), format='%a, %d %b %Y %R:%S %z', locale='C') %]</pubDate>
+[% END %]
+
+
+        <description><![CDATA[
+  [% date.format( item.begin, format='%B %e', locale='C') %]
+  [% IF item.end != item.begin %]
+   -
+  [% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
+      [% date.format( item.end, format='%e', locale='C') %]
+  [% ELSE %]
+      [% date.format( item.end, format='%B %e', locale='C') %]
+  [% END %]
+  [% END %], [% date.format(item.begin, '%Y') %]
+  :
+  <a href="[% item.url %]">[% item.city %], [% item.country %]</a>
+
+]]></description>
+    </item>
+
+[% END %]
+
+</channel>
+</rss>
