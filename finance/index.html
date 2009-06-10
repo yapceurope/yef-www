@@ -1,0 +1,38 @@
+[% WRAPPER html_page
+   title = 'Finaces' 
+%]
+    <p>
+    This is some text about the YEF financial situation.
+    See our <a href="[% finance_report_page %]">financial
+    reports</a>, or look at the list of 
+    <a href="[% donations_to_yef_page %]">donations
+    received</a> and 
+    <a href="[% donations_from_yef_page %]">granted by YEF</a>.
+    </p>
+
+      <div id="reports">
+        <h3><a href="[% finance_report_page %]">Financial Reports</a></h3>
+        <ol>
+          <li><dl>
+          <a href="generated_Q12009_report">Q1 2009</a>
+          </dl></li>
+        </ol>
+      </div>
+
+      <div id="donations">
+        <h3><a href="[% donations_to_yef_page %]">Donations to YEF</a></h3>
+        <ol>
+          <li><dl><a href="link_to_news_item">Vienna.pm: &euro;2,500</a></dl>
+              June 11, 2009</li>
+          <li><dl><a href="[% donations_to_yef_page %]">Amsterdam.pm &euro;100</a></dl>
+              August 8, 2001</li>
+        </ol>
+      </div>
+
+      <div id="donations">
+        <h3><a href="[% donations_from_yef_page %]">Donations by YEF</a></h3>
+        <ol>
+           <li><dl><a href="[% donations_from_yef_page %]">Belgian Perl Workshop - &euro; 137.50</a></dl>April 14, 2009</li>
+        </ol>
+      </div>
+
