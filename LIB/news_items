@@ -20,7 +20,10 @@ Vienna.pm announced a generous donation of 2,500 Euros to YAPC::Europe
 Foundation.  This
 money will enable YEF to continue to provide kickstart funds to
 Perl workshops and conferences, and to underwrite the costs of
-running the online payment system.
+running the online payment system.  More information on how YEF
+will spend this money can be found on 
+<a href="http://www.yapceurope.org/organizers.html">the 
+event organizers' page</a>.
 </p>
 [% END %]
 
