@@ -148,6 +148,54 @@ j+#upcomingevents div h3 a:hover {
 #upcomingevents li dd {
   margin: 0 0 0 1em;
 }
+
+
+
+#finances {
+}
+#finances div {
+  float: left;
+  width: 16.39em;
+  margin: 0 .1em 1em .1em;
+}
+#finances div h3 {
+  display: inline;
+}
+#finances div h3 a:link, #finances div h3 a:visited {
+  display: block;
+  margin: 0;
+  padding: 0 .5em;
+  background: #fff7d5;
+}
+j+#finances div h3 a:hover {
+  background: #fc0;
+  color: #fff;
+  text-decoration: none;
+}
+#finances ol, #finances ul {
+  margin: 0;
+  padding: 0;
+  background: #fff url('img/itemsbg.png') top repeat-x;
+}
+#finances li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#finances dl {
+  padding: 0;
+  margin: 0;
+}
+#finances li dt {
+  padding: .2em;
+  margin: 0;
+}
+#finances li dd {
+  margin: 0 0 0 1em;
+}
+
+
+
 #footer {
   clear:both;
   display: block;
