@@ -10,7 +10,7 @@
 <![CDATA[
 The YAPC::Europe Foundation (YEF) is a non-profit organization which works to promote Perl in Europe primarily through public events. 
 ]]></description>
-<atom:link href="[% root %]/feeds/news.rss" rel="self" type="application/rss+xml" />
+<atom:link href="[% root %]feeds/news.rss" rel="self" type="application/rss+xml" />
 <lastBuildDate>[% date.format( localtime(), format='%a, %d %b %Y %R:%S %z', locale='C') %]</lastBuildDate>
 <language>en-us</language>
 
