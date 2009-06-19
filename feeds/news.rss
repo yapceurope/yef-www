@@ -11,7 +11,7 @@
 The YAPC::Europe Foundation (YEF) is a non-profit organization which works to promote Perl in Europe primarily through public events. 
 ]]></description>
 <atom:link href="[% root %]feeds/news.rss" rel="self" type="application/rss+xml" />
-<lastBuildDate>[% date.format( localtime(), format='%a, %d %b %Y %R:%S %z', locale='C') %]</lastBuildDate>
+<lastBuildDate>[%- date.format( localtime(), format='%a, %d %b %Y %R:%S %z', locale='C') -%]</lastBuildDate>
 <language>en-us</language>
 
 [% FOREACH year = news.year.keys.nsort.reverse %]
@@ -20,7 +20,7 @@ The YAPC::Europe Foundation (YEF) is a non-profit organization which works to pr
         <title><![CDATA[ [% item.title %] ]]></title>
         <link>[% news_page %]#[% item.anchor %]</link>
         <guid>[% news_page %]#[% item.anchor %]_[% date.format(item.date, format='%H%M%S', locale='C') %]</guid>
-        <pubDate>[% date.format( item.date, format='%a, %d %b %Y %R:%S %z', locale='C') %]</pubDate>
+        <pubDate>[%- date.format( item.date, format='%a, %d %b %Y %R:%S %z', locale='C') -%]</pubDate>
         <description><![CDATA[ [% item.text %] ]]></description>
     </item>
 
