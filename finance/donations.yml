@@ -1,0 +1,84 @@
+---
+to_yef:
+# - who: Vienna.pm
+#   event: YAPC::Europe 2007
+#   date: 0:0:0 01/06/2009
+#   amount: 2500
+#   who_url: http://vienna.pm.org/
+#   event_url: http://www.yapceurope.org/2007/
+#   news_url: /news.html#20090610
+  - who: 
+    event: Belgian Perl Workshop 2009
+    date: 0:0:0 14/04/2009
+    amount: 137.50
+    who_url: 
+    event_url: http://conferences.mongueurs.net/bpw2009/
+    news_url: 
+  - who: DKUUG
+    event: YAPC::Europe 2008
+    date: 0:0:0 01/09/2008
+    amount: 575.50
+    who_url: http://www.dkuug.dk/
+    event_url: http://www.yapceurope.org/2008/
+  - who: LinuxHotel
+    date: 0:0:0 15/11/2007
+    amount: 100
+    who_url: http://www.linuxhotel.de/
+  - who: SPPN
+    event: YAPC::Europe 2001
+    date: 0:0:0 20/12/2006
+    amount: 1478
+    who_url: http://www.sppn.nl/index/en.html
+    event_url: http://www.yapceurope.org/2003/
+    news_url: 
+  - who: Associação Portuguesa de Programadores Perl
+    event: YAPC::Europe 2005
+    date: 0:0:0 18/12/2006
+    amount: 4000
+    who_url: http://perl.pt/
+    event_url: http://www.yapceurope.org/2005/
+    news_url: 
+  - who: Les Mongueurs de Perl
+    event: YAPC::Europe 2003
+    date: 0:0:0 20/04/2005
+    amount: 3223
+    who_url: http://www.mongueurs.net/
+    event_url: http://www.yapceurope.org/2003/
+    news_url: 
+  - who: 2Organize
+    event: YAPC::Europe 2001
+    date: 0:0:0 02/12/2004
+    amount: 50
+    who_url: http://www.2organize.com/
+    event_url: http://www.yapceurope.org/2003/
+    news_url: 
+from_yef:
+# - event: YAPC Russia 2009
+#   date: 0:0:0 30/06/2009
+#   amount: 500
+#   event_url: http://2009.yapcrussia.org/
+  - event: Belgian Perl Workshop 2009
+    date: 0:0:0 18/02/2009
+    amount: 500
+    event_url: http://conferences.mongueurs.net/bpw2009/
+    news_url: 
+  - event: Belgian Perl Workshop 2007
+    date: 0:0:0 06/03/2008
+    amount: 500
+    event_url: http://conferences.mongueurs.net/bpw2007/
+  - event: French Perl Workshop 2007
+    date: 0:0:0 08/10/2007
+    amount: 500
+    event_url: http://conferences.mongueurs.net/fpw2007/
+  - event: Nordic Perl Workshop 2007
+    date: 0:0:0 21/05/2007
+    amount: 500
+    event_url: http://conferences.yapceurope.org/npw2007/
+  - event: European Perl hackathon 2007
+    date: 0:0:0 14/02/2007
+    amount: 500
+    event_url: http://conferences.yapceurope.org/hack2007nl/
+  - event: YAPC::Europe 2007
+    date: 0:0:0 15/12/2008
+    amount: 1000
+    event_url: http://www.yapceurope.org/2007/
