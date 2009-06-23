@@ -1,0 +1,27 @@
+[% WRAPPER html_page
+   title = 'Groups supporting YEF' 
+%]
+    <p>
+    All the money that the YAPC Europe Foundation
+    <a href="[% donations_from_yef_page %]">donates to support Perl events</a>
+    comes from the generosity of our donors. They usually are the
+    organizers of successful Perl conferences.
+    </p>
+
+    <p>Donations made to YEF:</p>
+[% USE YAML;
+   donations = YAML.undumpfile("finance/donations.yml");
+%]
+<dl>
+[% FOREACH donation IN donations.to_yef %]
+<dt><b>[% date.format(donation.date, format = '%B %e, %Y', locale='C' ) %]</b></dt>
+<dd>&euro;[% donation.amount %] donated by
+[% IF donation.who ; IF donation.who_url -%]
+<a href="[% donation.who_url %]">[% donation.who %]</a>[% ELSE %][% donation.who %][% END %]
+[% IF donation.event %]<br />(in relation with <a href="[% donation.event_url %]">[% donation.event %]</a>)
+[% END ; ELSE -%]
+<a href="[% donation.event_url %]">[% donation.event %]</a>[% END %]</dd>
+[% END %]
+</dl>
+
+[% END %]

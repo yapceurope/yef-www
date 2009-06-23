@@ -1,0 +1,23 @@
+[% WRAPPER html_page
+   title = 'Groups supporting YEF' 
+%]
+    <p>
+    Apart from sponsoring the
+    <a href="[% payment_page %]">online payment system</a> for some
+    conferences, the YAPC Europe Foundation also helps conference
+    organizers by offering a kickstart donation to help them with
+    the initial costs of setting up their conference.
+    </p>
+    <p>In the past, YAPC Europe Foundation supported the following conferences:</p>
+
+[% USE YAML;
+   donations = YAML.undumpfile("finance/donations.yml");
+%]
+<dl>
+[% FOREACH donation IN donations.from_yef %]
+<dt><b>[% date.format(donation.date, format = '%B %e, %Y', locale='C' ) %]</b></dt>
+<dd> &euro;[% donation.amount %] to <a href="[% donation.event_url %]">[% donation.event %]</a></dd>
+[% END %]
+</dl>
+
+[% END %]

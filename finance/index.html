@@ -10,6 +10,9 @@
     <a href="[% donations_from_yef_page %]">granted by YEF</a>.
     </p>
 
+[% USE YAML;
+   donations = YAML.undumpfile("finance/donations.yml");
+%]
 <div id="finances">
       <div id="reports">
         <h3><a href="[% finance_report_page %]">Financial Reports</a></h3>
@@ -23,18 +26,28 @@
       <div id="donations_to">
         <h3><a href="[% donations_to_yef_page %]">Donations to YEF</a></h3>
         <ol>
-          <li><dl><a href="[% news_page %]#20090610">Vienna.pm: &euro;2,500</a></dl>
-              June 11, 2009</li>
-          <li><dl><a href="[% donations_to_yef_page %]">Amsterdam.pm: &euro;100</a></dl>
-              August 8, 2001</li>
+[% FOREACH donation IN donations.to_yef %]
+[% PROCESS format_item item = donation direction  = 'from' %]
+[% LAST IF loop.count >= 4 %]
+[% END %]
         </ol>
       </div>
 
       <div id="donations_by">
         <h3><a href="[% donations_from_yef_page %]">Donations by YEF</a></h3>
         <ol>
-           <li><dl><a href="[% donations_from_yef_page %]">Belgian Perl Workshop:  &euro; 137.50</a></dl>April 14, 2009</li>
+[% FOREACH donation IN donations.from_yef %]
+[% PROCESS format_item item = donation direction = 'to' %]
+[% LAST IF loop.count >= 4 %]
+[% END %]
         </ol>
       </div>
 </div>
+[% BLOCK format_item %]
+          <li><dl>
+            <dt><b>[% date.format( item.date, format='%B %e, %Y', locale='C') %]</b></dt>
+            <dd>&euro;[% item.amount %] [% direction %]
+[% IF item.who ; IF item.who_url %]<a href="item.who_url">[% item.who %]</a>[% ELSE %][% item.who %][% END ; ELSE %]<a href="[% item.event_url %]">[% item.event %]</a>[% END %]</dd>
+          </dl></li>
+[% END %]
 [% END %]
