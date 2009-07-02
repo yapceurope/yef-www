@@ -14,7 +14,7 @@
 %]
 <dl>
 [% FOREACH donation IN donations.to_yef %]
-<dt><b>[% date.format(donation.date, format = '%B %e, %Y', locale='C' ) %]</b></dt>
+<dt><b>[% date.format(donation.date, format = '%B %Y', locale='C' ) %]</b></dt>
 <dd>&euro;[% donation.amount %] donated by
 [% IF donation.who ; IF donation.who_url -%]
 <a href="[% donation.who_url %]">[% donation.who %]</a>[% ELSE %][% donation.who %][% END %]

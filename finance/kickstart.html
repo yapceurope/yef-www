@@ -16,7 +16,7 @@
 %]
 <dl>
 [% FOREACH donation IN donations.from_yef %]
-<dt><b>[% date.format(donation.date, format = '%B %e, %Y', locale='C' ) %]</b></dt>
+<dt><b>[% date.format(donation.date, format = '%B %Y', locale='C' ) %]</b></dt>
 <dd> &euro;[% donation.amount %] to <a href="[% donation.event_url %]">[% donation.event %]</a></dd>
 [% END %]
 </dl>

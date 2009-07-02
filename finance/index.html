@@ -9,6 +9,9 @@
     received</a> and 
     <a href="[% donations_from_yef_page %]">granted by YEF</a>.
     </p>
+    <p>
+    <small>(Click on the column headers below to access the full details.)</small>
+    </p>
 
 [% USE YAML;
    donations = YAML.undumpfile("finance/donations.yml");
@@ -17,9 +20,8 @@
       <div id="reports">
         <h3><a href="[% finance_report_page %]">Financial Reports</a></h3>
         <ol>
-          <li><dl>
-          <a href="generated_Q12009_report">Q1 2009</a>
-          </dl></li>
+          <li>
+          </li>
         </ol>
       </div>
 
@@ -45,7 +47,7 @@
 </div>
 [% BLOCK format_item %]
           <li><dl>
-            <dt><b>[% date.format( item.date, format='%B %e, %Y', locale='C') %]</b></dt>
+            <dt><b>[% date.format( item.date, format='%B %Y', locale='C') %]</b></dt>
             <dd>&euro;[% item.amount %] [% direction %]
 [% IF item.who ; IF item.who_url %]<a href="item.who_url">[% item.who %]</a>[% ELSE %][% item.who %][% END ; ELSE %]<a href="[% item.event_url %]">[% item.event %]</a>[% END %]</dd>
           </dl></li>
