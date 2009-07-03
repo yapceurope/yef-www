@@ -12,6 +12,31 @@
 [%# add new item just below, in reverse chronological order %]
 
 
+
+[% WRAPPER add_news_item
+   date = '15:10:01 03-07-2008'
+   title = 'Proposals to host Y::E 2010 received'
+%]
+
+<p>The <a href="[% root %]/venue_committee.html">YEF Venue Committee</a>
+has received two proposals to host YAPC::Europe 2010.  The candidates are 
+<strong><a href="http://yapcrussia.org/proposal2010/">Kiev</a></strong> and 
+<strong><a href="[% root %]/yapc_proposals/2010/Pisa.html">Pisa</a></strong>.
+This year, for the first time, the proposals are being published (note
+that some portions of the application may be kept private, by request
+of the team making the proposal).
+The Venue Committee will spend the next few weeks examining the proposals
+and clarifying any issues before reaching a decision.</p>
+
+<p>The public announcement for the location of YAPC::Europe 2010 will be
+given during <a
+href="http://yapceurope2009.org">YAPC::Europe 2009 in Lisbon</a>. 
+</p>
+
+[% END %]
+
+
+
 [% WRAPPER add_news_item
    date = '12:46:55 02-07-2009'
    title = 'Learn about YEF at Y::E'
