@@ -79,6 +79,6 @@ from_yef:
     amount: 500
     event_url: http://conferences.yapceurope.org/hack2007nl/
   - event: YAPC::Europe 2007
-    date: 0:0:0 15/12/2008
+    date: 0:0:0 30/01/2007
     amount: 1000
     event_url: http://www.yapceurope.org/2007/
