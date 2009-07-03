@@ -13,6 +13,24 @@
     become available.
     </p>
 
+<!--  Once the reports are available, replace the above with:
+   <p>
+      In order to inform the European Perl community about YEF's
+      means and financial decisions, the treasurer has published YEF's
+      financial records.
+   </p>
+   <p>
+      For a quick overview of larger transactions, refer to the list of
+      <a href="[% donations_to_yef_page %]">donations received by YEF</a>
+      and the record of donations 
+      <a href="[% donations_from_yef_page %]">made by YEF</a>.
+      For a more detailed summary of all expenses and income, annual
+      (for more recent years, quarterly) 
+      <a href="[% finance_report_page %]">financial reports</a>
+      are available.
+   </p>
+-->
+
 [% USE YAML;
    donations = YAML.undumpfile("finance/donations.yml");
 %]
