@@ -46,12 +46,9 @@ to_yef:
     event_url: http://www.yapceurope.org/2003/
     news_url: 
   - who: 2Organize
-    event: YAPC::Europe 2001
     date: 0:0:0 02/12/2004
     amount: 50
     who_url: http://www.2organize.com/
-    event_url: http://www.yapceurope.org/2003/
-    news_url: 
 from_yef:
 # - event: YAPC Russia 2009
 #   date: 0:0:0 30/06/2009
