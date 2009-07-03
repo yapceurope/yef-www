@@ -11,6 +11,26 @@
 %]
 [%# add new item just below, in reverse chronological order %]
 
+
+[% WRAPPER add_news_item
+   date = '12:46:55 02-07-2009'
+   title = 'Learn about YEF at Y::E'
+%]
+
+<p>
+Do you have questions about YEF?
+</p><p>
+"Why isn't the YAPC::Europe Foundation part of the Perl Foundation?
+What is YEF's relationship with TPF?" <br />
+"What does YEF spend money on?" <br />
+"How does YEF get money?" <br />
+</p><p>
+Philippe Bruhat will be addressing these questions and announcing the
+location of YAPC::Europe 2010 at this year's Y::E conference in Lisbon.
+</p>
+
+[% END %]
+
 [% WRAPPER add_news_item
    date = '13:17:00 10-06-2009'
    title = 'Vienna.pm donates to YEF'
