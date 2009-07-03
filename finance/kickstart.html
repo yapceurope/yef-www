@@ -1,15 +1,15 @@
 [% WRAPPER html_page
-   title = 'Support to Perl conferences' 
+   title = 'Support to Perl events' 
 %]
     <p>
     Apart from sponsoring the
     <a href="[% payment_page %]">online payment system</a> for some
-    conferences, the YAPC Europe Foundation makes use of
+    events, the YAPC Europe Foundation makes use of
     <a href="[% donations_to_yef_page %]">the money it receives from
-    donations</a> to offer a kickstart donation to conference organizers
-    and help them with the initial costs of setting up their conference.
+    donations</a> to offer a kickstart donation to events organizers
+    and help them with the initial costs of setting up their events.
     </p>
-    <p>In the past, YAPC Europe Foundation supported the following conferences:</p>
+    <p>In the past, YAPC Europe Foundation supported the following events:</p>
 
 [% USE YAML;
    donations = YAML.undumpfile("finance/donations.yml");
