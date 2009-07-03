@@ -14,7 +14,7 @@
 
 
 [% WRAPPER add_news_item
-   date = '15:10:01 03-07-2008'
+   date = '15:10:01 03-07-2009'
    title = 'Proposals to host Y::E 2010 received'
 %]
 
