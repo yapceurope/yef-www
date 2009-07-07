@@ -72,10 +72,10 @@ from_yef:
     amount: 500
     event_url: http://conferences.yapceurope.org/npw2007/
   - event: European Perl hackathon 2007
-    date: 0:0:0 14/02/2007
+    date: 0:0:0 14/03/2007
     amount: 200
     event_url: http://conferences.yapceurope.org/hack2007nl/
   - event: YAPC::Europe 2007
-    date: 0:0:0 30/01/2007
+    date: 0:0:0 25/01/2007
     amount: 1000
     event_url: http://www.yapceurope.org/2007/
