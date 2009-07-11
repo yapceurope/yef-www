@@ -16,5 +16,6 @@ copy = \.(gif|ico|jpe?g|pdf|png|ps)$
 copy = \.(css|cgi|txt)$
 copy = \.(tar|tar\.gz|gz|tgz|zip|bz2)$
 copy = \.yml$
+copy = \.js
 
 pre_process = config 
