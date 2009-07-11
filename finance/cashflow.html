@@ -1,0 +1,154 @@
+[% WRAPPER html_page
+   title = 'Information for Organizers - Online Payment System'
+%]
+  <script language="javascript" type="text/javascript" src="[% root %]/js/jquery.js"></script>
+  <script language="javascript" type="text/javascript" src="[% root %]/js/jquery.flot.js"></script>
+  <script language="javascript" type="text/javascript" src="[% root %]/js/payments.js"></script>
+
+<p>
+Until now, <span id="count"></span> conferences have used the YAPC::Europe
+Foundation's online payment system.
+</p><p>
+The graph below shows the cash flow (in Euro) from YEF to the organizers.
+</p>
+<div id="graph" style="width:480px;height:300px;float:left;"></div>
+<div id="legend" style="float:left;clear:right;">
+ <div id="legendContainer" style="border:1px solid black;margin:7px;"></div>
+ <div id="graphed"></div>
+</div>
+<div id="conferences" style="clear: both"></div>
+  <script type="text/javascript">
+function graphData ( confs ) {
+  var text = confs.length > 1
+           ? '<b>Conferences:</b><br />'
+           : '<b>Conference:</b><br />';
+  var data = {
+    total: [ [0,0] ],
+    conf:  [ [0,0] ]
+  };
+  // first merge all conf orders in a single list
+  var ends = [];
+  var payment_data = [];
+  $.each( confs, function(i, conf_id) {
+    text = text + conferences[conf_id].fullname + '<br />';
+    $.merge( payment_data, payments[conf_id] );
+    ends.push( [ conferences[conf_id].end, 0] );
+  });
+  $('#graphed').html( text ); // update text
+  // sort chronologically, then compute the running sums
+  payment_data.sort( function(a,b) { return a[0] - b[0]; } );
+  $.each( payment_data, function(j, val) {
+    if( val[1] ) {
+      data.conf.push([ val[0]-1, data.conf[data.conf.length-1][1] ]);
+      data.conf.push([ val[0],   data.conf[data.conf.length-1][1] + val[2] ]);
+    } 
+    else {
+      data.total.push([ val[0]-1, data.total[data.total.length-1][1] ]);
+      data.total.push([ val[0],   data.total[data.total.length-1][1] + val[2]]);
+    }
+    return true;
+  });
+  data.total.shift();
+  data.conf.shift();
+  data.conf.push( [
+    data.total[data.total.length-1][0],
+    data.conf[data.conf.length-1][1]
+  ]);
+  // produce the graph
+  var options = {
+    lines: { show: true, fill: 0.6 },
+    xaxis: {
+      mode: 'time',
+      timeformat: "%b %y",
+      minTickSize: [1, "month" ]
+    },
+    legend: {
+      position: 'nw',
+      container: $('#legendContainer')
+    }
+  };
+  var graph = $.plot( $("#graph"),
+    [
+      { data: data.total,
+        label: 'Total received'
+      },
+      { data: data.conf,
+        label: 'Conference'
+      },
+      { data: ends,
+        label: 'Conference end',
+        points: { show: true },
+        lines: { show: false }
+      }
+    ],
+    options
+  );
+  return graph;
+}
+
+$(document).ready(function() {
+  // pre-process the conference list
+  var recent = { begin: 0 };
+  var count = 0;
+  var confs = {}; // 
+  var years = [];
+  $.each( conferences, function() {
+    count++;
+    if( this.begin > recent.begin ) { recent = this; }
+    try {
+      confs[this.year].push( this );
+    }
+    catch(e) {
+      confs[this.year] = [ this ];
+      years.push( this.year );
+    }
+  });
+  $('#count').html( count );
+  years.sort().reverse();
+   
+  // create a box for each year
+  for( i in years ) {
+    var y = years[i];
+    $('#conferences').append('<div id="' + y + '"><h3>' + y +'</h3></div>' );
+    $('#' + y).css({
+      float:'left',
+      width:'30%',
+      'min-height':'9em',
+      margin:'0.5em'
+    }).hide();
+    confs[y].sort(function(a,b){return b.begin-a.begin;});
+
+    // create a div per conference
+    for( i in confs[y] ) {
+      var conf = confs[y][i];
+      $('#'+y).append('<div id="'+conf.conf_id+'">'+conf.name + '</div>')
+      $('#'+conf.conf_id) // bind events to the conferences
+        .bind('mouseenter', function (e) {
+          $(e.target).css({'font-weight':'bold'});
+          graphData( [ e.target.id ] ); })
+        .bind('mouseout', function (e) {
+          $(e.target).css({'font-weight':'normal' }); });
+    }
+    $('#'+y+' h3') // bind events to the title
+      .bind('mouseenter', function(e) {
+        var confs = [];
+        $(e.target).siblings().each( function () {
+          confs.push( this.id );
+          $(this).css({'font-weight':'bold' });
+        });
+        graphData(confs);
+      })
+      .bind('mouseout', function(e) {
+        $(e.target).siblings().each( function () {
+          $(this).css({'font-weight':'normal' });
+        });
+      });
+  }
+  $('#conferences div').fadeIn(1000);
+
+  // show graph for the most recent conference
+  graphData( [ recent.conf_id ] );
+});
+  </script>
+
+[% END %]
