@@ -25,6 +25,9 @@ h3, h4, h5, h6 {
 p {
    margin-bottom: 1em;
 }
+table {
+   border-collapse: collapse;
+}
 a:link, a:visited {
   text-decoration: none;
   color: #039;
