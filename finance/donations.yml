@@ -50,10 +50,10 @@ to_yef:
     amount: 50
     who_url: http://www.2organize.com/
 from_yef:
-# - event: YAPC Russia 2009
-#   date: 0:0:0 30/06/2009
-#   amount: 500
-#   event_url: http://2009.yapcrussia.org/
+  - event: YAPC Russia 2009
+    date: 0:0:0 21/07/2009
+    amount: 500
+    event_url: http://2009.yapcrussia.org/
   - event: Belgian Perl Workshop 2009
     date: 0:0:0 18/02/2009
     amount: 500
