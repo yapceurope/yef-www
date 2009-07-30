@@ -19,7 +19,7 @@
     index_page              = "$root/index.html"
     news_page               = "$root/news.html"
     organizers_page         = "$root/organizers/index.html"
-    payment_page            = "$root/payment.html"
+    payment_page            = "$root/organizers/payment.html"
     people_page             = "$root/people.html"
     venues_page             = "$root/venue.html"
     venue_page              = "$root/venue.html"
