@@ -17,8 +17,27 @@
    title = 'Pisa to host Y::E 2010'
 %]
 
-<p>The <a href="[% root %]/venue_c
-
+<p>The <a href="[% root %]/venue.html">venue comittee</a> has chosen 
+<strong>Pisa, Italy</strong> to host YAPC::Europe 2010.
+</p>
+<p>
+The Pisa group brings together an experienced team which has organized
+several Italian workshops.   The conference theme is "the Renaissance
+of Perl," a reference to Italy's role as the cradle of the Renaissance
+as well as a recognition of the rebirth occurring within Perl through
+the parallel initiatives of Perl 6 and Modern Perl 5.  To keep up-to-date
+on further developments, consider subscribing to our new
+<a href="[% root %]/feeds/news.rss">YEF news feed</a>.
+</p>
+<p>
+Several members of the venue comittee remarked that this year marked one
+of the most difficult decisions to date, as the proposals from both Kiev
+and Pisa were excellent.  The committee would like to thank both groups
+for their efforts.
+</p>
+<p>
+We look forward to seeing you in Pisa next year!
+</p>
 [% END %]
 
 [% WRAPPER add_news_item
