@@ -1,5 +1,6 @@
 [% WRAPPER html_page
    title = 'News'
+   rss   = 'news'
 %]
 [% PROCESS news_items %]
 [% FOREACH year = news.year.keys.nsort.reverse %]

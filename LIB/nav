@@ -13,4 +13,11 @@
     <li><a href="[% root %]/finance/">Finance</a></li>
     <li><a href="[% root %]/credits.html">Credits</a></li>
     <li><a href="[% root %]/contact.html">Contact</a></li>
+[% IF rss %]
+<li><a href="[%- root -%]/feed/[%- rss -%].rss"><img border="0"
+src="[% root %]/img/rss.png" alt="subscribe to feed"></a></li>
+[% END %]
   </ul>
+
+<!-- Eventually, events should have rss = conferences, and there should
+     be an else statement to display feed/index.html.  -->
