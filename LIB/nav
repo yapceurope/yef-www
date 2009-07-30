@@ -13,11 +13,21 @@
     <li><a href="[% root %]/finance/">Finance</a></li>
     <li><a href="[% root %]/credits.html">Credits</a></li>
     <li><a href="[% root %]/contact.html">Contact</a></li>
+
+
+<!--
+    When conferences.rss is operational, perform the following steps:
+    1. Remove the IF statement below this comment.
+    2. Remove the rss variable (currently only in news.html).
+    3. Enable the following:
+
+<li><a href="[%- root -%]/feeds/index.html"><img border="0"
+src="[% root %]/img/rss.png" alt="subscribe to a feed"></a></li>
+-->
+
+
 [% IF rss %]
-<li><a href="[%- root -%]/feed/[%- rss -%].rss"><img border="0"
+<li><a href="[%- root -%]/feeds/[%- rss -%].rss"><img border="0"
 src="[% root %]/img/rss.png" alt="subscribe to feed"></a></li>
 [% END %]
   </ul>
-
-<!-- Eventually, events should have rss = conferences, and there should
-     be an else statement to display feed/index.html.  -->
