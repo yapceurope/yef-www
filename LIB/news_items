@@ -67,7 +67,7 @@ money will enable YEF to continue to provide kickstart funds to
 Perl workshops and conferences, and to underwrite the costs of
 running the online payment system.  More information on how YEF
 will spend this money can be found on 
-<a href="http://www.yapceurope.org/organizers.html">the 
+<a href="http://www.yapceurope.org/organizers/index.html">the 
 event organizers' page</a>.
 </p>
 [% END %]
@@ -184,7 +184,7 @@ venue@yapceurope.org.  This should be followed by a complete
 application.  The deadline for applications is June 30, 2009.
 </p><p>
 For details on how to prepare your complete application, consider the
-<a href="http://www.yapceurope.org/organizers.html">examples of previous conferences</a>.
+<a href="http://www.yapceurope.org/organizers/index.html">examples of previous conferences</a>.
 If your proposal is selected, it will be added to the others on this
 page (you will have the opportunity to remove private information
 first).  Be certain to include contact information (including telephone
@@ -375,7 +375,7 @@ you may want to refer to the YAPC organisers documentation (administered
 by TPF) on 
 <a href="http://tpf.googlecode.com/svn/trunk/yapc/YAPC.pm">Google code</a>,
 or look at the
-<a href="http://www.yapceurope.org/organizers.html">examples 
+<a href="http://www.yapceurope.org/organizers/index.html">examples 
 of previous European conferences</a>.
 </p>
 <p>
