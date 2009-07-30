@@ -2,7 +2,7 @@
     root        = root || "http://www.yapceurope.org"
 
     index_page              = "$root/index.html"
-    act_page                = "$root/act.html"
+    act_page                = "$root/organizers/act.html"
     conferences_page        = "$root/conferences.html"
     contact_page            = "$root/contact.html"
     credits_page            = "$root/credits.html"
