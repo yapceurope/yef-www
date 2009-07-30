@@ -2,7 +2,6 @@
    title = 'News'
    rss   = 'news'
 %]
-<!-- Testing if the branch is working. -->
 [% PROCESS news_items %]
 [% FOREACH year = news.year.keys.nsort.reverse %]
 <h1>[% year %]</h1>
