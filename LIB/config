@@ -27,6 +27,7 @@
     workshops_page          = "$root/workshops.html"
     meets_page	            = "$root/meets.html"
     workshop_stories_page   = "$root/workshops/stories.html"
+    ye_org_page             = "$root/organizers/conference.html"
 
     yef         = "<a href='$index_page'>YEF</a>"
     yapceurope  = "<a href='$index_page'>YAPC::Europe</a>"
