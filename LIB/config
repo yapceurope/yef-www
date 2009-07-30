@@ -26,7 +26,7 @@
     venue_committee_page    = "$root/venue.html"
     workshops_page          = "$root/events/workshops.html"
     meets_page	            = "$root/meets.html"
-    workshop_stories_page   = "$root/workshops/stories.html"
+    workshop_stories_page   = "$root/stories/workshops.html"
     ye_org_page             = "$root/organizers/conference.html"
 
     yef         = "<a href='$index_page'>YEF</a>"
