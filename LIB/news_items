@@ -12,13 +12,21 @@
 [%# add new item just below, in reverse chronological order %]
 
 
+[% WRAPPER add_news_item
+   date = '17:00:00 03-08-2009'
+   title = 'Pisa to host Y::E 2010'
+%]
+
+<p>The <a href="[% root %]/venue_c
+
+[% END %]
 
 [% WRAPPER add_news_item
    date = '15:10:01 03-07-2009'
    title = 'Proposals to host Y::E 2010 received'
 %]
 
-<p>The <a href="[% root %]/venue_committee.html">YEF Venue Committee</a>
+<p>The <a href="[% root %]/venue.html">YEF Venue Committee</a>
 has received two proposals to host YAPC::Europe 2010.  The candidates are 
 <strong><a href="http://yapcrussia.org/proposal2010/">Kiev</a></strong> and 
 <strong><a href="[% root %]/yapc_proposals/2010/Pisa.html">Pisa</a></strong>.
