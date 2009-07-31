@@ -49,9 +49,9 @@ them annually.
 Philippe Bruhat (BooK) maintains a YAML file with as much information as
 possible on all Perl conferences that happened over the years.
 </p><p>
-The <a href="events/conferences.yml">Perl Conferences Database</a>
+The <a href="[% root %]/events/conferences.yml">Perl Conferences Database</a>
 contains information about
-[% USE YAML; confs = YAML.undumpfile("conferences.yml"); " " _ confs.size %]
+[% USE YAML; confs = YAML.undumpfile("events/conferences.yml"); " " _ confs.size %]
 conferences so far.
 </p>
 
