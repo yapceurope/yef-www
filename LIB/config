@@ -34,6 +34,10 @@
     contract_payment_page   = "$example_contracts_dir/payment.pdf"
     old_proposals_dir       = "$root/yapc_proposals"
     old_proposals_page      = "$old_proposals_dir/index.html"
+    newsfeed_page           = "$root/feeds/news.rss"
+    eventfeed_page          = "$root/feeds/conferences.rss"
+    feeds_page              = "$root/feeds/index.html"
+    feeds_dir               = "$root/feeds"
 
     yef         = "<a href='$index_page'>YEF</a>"
     yapceurope  = "<a href='$index_page'>YAPC::Europe</a>"

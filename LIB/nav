@@ -16,13 +16,13 @@
     2. Remove the rss variable (currently only in news.html).
     3. Enable the following:
 
-<li><a href="[%- root -%]/feeds/index.html"><img border="0"
+<li><a href="[%- feeds_page -%]"><img border="0"
 src="[% root %]/img/rss.png" alt="subscribe to a feed"></a></li>
 -->
 
 
 [% IF rss %]
-<li><a href="[%- root -%]/feeds/[%- rss -%].rss"><img border="0"
+<li><a href="[%- feeds_dir -%]/[%- rss -%].rss"><img border="0"
 src="[% root %]/img/rss.png" alt="subscribe to feed"></a></li>
 [% END %]
   </ul>

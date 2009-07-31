@@ -27,7 +27,7 @@ of Perl," a reference to Italy's role as the cradle of the Renaissance
 as well as a recognition of the rebirth occurring within Perl through
 the parallel initiatives of Perl 6 and Modern Perl 5.  To keep up-to-date
 on further developments, consider subscribing to our new
-<a href="[% root %]/feeds/news.rss">YEF news feed</a>.
+<a href="[% newsfeed_page %]">YEF news feed</a>.
 </p>
 <p>
 Several members of the venue comittee remarked that this year marked one
