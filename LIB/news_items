@@ -48,7 +48,7 @@ We look forward to seeing you in Pisa next year!
 <p>The <a href="[% root %]/venue.html">YEF Venue Committee</a>
 has received two proposals to host YAPC::Europe 2010.  The candidates are 
 <strong><a href="http://yapcrussia.org/proposal2010/">Kiev</a></strong> and 
-<strong><a href="[% root %]/yapc_proposals/2010/Pisa.html">Pisa</a></strong>.
+<strong><a href="[% old_proposals_dir %]2010/Pisa.html">Pisa</a></strong>.
 This year, for the first time, the proposals are being published (note
 that some portions of the application may be kept private, by request
 of the team making the proposal).
@@ -340,7 +340,7 @@ Copenhagen.
 <p>
 For more information about the requirements for hosting a conference,
 you may want to refer to the <a href="http://tpf.googlecode.com/svn/trunk/yapc/YAPC.pm">YAPC organiser's
-documentation</a> (administered by TPF) on Google code, or look at the <a href="http://www.yapceurope.org/yapc_proposals/index.html">examples of previous European conferences</a>.
+documentation</a> (administered by TPF) on Google code, or look at the <a href="[% old_proposals_page %]">examples of previous European conferences</a>.
 </p>
 
 <p>
