@@ -220,3 +220,8 @@ j+#finances div h3 a:hover {
 .titled_list li {
   list-style-type: disc;
 }
+
+.arrow_list {
+  list-style-type: none;
+}
+

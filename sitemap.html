@@ -1,0 +1,42 @@
+[% WRAPPER html_page
+title = 'Site Map'
+%]
+
+<ul>
+
+<li><a href="[% index_page %]">Homepage</a>
+    <ul>
+    <li class="arrow_list">
+      
+       
+       <span style="display: inline-block; width: 0.7em; height: 0.7em; " >
+          <object width="100%" height="100%" type="image/svg+xml" 
+                  data="img/arrow.svg">
+          </object> 
+       </span>
+       Example text!
+      
+       <p>second par</p>
+    </li>
+    </ul>
+</li>
+<li><a href="[% news_page %]">News</a>
+</li>
+<li><a href="[% events_page %]">Events (Conferences, Workshops and Hackathons)</a>
+</li>
+<li><a href="[% organizers_page %]">Information for event organizers</a>
+</li>
+<li><a href="[% foundation_page %]">YAPC::Europe Foundation (YEF)</a>
+</li>
+<li><a href="[% donating_page %]">Making a donation to YEF</a>
+</li>
+<li><a href="[% finance_page %]">YEF finances</a>
+</li>
+<li><a href="[% credits_page %]">Credit to website volunteers</a>
+</li>
+<li><a href="[% contact_page %]">Contacting YEF, YEF committees, and mailing lists</a>
+</li>
+
+</ul>
+
+[% END %]
