@@ -28,6 +28,12 @@
     meets_page	            = "$root/meets.html"
     workshop_stories_page   = "$root/stories/workshops.html"
     ye_org_page             = "$root/organizers/conference.html"
+    ical_page   = "webcal://www.yapceurope.org/ical/conferences.ics"
+    example_contracts_dir   = "$root/example_contracts/"
+    contract_donation_page  = "$example_contracts_dir/donation.pdf"
+    contract_payment_page   = "$example_contracts_dir/payment.pdf"
+    old_proposals_dir       = "$root/yapc_proposals"
+    old_proposals_page      = "$old_proposals_dir/index.html"
 
     yef         = "<a href='$index_page'>YEF</a>"
     yapceurope  = "<a href='$index_page'>YAPC::Europe</a>"
