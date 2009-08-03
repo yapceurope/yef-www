@@ -1,6 +1,6 @@
 [%
   USE YAML;
-  confs = YAML.undumpfile("conferences.yml");
+  confs = YAML.undumpfile("events/conferences.yml");
 
   workshops = { list => [], year => {} } ;
   FOR item = confs ; 

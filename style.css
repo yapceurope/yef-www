@@ -212,3 +212,11 @@ j+#finances div h3 a:hover {
   padding: 0;
   margin: 0;
 }
+.titled_list {
+}
+.titled_list dt {
+   font-style: italic;
+}
+.titled_list li {
+  list-style-type: disc;
+}

@@ -12,16 +12,43 @@
 [%# add new item just below, in reverse chronological order %]
 
 
+[% WRAPPER add_news_item
+   date = '17:00:00 03-08-2009'
+   title = 'Pisa to host Y::E 2010'
+%]
+
+<p>The <a href="[% root %]/venue.html">venue comittee</a> has chosen 
+<strong>Pisa, Italy</strong> to host YAPC::Europe 2010.
+</p>
+<p>
+The Pisa group brings together an experienced team which has organized
+several Italian workshops.   The conference theme is "the Renaissance
+of Perl," a reference to Italy's role as the cradle of the Renaissance
+as well as a recognition of the rebirth occurring within Perl through
+the parallel initiatives of Perl 6 and Modern Perl 5.  To keep up-to-date
+on further developments, consider subscribing to our new
+<a href="[% newsfeed_page %]">YEF news feed</a>.
+</p>
+<p>
+Several members of the venue comittee remarked that this year marked one
+of the most difficult decisions to date, as the proposals from both Kiev
+and Pisa were excellent.  The committee would like to thank both groups
+for their efforts.
+</p>
+<p>
+We look forward to seeing you in Pisa next year!
+</p>
+[% END %]
 
 [% WRAPPER add_news_item
    date = '15:10:01 03-07-2009'
    title = 'Proposals to host Y::E 2010 received'
 %]
 
-<p>The <a href="[% root %]/venue_committee.html">YEF Venue Committee</a>
+<p>The <a href="[% root %]/venue.html">YEF Venue Committee</a>
 has received two proposals to host YAPC::Europe 2010.  The candidates are 
 <strong><a href="http://yapcrussia.org/proposal2010/">Kiev</a></strong> and 
-<strong><a href="[% root %]/yapc_proposals/2010/Pisa.html">Pisa</a></strong>.
+<strong><a href="[% old_proposals_dir %]2010/Pisa.html">Pisa</a></strong>.
 This year, for the first time, the proposals are being published (note
 that some portions of the application may be kept private, by request
 of the team making the proposal).
@@ -67,7 +94,7 @@ money will enable YEF to continue to provide kickstart funds to
 Perl workshops and conferences, and to underwrite the costs of
 running the online payment system.  More information on how YEF
 will spend this money can be found on 
-<a href="http://www.yapceurope.org/organizers.html">the 
+<a href="http://www.yapceurope.org/organizers/index.html">the 
 event organizers' page</a>.
 </p>
 [% END %]
@@ -184,7 +211,7 @@ venue@yapceurope.org.  This should be followed by a complete
 application.  The deadline for applications is June 30, 2009.
 </p><p>
 For details on how to prepare your complete application, consider the
-<a href="http://www.yapceurope.org/organizers.html">examples of previous conferences</a>.
+<a href="http://www.yapceurope.org/organizers/index.html">examples of previous conferences</a>.
 If your proposal is selected, it will be added to the others on this
 page (you will have the opportunity to remove private information
 first).  Be certain to include contact information (including telephone
@@ -238,7 +265,7 @@ new information as soon as it is published.
 <p>
 Enrico Sorcinelli reports that the Italian Perl Workshop was a success.
 A new page, 
-<a href="http://www.yapceurope.org/workshops/stories.html">workshop
+<a href="http://www.yapceurope.org/stories/workshops.html">workshop
 stories</a>, has been created to chronicle the experiences of workshop
 organizers.
 </p>
@@ -313,7 +340,7 @@ Copenhagen.
 <p>
 For more information about the requirements for hosting a conference,
 you may want to refer to the <a href="http://tpf.googlecode.com/svn/trunk/yapc/YAPC.pm">YAPC organiser's
-documentation</a> (administered by TPF) on Google code, or look at the <a href="http://www.yapceurope.org/yapc_proposals/index.html">examples of previous European conferences</a>.
+documentation</a> (administered by TPF) on Google code, or look at the <a href="[% old_proposals_page %]">examples of previous European conferences</a>.
 </p>
 
 <p>
@@ -375,7 +402,7 @@ you may want to refer to the YAPC organisers documentation (administered
 by TPF) on 
 <a href="http://tpf.googlecode.com/svn/trunk/yapc/YAPC.pm">Google code</a>,
 or look at the
-<a href="http://www.yapceurope.org/organizers.html">examples 
+<a href="http://www.yapceurope.org/organizers/index.html">examples 
 of previous European conferences</a>.
 </p>
 <p>
