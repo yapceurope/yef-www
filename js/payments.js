@@ -1,5 +1,6 @@
 var conferences = {
  "ipw2006":{"name":"Italian Perl Workshop","end":1151020800000,"act_open":1140912000000,"conf_id":"ipw2006","url":"http://conferences.yapceurope.org/ipw2006/","fullname":"Italian Perl Workshop 2006","begin":1150934400000,"year":"2006"},
+ "ipw2009":{"name":"Italian Perl Workshop","end":1256256000000,"act_open":1242604800000,"conf_id":"ipw2009","url":"http://conferences.yapceurope.org/ipw2009/","fullname":"Italian Perl Workshop 2009","begin":1256169600000,"year":"2009"},
  "apw2006":{"name":"Austrian Perl Workshop","end":1149811200000,"act_open":1147132800000,"conf_id":"apw2006","url":"http://conferences.yapceurope.org/apw2006/","fullname":"Austrian Perl Workshop 2006","begin":1149724800000,"year":"2006"},
  "npw2007":{"name":"Nordic Perl Workshop","end":1177804800000,"act_open":1170633600000,"conf_id":"npw2007","url":"http://conferences.yapceurope.org/npw2007/","fullname":"Nordic Perl Workshop 2007","begin":1177718400000,"year":"2007"},
  "ye2007":{"name":"YAPC Europe","end":1188432000000,"act_open":1163548800000,"conf_id":"ye2007","url":"http://conferences.yapceurope.org/2007/","fullname":"YAPC Europe 2007","begin":1188259200000,"year":"2007"},
@@ -19,6 +20,10 @@ var conferences = {
  "ye2009":{"name":"YAPC Europe","end":1249430400000,"act_open":1225324800000,"conf_id":"ye2009","url":"http://yapceurope2009.org/ye2009/","fullname":"YAPC Europe 2009","begin":1249257600000,"year":"2009"},
  "fpw2005":{"name":"French Perl Workshop","end":1118361600000,"act_open":1111449600000,"conf_id":"fpw2005","url":"http://conferences.mongueurs.net/2005/","fullname":"French Perl Workshop 2005","begin":1118275200000,"year":"2005"}};
 var payments = {
+ "ipw2009":[
+  [1242604800000,0,0],
+  [1249896808000,0,120],
+  [1256256000000,0,0]],
  "ipw2006":[
   [1140912000000,0,0],
   [1150717805000,0,50],
@@ -979,7 +984,8 @@ var payments = {
   [1249251105000,0,100],
   [1249344000000,1,10000],
   [1249776000000,1,900],
-  [1250380800000,0,0]],
+  [1250608917000,0,1320],
+  [1251213717000,0,0]],
  "nlpw2009":[
   [1231113600000,0,0],
   [1232551069000,0,38],
