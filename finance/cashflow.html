@@ -50,10 +50,12 @@ function graphData ( confs ) {
   });
   data.total.shift();
   data.conf.shift();
-  data.conf.push( [
-    data.total[data.total.length-1][0],
-    data.conf[data.conf.length-1][1]
-  ]);
+  if( data.conf.length ) { // leave empty if no refund
+      data.conf.push( [
+        data.total[data.total.length-1][0],
+        data.conf[data.conf.length-1][1]
+      ]);
+  }
   // produce the graph
   var options = {
     lines: { show: true, fill: 0.6 },
