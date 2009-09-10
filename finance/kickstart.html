@@ -10,11 +10,12 @@
     <a href="[% organizers_page %]">kickstart donation</a> to events organizers
     and help them with the initial costs of setting up their events.
     </p>
-    <p>In the past, YAPC Europe Foundation supported the following events:</p>
-
 [% USE YAML;
    donations = YAML.undumpfile("finance/donations.yml");
 %]
+[% total = 0 ;FOREACH donation IN donations.from_yef ; total = total + donation.amount  ; END %]
+    <p>YAPC Europe Foundation sponsored a total of <b>&euro;[% total %]</b> to the Perl community, by supporting the following events:</p></li>
+
 <dl>
 [% FOREACH donation IN donations.from_yef %]
 <dt><b>[% date.format(donation.date, format = '%B %Y', locale='C' ) %]</b></dt>

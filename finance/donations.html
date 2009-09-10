@@ -8,10 +8,11 @@
     organizers of successful Perl conferences.
     </p>
 
-    <p>Donations made to YEF:</p>
 [% USE YAML;
    donations = YAML.undumpfile("finance/donations.yml");
 %]
+[% total = 0 ;FOREACH donation IN donations.to_yef ; total = total + donation.amount  ; END %]
+    <p>Total donations made to YEF: <b>&euro;[% total %]</b></p>
 <dl>
 [% FOREACH donation IN donations.to_yef %]
 <dt><b>[% date.format(donation.date, format = '%B %Y', locale='C' ) %]</b></dt>
