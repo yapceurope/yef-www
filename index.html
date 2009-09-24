@@ -70,15 +70,15 @@
 [% BLOCK format_item %]
           <li><dl>
             <dt>[% IF item.url %]<a href="[% item.url %]">[% item.name %]</a>[% ELSE %][% item.name %][% END %]</dt>
-            <dd>[% date.format( item.begin, format='%B %e', locale='C') %]
-[% IF item.end != item.begin %]
+            <dd>[% date.format( item.begin, format='%B&nbsp;%e', locale='C') | replace( ' ', '' ) %]
+[%- IF item.end != item.begin %]
 - 
 [% IF date.format( item.end, format='%m') == date.format( item.begin, format='%m') %]
 [% date.format( item.end, format='%e', locale='C') %]
-[% ELSE %]
-[% date.format( item.end, format='%B %e', locale='C') %]
-[% END %]
-[% END %], [% date.format(item.begin, '%Y') %]</dd>
+[%- ELSE %]
+[% date.format( item.end, format='%B&nbsp;%e', locale='C') | replace( ' ','' ) %]
+[%- END %]
+[%- END %], [% date.format(item.begin, '%Y') %]</dd>
           </dl></li>
 [% END %]
 [% END %]
