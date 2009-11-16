@@ -5,6 +5,7 @@
     <li><a href="[% root %]/organizers/index.html">Organizers</a></li>
     <li><a href="[% root %]/foundation.html">Foundation</a></li>
     <li><a href="[% root %]/donating.html">Donating</a></li>
+    <li><a href="[% root %]/finance/">Finance</a></li>
     <li><a href="[% root %]/credits.html">Credits</a></li>
     <li><a href="[% root %]/contact.html">Contact</a></li>
     <li><a href="[% root %]/sitemap.html">Sitemap</a></li>
