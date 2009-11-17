@@ -1,0 +1,8 @@
+[% year = 2005 %]
+[% WRAPPER html_page
+   title = "Financial report for $year"
+%]
+[% PROCESS 'financial_report'
+   year = year
+%]
+[% END %]

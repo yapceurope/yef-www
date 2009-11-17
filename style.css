@@ -220,3 +220,22 @@ j+#finances div h3 a:hover {
 .titled_list li {
   list-style-type: disc;
 }
+
+/* style for financial reports */
+table.financial_report {
+   margin: 1em 0 3em 3em;
+}
+tr.financial_section  {
+    border-bottom: solid black 1px;
+}
+.financial_report td {
+    padding-left: 1em;
+}
+.financial_section th {
+    padding-top: 1em;
+}
+.amount {
+   padding-left: 5em !important;
+   text-align: right;
+}
+

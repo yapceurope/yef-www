@@ -1,19 +1,6 @@
 [% WRAPPER html_page
    title = 'Finances' 
 %]
-    <p>
-    Since 2009, our new treasurer has been working to make YEF's
-    finances more transparent.  The list of 
-    <a href="[% donations_to_yef_page %]">donations
-    received by YEF</a> and 
-    <a href="[% donations_from_yef_page %]">granted by YEF</a> are
-    already available, and more detailed 
-    financial reports
-    are being created.  An announcement will be made when these
-    become available.
-    </p>
-
-<!--  Once the reports are available, replace the above with:
    <p>
       In order to inform the European Perl community about YEF's
       means and financial decisions, the treasurer has published YEF's
@@ -25,26 +12,21 @@
       and the record of donations 
       <a href="[% donations_from_yef_page %]">made by YEF</a>.
       For a more detailed summary of all expenses and income, annual
-      (for more recent years, quarterly) 
       <a href="[% finance_report_page %]">financial reports</a>
       are available.
    </p>
--->
-
-<p><small>(Click on the headers for details)</small></p>
 
 [% USE YAML;
    donations = YAML.undumpfile("finance/donations.yml");
+   finances  = YAML.undumpfile("finance/finances.yml");
 %]
 <div id="finances">
       <div id="reports">
-<!--
         <h3><a href="[% finance_report_page %]">Financial Reports</a></h3>
--->
-        <h3>Financial Reports</h3>
         <ol>
-          <li>
-          </li>
+[% FOREACH year IN finances.keys.sort.reverse %]
+         <li><dl><dt><a href="reports/[% year %].html">Financial report [% year %]</a></dt></dl></li>
+[% END %]
         </ol>
       </div>
 

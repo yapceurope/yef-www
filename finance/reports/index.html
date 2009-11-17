@@ -1,0 +1,23 @@
+[% WRAPPER html_page
+   title = 'Financial reports' 
+%]
+   <p>
+      For a quick overview of larger transactions, refer to the list of
+      <a href="[% donations_to_yef_page %]">donations received by YEF</a>
+      and the record of donations 
+      <a href="[% donations_from_yef_page %]">made by YEF</a>.
+      For a more detailed summary of all expenses and income, annual
+      financial reports are available below.
+   </p>
+
+[% USE YAML;
+   finances = YAML.undumpfile("finance/finances.yml");
+%]
+
+<ul>
+[% FOR y = finances.keys.sort.reverse %]
+<li><a href="[% y %].html">Financial report for [% y %]</a></li>
+[% END %]
+</ul>
+
+[% END %]
