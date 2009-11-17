@@ -37,6 +37,7 @@
 [% PROCESS format_item item = donation direction  = 'from' %]
 [% LAST IF loop.count >= 4 %]
 [% END %]
+         <li><small><a href="[% donations_to_yef_page %]">(More)</a></small></li>
         </ol>
       </div>
 
@@ -47,6 +48,7 @@
 [% PROCESS format_item item = donation direction = 'to' %]
 [% LAST IF loop.count >= 4 %]
 [% END %]
+         <li><small><a href="[% donations_from_yef_page %]">(More)</a></small></li>
         </ol>
       </div>
 </div>
