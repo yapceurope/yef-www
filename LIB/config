@@ -12,7 +12,7 @@
     events_page             = "$root/events/index.html"
     foundation_page         = "$root/foundation.html"
     finance_page            = "$root/finance/index.html"
-    finance_report_page     = "$root/finance/report.html"
+    finance_report_page     = "$root/finance/reports/"
     donations_to_yef_page   = "$root/finance/donations.html"
     donations_from_yef_page = "$root/finance/kickstart.html"
     hackathons_page         = "$root/events/hackathons.html"
