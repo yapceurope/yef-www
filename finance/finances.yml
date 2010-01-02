@@ -316,7 +316,19 @@
       - Online Payment Refunds
       - -35209.00
   -
-    - Assets 2009-09-30
+    - Assets 2009-12-31
+    -
+      - Account 00010281201
+      - 146.68
+    -
+      - Account 00010281203
+      - 4241.17
+    -
+      - Liabilities
+      - 0.00
+2010:
+  -
+    - Assets 2010-01-01
     -
       - Account 00010281201
       - 146.68
