@@ -2,9 +2,7 @@
    title = 'Support to Perl events' 
 %]
     <p>
-    Apart from sponsoring the
-    <a href="[% payment_page %]">online payment system</a> for some
-    events, the YAPC Europe Foundation makes use of
+    The YAPC Europe Foundation makes use of
     <a href="[% donations_to_yef_page %]">the money it receives from
     donations</a> to offer a 
     <a href="[% organizers_page %]">kickstart donation</a> to events organizers
@@ -22,5 +20,28 @@
 <dd> &euro;[% donation.amount %] to <a href="[% donation.event_url %]">[% donation.event %]</a></dd>
 [% END %]
 </dl>
+[% finances = YAML.undumpfile("finance/finances.yml") %]
+[% payment_total = 0;
+   FOR year = finances.keys ;
+     payment.$year = 0;
+     FOR section = finances.$year ;
+       IF section.shift == 'Expenses';
+          FOR row = section ;
+            IF row.0.match( 'Online Payment' ) ;
+               payment.$year = payment.$year + row.1 ;
+               payment_total = payment_total + row.1 ;
+   END ; END ; END ; END ; END %]
+
+    <p>
+    The YAPC Europe Foundation also sponsors the
+    <a href="[% payment_page %]">online payment system</a> used by several
+    Perl conferences. This sponsoring amounts to a total of
+    <b>&euro;[% payment_total %]</b> since 2005:</p>
+    <ul>
+    [% FOR year = payment.keys.sort.reverse %]
+    [% NEXT IF payment.$year == 0 %]
+    <li>&euro;[% payment.$year | format('%.2f') %] in [% year %]</li>
+    [% END %]
+    </ul>
 
 [% END %]
