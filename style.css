@@ -202,9 +202,9 @@ j+#finances div h3 a:hover {
 #footer {
   clear:both;
   display: block;
-  /*margin: 1em 0;*/
+  margin-top: 1.5em;
   padding: .5em;
-   font-style: italic;
+  font-style: italic;
   font-size: .8em;
   background: #f3f3f3;
 }
@@ -236,6 +236,10 @@ tr.financial_section  {
 }
 .amount {
    padding-left: 5em !important;
+   text-align: right;
+}
+
+.sign {
    text-align: right;
 }
 
