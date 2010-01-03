@@ -32,6 +32,7 @@
          END ;
        ELSIF title.match( 'Assets \d+' ) ;
          assets = {};
+         assets_title = title;
          FOR row = section ;
            NEXT IF ! row.0.match( 'Account' ) ;
            assets.${row.0} = ( assets.${row.0} || 0 ) + row.1;
@@ -62,7 +63,7 @@ Foundation since its creation in 2004.
     <th class="amount" >[% total = total + expenses.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
 </tr>
 [% END %]
-<tr class="financial_section"><th class="financial_section">Assets</th></tr>
+<tr class="financial_section"><th class="financial_section">[% assets_title %]</th></tr>
 [% total = 0 %]
 [% FOR key = assets.keys.sort %]
 <tr><td>[% key %]</td>
