@@ -24,6 +24,7 @@
       <div id="reports">
         <h3><a href="[% finance_report_page %]">Financial Reports</a></h3>
         <ol>
+         <li><dl><dt><a href="reports/global.html">Global financial report</a></dt></dl></li>
 [% FOREACH year IN finances.keys.sort.reverse %]
          <li><dl><dt><a href="reports/[% year %].html">Financial report [% year %]</a></dt></dl></li>
 [% END %]
