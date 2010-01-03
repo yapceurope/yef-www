@@ -21,23 +21,22 @@
 [% END %]
 </dl>
 [% finances = YAML.undumpfile("finance/finances.yml") %]
-[% payment_total = 0;
-   refund_total = 0;
-   FOR year = finances.keys ;
-     payment.$year = 0;
+[% FOR year = finances.keys ;
      FOR section = finances.$year ;
        title = section.shift ;
        IF title == 'Expenses';
           FOR row = section ;
             IF row.0.match( 'Online Payment' ) ;
-              payment.$year = payment.$year + row.1 ;
-              payment_total = payment_total + row.1 ;
+              payment.$year = ( payment.$year || 0 ) + row.1 ;
+              payment_total = ( payment_total || 0 ) + row.1 ;
             END ;
           END ;
        ELSIF title == 'Liabilities' ;
           FOR row = section ;
             IF row.0 == 'Online Payment Refunds' ;
-              refund_total = refund_total - row.1 ;
+              refund_total = ( refund_total || 0 ) - row.1 ;
+            ELSIF row.0.match( 'Online Payment' ) ;
+              online.$year = ( online.$year || 0 ) + row.1 ;
             END ;
           END ;
        END ;
@@ -52,7 +51,8 @@
     <ul>
     [% FOR year = payment.keys.sort.reverse %]
     [% NEXT IF payment.$year == 0 %]
-    <li>&euro;[% payment.$year | format('%.2f') %] in [% year %]</li>
+    <li>&euro;[% payment.$year | format('%.2f') %] in [% year %]
+    (for &euro;[% online.$year | format('%.2f') %] of online payment)</li>
     [% END %]
     </ul>
     <p>This represents [% payment_total / refund_total * 100 | format('%.2f') %]% of the total of <b>&euro;[% refund_total | format('%.2f') %]</b> that transited through the YAPC Europe Foundation's bank account to the various conferences organizers accounts.</p>
