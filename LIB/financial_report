@@ -6,6 +6,7 @@
 [% IF ! loop.first %]|[% END %]
 [% IF y != year %]<a href="[% y %].html">[% ELSE %]<b>[% END %][% y %][% IF y != year %]</a>[% ELSE %]</b>[% END %]
 [% END %]
+| <a href="global.html">Global</a>
 
 <table class="financial_report">
 [% FOR section = finances.$year %]

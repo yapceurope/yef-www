@@ -1,0 +1,81 @@
+[% WRAPPER html_page
+   title = 'Global financial report'
+%]
+[% USE YAML %]
+[% finances = YAML.undumpfile("finance/finances.yml") %]
+[% FOR y = finances.keys.sort %]
+[% IF ! loop.first %]|[% END %]
+<a href="[% y %].html">[% y %]</a>
+[% END %]
+| <b>Global</b>
+[% refund_total = 0;
+   FOR year = finances.keys.sort ;
+     FOR section = finances.$year ;
+       title = section.shift ;
+       IF title == 'Expenses';
+         FOR row = section ;
+           IF row.0.match( 'Online Payment' ) ;
+             expenses.${'Online Payment'} = ( expenses.${'Online Payment'} || 0 ) + row.1 ;
+           ELSE ;
+             expenses.${row.0} = ( expenses.${row.0} || 0 ) + row.1;
+           END ;
+         END ;
+       ELSIF title == 'Income';
+         FOR row = section ;
+           income.${row.0} = ( income.${row.0} || 0 ) + row.1;
+         END ;
+       ELSIF title == 'Liabilities' ;
+         FOR row = section ;
+           IF row.0 == 'Online Payment Refunds' ;
+             refund_total = refund_total - row.1 ;
+           END ;
+         END ;
+       ELSIF title.match( 'Assets \d+' ) ;
+         assets = {};
+         FOR row = section ;
+           NEXT IF ! row.0.match( 'Account' ) ;
+           assets.${row.0} = ( assets.${row.0} || 0 ) + row.1;
+         END ;
+       END ;
+     END ;
+   END %]
+
+<p>
+The following report presents the global activity of the YAPC Europe
+Foundation since its creation in 2004.
+</p>
+
+<table class="financial_report">
+<tr class="financial_section"><th class="financial_section">Income</th></tr>
+[% total = 0 %]
+[% FOR key = income.keys.sort %]
+<tr><td>[% key %]</td>
+    <td class="amount" >[% income.$key | format('%.2f') %]</td>
+    <th class="amount" >[% total = total + income.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
+</tr>
+[% END %]
+<tr class="financial_section"><th class="financial_section">Expenses</th></tr>
+[% total = 0 %]
+[% FOR key = expenses.keys %]
+<tr><td>[% key %]</td>
+    <td class="amount" >[% expenses.$key | format('%.2f') %]</td>
+    <th class="amount" >[% total = total + expenses.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
+</tr>
+[% END %]
+<tr class="financial_section"><th class="financial_section">Assets</th></tr>
+[% total = 0 %]
+[% FOR key = assets.keys.sort %]
+<tr><td>[% key %]</td>
+    <td class="amount" >[% assets.$key | format('%.2f') %]</td>
+    <th class="amount" >[% total = total + assets.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
+</tr>
+[% END %]
+
+</table>
+
+<p>
+Over the years, a total of <b>&euro;[% refund_total %]</b> were received
+and then forwarded by the Foundation on behalf of conference organizers
+through its <a href="[% payment_page %]">online payment system</a>.
+</p>
+[% END %]
