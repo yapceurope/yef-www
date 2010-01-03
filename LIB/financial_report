@@ -10,14 +10,16 @@
 
 <table class="financial_report">
 [% FOR section = finances.$year %]
-<tr class="financial_section"><th class="financial_section">[% section.shift %]</th></tr>
-[% total = 0 %]
+[% title = section.shift %]
+<tr class="financial_section"><th class="financial_section">[% title %]</th></tr>
+[% total.$title = 0 %]
 [% FOR row = section %]
 <tr><td>[% row.0 %]</td>
     <td class="amount" >[% row.1 | format('%.2f') %]</td>
-    <th class="amount" >[% total = total + row.1 %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
+    <th class="amount" >[% total.$title = total.$title + row.1 %][% IF loop.last %][% total.$title | format('%.2f') %][% END %]</th>
 </tr>
 [% END; END %]
-</table>
+<tr class="financial_section"><th class="financial_section">Balance [% year %]</th></tr>
+<tr><td>Income - Expenses</td><td></td><th class="amount">[% ( total.Income || 0 ) - ( total.Expenses || 0 ) | format('%.2f') %]</th></tr>
+</table> 
 
-[% IF finances.exists( ny ) %]<a href="[% ny %].html">» Financial report next year</a>[% END %]
