@@ -22,15 +22,27 @@
 </dl>
 [% finances = YAML.undumpfile("finance/finances.yml") %]
 [% payment_total = 0;
+   refund_total = 0;
    FOR year = finances.keys ;
      payment.$year = 0;
      FOR section = finances.$year ;
-       IF section.shift == 'Expenses';
+       title = section.shift ;
+       IF title == 'Expenses';
           FOR row = section ;
             IF row.0.match( 'Online Payment' ) ;
-               payment.$year = payment.$year + row.1 ;
-               payment_total = payment_total + row.1 ;
-   END ; END ; END ; END ; END %]
+              payment.$year = payment.$year + row.1 ;
+              payment_total = payment_total + row.1 ;
+            END ;
+          END ;
+       ELSIF title == 'Liabilities' ;
+          FOR row = section ;
+            IF row.0 == 'Online Payment Refunds' ;
+              refund_total = refund_total - row.1 ;
+            END ;
+          END ;
+       END ;
+     END ;
+   END %]
 
     <p>
     The YAPC Europe Foundation also sponsors the
@@ -43,5 +55,6 @@
     <li>&euro;[% payment.$year | format('%.2f') %] in [% year %]</li>
     [% END %]
     </ul>
+    <p>This represents [% payment_total / refund_total * 100 | format('%.2f') %]% of the total of <b>&euro;[% refund_total | format('%.2f') %]</b> that transited through the YAPC Europe Foundation's bank account to the various conferences organizers accounts.</p>
 
 [% END %]
