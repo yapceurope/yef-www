@@ -36,7 +36,8 @@
             IF row.0 == 'Online Payment Refunds' ;
               refund_total = ( refund_total || 0 ) - row.1 ;
             ELSIF row.0.match( 'Online Payment' ) ;
-              online.$year = ( online.$year || 0 ) + row.1 ;
+              online.$year.${row.0} = ( online.$year.${row.0} || 0 ) + row.1 ;
+              online.total.${row.0} = ( online.total.${row.0} || 0 ) + row.1 ;
             END ;
           END ;
        END ;
@@ -52,9 +53,18 @@
     [% FOR year = payment.keys.sort.reverse %]
     [% NEXT IF payment.$year == 0 %]
     <li>&euro;[% payment.$year | format('%.2f') %] in [% year %]
-    (for &euro;[% online.$year | format('%.2f') %] of online payment)</li>
+    (for &euro;[% online.$year.${'Online Payment'} | format('%.2f') %] of online payment)</li>
     [% END %]
     </ul>
-    <p>This represents [% payment_total / refund_total * 100 | format('%.2f') %]% of the total of <b>&euro;[% refund_total | format('%.2f') %]</b> that transited through the YAPC Europe Foundation's bank account to the various conferences organizers accounts.</p>
+    <p>This represents [% payment_total / online.total.${'Online Payment'} * 100 | format('%.2f') %]%
+    of the total of <b>&euro;[% online.total.${'Online Payment'} | format('%.2f') %]</b>
+    that was received through YEF's
+    <a href="[% payment_page %]">online payment system</a>.
+    </p><p>
+    Including the &euro;[% online.total.${'Online Payment (Transfer)'} | format('%.2f') %]
+    received via direct money transfer from conference attendees, a total of 
+    <b>&euro;[% refund_total | format('%.2f') %]</b>
+    transited through the YAPC Europe Foundation's bank
+    account to the various conferences organizers accounts.</p>
 
 [% END %]
