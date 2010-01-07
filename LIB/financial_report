@@ -2,12 +2,15 @@
    finances = YAML.undumpfile("finance/finances.yml");
 %]
 
+<p>
 [% FOR y = finances.keys.sort %]
 [% IF ! loop.first %]|[% END %]
 [% IF y != year %]<a href="[% y %].html">[% ELSE %]<b>[% END %][% y %][% IF y != year %]</a>[% ELSE %]</b>[% END %]
 [% END %]
 | <a href="global.html">Global</a>
+</p>
 
+<h2><a name="report">Financial Report</a> (Euros)</h2>
 <table class="financial_report">
 [% FOR section = finances.$year %]
 [% title = section.shift %]
