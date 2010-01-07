@@ -10,7 +10,7 @@
 | <a href="global.html">Global</a>
 </p>
 
-<h2><a name="report">Financial Report</a> (Euros)</h2>
+<h2><a name="report"></a>Financial Report (Euros)</h2>
 <table class="financial_report">
 [% FOR section = finances.$year %]
 [% title = section.shift %]
