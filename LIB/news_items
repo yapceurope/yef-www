@@ -12,6 +12,19 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '18:00:00 12-01-2010'
+   title = 'Conference cashflow graphs available'
+%]
+<p>
+If you are considering using YEF's <a href="[% payment_page %]">online
+payment system</a> for you conference, you'll probably be interested
+in looking at the <a href="[% conf_cashflow_page %]">cashflow</a> patterns
+of previous conferences. The graphs on that page present the payment and
+refund history for all conferences that have used it.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date = '08:00:00 04-01-2010'
    title = 'YEF Financials reports available'
 %]
