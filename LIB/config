@@ -15,6 +15,7 @@
     finance_report_page     = "$root/finance/reports/"
     donations_to_yef_page   = "$root/finance/donations.html"
     donations_from_yef_page = "$root/finance/kickstart.html"
+    conf_cashflow_page      = "$root/finance/cashflow.html"
     hackathons_page         = "$root/events/hackathons.html"
     index_page              = "$root/index.html"
     news_page               = "$root/news.html"
