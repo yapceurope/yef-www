@@ -4,20 +4,47 @@
   <script language="javascript" type="text/javascript" src="[% root %]/js/jquery.js"></script>
   <script language="javascript" type="text/javascript" src="[% root %]/js/jquery.flot.js"></script>
   <script language="javascript" type="text/javascript" src="[% root %]/js/payments.js"></script>
+<style>
+#conferences ul {
+  margin-left: -1.5em;
+  cursor: pointer;
+};
+</style>
 
 <p>
 Until now, <span id="count"></span> conferences have used the YAPC::Europe
-Foundation's online payment system and bank account to receive payments.
+Foundation's <a href="[% payment_page %]">online payment</a> system
+and bank account to receive payments.
 </p><p>
 The graph below shows the cash flow (in Euro) from YEF to the organizers.
+(The origin of the date axis is set to the opening date of the online payment
+system for the conference.)
 </p>
-<div id="graph" style="width:480px;height:300px;float:left;"></div>
+<div id="graph" style="width:480px;height:320px;float:left;"></div>
 <div id="legend" style="float:left;clear:right;">
  <div id="legendContainer" style="border:1px solid black;margin:7px;"></div>
  <div id="graphed"></div>
 </div>
+<p style="clear: both; padding-top: 2em;">
+Click on a conference name to see the graph and details.
+</p>
 <div id="conferences" style="clear: both"></div>
   <script type="text/javascript">
+function formatDate( num ) {
+  var date  = new Date( num );
+  var month = date.getMonth() + 1;
+  var day   = date.getDate();
+  return date.getFullYear() + '-'
+    + ( month < 10 ? '0' + month : month )  + '-'
+    + ( day < 10 ? '0' + day : day );
+}
+function formatSummary( type, data ) {
+   var tab = '<br/>&nbsp;&nbsp;&nbsp;&nbsp;';
+   return data[0] + ' ' + type  + (data[0] > 1 ? 's' : '' ) + tab
+     + ( data[1] != data[2] 
+        ? 'from ' + formatDate( data[1] ) + tab + 'to ' + formatDate( data[2] )
+        : 'on ' + formatDate( data[1] ) );
+}
 function graphData ( confs ) {
   var text = confs.length > 1
            ? '<b>Conferences:</b><br />'
@@ -34,28 +61,46 @@ function graphData ( confs ) {
     $.merge( payment_data, payments[conf_id] );
     ends.push( [ conferences[conf_id].end, 0] );
   });
-  $('#graphed').html( text ); // update text
+  // some extra data
+  var total = 0;
+  var refund_summary = [0];
+  var payment_summary = [-2]; // source data off by two
   // sort chronologically, then compute the running sums
   payment_data.sort( function(a,b) { return a[0] - b[0]; } );
   $.each( payment_data, function(j, val) {
     if( val[1] ) {
-      data.conf.push([ val[0]-1, data.conf[data.conf.length-1][1] ]);
-      data.conf.push([ val[0],   data.conf[data.conf.length-1][1] + val[2] ]);
+      total = total + val[2];
+      data.conf.push([ val[0], data.conf[data.conf.length-1][1] ]);
+      data.conf.push([ val[0], data.conf[data.conf.length-1][1] + val[2] ]);
+      refund_summary[0] = refund_summary[0] + 1; // number
     } 
     else {
-      data.total.push([ val[0]-1, data.total[data.total.length-1][1] ]);
-      data.total.push([ val[0],   data.total[data.total.length-1][1] + val[2]]);
+      data.total.push([ val[0], data.total[data.total.length-1][1] ]);
+      data.total.push([ val[0], data.total[data.total.length-1][1] + val[2]]);
+      payment_summary[0] = payment_summary[0] + 1; // number
     }
     return true;
   });
+  // remove sentinels
   data.total.shift();
   data.conf.shift();
+  // compute summary dates
+  refund_summary[1] = data.conf[1][0]; // first
+  refund_summary[2] = data.conf[data.conf.length-1][0]; // last
+  payment_summary[1] = data.total[2][0]; // first
+  payment_summary[2] = data.total[data.total.length-3][0]; // last
   if( data.conf.length ) { // leave empty if no refund
       data.conf.push( [
         data.total[data.total.length-1][0],
         data.conf[data.conf.length-1][1]
       ]);
   }
+  // update text
+  $('#graphed').html(
+    text + 'Total: &euro;' + total.toFixed(2) + '<br/><br/>'
+    + formatSummary( 'payment',  payment_summary ) + '<br/>'
+    + formatSummary( 'refund', refund_summary )
+  );
   // produce the graph
   var options = {
     lines: { show: true, fill: 0.6 },
@@ -114,42 +159,30 @@ $(document).ready(function() {
     $('#conferences').append('<div id="' + y + '"><h3>' + y +'</h3></div>' );
     $('#' + y).css({
       float:'left',
-      width:'30%',
+      width:'31%',
       'min-height':'9em',
-      margin:'0.5em'
+      padding:'0.5em'
     }).hide();
     confs[y].sort(function(a,b){return b.begin-a.begin;});
 
     // create a div per conference
+    $('#'+y).append('<ul>');
     for( i in confs[y] ) {
       var conf = confs[y][i];
-      $('#'+y).append('<div id="'+conf.conf_id+'">'+conf.name + '</div>')
+      $('#'+y+ ' ul').append('<li id="'+conf.conf_id+'">'+conf.name + '</li>')
       $('#'+conf.conf_id) // bind events to the conferences
-        .bind('mouseenter', function (e) {
+        .bind('click', function (e) {
+          $('#conferences li').css({'font-weight':'normal'});
           $(e.target).css({'font-weight':'bold'});
-          graphData( [ e.target.id ] ); })
-        .bind('mouseout', function (e) {
-          $(e.target).css({'font-weight':'normal' }); });
+          graphData( [ e.target.id ] );
+          });
     }
-    $('#'+y+' h3') // bind events to the title
-      .bind('mouseenter', function(e) {
-        var confs = [];
-        $(e.target).siblings().each( function () {
-          confs.push( this.id );
-          $(this).css({'font-weight':'bold' });
-        });
-        graphData(confs);
-      })
-      .bind('mouseout', function(e) {
-        $(e.target).siblings().each( function () {
-          $(this).css({'font-weight':'normal' });
-        });
-      });
   }
   $('#conferences div').fadeIn(1000);
 
   // show graph for the most recent conference
   graphData( [ recent.conf_id ] );
+  $('#' + recent.conf_id).css({'font-weight':'bold'});
 });
   </script>
 
