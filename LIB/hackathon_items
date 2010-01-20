@@ -4,7 +4,7 @@
 
  hackathons = [] ;
  FOR item = confs ; 
-     NEXT IF item.begin.match('xx');
+     NEXT IF item.status != 'ok';
      NEXT IF item.genre != 'hackathon';
 
      item.year = item.begin.match( '(\d\d\d\d)$' ).0;

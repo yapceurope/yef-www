@@ -4,7 +4,7 @@
 
   workshops = { list => [], year => {} } ;
   FOR item = confs ; 
-      NEXT IF item.begin.match( 'xx' );
+      NEXT IF item.status != 'ok';
       NEXT IF item.genre != 'workshop';
       workshops.list.push(item);
 

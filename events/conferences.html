@@ -40,7 +40,7 @@ mailing list.
 
 [% FOREACH item = conferences %]
 [% NEXT IF item.name != 'YAPC Europe' %]
-[%IF date.format( item.begin, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
+[%IF item.begin.match('xx') || date.format( item.begin, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
 <tr><td colspan=4 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
 [% ELSE %]
 [% IF prev_header_printed < 1 %]
@@ -50,6 +50,7 @@ mailing list.
 [% END %]
 <tr>
   <td valign="top">
+[% IF item.begin.match('xx') %][% ELSE %]
 [% date.format( item.begin, format='%B %e', locale='C') %]
 [% IF item.end != item.begin %]
  - 
@@ -59,6 +60,7 @@ mailing list.
     [% date.format( item.end, format='%B %e', locale='C') %]
 [% END %]
 [% END %], [% date.format(item.begin, '%Y') %]
+[% END %]
 </td> 
   <td valign="top"><a name="[% item.anchor %]" /><a 
       href="[% item.url %]">[% item.city %],  [% item.country %]</a></td>
