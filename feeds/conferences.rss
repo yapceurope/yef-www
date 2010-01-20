@@ -17,6 +17,7 @@ The YAPC::Europe Foundation (YEF) is a non-profit organization which works to pr
 <language>en-us</language>
 
 [% FOREACH item = conferences.reverse %]
+[% NEXT if item.begin.matches('xx') %]
     <item>
         <title><![CDATA[ [% item.name %] ]]></title>
         <link>[% conferences_page %]</link>
