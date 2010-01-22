@@ -5,6 +5,7 @@ var conferences = {
  "npw2007":{"name":"Nordic Perl Workshop","end":1177804800000,"act_open":1170633600000,"conf_id":"npw2007","url":"http://conferences.yapceurope.org/npw2007/","fullname":"Nordic Perl Workshop 2007","begin":1177718400000,"year":"2007"},
  "ye2007":{"name":"YAPC Europe","end":1188432000000,"act_open":1163548800000,"conf_id":"ye2007","url":"http://conferences.yapceurope.org/2007/","fullname":"YAPC Europe 2007","begin":1188259200000,"year":"2007"},
  "hack2007nl":{"name":"European Perl Hackathon","end":1172966400000,"act_open":1169856000000,"conf_id":"hack2007nl","url":"http://conferences.yapceurope.org/hack2007nl/","fullname":"European Perl Hackathon 2007","begin":1172793600000,"year":"2007"},
+ "nlpw2010":{"name":"Dutch Perl Workshop","end":1267747200000,"act_open":1257465600000,"conf_id":"nlpw2010","url":"http://www.perlworkshop.nl/nlpw2010/","fullname":"Dutch Perl Workshop 2010","begin":1267747200000,"year":"2010"},
  "npw2006":{"name":"Nordic Perl Workshop","end":1150416000000,"act_open":1146700800000,"conf_id":"npw2006","url":"http://www.perlworkshop.no/npw2006/","fullname":"Nordic Perl Workshop 2006","begin":1150329600000,"year":"2006"},
  "ipw2008":{"name":"Italian Perl Workshop","end":1221782400000,"act_open":1205107200000,"conf_id":"ipw2008","url":"http://conferences.yapceurope.org/ipw2008/","fullname":"Italian Perl Workshop 2008","begin":1221696000000,"year":"2008"},
  "ptpw2008":{"name":"Portuguese Perl Workshop","end":1212796800000,"act_open":1202688000000,"conf_id":"ptpw2008","url":"http://workshop.perl.pt/ptpw2008/","fullname":"Portuguese Perl Workshop 2008","begin":1212710400000,"year":"2008"},
@@ -332,6 +333,10 @@ var payments = {
   [1189036800000,1,5000],
   [1225238400000,1,5510],
   [1225843200000,0,0]],
+ "nlpw2010":[
+  [1257465600000,0,0],
+  [1264101793000,0,50],
+  [1267747200000,0,0]],
  "hack2007nl":[
   [1169856000000,0,0],
   [1170290630000,0,74],
