@@ -69,12 +69,12 @@ function graphData ( confs ) {
   payment_data.sort( function(a,b) { return a[0] - b[0]; } );
   $.each( payment_data, function(j, val) {
     if( val[1] ) {
-      total = total + val[2];
       data.conf.push([ val[0], data.conf[data.conf.length-1][1] ]);
       data.conf.push([ val[0], data.conf[data.conf.length-1][1] + val[2] ]);
       refund_summary[0] = refund_summary[0] + 1; // number
     } 
     else {
+      total = total + val[2];
       data.total.push([ val[0], data.total[data.total.length-1][1] ]);
       data.total.push([ val[0], data.total[data.total.length-1][1] + val[2]]);
       payment_summary[0] = payment_summary[0] + 1; // number
@@ -85,8 +85,10 @@ function graphData ( confs ) {
   data.total.shift();
   data.conf.shift();
   // compute summary dates
-  refund_summary[1] = data.conf[1][0]; // first
-  refund_summary[2] = data.conf[data.conf.length-1][0]; // last
+  if( refund_summary[0] ) {
+      refund_summary[1] = data.conf[1][0]; // first
+      refund_summary[2] = data.conf[data.conf.length-1][0]; // last
+  }
   payment_summary[1] = data.total[2][0]; // first
   payment_summary[2] = data.total[data.total.length-3][0]; // last
   if( data.conf.length ) { // leave empty if no refund
@@ -99,7 +101,7 @@ function graphData ( confs ) {
   $('#graphed').html(
     text + 'Total: &euro;' + total.toFixed(2) + '<br/><br/>'
     + formatSummary( 'payment',  payment_summary ) + '<br/>'
-    + formatSummary( 'refund', refund_summary )
+    + ( refund_summary[0] > 0 ? formatSummary( 'refund', refund_summary ) : '' )
   );
   // produce the graph
   var options = {
