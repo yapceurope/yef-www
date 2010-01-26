@@ -79,6 +79,7 @@
 [% date.format( item.end, format='%B&nbsp;%e', locale='C') | replace( ' ','' ) %]
 [%- END %]
 [%- END %], [% date.format(item.begin, '%Y') %][% END %]</dd>
+<dd>[% IF item.city %][% item.city %], [% END %][% item.country %]</dd>
           </dl></li>
 [% END %]
 [% END %]
