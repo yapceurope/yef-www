@@ -50,7 +50,7 @@ to_yef:
     amount: 50
     who_url: http://www.2organize.com/
 from_yef:
-  - event: YAPC Europe 2010
+  - event: YAPC::Europe 2010
     date: 0:0:0 05/08/2009
     amount: 1000
     event_url: http://www.yapceurope.org/2010/
