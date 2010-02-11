@@ -12,6 +12,59 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '09:00:00 11-02-2010'
+   title = 'Yearly Renewal of YEF Board Members'
+%]
+<p>
+The YAPC Europe Foundation Board Committee has nominated Dirk
+De Nijs and Erik Colson to be Co-opted members of YEF Board,
+effective immediately.
+</p><p>
+Dirk De Nijs is currently owner of ModuleBuilder, a Belgian IT
+Consultancy company.
+</p><p>
+Erik Colson is currently Managing Director of Beaver Ltd. The growing
+Belgian company is active in metal and glass constructions. Besides
+this primary activity, Erik is the maintainer of some CPAN modules
+with focus on stock trading.
+</p><p>
+Both Dirk De Nijs and Erik Colson organized or participated to Perl
+events in Belgium from which they already gained substantial
+experience. They are part of Vlaanderen Perl Mongers which, in
+collaboration with Bruxelles Perl Mongers, recently announced the next
+<a href="http://www.perlworkshop.be/bpw2010/">Belgian Perl Workshop</a>
+taking place on 26 June 2010 at the ESI school in Brussels.
+</p><p>
+Meanwhile, David Elbaz, former Treasurer, left the Board. The Board
+would like to to thank David for his contributions and for the
+time he has spent working on the formation of the Foundation.
+</p><p>
+The Board (officials and co-opted members) for 2010 is:
+</p></p>Officials:</p>
+<ul>
+<li>Ann Barcomb</li>
+<li>Philippe Bruhat</li>
+<li>Nicholas Clark</li>
+<li>Richard Foley</li>
+<li>Norbert Grüner</li>
+</ul>
+<p>Co-opted:</p>
+<ul>
+<li>Erik Colson</li>
+<li>Dirk De Nijs</li>
+<li>Wendy van Dijk</li>
+<li>Thomas Klausner</li>
+<li>Elizabeth Mattijsen</li>
+<li>Karen Pauley</li>
+<li>Alberto Simões</li>
+</ul>
+<p>
+The YAPC Europe Foundation (YEF) is <a href="[% foundation_page %]">a
+non-profit organization</a> which works to promote
+Perl in Europe primarily through public events in Europe.
+</p>
+[% END %]
+[% WRAPPER add_news_item
    date = '18:00:00 12-01-2010'
    title = 'Conference cashflow graphs available'
 %]
