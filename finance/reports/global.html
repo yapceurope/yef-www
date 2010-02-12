@@ -9,6 +9,7 @@
 [% END %]
 | <b>Global</b>
 [% refund_total = 0;
+   liabilities  = 0;
    FOR year = finances.keys.sort ;
      FOR section = finances.$year ;
        title = section.shift ;
@@ -29,6 +30,9 @@
            IF row.0 == 'Online Payment Refunds' ;
              refund_total = refund_total - row.1 ;
            END ;
+           IF ! row.0.match( 'Liabilities' ) ;
+             liabilities = liabilities + row.1;
+           END;
          END ;
        ELSIF title.match( 'Assets \d+' ) ;
          assets = {};
@@ -39,7 +43,9 @@
          END ;
        END ;
      END ;
-   END %]
+   END;
+   assets.Liabilities = liabilities * -1;
+%]
 
 <p>
 The following report presents the global activity of the YAPC Europe
