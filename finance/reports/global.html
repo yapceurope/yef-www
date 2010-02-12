@@ -3,11 +3,13 @@
 %]
 [% USE YAML %]
 [% finances = YAML.undumpfile("finance/finances.yml") %]
+<p>
 [% FOR y = finances.keys.sort %]
 [% IF ! loop.first %]|[% END %]
 <a href="[% y %].html">[% y %]</a>
 [% END %]
 | <b>Global</b>
+</p>
 [% refund_total = 0;
    liabilities  = 0;
    FOR year = finances.keys.sort ;
