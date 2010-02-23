@@ -12,6 +12,39 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '14:00:00 23-02-2010'
+   title = 'YEF supports the Perl booth at CeBIT 2010'
+%]
+<p>
+The YAPC Europe Foundation is pleased to announce the funding for
+giveaways for the Perl booth at CeBIT 2010, according an amount up to
+500 &euro; to the organizers.
+</p><p>
+This donation highlights YEF's interest in promoting Perl by
+supporting the presence of the Perl community at IT-related
+exhibitions.
+</p><p>
+After a successful presence at <a href="http://www.fosdem.org">Fosdem</a> in
+Brussels, the Perl booth is now heading towards CeBIT. The leading
+organizers, Renée Bäcker, editor of <a href="http://perl-magazin.de/">Perl
+Magazin</a> and Gabor Szabo, also organizer of the Fosdem
+installation and <a href="http://szabgab.com/">professional Perl trainer</a>,
+will both be present at the event.
+<a href="http://www.perlfoundation.org/perl5/index.cgi?events_2010_cebit">Up
+to date information about the booth is published on the wiki</a> hosted by
+<a href="http://www.perlfoundation.org/">The Perl Foundation</a>.
+</p><p>
+<a href="http://www.cebit.de">CeBIT</a> is renowned as the world's largest ICT
+trade fair. It is open to public from 2 to 6 March 2010 and attracts
+IT specialist from all over the world.
+</p><p>
+The YAPC Europe Foundation (YEF) is <a href="[% foundation_page %]">a
+non-profit organization</a> which works to promote Perl in Europe
+primarily through public events in Europe.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date = '09:00:00 11-02-2010'
    title = 'Yearly Renewal of YEF Board Members'
 %]
