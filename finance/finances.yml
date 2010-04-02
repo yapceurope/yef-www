@@ -345,13 +345,13 @@
     - Expenses
     -
       - Bank Account Charge
-      - 12.00
+      - 18.20
     -
       - Online Payment Charge
       - 53.82
     -
       - Online Payment Fees
-      - 5.35
+      - 9.25
   -
     - Liabilities
     -
@@ -359,18 +359,18 @@
       - 0.00
     -
       - Online Payment
-      - 400.00
+      - 700.00
     -
       - Online Payment Refunds
-      - -50.00
+      - -700.00
   -
-    - Assets 2010-02-28
+    - Assets 2010-03-31
     -
       - Account 00010281201
-      - 425.51
+      - 65.41
     -
       - Account 00010281203
       - 4241.17
     -
       - Liabilities
-      - -350.00
+      - 0.00
