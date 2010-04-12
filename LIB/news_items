@@ -9,7 +9,36 @@
      news.year.$year.push( item );
  END
 %]
+
 [%# add new item just below, in reverse chronological order %]
+[% WRAPPER add_news_item
+   date = '16:00:00 12-04-2010'
+   title = 'Call for Venue for YAPC::Europe 2011'
+%]
+<p>
+While <a href="http://yapceurope.org/2010/">YAPC::Europe 2010</a> preparations are well underway in Pisa,
+it is time for the YAPC::Europe Foundation (YEF) to look for suitable sites
+for the 2011 conference.  Any dedicated group interested in hosting
+YAPC::Europe::2011 should send a brief statement of intent to
+venue@yapceurope.org.  This should be followed by a complete
+application.  The deadline for applications is June 30, 2010.
+</p><p>
+For details on how to prepare your complete application, consider the
+<a href="http://www.yapceurope.org/organizers/index.html">examples of previous conferences</a>.
+If your proposal is selected, it will be added to the others on this
+page (you will have the opportunity to remove private information
+first).  Be certain to include contact information (including telephone
+numbers) for at least two members of the group.
+</p><p>
+You may also direct any questions to the aforementioned email address.
+</p><p>
+A decision on the location will be publicly announced at the start
+of the Pisa conference.
+</p><p>
+Looking forward to your submissions,<br />
+  &nbsp;Philippe Bruhat (BooK)<br />
+  &nbsp;on behalf of the YAPC::Europe Venue Committee<br />
+[% END %]
 
 [% WRAPPER add_news_item
    date = '14:00:00 23-02-2010'
