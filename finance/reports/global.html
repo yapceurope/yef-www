@@ -33,6 +33,9 @@
              refund_total = refund_total - row.1 ;
            END ;
            IF ! row.0.match( 'Liabilities' ) ;
+             IF row.0.match( '^Online' ) ;
+               online_payment.${row.0} = ( online_payment.${row.0} || 0 ) + row.1;
+             END;
              liabilities = liabilities + row.1;
            END;
          END ;
@@ -89,4 +92,20 @@ and then forwarded by the Foundation on behalf of conference organizers
 through its <a href="[% payment_page %]">online payment system</a>
 and direct money transfers from conference attendees.
 </p>
+<p>
+The table below gives some details (in bold, the amount YEF had yet
+to refund to conference organizers as of [% matches = assets_title.match('(\d.*)'); matches.0 %]).
+Additional details about individual conferences are available on the
+<a href="[% conf_cashflow_page %]">conference cashflow charts</a>.
+</p>
+<table class="financial_report">
+<tr class="financial_section"><th class="financial_section">Online Payment</th></tr>
+[% total = 0 %]
+[% FOR key = online_payment.keys %]
+<tr><td>[% key %]</td>
+    <td class="amount" >[% online_payment.$key | format('%.2f') %]</td>
+    <th class="amount" >[% total = total + online_payment.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
+</tr>
+[% END %]
+</table>
 [% END %]
