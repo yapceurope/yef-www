@@ -10,7 +10,7 @@
 [% END %]
 | <b>Global</b>
 </p>
-[% refund_total = 0;
+[% payment_total = 0;
    liabilities  = 0;
    FOR year = finances.keys.sort ;
      FOR section = finances.$year ;
@@ -29,8 +29,8 @@
          END ;
        ELSIF title == 'Liabilities' ;
          FOR row = section ;
-           IF row.0 == 'Online Payment Refunds' ;
-             refund_total = refund_total - row.1 ;
+           IF row.0.match( 'Online Payment' ) && ! row.0.match( 'Refund' );
+             payment_total = payment_total + row.1 ;
            END ;
            IF ! row.0.match( 'Liabilities' ) ;
              IF row.0.match( '^Online' ) ;
@@ -87,8 +87,8 @@ Foundation since its creation in 2004.
 </table>
 
 <p>
-Over the years, a total of <b>&euro;[% refund_total %]</b> were received
-and then forwarded by the Foundation on behalf of conference organizers
+Over the years, a total of <b>&euro;[% payment_total %]</b> were received
+by the Foundation on behalf of conference organizers
 through its <a href="[% payment_page %]">online payment system</a>
 and direct money transfers from conference attendees.
 </p>
