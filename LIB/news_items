@@ -11,6 +11,29 @@
 %]
 
 [%# add new item just below, in reverse chronological order %]
+
+[% WRAPPER add_news_item
+   date = '16:00:00 05-07-2010'
+   title = 'YAPC::Europe 2011 Proposals Online'
+%]
+<p>
+The <a href="[% root %]/venue.html">YEF Venue Committee</a>
+has received two proposals to host YAPC::Europe 2011.  The candidates are
+<strong><a href="http://yapcrussia.org/proposal2011/">Riga</a></strong> and
+<strong><a href="[% old_proposals_dir %]2011/Frankfurt.pdf">Frankfurt</a></strong>.
+This is the second year that all proposals are being published, although
+some portions of the application may be kept private at the request of
+the team making the proposal.
+The Venue Committee will spend the next few weeks examining the proposals
+and clarifying any issues before reaching a decision.</p>
+
+<p>The public announcement for the location of YAPC::Europe 2011 will
+be given during 
+<a href="http://yapceurope.org/2010">YAPC::Europe 2010 in Pisa</a>.
+</p>
+[% END %]
+
+
 [% WRAPPER add_news_item
    date = '16:00:00 12-04-2010'
    title = 'Call for Venue for YAPC::Europe 2011'
