@@ -348,10 +348,10 @@
       - 38.76
     -
       - Online Payment Charge
-      - 107.64
+      - 161.46
     -
       - Online Payment Fees
-      - 147.16
+      - 294.44
   -
     - Liabilities
     -
@@ -359,21 +359,21 @@
       - 0.00
     -
       - Online Payment
-      - 11236.00
+      - 21888.00
     -
       - Online Payment (Transfer)
-      - 782.00
+      - 3392.00
     -
       - Online Payment Refunds
-      - -6944.00
+      - -11944.00
   -
-    - Assets 2010-06-30
+    - Assets 2010-07-31
     -
       - Account 00010281201
       - 100.00
     -
       - Account 00010281203
-      - 9068.29
+      - 17229.19
     -
       - Liabilities
-      - -5074.00
+      - -13336.00
