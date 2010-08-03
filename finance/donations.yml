@@ -1,5 +1,12 @@
 ---
 to_yef:
+  - who: 
+    event: Belgian Perl Workshop 2010
+    date: 0:0:0 03/08/2010
+    amount: 300
+    who_url: 
+    event_url: http://conferences.mongueurs.net/bpw2010/
+    news_url: 
   - who: Vienna.pm
     event: YAPC::Europe 2007
     date: 0:0:0 30/06/2009
