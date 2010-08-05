@@ -13,6 +13,23 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '16:04:00 05-08-2010'
+   title = 'Riga selected for YAPC::Europe 2011'
+%]
+<p>
+YAPC::Europe Foundation is pleased to announce
+that Riga, Latvia has been chosen as the site for the
+YAPC::Europe 2011</a>.
+</p><p>
+We are confident that Riga.pm's experienced team--which was responsible
+for several Perl Workshops in a number of different countries--will put
+together a wonderful conference.  The theme for the next YAPC::Europe
+will be 'Modern Perl'.
+</p><p>
+We hope to see you in Riga next summer!
+</p>
+[% END %]
+[% WRAPPER add_news_item
    date = '16:00:00 05-07-2010'
    title = 'YAPC::Europe 2011 Proposals Online'
 %]
