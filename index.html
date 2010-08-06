@@ -40,7 +40,7 @@
         <ol id="conferenceitems">
 [% PROCESS conference_items %]
 [% FOREACH item = conferences.reverse %]
-[% NEXT IF ! item.end.match('xx') && date.format( item.end, '%Y%m%d' ) <= date.format(date.now, '%Y%m%d') %]
+[% NEXT IF ! item.end.match('xx') && date.format( item.end, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
 [% PROCESS format_item item = item %]
 [% END %]
         </ol>
@@ -50,7 +50,7 @@
         <ol id="workshopitems">
 [% PROCESS workshop_items %]
 [% FOREACH item = workshops.list.reverse %]
-[% NEXT IF ! item.end.match('xx') && date.format( item.end, '%Y%m%d' ) <= date.format(date.now, '%Y%m%d') %]
+[% NEXT IF ! item.end.match('xx') && date.format( item.end, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
 [% PROCESS format_item item = item %]
 [% END %]
         </ol>
@@ -60,7 +60,7 @@
         <h3><a href="[% hackathons_page %]">Hackathons</a></h3>
         <ol id="hackathonitems">
 [% FOREACH item = hackathons.reverse %]
-[% NEXT IF ! item.end.match('xx') && date.format( item.end, '%Y%m%d' ) <= date.format(date.now, '%Y%m%d') %]
+[% NEXT IF ! item.end.match('xx') && date.format( item.end, '%Y%m%d' ) < date.format(date.now, '%Y%m%d') %]
 [% PROCESS format_item item = item %]
 [% END %]
         </ol>
