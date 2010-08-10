@@ -1,0 +1,48 @@
+[% WRAPPER html_page
+   title = 'Perl Conferences Timeline' 
+   extra = '<script src="http://static.simile.mit.edu/timeline/api-2.3.0/timeline-api.js?bundle=true" type="text/javascript"></script>'
+%]
+
+<div id="my-timeline" style="height: 350px; border: 1px solid #aaa"></div>
+
+<script>
+var tl;
+function onLoad() {
+  var eventSource = new Timeline.DefaultEventSource();
+  var bandInfos = [
+    Timeline.createBandInfo({
+        eventSource:    eventSource,
+        width:          "85%", 
+        intervalUnit:   Timeline.DateTime.MONTH, 
+        intervalPixels: 60
+    }),
+    Timeline.createBandInfo({
+        eventSource:    eventSource,
+        overview: true,
+        width:          "15%", 
+        intervalUnit:   Timeline.DateTime.YEAR, 
+        intervalPixels: 120
+    })
+  ];
+
+  bandInfos[1].syncWith = 0;
+  bandInfos[1].highlight = true;
+
+  tl = Timeline.create(document.getElementById("my-timeline"), bandInfos);
+  Timeline.loadXML("conferences.xml", function(xml, url) { eventSource.loadXML(xml, url); });
+
+}
+
+var resizeTimerID = null;
+function onResize() {
+    if (resizeTimerID == null) {
+        resizeTimerID = window.setTimeout(function() {
+            resizeTimerID = null;
+            tl.layout();
+        }, 500);
+    }
+}
+
+onLoad();
+</script>
+[% END %]

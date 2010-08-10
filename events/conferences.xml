@@ -1,0 +1,29 @@
+<data date-time-format="iso8601" >
+    <!-- Sources:
+        http://
+    -->
+[%
+ USE YAML;
+ USE date;
+ confs = YAML.undumpfile("events/conferences.yml");
+
+ FOR conf = confs ;
+     NEXT IF conf.begin.match( 'xx' );
+     NEXT IF conf.end.match( 'xx' );
+%]
+  <event
+    start="[% date.format(conf.begin, '%Y-%m-%dT00:00:00Z') %]"
+    end="[% date.format(conf.end, '%Y-%m-%dT23:59:59Z') %]"
+    isDuration="true"
+    caption="[%- IF conf.city %][% conf.city %], [% END %][% conf.country %]"
+[%- IF conf.url%]    link="[% conf.url %]"[% END %]
+    title="[% conf.name %]"
+  >
+[%- IF conf.city %][% conf.city %], [% END %][% conf.country %]
+[%- IF conf.theme %]&lt;br /&gt;Theme: [% conf.theme %][% END %]
+[%- IF conf.part_of %]&lt;br /&gt;Part of: [% IF conf.part_of_url %]&lt;a href="[% conf.part_of_url %]" &gt;[% END %][% conf.part_of %][% IF conf.part_of_url %]&lt;/a&gt;[% END %][% END %]
+</event>
+[% END %]
+</data>
+
+
