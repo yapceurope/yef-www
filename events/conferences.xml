@@ -22,7 +22,7 @@
 [%- IF conf.city %][% conf.city %], [% END %][% conf.country %]
 [%- IF conf.theme %]&lt;br /&gt;Theme: [% conf.theme %][% END %]
 [%- IF conf.part_of %]&lt;br /&gt;Part of: [% IF conf.part_of_url %]&lt;a href="[% conf.part_of_url %]" &gt;[% END %][% conf.part_of %][% IF conf.part_of_url %]&lt;/a&gt;[% END %][% END %]
-</event>
+  </event>
 [% END %]
 </data>
 
