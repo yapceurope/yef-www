@@ -4,6 +4,7 @@
 <title>YAPC::Europe Foundation - [% title %]</title>
 <link rev="made" href="mailto:www@yapceurope.org" />
 <link rel="stylesheet" href="[% root %]/style.css" type="text/css" media="screen, projection" />
+[% IF extra %][% extra %][% END %]
 </head>
 <body>
 <div id="main">
