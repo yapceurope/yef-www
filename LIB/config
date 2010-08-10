@@ -10,6 +10,7 @@
     donation_page           = "$root/organizers/donation.html"
     donating_page           = "$root/donating.html"
     events_page             = "$root/events/index.html"
+    timeline_page           = "$root/events/timeline.html"
     foundation_page         = "$root/foundation.html"
     finance_page            = "$root/finance/index.html"
     finance_report_page     = "$root/finance/reports/"

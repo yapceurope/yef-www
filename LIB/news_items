@@ -13,6 +13,17 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '15:00:00 10-08-2010'
+   title = 'Perl conferences timeline'
+%]
+<p>
+Timelines are a nice way to visualize information.
+So we made a <a href="[% timeline_page %]">timeline of all Perl conferences</a>,
+based on the <a href="[% ical_page %]">calendar of all Perl conferences</a>.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '16:04:00 05-08-2010'
    title = 'Riga selected for YAPC::Europe 2011'
 %]
