@@ -38,6 +38,7 @@
             ELSIF row.0.match( 'Online Payment' ) ;
               online.$year.${row.0} = ( online.$year.${row.0} || 0 ) + row.1 ;
               online.total.${row.0} = ( online.total.${row.0} || 0 ) + row.1 ;
+              online_total = ( online_total || 0 ) + row.1 ;
             END ;
           END ;
        END ;
@@ -63,7 +64,7 @@
     </p><p>
     Including the &euro;[% online.total.${'Online Payment (Transfer)'} | format('%.2f') %]
     received via direct money transfer from conference attendees, a total of 
-    <b>&euro;[% refund_total | format('%.2f') %]</b>
+    <b>&euro;[% online_total | format('%.2f') %]</b>
     transited through the YAPC Europe Foundation's bank
     account to the various conferences organizers accounts.</p>
 
