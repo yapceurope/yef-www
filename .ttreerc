@@ -1,6 +1,10 @@
 recurse
 preserve 
 
+# encoding
+encoding = utf8
+binmode = :utf8
+
 # ignore = ^/\b20\d\d\b
 ignore = \b(CVS|RCS|LIB)\b
 ignore = ^#
