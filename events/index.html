@@ -53,6 +53,9 @@ The <a href="[% root %]/events/conferences.yml">Perl Conferences Database</a>
 contains information about
 [% USE YAML; confs = YAML.undumpfile("events/conferences.yml"); " " _ confs.size %]
 conferences so far.
+The <a href="[% timeline_page %]">timeline of Perl conferences</a>
+(generated using the database) provides a view of Perl conferences
+activity over time.
 </p>
 
 [% END %]
