@@ -69,7 +69,9 @@
 
 [% BLOCK format_item %]
           <li><dl>
-            <dt>[% IF item.url %]<a href="[% item.url %]">[% item.name %]</a>[% ELSE %][% item.name %][% END %]</dt>
+            [% name = item.url ? '<a href="' _ item.url _ '">' _ ( item.nickname || item.name ) _ '</a>' : item.nickname || item.name %]
+            [% IF item.nickname ; name = name _ ' (' _ item.name _ ')' ; END %]
+            <dt>[% name %]</dt>
             <dd>[% IF item.begin.match('xx') ; %]<small>(no date announced)</small>[% ELSE ;date.format( item.begin, format='%B&nbsp;%e', locale='C') | replace( ' ', '' ) %]
 [%- IF item.end != item.begin %]
 - 
