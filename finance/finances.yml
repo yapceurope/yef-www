@@ -342,6 +342,11 @@
       - Liabilities
       - 0.00
   -
+    - Income
+    -
+      - Donations
+      - 300.00
+  -
     - Expenses
     -
       - Bank Account Charge
