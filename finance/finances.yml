@@ -350,13 +350,16 @@
     - Expenses
     -
       - Bank Account Charge
-      - 53.12
+      - 60.30
     -
       - Online Payment Charge
-      - 161.46
+      - 215.28
     -
       - Online Payment Fees
       - 335.68
+    -
+      - Kickstart Donations
+      - 1000.00
   -
     - Liabilities
     -
@@ -372,13 +375,13 @@
       - Online Payment Refunds
       - -28527.00
   -
-    - Assets 2010-09-30
+    - Assets 2010-10-31
     -
       - Account 00010281201
-      - 85.64
+      - 24.64
     -
       - Account 00010281203
-      - 4051.95
+      - 3051.95
     -
       - Liabilities
       - 0.00
