@@ -14,7 +14,7 @@ to_yef:
     who_url: 
     event_url: http://www.perlworkshop.be/bpw2010/
     news_url: 
-  - who: Vienna.pm
+  - who: Vienna.pm - Verein zur Förderung der Programmiersprache Perl
     event: YAPC::Europe 2007
     date: 0:0:0 30/06/2009
     amount: 2500
