@@ -344,13 +344,16 @@
   -
     - Income
     -
+      - Interest Income
+      - 63.13
+    -
       - Donations
       - 2300.00
   -
     - Expenses
     -
       - Bank Account Charge
-      - 67.48
+      - 74.66
     -
       - Online Payment Charge
       - 215.28
@@ -375,13 +378,13 @@
       - Online Payment Refunds
       - -28527.00
   -
-    - Assets 2010-11-30
+    - Assets 2010-12-31
     -
       - Account 00010281201
-      - 2069.41
+      - 262.23
     -
       - Account 00010281203
-      - 3000.00
+      - 4863.13
     -
       - Liabilities
       - 0.00
