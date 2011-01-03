@@ -362,7 +362,7 @@
       - 335.68
     -
       - Kickstart Donations
-      - 1000.00
+      - 1500.00
   -
     - Liabilities
     -
@@ -374,6 +374,9 @@
     -
       - Online Payment (Transfer)
       - 3392.00
+    -
+      - Kickstart Donations
+      - 500.00
     -
       - Online Payment Refunds
       - -28527.00
@@ -387,4 +390,4 @@
       - 4863.13
     -
       - Liabilities
-      - 0.00
+      - -500.00
