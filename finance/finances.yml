@@ -176,12 +176,15 @@
       - 418.20
     -
       - Kickstart Donations
-      - 1700.00
+      - 2700.00
   -
     - Liabilities
     -
       - Liabilities 2007-01-01
       - 3029.22
+    -
+      - Kickstart Donations
+      - 1000.00
     -
       - Online Payment
       - 30617.00
@@ -204,7 +207,7 @@
       - 15.51
     -
       - Liabilities
-      - -7689.22
+      - -8689.22
 2008:
   -
     - Assets 2008-01-01
@@ -219,7 +222,7 @@
       - 15.51
     -
       - Liabilities
-      - -7689.22
+      - -8689.22
   -
     - Income
     -
@@ -239,20 +242,20 @@
     -
       - Online Payment Fees
       - 41.22
-    -
-      - Kickstart Donations
-      - 500.00
   -
     - Liabilities
     -
       - Liabilities 2008-01-01
-      - 7689.22
+      - 8689.22
     -
       - Online Payment
       - 2735.00
     -
       - Online Payment (Transfer)
       - 60.00
+    - 
+      - Kickstart donations
+      - -500.00
     -
       - Online Payment Refunds
       - -7595.00
@@ -266,7 +269,7 @@
       - 7247.33
     -
       - Liabilities
-      - -2889.22
+      - -3389.22
 2009:
   -
     - Assets 2009-01-01
@@ -278,7 +281,7 @@
       - 7247.33
     -
       - Liabilities
-      - -2889.22
+      - -3389.22
   -
     - Income
     -
@@ -300,12 +303,12 @@
       - 385.63
     -
       - Kickstart Donations
-      - 2500.00
+      - 2000.00
   -
     - Liabilities
     -
       - Liabilities 2009-01-01
-      - 2889.22
+      - 3389.22
     -
       - Online Payment
       - 29499.00
@@ -315,6 +318,9 @@
     - 
       - Legal Fees Refunds
       - -39.22
+    - 
+      - Kickstart donations
+      - -500.00
     - 
       - Online Payment Refunds
       - -35209.00
@@ -369,14 +375,14 @@
       - Liabilities 2010-01-01
       - 0.00
     -
+      - Kickstart Donations
+      - 500.00
+    -
       - Online Payment
       - 25135.00
     -
       - Online Payment (Transfer)
       - 3392.00
-    -
-      - Kickstart Donations
-      - 500.00
     -
       - Online Payment Refunds
       - -28527.00
