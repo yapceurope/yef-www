@@ -25,6 +25,11 @@ h3, h4, h5, h6 {
 p {
    margin-bottom: 1em;
 }
+p.notes {
+  font-size: small;
+  text-indent: -2ex;
+  margin-left: 2em;
+}
 table {
    border-collapse: collapse;
 }
