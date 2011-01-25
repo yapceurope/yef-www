@@ -21,6 +21,7 @@ var conferences = {
  "ye2007":{"act_open":1163548800000,"begin":1188259200000,"conf_id":"ye2007","end":1188432000000,"fullname":"YAPC Europe 2007","name":"YAPC Europe","url":"http://conferences.yapceurope.org/2007/","year":"2007"},
  "ye2009":{"act_open":1225324800000,"begin":1249257600000,"conf_id":"ye2009","end":1249430400000,"fullname":"YAPC Europe 2009","name":"YAPC Europe","url":"http://yapceurope2009.org/ye2009/","year":"2009"},
  "ye2010":{"act_open":1258848000000,"begin":1280880000000,"conf_id":"ye2010","end":1281052800000,"fullname":"YAPC Europe 2010","name":"YAPC Europe","url":"http://conferences.yapceurope.org/ye2010/","year":"2010"},
+ "ye2011":{"act_open":1295308800000,"begin":1313366400000,"conf_id":"ye2011","end":1313539200000,"fullname":"YAPC Europe 2011","name":"YAPC Europe","url":"http://yapceurope.lv/","year":"2011"},
  "yr2010":{"act_open":1266278400000,"begin":1276300800000,"conf_id":"yr2010","end":1276473600000,"fullname":"Perl Mova + YAPC Russia 2010","name":"Perl Mova + YAPC Russia","url":"http://social.yapcrussia.org/yr2010/","year":"2010"}};
 var payments = {
  "apw2005":[
@@ -1254,6 +1255,11 @@ var payments = {
   [1282003200000,1,5000],
   [1282089600000,1,1583],
   [1282694400000,0,0]],
+ "ye2011":[
+  [1295308800000,0,0],
+  [1295348156000,0,1],
+  [1295422123000,0,80],
+  [1313539200000,0,0]],
  "yr2010":[
   [1266278400000,0,0],
   [1272738969000,0,1],
