@@ -26,6 +26,7 @@
     venues_page             = "$root/venue.html"
     venue_page              = "$root/venue.html"
     venue_committee_page    = "$root/venue.html"
+    web_committee_page      = "$root/web.html"
     workshops_page          = "$root/events/workshops.html"
     meets_page	            = "$root/meets.html"
     workshop_stories_page   = "$root/stories/workshops.html"
