@@ -58,7 +58,7 @@
           <li><dl>
             <dt><b>[% date.format( item.date, format='%B %Y', locale='C') %]</b></dt>
             <dd>&euro;[% item.amount %] [% direction %]
-[% IF item.who ; IF item.who_url %]<a href="item.who_url">[% item.who %]</a>[% ELSE %][% item.who %][% END ; ELSE %]<a href="[% item.event_url %]">[% item.event %]</a>[% END %]</dd>
+[% IF item.who ; IF item.who_url %]<a href="[% item.who_url %]">[% item.who %]</a>[% ELSE %][% item.who %][% END ; ELSE %]<a href="[% item.event_url %]">[% item.event %]</a>[% END %]</dd>
           </dl></li>
 [% END %]
 [% END %]
