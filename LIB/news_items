@@ -13,6 +13,41 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '10:48:00 04-03-2011'
+   title = 'Call for Venue for YAPC::Europe::2012'
+%]
+<p>
+Although YAPC::Europe::2011 preparations are well underway in Riga,
+it is time for the venue committee of the YAPC::Europe Foundation (YEF)
+to think about the location of the 2012 conference.  YAPC::Europe wouldn't
+exist without dedicated teams of volunteers, and we are always excited
+to see the enthusiasm and learn about the new ideas the community has to
+offer.
+</p>
+<p>
+Further information about preparing a complete application can be
+found on <a href="[% organizers_page %]">our website</a>.  Proposals submitted
+to the venue committee will be added to this public repository (you
+may provide private information separately) to benefit future organizers.
+</p>
+The deadlines which apply to this portion of the procedure are:
+<ul>
+<li><em>Saturday, 30 April:</em>  Deadline for sending a letter of intent.  This
+  letter simply expresses interest in hosting the conference and provides
+  contact information (both email and telephone) for at least two organizers.
+  This is an optional step but it can be to your advantage to alert the
+  venue committee of your proposal.</li>
+<li><em>Thursday, 30 June:</em>  Deadline for sending proposals to 
+  host YAPC::Europe 2012.</li>
+</ul>
+</p>
+<p>
+Please send your questions, letters of intent, and proposals to
+venue@yapceurope.org.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '15:00:00 10-08-2010'
    title = 'Perl conferences timeline'
 %]
