@@ -62,6 +62,11 @@ function graphData ( confs ) {
     $.merge( payment_data, payments[conf_id] );
     ends.push( [ conferences[conf_id].end, 0] );
   });
+  // if the last date is after today, change it to today
+  var now = (new Date()).getTime();
+  if( payment_data[ payment_data.length - 1 ][0] > now ) {
+      payment_data[ payment_data.length - 1 ][0] = now;
+  }
   // some extra data
   var total = 0;
   var refund_summary = [0];
