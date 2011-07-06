@@ -13,6 +13,24 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '12:30:00 06-07-2011'
+   title = 'YAPC::Europe 2012 Proposals'
+%]
+<p>
+The <a href="[% root %]/venue.html">YEF Venue Committee</a>
+has received two proposals to host YAPC::Europe 2012.  The candidates are
+<strong>Frankfurt</strong> and
+<strong>Sofia</strong>.
+The Venue Committee will spend the next few weeks examining the proposals
+and clarifying any issues before reaching a decision.</p>
+
+<p>The public announcement for the location of YAPC::Europe 2012 will
+be given during 
+<a href="http://yapceurope.lv/ye2011/">YAPC::Europe 2011 in Riga</a>.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '10:48:00 04-03-2011'
    title = 'Call for Venue for YAPC::Europe::2012'
 %]
