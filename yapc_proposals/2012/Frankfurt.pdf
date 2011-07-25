@@ -1,0 +1,4187 @@
+%PDF-1.2
+%‚„œ”
+1 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.9505 1 1.089]
+/Gamma [1.8 1.8 1.8]
+/Matrix [0.4497 0.2446 0.02518 0.3613 0.672 0.1412 0.1845 0.08334 0.9227]
+>>
+]
+endobj
+2 0 obj
+<<
+/CreationDate (D:20110716161526+0200)
+/Producer (pod2pdf)
+/Title (Bid.pod)
+>>
+endobj
+5 0 obj
+<<
+/Type /Encoding
+/Differences [ 0 /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam
+/quotedbl /numbersign /dollar /percent /ampersand
+/quoteright /parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one /two /three /four /five
+/six /seven /eight /nine /colon /semicolon /less /equal
+/greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L
+/M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft
+/backslash /bracketright /asciicircum /underscore
+/quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p
+/q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright
+/asciitilde /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /emdash
+/dotlessi /grave /acute /circumflex /tilde /macron /breve
+/dotaccent /dieresis /.notdef /ring /cedilla /.notdef
+/hungarumlaut /ogonek /caron /space /exclamdown /cent
+/sterling /currency /yen /brokenbar /section /dieresis
+/copyright /ordfeminine /guillemotleft /logicalnot /hyphen
+/registered /macron /degree /plusminus /twosuperior
+/threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright
+/onequarter /onehalf /threequarters /questiondown /Agrave
+/Aacute /Acircumflex /Atilde /Adieresis /Aring /AE
+/Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve
+/Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash
+/Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn
+/germandbls /agrave /aacute /acircumflex /atilde /adieresis
+/aring /ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis /eth
+/ntilde /ograve /oacute /ocircumflex /otilde /odieresis
+/divide /oslash /ugrave /uacute /ucircumflex /udieresis
+/yacute /thorn /ydieresis ]
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F00
+/Encoding 5 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F01
+/Encoding 5 0 R
+/BaseFont /Times-Bold
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F02
+/Encoding 5 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F03
+/Encoding 5 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F10
+/Encoding 5 0 R
+/BaseFont /Courier
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F11
+/Encoding 5 0 R
+/BaseFont /Courier-Bold
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F12
+/Encoding 5 0 R
+/BaseFont /Courier-Oblique
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F13
+/Encoding 5 0 R
+/BaseFont /Courier-BoldOblique
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F20
+/Encoding 5 0 R
+/BaseFont /Helvetica
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F21
+/Encoding 5 0 R
+/BaseFont /Helvetica-Bold
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F22
+/Encoding 5 0 R
+/BaseFont /Helvetica-Oblique
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F23
+/Encoding 5 0 R
+/BaseFont /Helvetica-BoldOblique
+>>
+endobj
+0 g
+18 0 obj
+<<
+/Length 19 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 485.78 797 Tm
+(Bid.pod) Tj
+/F21 12 Tf
+1 0 0 1 72.0 764.0 Tm
+0.0000 Tw
+(Frankfurt.pm bid for hosting YAPC::EU 2012 ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 749.6 Tm
+0.5300 Tw
+(Frankfurt.pm, one of the biggest Perlmonger groups in Germany, would like to host the YAPC::Europe) Tj
+1 0 0 1 102.0 737.6 Tm
+0.0000 Tw
+(2011 Perl conference in Frankfurt/Main \(Germany\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 719.6 Tm
+0.0000 Tw
+(Organizers ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 707.6 Tm
+2.0336 Tw
+(If Frankfurt.pm is selected to host next year`s YAPC::Europe, we will form a "Verein" \(registered) Tj
+1 0 0 1 102.0 695.6 Tm
+0.0000 Tw
+(association\) to handle everything regarding the event. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 683.6 Tm
+0.0000 Tw
+(Frankfurt.pm members have some experience in organizing events: ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 657.2 Tm
+0.5371 Tw
+() Tj
+ET
+q
+102 658.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 657.2 Tm
+/F20 10 Tf
+0.5371 Tw
+(Some of us were in the organizing committee of the German Perl-Workshop \(GPW\) for many) Tj
+1 0 0 1 102.0 645.2 Tm
+0.0000 Tw
+(years ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 630.8 Tm
+3.0036 Tw
+() Tj
+ET
+q
+102 631.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 630.8 Tm
+/F20 10 Tf
+3.0036 Tw
+(Frankfurt.pm has organized the 11th German Perl-Workshop in 2009 and 13th German) Tj
+1 0 0 1 102.0 618.8 Tm
+0.0000 Tw
+(Perl-Workshop in 2011 ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 604.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 605.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 604.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(Frankfurt.pm organizes a small workshop every year for 6 years now ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 592.4 Tm
+0.0000 Tw
+(These Frankfurt.pm members have already committed to organize YAPC::Europe 2012: ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 567 4 4 re
+f
+Q
+BT
+1 0 0 1 110 566 Tm
+/F20 10 Tf
+0.0000 Tw
+(Ren\351e B\344cker ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 551.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 552.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 551.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Max Maischein ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 537.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 538.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 537.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(Harald Vajkonny ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 522.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 523.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 522.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(Rolf Langsdorf ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 508.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 509.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 508.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(Thomas Fahle ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 495 4 4 re
+f
+Q
+BT
+1 0 0 1 110 494 Tm
+/F20 10 Tf
+0.0000 Tw
+(Heiko Honrath ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 479.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 480.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 479.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Wieland Pusch ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 467.6 Tm
+0.0000 Tw
+(And these persons have also committed their help: ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 441.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 442.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 441.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(Michael Lang ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 426.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 427.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 426.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(Herbert Breunung ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 414.8 Tm
+0.0000 Tw
+(And we get some support of other Perlmongers in Germany: ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 388.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 389.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 388.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(Steffen Schwigon - Dresden.pm \(also in the organizing committee of GPW 2004 - 2010\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 375 4 4 re
+f
+Q
+BT
+1 0 0 1 110 374 Tm
+/F20 10 Tf
+0.0000 Tw
+(Bernhard Schmalhofer - Munich.pm ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+(Most of us have attended a YAPC for several years. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 344.0 Tm
+0.0000 Tw
+(   Contact ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 332.0 Tm
+0.0000 Tw
+(Questions? Comments? Please contact the organizers at yapceu@perl-magazin.de ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 314.0 Tm
+0.0000 Tw
+(Venue ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 302.0 Tm
+0.6863 Tw
+(We have no contract yet, but we are already in contact with two venues. Sadly both venues are not for) Tj
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+(free, but the price is ok. ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 272.0 Tm
+0.0000 Tw
+(     Saalbau Titus ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 260.0 Tm
+2.8600 Tw
+(Situated amidst modern architecture and surrounded by over 120 retail shops, banks and service) Tj
+1 0 0 1 102.0 248.0 Tm
+1.9791 Tw
+(companies, one finds the SAALBAU Titus Forum, located in Frankfurt?s "Nordwestzentrum". This) Tj
+1 0 0 1 102.0 236.0 Tm
+3.6533 Tw
+(building is ideal for hosting large-scale events such as congresses, seminars, presentations and) Tj
+1 0 0 1 102.0 224.0 Tm
+0.3507 Tw
+(exhibitions. Thanks to the neighbouring hotel, the Titus-Forum is also suitable for events lasting several) Tj
+1 0 0 1 102.0 212.0 Tm
+0.0000 Tw
+(days. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 200.0 Tm
+0.2873 Tw
+(The location is nearby the an area called "Nordwestzentrum" with several opportunities to get lunch and) Tj
+1 0 0 1 102.0 188.0 Tm
+0.0000 Tw
+(one hotel \(Courtyard Marriot\). Other hotels are in the city - that is 25min by subway. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 176.0 Tm
+0.0000 Tw
+(The Saalbau Titus has several rooms: ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 149.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 150.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 149.6 Tm
+/F20 10 Tf
+0.0000 Tw
+("Gro\337er Saal", 580 sqm, 356 seats \(classroom style capacity\) up to 647 seats \(row seating\). ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 135.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 136.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 135.2 Tm
+/F20 10 Tf
+0.0000 Tw
+("Clubraum 3", 67 sqm, 80 seats \(row seating\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 120.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 121.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 120.8 Tm
+/F20 10 Tf
+0.0000 Tw
+("Clubraum 4", 58 sqm, 50 seats \(row seating\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 108.8 Tm
+0.0000 Tw
+(There are several other options in the Saalbau \(1 bigger room, several smaller rooms\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 96.8 Tm
+0.3056 Tw
+(In case, we can`t find a sponsor for lunch, there are several opportunities in the "Nordwestzentrum", see) Tj
+1 0 0 1 102.0 84.8 Tm
+0.0000 Tw
+(http://www.nwz-frankfurt.de/nc/geschaefte/branchen/gastronomie/ \(german\). ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(16 July 2011) Tj
+1 0 0 1 517.44 37 Tm
+(1) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+19 0 obj
+6253
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 20 0 R
+/Contents 18 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 23 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F20 10 Tf
+1 0 0 1 72.0 770.0 Tm
+0.0000 Tw
+(     University of Frankfurt / Campus Bockenheim ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+1.7815 Tw
+(The old "headquarters" in Merton Street ? Domicile of the Economics and Business Administration) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(Department ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 734.0 Tm
+0.4656 Tw
+(The traditional campus of the university is located close to Frankfurt?s trade fair and main train station.) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(The university?s administrative offices as well as some departments can be found here. ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 695.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 696.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 695.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(HI 300 seats ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 681.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 682.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 681.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(H1  60 seats ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 666.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 667.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 666.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(H2 120 seats ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 654.8 Tm
+0.0000 Tw
+(We can book several of the smaller rooms if needed. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 642.8 Tm
+0.0000 Tw
+(Hotels are very close to the venue. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 630.8 Tm
+0.0000 Tw
+(In case, we can`t find a sponsor for lunch, there are several opportunities for lunch located nearby. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 612.8 Tm
+0.0000 Tw
+(   Catering ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 600.8 Tm
+0.0000 Tw
+(The attendance fees include coffee breaks in the morning and afternoon. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 588.8 Tm
+0.6721 Tw
+(Depending on the level of sponsorship, we could also consider more expensive scenarios: for example,) Tj
+1 0 0 1 102.0 576.8 Tm
+0.0000 Tw
+(including high-quality lunches and coffee breaks. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 558.8 Tm
+0.0000 Tw
+(Conference Details ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 546.8 Tm
+0.0000 Tw
+(The subsequent paragraphs give an overview over the conference itself. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 528.8 Tm
+0.0000 Tw
+(   Date ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 516.8 Tm
+0.0000 Tw
+(We choose August for the conference. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 504.8 Tm
+0.2433 Tw
+(Since August is quiet in terms of fairs and other events, prices for hotels should be relatively small. And) Tj
+1 0 0 1 102.0 492.8 Tm
+0.0000 Tw
+(last YAPCs have been in August, too. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 480.8 Tm
+0.0000 Tw
+(Exact dates have to be announced. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 462.8 Tm
+0.0000 Tw
+(   Theme ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 450.8 Tm
+0.0000 Tw
+(If Frankfurt is elected to host next year`s YAPC, the Conference Theme is likely "Powerhouse Perl". ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 438.8 Tm
+0.0681 Tw
+(A powerhouse generates the energy we all need - and most businesses need power, too. Many businesses) Tj
+1 0 0 1 102.0 426.8 Tm
+1.0647 Tw
+(run with Perl, either built a product with Perl or use it for several tasks to work more efficiently. We) Tj
+1 0 0 1 102.0 414.8 Tm
+0.2387 Tw
+(hope, that this theme leads to many talks that show how Perl can be used to run or at least helps to run a) Tj
+1 0 0 1 102.0 402.8 Tm
+0.0000 Tw
+(business. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 384.8 Tm
+0.0000 Tw
+(Website ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 372.8 Tm
+2.5718 Tw
+(We plan to use the conference toolkit "Act!" as this is proven by many YAPCs and it provides) Tj
+1 0 0 1 102.0 360.8 Tm
+0.0000 Tw
+(everything we need. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 342.8 Tm
+0.0000 Tw
+(Auction ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 330.8 Tm
+0.6711 Tw
+(At the end of the conference we plan to hold an auction of Perl-\(non\)related stuff. All the talks will be) Tj
+1 0 0 1 102.0 318.8 Tm
+1.2156 Tw
+(done to that moment, and the large room is big enough to have all attendees and their auction goods) Tj
+1 0 0 1 102.0 306.8 Tm
+0.5520 Tw
+(together, well, as well as money. Public offensive sexual-related activity will not be allowed during the) Tj
+1 0 0 1 102.0 294.8 Tm
+1.3325 Tw
+(action \(that doesn`t mean it is allowed in the conference itself though\). Possible auction profit is not) Tj
+1 0 0 1 102.0 282.8 Tm
+0.0000 Tw
+(included in the initial budget. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 264.8 Tm
+0.0000 Tw
+(Promotion ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 252.8 Tm
+1.9175 Tw
+(The proposed event will be promoted through standard Perl-related websites such as blogs.perl.org,) Tj
+1 0 0 1 102.0 240.8 Tm
+0.2492 Tw
+(Perl-Community.de, Perl-Nachrichten.de, Perl community ad server, and also in mailing lists of German) Tj
+1 0 0 1 102.0 228.8 Tm
+0.0000 Tw
+(speaking PM-groups. We will also create pages in Social Networks like Facebook, LinkedIn and XING. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 216.8 Tm
+0.0000 Tw
+(Of course we won`t forget sites like Twitter et al. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 204.8 Tm
+0.2122 Tw
+(Those of us who attend Perl-related \(and not only\) events may give lightning talks of what YAPC is and) Tj
+1 0 0 1 102.0 192.8 Tm
+0.8135 Tw
+(where it will happen next time. This could start the weekend after 2011s YAPC::EU when some of us) Tj
+1 0 0 1 102.0 180.8 Tm
+0.0000 Tw
+(attend the FrOSCon \(Free and Open Source Conference\) in St. Augustin \(Germany\). ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 168.8 Tm
+0.3735 Tw
+(We will also promote the event among local people via online magazines and local user groups of other) Tj
+1 0 0 1 102.0 156.8 Tm
+0.0000 Tw
+(techniques \(e.g. Frankfurt Unix User Group, Darmst\344dter IT-Stammtisch\). ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 138.8 Tm
+0.0000 Tw
+(Survey ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 126.8 Tm
+1.0094 Tw
+(We do not plan to make preliminary voting for the talks \(letting approval right to the organizers\), but) Tj
+1 0 0 1 102.0 114.8 Tm
+0.0000 Tw
+(there will be standard option which allows to build up a personal schedule, marking talks with a star. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 102.8 Tm
+2.2380 Tw
+(After the conference is completed we?ll send e-mails proposing to take part in the YAPC Survey) Tj
+1 0 0 1 102.0 90.8 Tm
+0.0000 Tw
+(questionnaire \(http://yapc-surveys.org/\).  ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(2) Tj
+1 0 0 1 464.07 37 Tm
+(16 July 2011) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+23 0 obj
+6185
+endobj
+24 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+25 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 24 0 R
+/Contents 22 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 27 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 312.42 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+/F21 10 Tf
+1 0 0 1 72.0 770.0 Tm
+0.0000 Tw
+(Additional Program ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.6911 Tw
+(The "Partner Program" introduced to YAPC::EU in 2009 is a great idea, so we plan to offer a "Partner) Tj
+1 0 0 1 102.0 746.0 Tm
+0.7807 Tw
+(Program", too. And addtional courses before and after the YAPC are good opportunities to learn some) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(things in detail. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 716.0 Tm
+0.0000 Tw
+(   Additional Courses ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 704.0 Tm
+1.1094 Tw
+(We know, that some attendees try to cover their costs with income of courses. We do not offer these) Tj
+1 0 0 1 102.0 692.0 Tm
+0.4059 Tw
+(courses at the venue, but we will help to organize these courses \(book the rooms, handling invoices and) Tj
+1 0 0 1 102.0 680.0 Tm
+0.0000 Tw
+(payment\). ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 662.0 Tm
+0.0000 Tw
+(   Partner Program ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 650.0 Tm
+0.6737 Tw
+(Families are important and hopefully some attendees bring their families. So we plan to have a Partner) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(Program. The details for the program have to be defined, but some ideas follow ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 611.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 612.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 611.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Visit Frankfurt Airport \(Airport tour\) ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 597.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 598.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 597.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(Ebbelwoi-Express ride ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 582.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 583.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 582.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(Sightseeing ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 568.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 569.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 568.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(Visit the Maintower ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 555 4 4 re
+f
+Q
+BT
+1 0 0 1 110 554 Tm
+/F20 10 Tf
+0.0000 Tw
+(Cruise on the River Rhine ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 536.0 Tm
+0.0000 Tw
+(Budget ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 524.0 Tm
+0.0000 Tw
+(Here some information about the income and costs that we expect. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 506.0 Tm
+0.0000 Tw
+(   Attendees ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 494.0 Tm
+0.0000 Tw
+(Attendees make the biggest part in income and costs. ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 476.0 Tm
+0.0000 Tw
+(     Income ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 464.0 Tm
+0.0000 Tw
+(Planned attendance fees: ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 452.0 Tm
+0.0000 Tw
+(  Guests, Speakers, Orga:   0 EUR ) Tj
+1 0 0 1 102.0 440.0 Tm
+0.0000 Tw
+(  Full-time students:      50 EUR ) Tj
+1 0 0 1 102.0 428.0 Tm
+0.0000 Tw
+(  Early-bird:              80 EUR ) Tj
+1 0 0 1 102.0 416.0 Tm
+0.0000 Tw
+(  Regular price:          110 EUR ) Tj
+1 0 0 1 102.0 404.0 Tm
+0.0000 Tw
+(  Corporate tariff:       900 EUR ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 380.0 Tm
+0.0000 Tw
+(final fees have to be announced. ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 362.0 Tm
+0.0000 Tw
+(     Costs ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 350.0 Tm
+0.0000 Tw
+(There are several costs per attendee: ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 338.0 Tm
+0.0000 Tw
+(  T-shirt:                  5 EUR ) Tj
+1 0 0 1 102.0 326.0 Tm
+0.0000 Tw
+(  Catering:                25 EUR ) Tj
+1 0 0 1 102.0 314.0 Tm
+0.0000 Tw
+(  Bag:                      3 EUR ) Tj
+1 0 0 1 102.0 302.0 Tm
+0.0000 Tw
+(  badge, and other stuff:   2 EUR ) Tj
+1 0 0 1 102.0 290.0 Tm
+0.0000 Tw
+(  Attendees dinner:        30 EUR ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 266.0 Tm
+0.0000 Tw
+(And we plan to invite some guests and we assume that this will cost us 8,000 EUR ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 248.0 Tm
+0.0000 Tw
+(   Venue ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 236.0 Tm
+0.0000 Tw
+(Unfortunately, "venue" means "costs". Currently we know two scenarios ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 224.0 Tm
+0.0000 Tw
+(  Saalbau Titus-Forum:     9,000 EUR ) Tj
+1 0 0 1 102.0 212.0 Tm
+0.0000 Tw
+(  University of Frankfurt: 5,000 EUR ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 194.0 Tm
+0.0000 Tw
+(   some calculations ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 176.0 Tm
+0.0000 Tw
+(  +-------------------------------------------------------------------------+ ) Tj
+1 0 0 1 102.0 164.0 Tm
+0.0000 Tw
+(  | attendee type             | %     |# of attendees                       | ) Tj
+1 0 0 1 102.0 152.0 Tm
+0.0000 Tw
+(  |                           |       | 250              | 280              | ) Tj
+1 0 0 1 102.0 140.0 Tm
+0.0000 Tw
+(  | guests, speaker \(  0 EUR\) | 75 \(#\)| 75  \(     0 EUR\) | 75  \(     0 EUR\) | ) Tj
+1 0 0 1 102.0 128.0 Tm
+0.0000 Tw
+(  | students        \( 50 EUR\) | 5%    | 9   \(   450 EUR\) | 11  \(   550 EUR\) | ) Tj
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+(  | early bird      \( 80 EUR\) | 80%   | 140 \(11,200 EUR\) | 164 \(13,120 EUR\) | ) Tj
+1 0 0 1 102.0 104.0 Tm
+0.0000 Tw
+(  | standard        \(110 EUR\) | 10%   | 18  \( 1,980 EUR\) | 20  \( 2,200 EUR\) | ) Tj
+1 0 0 1 102.0 92.0 Tm
+0.0000 Tw
+(  | corporate       \(900 EUR\) | 5%    | 8   \( 7,200 EUR\) | 10  \( 9,000 EUR\) | ) Tj
+1 0 0 1 102.0 80.0 Tm
+0.0000 Tw
+(  +-------------------------------------------------------------------------+ ) Tj
+1 0 0 1 102.0 68.0 Tm
+0.0000 Tw
+(  | costs \(variable\)          |       | 250 \(16,250 EUR\) | 280 \(18,200 EUR\) | ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(16 July 2011) Tj
+1 0 0 1 517.44 37 Tm
+(3) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+27 0 obj
+5394
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 28 0 R
+/Contents 26 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 31 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F10 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(  | costs \(fix\)               |       |     \(20,000 EUR\) |     \(20,000 EUR\) | ) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(  +-------------------------------------------------------------------------+ ) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(  | sum                       |       |     -15,420 EUR  |     -13,330 EUR  | ) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(  +-------------------------------------------------------------------------+ ) Tj
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+(  +-------------------------------------------------------------------------+ ) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(  | attendee type             | %     |# of attendees                       | ) Tj
+1 0 0 1 102.0 674.0 Tm
+0.0000 Tw
+(  |                           |       | 300              | 320              | ) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(  | guests, speaker \(  0 EUR\) | 75 \(#\)| 75  \(     0 EUR\) | 75  \(     0 EUR\) | ) Tj
+1 0 0 1 102.0 650.0 Tm
+0.0000 Tw
+(  | students        \( 50 EUR\) | 5%    | 12  \(   600 EUR\) | 13  \(   650 EUR\) | ) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(  | early bird      \( 80 EUR\) | 80%   | 180 \(14,400 EUR\) | 196 \(15,680 EUR\) | ) Tj
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+(  | standard        \(110 EUR\) | 10%   | 22  \( 2,420 EUR\) | 24  \( 2,640 EUR\) | ) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+(  | corporate       \(900 EUR\) | 5%    | 11  \( 9,900 EUR\) | 12  \(10,800 EUR\) | ) Tj
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(  +-------------------------------------------------------------------------+ ) Tj
+1 0 0 1 102.0 590.0 Tm
+0.0000 Tw
+(  | costs \(variable\)          |       | 300 \(19,500 EUR\) | 320 \(20,800 EUR\) | ) Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(  | costs \(fix\)               |       |     \(20,000 EUR\) |     \(20,000 EUR\) | ) Tj
+1 0 0 1 102.0 566.0 Tm
+0.0000 Tw
+(  +-------------------------------------------------------------------------+ ) Tj
+1 0 0 1 102.0 554.0 Tm
+0.0000 Tw
+(  | sum                       |       |     -12,180 EUR  |     -11,030 EUR  | ) Tj
+1 0 0 1 102.0 542.0 Tm
+0.0000 Tw
+(  +-------------------------------------------------------------------------+ ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 518.0 Tm
+2.0893 Tw
+(These are pessimistic calculations \(assumed high fix costs and the ratio of the attendees type may) Tj
+1 0 0 1 102.0 506.0 Tm
+0.0000 Tw
+(change\). ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 488.0 Tm
+0.0000 Tw
+(Sponsors ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 476.0 Tm
+0.0000 Tw
+(Sponsors are very important to host an event like the YAPC::EU. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 458.0 Tm
+0.0000 Tw
+(   Dt. Perl-Workshop GbR ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 446.0 Tm
+0.5080 Tw
+(The "company" that is behind the the German Perl-Workshop has alread committed that they will grant) Tj
+1 0 0 1 102.0 434.0 Tm
+0.0000 Tw
+(financial support. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 416.0 Tm
+0.0000 Tw
+(   $foo - Perl-Magazin ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 404.0 Tm
+0.0000 Tw
+(The German Perl magazin has already committed their support. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 386.0 Tm
+0.0000 Tw
+(   OTRS AG ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 374.0 Tm
+0.5072 Tw
+(\(\(otrs\)\) provides the ticketing system that we use for orga stuff and they said, that they are interested in) Tj
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+(sponsoring us. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 344.0 Tm
+0.0000 Tw
+(   others ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 332.0 Tm
+0.6219 Tw
+(We have good contacts to other German companies using Perl. We will ask them for sponsorship. And) Tj
+1 0 0 1 102.0 320.0 Tm
+0.0000 Tw
+(we will talk to the companies that supported earlier YAPCs as well. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 302.0 Tm
+0.0000 Tw
+(About Frankfurt ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 290.0 Tm
+0.4800 Tw
+(Frankfurt am Main - better known as simply Frankfurt - is the largest city in the German state of Hesse) Tj
+1 0 0 1 102.0 278.0 Tm
+4.9040 Tw
+(and the fifth largest city in Germany. In 2009 over 600,000 peopled lived there and the) Tj
+1 0 0 1 102.0 266.0 Tm
+0.4743 Tw
+(Rhein-Main-Area \(which is the second largest metropolitan area in Germany\) has a population of about) Tj
+1 0 0 1 102.0 254.0 Tm
+0.0000 Tw
+(5,600,000. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 242.0 Tm
+1.1094 Tw
+(Frankfurt is the financial and transportation center of Germany: It is the seat of the European Central) Tj
+1 0 0 1 102.0 230.0 Tm
+0.0000 Tw
+(Bank, the German Federal Bank, the German Stock Exchange and the Frankfurt Trade Fair. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 218.0 Tm
+2.1633 Tw
+(But Frankfurt was an important city in the history, too. The very first democratic elected German) Tj
+1 0 0 1 102.0 206.0 Tm
+0.0000 Tw
+(parliament had its seat in Frankfurt. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 194.0 Tm
+0.0000 Tw
+(More info about Frankfurt: http://en.wikipedia.org/wiki/Frankfurt ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 176.0 Tm
+0.0000 Tw
+(   Sightseeing ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 164.0 Tm
+0.4610 Tw
+(Those who set out on a discovery tour of Frankfurt can easily reach many of the sites on foot or by bus) Tj
+1 0 0 1 102.0 152.0 Tm
+2.2694 Tw
+(and train. Many attractions are not very far from one another in the city centre. And with public) Tj
+1 0 0 1 102.0 140.0 Tm
+0.1000 Tw
+(transport, you can quickly reach further sights such as the Palm Garden and the Zoo. A city tour with the) Tj
+1 0 0 1 102.0 128.0 Tm
+3.4362 Tw
+(nostalgic tram, the ?Ebbelwei Express? is particularly popular. And culture lovers will find an) Tj
+1 0 0 1 102.0 116.0 Tm
+0.0000 Tw
+(impressive selection of renowned museums on both banks of the Main. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 104.0 Tm
+0.0000 Tw
+(Some of the intresting things to see: ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(4) Tj
+1 0 0 1 464.07 37 Tm
+(16 July 2011) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+31 0 obj
+5835
+endobj
+32 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F10 10 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 32 0 R
+/Contents 30 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 35 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 312.42 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+/F20 10 Tf
+1 0 0 1 72.0 770.0 Tm
+0.0000 Tw
+(     R\366mer ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.2031 Tw
+(The R\366mer, a Frankfurt landmark, is among the most beautiful and oldest town halls. Its silhouette, with) Tj
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(three gables and the famous balcony, is known throughout the world.  ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 728.0 Tm
+0.0000 Tw
+(     Ebbelwei Express ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 716.0 Tm
+1.3163 Tw
+(This colourful tram carriage, which takes you to the finest sights in Frankfurt, offers an original city) Tj
+1 0 0 1 102.0 704.0 Tm
+0.0000 Tw
+(tour. Guests can enjoy the trip over a glass of cider. ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 686.0 Tm
+0.0000 Tw
+(     Imperial Cathedral ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 674.0 Tm
+3.5064 Tw
+(Visible from far away and of exceptional historical significance: Saint Bartholomew?s Imperial) Tj
+1 0 0 1 102.0 662.0 Tm
+0.0000 Tw
+(Cathedral is a Frankfurt landmark and the coronation site of German emperors. ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 644.0 Tm
+0.0000 Tw
+(     Saal Lane ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 632.0 Tm
+0.4158 Tw
+(The numerous postmodern fa\347ades behind the Schirn bridge the gap between contemporary architecture) Tj
+1 0 0 1 102.0 620.0 Tm
+0.0000 Tw
+(and the medieval buildings on the R\366merberg. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 602.0 Tm
+0.0000 Tw
+(   Getting there ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 590.0 Tm
+0.3960 Tw
+(It`s very easy to come to Frankfurt \(like the claim of the state Hesse says: "Hessen - no way around us") Tj
+1 0 0 1 102.0 578.0 Tm
+0.0000 Tw
+(;-\) \) ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 560.0 Tm
+0.0000 Tw
+(     By Plane ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 548.0 Tm
+0.1887 Tw
+(There are excellent connections to Frankfurt. Frankfurt Airport is one of the busiest airports in the world) Tj
+1 0 0 1 102.0 536.0 Tm
+0.3962 Tw
+(and all major cities have flight connections to Germany. Some connections from other cities \(as of June) Tj
+1 0 0 1 102.0 524.0 Tm
+0.0000 Tw
+(17th, 2011\): ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 497.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 498.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 497.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Munich - Lufthansa - 114,90 EUR ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 483.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 484.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 483.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(Vienna - Austrian Airlines - 84,39 EUR ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 468.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 469.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 468.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(Lisbon - TAP Portugal - 208,18 EUR ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 454.4 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 455.4 4 4 re
+f
+Q
+BT
+1 0 0 1 110 454.4 Tm
+/F20 10 Tf
+0.0000 Tw
+(Birmingham - Lufthansa - 109,94 EUR ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 440.0 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 441 4 4 re
+f
+Q
+BT
+1 0 0 1 110 440 Tm
+/F20 10 Tf
+0.0000 Tw
+(Copenhagen - Lufthansa - 145,60 EUR ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 425.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 426.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 425.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(Paris - Lufthansa - 103,59 EUR ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 411.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 412.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 411.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(Amsterdam - Lufthansa - 94,30 EUR ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 396.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 397.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 396.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(and many more ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 384.8 Tm
+3.2114 Tw
+(And Frankfurt-Hahn is an excellent low-cost airport \(it`s an 2-hours-ride by bus from Hahn to) Tj
+1 0 0 1 102.0 372.8 Tm
+0.0000 Tw
+(Frankfurt\). The bus transfer from Airport Frankfurt-Hahn to Frankfurt is 12 EUR \(one way\). ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 354.8 Tm
+0.0000 Tw
+(     By Bus ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 342.8 Tm
+0 Tw
+(Several bus agencies offer travellings by bus from several cities \(see Eurolines -) Tj
+1 0 0 1 102.0 330.8 Tm
+0.0000 Tw
+(http://www.touring.de/index.php?id=2&L=1\) ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 312.8 Tm
+0.0000 Tw
+(     By Car ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 300.8 Tm
+0.9459 Tw
+(Thanks to its central location, Frankfurt is an important traffic hub and can be easily reached from all) Tj
+1 0 0 1 102.0 288.8 Tm
+1.8725 Tw
+(directions. The motorway interchange with the highest volume of traffic, the Frankfurt Interchange,) Tj
+1 0 0 1 102.0 276.8 Tm
+0.0000 Tw
+(connects the federal motorways A3 and A5 and is used by more than 305,000 cars and lorries every day. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 264.8 Tm
+0.0000 Tw
+(Depending on the direction of travel, you can reach Frankfurt in the following ways: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 252.8 Tm
+2.9143 Tw
+(From the north \(e.g. Hamburg, Kassel, Hanover\), via the federal motorway A5 to the Frankfurt) Tj
+1 0 0 1 102.0 240.8 Tm
+0.3150 Tw
+(interchange From the south \(e.g. Basle, Karlsruhe, Darmstadt\), via the federal motorway A67, then onto) Tj
+1 0 0 1 102.0 228.8 Tm
+0.8635 Tw
+(the A5 to the Frankfurt interchange From the west \(e.g. Cologne\): via the federal motorway A3 to the) Tj
+1 0 0 1 102.0 216.8 Tm
+0.2957 Tw
+(Frankfurt interchange From the south-east \(e.g. Munich, W\374rzburg\): via the federal motorway A3 to the) Tj
+1 0 0 1 102.0 204.8 Tm
+0.3164 Tw
+(Frankfurt interchange From the south-west \(e.g. Saarbr\374cken\) via the federal motorway A6 and then A5) Tj
+1 0 0 1 102.0 192.8 Tm
+0.0000 Tw
+(to the Frankfurt interchange. ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 174.8 Tm
+0.0000 Tw
+(     By Train ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 162.8 Tm
+1.6440 Tw
+(Frankfurt central station is the most important rail transport hub in Germany. Every day, more than) Tj
+1 0 0 1 102.0 150.8 Tm
+0.2929 Tw
+(1,100 trains connect the city with many national and international destinations and around 700 suburban) Tj
+1 0 0 1 102.0 138.8 Tm
+0.4729 Tw
+(railway trains take passengers to stations within Frankfurt and the surrounding area. More than 350,000) Tj
+1 0 0 1 102.0 126.8 Tm
+0.0750 Tw
+(passengers and visitors from home and abroad use this station every day. To be able to manage this great) Tj
+1 0 0 1 102.0 114.8 Tm
+0.0000 Tw
+(volume of traffic, the central station has more than 25 platforms in five departure halls. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 96.8 Tm
+0.0000 Tw
+(Getting around ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 84.8 Tm
+2.6685 Tw
+(Public transport in Frankfurt is done with several carriers. There are underground, busses, trams,) Tj
+1 0 0 1 102.0 72.8 Tm
+0.0000 Tw
+("S-Bahn" \(rapid transit rail\) and trains. So it`s very easy to get around in Frankfurt. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(16 July 2011) Tj
+1 0 0 1 517.44 37 Tm
+(5) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+35 0 obj
+6571
+endobj
+36 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+37 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 36 0 R
+/Contents 34 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 39 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+0 Tw
+(More info about public transport in Frankfurt is available at) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(http://en.wikipedia.org/wiki/Public_transport_in_Frankfurt_am_Main ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 746.0 Tm
+0.0000 Tw
+(A single ticket from city center to the venue is 2,40 EUR \(as of June 17th, 2011\). ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 728.0 Tm
+0.0000 Tw
+(Accomodations ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 716.0 Tm
+0 Tw
+(Frankfurt has a variety of accommodations - for every budget. From youth hostel) Tj
+1 0 0 1 102.0 704.0 Tm
+0 Tw
+(\(http://www.jugendherberge-frankfurt.de\) over "bed and breakfast" to 5-star hotels like the) Tj
+1 0 0 1 102.0 692.0 Tm
+0.1900 Tw
+(Steigenberger \(http://www.steigenberger.com/Frankfurt\). We will provide a list of accomodations on the) Tj
+1 0 0 1 102.0 680.0 Tm
+0.0000 Tw
+(conference website. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 662.0 Tm
+0.0000 Tw
+(Summary ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 650.0 Tm
+0.3239 Tw
+(We think, that Frankfurt is a great place for a YAPC::Europe and we are confident that we can organize) Tj
+1 0 0 1 102.0 638.0 Tm
+0.0000 Tw
+(a great YAPC::EU 2012. We are a team of motivated people. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 626.0 Tm
+0.0000 Tw
+(Max Maischein, Ren\351e B\344cker et al. on behalf of the Frankfurt.pm ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 608.0 Tm
+0.0000 Tw
+(Questions and Answers ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 596.0 Tm
+0.7773 Tw
+(The YAPC::Europe Foundation \(YEF\) Venue Committee had several questions regarding our proposal) Tj
+1 0 0 1 102.0 584.0 Tm
+0.0000 Tw
+(for hosting YAPC::EU 2012 in Frankfurt. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 572.0 Tm
+0.0750 Tw
+(Unfortunately there is the summer break at the University so we were not able to talk to somebody there.) Tj
+1 0 0 1 102.0 560.0 Tm
+0.0000 Tw
+(But we`ve talked to the guys from Saalbau Titus. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 548.0 Tm
+0.0000 Tw
+(These are the questions and answers: ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 530.0 Tm
+0.0000 Tw
+(   What`s the price of beer? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 518.0 Tm
+0.0000 Tw
+(We know, that many attendees love beer. In restaurants the prices are ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 491.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 492.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 491.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(0.3l ) Tj
+/F00 10 Tf
+1 0 0 1 126.0 491.6 Tm
+0.0000 Tw
+(approx. 2.30 EUR ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 477.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 478.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 477.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(0.5l ) Tj
+/F00 10 Tf
+1 0 0 1 126.0 477.2 Tm
+0.0000 Tw
+(approx. 3.90 EUR ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 447.2 Tm
+0.0000 Tw
+(   What`s the weather like in August? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 435.2 Tm
+0.0059 Tw
+(It`s still warm in August. There is an average daily maximum temperature of 23.5\260C. At night, it remains) Tj
+1 0 0 1 102.0 423.2 Tm
+0.4925 Tw
+(an average of 12.4\260C. So it is also very mild. In August about 10 rainy days can be expected. Each day) Tj
+1 0 0 1 102.0 411.2 Tm
+0.0000 Tw
+(the sun shines 6.5 h in average. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 393.2 Tm
+0.0000 Tw
+(   Can people get receipts? \(Is that what`s meant with the OTRS AG sponsorship?\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 381.2 Tm
+0.2021 Tw
+(If we are elected to host YAPC::EU 2012 in Frankfurt, we will found an association and then we will be) Tj
+1 0 0 1 102.0 369.2 Tm
+0.0000 Tw
+(able to create invoices. So the answer is "yes". ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 351.2 Tm
+0.0000 Tw
+(   How easy is it for people to navigate the city without speaking German? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 339.2 Tm
+0.7689 Tw
+(It`s hard to answer this question as a non-non-native-speaker ;-\) But I think it should be quite easy for) Tj
+1 0 0 1 102.0 327.2 Tm
+1.1693 Tw
+(attendees even when they do not speak German. Frankfurt is "the most international city in Germany) Tj
+1 0 0 1 102.0 315.2 Tm
+0 Tw
+(\(http://frankfurt.de/sixcms/detail.php?id=stadtfrankfurt_eval01.c.317693.en&template=hp_flash\)" and) Tj
+1 0 0 1 102.0 303.2 Tm
+2.9564 Tw
+(there are several global players and international events each year. So Frankfurt is prepared for) Tj
+1 0 0 1 102.0 291.2 Tm
+0.0000 Tw
+(international guests. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 273.2 Tm
+0.0414 Tw
+(   It would be nice to have more details on accomodation, with a range of the prices that can be) Tj
+1 0 0 1 102.0 261.2 Tm
+0.9571 Tw
+(expected for different levels of accomodation. Can most attendees fit in one hotel?  Is) Tj
+1 0 0 1 102.0 249.2 Tm
+0.0000 Tw
+(internet access widely available in accomodations? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 237.2 Tm
+1.0400 Tw
+(We will look for a date when there is no big fair in Frankfurt, as the prices for accomodation will be) Tj
+1 0 0 1 102.0 225.2 Tm
+1.1769 Tw
+(much lower then. There are all kind of accommodations in Frankfurt. From youth hostel \(starts at 18) Tj
+1 0 0 1 102.0 213.2 Tm
+0 Tw
+(EUR/night\) over hotels like MotelOne \(starts at 59 EUR/night\) to Deluxe Suite in the) Tj
+1 0 0 1 102.0 201.2 Tm
+0.0000 Tw
+(5-star-Steigenberger Frankfurter Hof. booking.com lists over 200 hotels in the Frankfurt area. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 189.2 Tm
+0.0000 Tw
+(Most hotels offer WLAN some for free, some very cheap \(5 EUR for your stay\), some not so cheap. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 177.2 Tm
+0.0000 Tw
+(We will try to make an arrangement with two or three hotels, but we cannot promise anything yet. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 159.2 Tm
+0.7948 Tw
+(   Are there any plans to stream or record talks?  If so, how will the recordings be made and) Tj
+1 0 0 1 102.0 147.2 Tm
+0.0000 Tw
+(how will authorization be sought? ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 129.2 Tm
+0.0000 Tw
+(     Own efforts ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 117.2 Tm
+0.3067 Tw
+(Currently we are thinking about how we can record the talks in a good quality by ourself \(e.g. capturing) Tj
+1 0 0 1 102.0 105.2 Tm
+0.4816 Tw
+(a screencast and blending it with a recording of the speaker\). If we find a good solution, we will record) Tj
+1 0 0 1 102.0 93.2 Tm
+2.5360 Tw
+(the talks. We will ask the speakers for permission right before the conference. The German Perl) Tj
+1 0 0 1 102.0 81.2 Tm
+0.0000 Tw
+(Workshop 2011 will be used as a test run for recording. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(6) Tj
+1 0 0 1 464.07 37 Tm
+(16 July 2011) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+39 0 obj
+6367
+endobj
+40 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+41 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 40 0 R
+/Contents 38 0 R
+>>
+endobj
+42 0 obj
+<<
+/Length 43 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 312.42 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+/F20 10 Tf
+1 0 0 1 72.0 770.0 Tm
+0.0000 Tw
+(     Uni Frankfurt ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+1.9164 Tw
+(Additionally Frankfurt University has an e-learning department offering a similar recording service,) Tj
+1 0 0 1 102.0 746.0 Tm
+1.3864 Tw
+(including conversion to flash and podcast and even lifestreaming from their servers \(which we don`t) Tj
+1 0 0 1 102.0 734.0 Tm
+0.4059 Tw
+(really consider necessary\). But they haven`t told us yet how much they would charge us in total. \(Many) Tj
+1 0 0 1 102.0 722.0 Tm
+0.0000 Tw
+(people are on holidays ATM\)  ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 710.0 Tm
+0.0000 Tw
+(You may want to check this flash video of an IT lecture to have an impression: ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://electure-ms.studiumdigitale.uni-frankfurt.de/vod/clips/HmS7jzQbZ2/flash.html) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 680.0 Tm
+0.0000 Tw
+(   Are any social events planned, other than the partner`s program? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 668.0 Tm
+0.0000 Tw
+(Currently we have these events in mind: ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 641.6 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 642.6 4 4 re
+f
+Q
+BT
+1 0 0 1 110 641.6 Tm
+/F20 10 Tf
+0.0000 Tw
+(partner`s program ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 627.2 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 628.2 4 4 re
+f
+Q
+BT
+1 0 0 1 110 627.2 Tm
+/F20 10 Tf
+0.0000 Tw
+(pre-conference meeting ) Tj
+/F20 10 Tf
+1 0 0 1 102.0 612.8 Tm
+0.0000 Tw
+() Tj
+ET
+q
+102 613.8 4 4 re
+f
+Q
+BT
+1 0 0 1 110 612.8 Tm
+/F20 10 Tf
+0.0000 Tw
+(attendees dinner ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 594.8 Tm
+0.0000 Tw
+(   Do you have any plans for an associated hackathon? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 582.8 Tm
+0.3185 Tw
+(We do not plan a hackathon, but we will ask the attendees long before the conference if they want to do) Tj
+1 0 0 1 102.0 570.8 Tm
+0.0000 Tw
+(a hackathon. We will provide rooms then. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 552.8 Tm
+0.8216 Tw
+(   Do you plan to provide anything to speakers? \(Such as water, a person to time things and) Tj
+1 0 0 1 102.0 540.8 Tm
+0.0000 Tw
+(keep the schedule on track, etc\) ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 528.8 Tm
+0.8088 Tw
+(Each speaker gets water or softdrinks \("all you can drink"\) during their talks and we will have session) Tj
+1 0 0 1 102.0 516.8 Tm
+0.0000 Tw
+(chairs in each room. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 498.8 Tm
+0.0000 Tw
+(   How many tracks are planned? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 486.8 Tm
+0.0000 Tw
+(We plan to have three tracks. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 468.8 Tm
+2.4465 Tw
+(   How many days do you expect the event to run, and what days of the week are you) Tj
+1 0 0 1 102.0 456.8 Tm
+0.0000 Tw
+(considering? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 444.8 Tm
+0.0000 Tw
+(The conference will last three days most likely on Monday till Wednesday or Wednesday till Friday. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 426.8 Tm
+2.4865 Tw
+(   What plans do you have concerning special diets for the coffee breaks \(and lunch, if) Tj
+1 0 0 1 102.0 414.8 Tm
+0.0000 Tw
+(sponsored\)? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 402.8 Tm
+1.0516 Tw
+(The catering for the coffee breaks will depend on the location. We will most likely be able to offer a) Tj
+1 0 0 1 102.0 390.8 Tm
+0.0000 Tw
+(vegetarian option for the coffee breaks and lunch if sponsored. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 372.8 Tm
+1.0506 Tw
+(   Please give more details about modern the venues are in terms of power plugs. Are there) Tj
+1 0 0 1 102.0 360.8 Tm
+1.3225 Tw
+(many plugs in the rooms, or will you need to run extension cords?  Are there places) Tj
+1 0 0 1 102.0 348.8 Tm
+0.0000 Tw
+(outside of the rooms where people can charge equipment? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 336.8 Tm
+0.7884 Tw
+(The Saalbau Titus is very modern and we can extend the power plug capabilities as far as we need to.) Tj
+1 0 0 1 102.0 324.8 Tm
+0.5072 Tw
+(We`ve spoken to the Saalbau employees and the told us that they can arrange anything we need. But in) Tj
+1 0 0 1 102.0 312.8 Tm
+0.0000 Tw
+(any case we will provide some extension cords as well. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 300.8 Tm
+0.0000 Tw
+(Shouldn`t be a problem at Uni, but no answer yet.  ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 282.8 Tm
+1.4080 Tw
+(   How accessible are the venues to people in wheelchairs, people with hearing difficulties,) Tj
+1 0 0 1 102.0 270.8 Tm
+0.0000 Tw
+(etc? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 258.8 Tm
+0.0000 Tw
+(All rooms in Saalbau Titus are accessible with wheelchairs. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 246.8 Tm
+0.0000 Tw
+(Frankfurt University of course too! ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 228.8 Tm
+0.0000 Tw
+(   Will any wired connectivity be offered? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 216.8 Tm
+0.0000 Tw
+(Yes, in Saalbau Titus wired connectivity is offered. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 204.8 Tm
+0.0000 Tw
+(Uni see wireless! ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 186.8 Tm
+0.3714 Tw
+(   Please tell us more about the wireless network.  How many people can it support?  Is it part) Tj
+1 0 0 1 102.0 174.8 Tm
+0.0000 Tw
+(of the venue, or will you set it up? ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 156.8 Tm
+0.0000 Tw
+(     Titus ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 144.8 Tm
+1.1969 Tw
+(We will buy wireless network for the conference from the German Telekom. It`s about 500 EUR for) Tj
+1 0 0 1 102.0 132.8 Tm
+0.0000 Tw
+(these 3 days. So there will be Wireless. ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 114.8 Tm
+0.0000 Tw
+(     Uni ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 102.8 Tm
+1.6469 Tw
+(University has a high scalable WLAN for all students. 250 guest accounts can be booked for about) Tj
+1 0 0 1 102.0 90.8 Tm
+0.0000 Tw
+(50-150EUR. We got an informal assurance that more accounts are no problem. ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(16 July 2011) Tj
+1 0 0 1 517.44 37 Tm
+(7) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+43 0 obj
+5820
+endobj
+44 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F02 8 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+45 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 695.0 443.0 705.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 46 0 R
+/H /I
+>>
+endobj
+46 0 obj
+<<
+/S /URI
+/URI (http://electure-ms.studiumdigitale.uni-frankfurt.de/vod/clips/HmS7jzQbZ2/flash.html)
+>>
+endobj
+47 0 obj
+[ 45 0 R  ]
+endobj
+48 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 44 0 R
+/Contents 42 0 R
+/Annots 47 0 R
+>>
+endobj
+49 0 obj
+<<
+/Length 50 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F21 10 Tf
+1 0 0 1 72.0 770.0 Tm
+0.0000 Tw
+(   Is it possible to have a cloakroom?  Will there be a staffed help desk? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(We will have a staffed help desk. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 740.0 Tm
+0.0000 Tw
+(   Are there projectors in all rooms? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 728.0 Tm
+0.0000 Tw
+(Yes ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 710.0 Tm
+0.0000 Tw
+(   Will there be provided interfacing connectors \(for Macs, for example\)? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 698.0 Tm
+0.3106 Tw
+(We will ask the speakers right before the conference what they need and we will provide the connectors) Tj
+1 0 0 1 102.0 686.0 Tm
+0.0000 Tw
+(- unless it is too esoteric ;-\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 668.0 Tm
+0.0000 Tw
+(   Are microphones available for speakers? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 656.0 Tm
+0.0000 Tw
+(Yes ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 638.0 Tm
+1.1685 Tw
+(   We do plan to make your proposal public.  Since it is a PDF document, could you please) Tj
+1 0 0 1 102.0 626.0 Tm
+0.3229 Tw
+(remove any information you don`t want included and send us a `for publication' copy of) Tj
+1 0 0 1 102.0 614.0 Tm
+0.0000 Tw
+(the proposal? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 602.0 Tm
+0.0000 Tw
+(You will receive a new PDF version with these Q&A answered ;-\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 584.0 Tm
+0.9812 Tw
+(   Please indicate airline/train ticket prices from some major cities for this August to give an) Tj
+1 0 0 1 102.0 572.0 Tm
+0.0000 Tw
+(indication of transportation costs. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 560.0 Tm
+0.0000 Tw
+(Frankfurt is a major hub in in the centre of Europe, probably the biggest. Getting there is always easy.  ) Tj
+/F10 10 Tf
+1 0 0 1 102.0 548.0 Tm
+0.0000 Tw
+(    RIX -> FRA: 170 - 390 EUR ) Tj
+1 0 0 1 102.0 536.0 Tm
+0.0000 Tw
+(    LON -> FRA: 95 - 180 EUR  \(train: 98 EUR / 6h+ special offer\) ) Tj
+1 0 0 1 102.0 524.0 Tm
+0.0000 Tw
+(    LIS -> FRA: 304 - 440 EUR ) Tj
+1 0 0 1 102.0 512.0 Tm
+0.0000 Tw
+(    CPH -> FRA: 185 - 210 EUR ) Tj
+1 0 0 1 102.0 500.0 Tm
+0.0000 Tw
+(    AMS -> FRA: 175 - 310 EUR \(train: 78 EUR / 4h special offer\) ) Tj
+1 0 0 1 102.0 488.0 Tm
+0.0000 Tw
+(    MUC -> FRA: 100 - 130 EUR \(train: 58 EUR special offer\) ) Tj
+1 0 0 1 102.0 476.0 Tm
+0.0000 Tw
+(    CDG -> FRA: 135 - 260 EUR \(train: 78 EUR special offer\) ) Tj
+1 0 0 1 102.0 464.0 Tm
+0.0000 Tw
+(    BHX -> FRA: 140 - 250 EUR ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 440.0 Tm
+0.0000 Tw
+(More train offers here:  ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 428.0 Tm
+0.0000 Tw
+( ) Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.bahn.de/p/view/angebot/international/europaspezial/europakarte.shtml) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 410.0 Tm
+0.6076 Tw
+(   Are the rooms in your proposed venue flat or auditorium-style \(or whatever you would use) Tj
+1 0 0 1 102.0 398.0 Tm
+0.4731 Tw
+(in English to describe an ascending seating\) If the rooms have different layouts, please) Tj
+1 0 0 1 102.0 386.0 Tm
+0.0000 Tw
+(tell us which are of which type ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 374.0 Tm
+0.0000 Tw
+(Titusbau: flat style ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 362.0 Tm
+0.0000 Tw
+(Uni: Both styles available, but mostly auditorium \(see link further down\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 344.0 Tm
+0.0888 Tw
+(   There are a number of different side activities which are sometimes organized in conjunction) Tj
+1 0 0 1 102.0 332.0 Tm
+1.7820 Tw
+(with Y::E, such as training courses, hackathons, partner`s program, welcome dinner,) Tj
+1 0 0 1 102.0 320.0 Tm
+0.2821 Tw
+(pub crawl, job fair, auction, and sight seeing trips.  Your application mentioned some of) Tj
+1 0 0 1 102.0 308.0 Tm
+0.9413 Tw
+(these.  If you have plans to also organize any of the other activities mentioned \(or not) Tj
+1 0 0 1 102.0 296.0 Tm
+0.0000 Tw
+(mentioned!\) please also tell us about them. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 284.0 Tm
+0.1011 Tw
+(We will search for various sponsors. In our sponsors packages we will offer booths for a job fair. But we) Tj
+1 0 0 1 102.0 272.0 Tm
+0.0000 Tw
+(don`t know if the companies are interested in such a job fair.  ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 260.0 Tm
+0.0000 Tw
+(We will head into the planning of activities when we know the date of the conference. ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 242.0 Tm
+1.1450 Tw
+(   If lunch is not provided, please describe the possibilities for attendees to go out and find) Tj
+1 0 0 1 102.0 230.0 Tm
+1.0806 Tw
+(their own lunch. Take into account that one cafe or restaurant will not be able to feed) Tj
+1 0 0 1 102.0 218.0 Tm
+3.2450 Tw
+(300 people arriving at the same time, and that conditions may differ significantly) Tj
+1 0 0 1 102.0 206.0 Tm
+1.6182 Tw
+(between weekdays \(Friday\) and weekend days \(e.g. Sunday\). Also please include the) Tj
+1 0 0 1 102.0 194.0 Tm
+0.0000 Tw
+(expected price range. ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 176.0 Tm
+0.0000 Tw
+(     Titus ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 164.0 Tm
+1.1093 Tw
+(The Saalbau Titus is located near a shopping mall with around 15 restaurants/cafes etc. The expected) Tj
+1 0 0 1 102.0 152.0 Tm
+0.9288 Tw
+(price range is from 1 EUR per Cheesburger \(McDonald`s\) to ~15 EUR in other restaurants. There are) Tj
+1 0 0 1 102.0 140.0 Tm
+0.0000 Tw
+(restaurants with Mexican, Chinese, Turkish food and many more. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 128.0 Tm
+0.0000 Tw
+(And there are supermarkets where people can buy other food. ) Tj
+/F20 10 Tf
+1 0 0 1 72.0 110.0 Tm
+0.0000 Tw
+(     Uni ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 98.0 Tm
+0.0000 Tw
+(Frankfurt University offers us large and cheap student canteens with a big variety of foods. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 86.0 Tm
+0.0000 Tw
+(The normal prizes range from 2-9 EUR for individual access.  ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(8) Tj
+1 0 0 1 464.07 37 Tm
+(16 July 2011) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+50 0 obj
+5875
+endobj
+51 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F02 8 0 R
+/F10 10 0 R
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+52 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [103.5 425.0 438.0 435.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 53 0 R
+/H /I
+>>
+endobj
+53 0 obj
+<<
+/S /URI
+/URI (http://www.bahn.de/p/view/angebot/international/europaspezial/europakarte.shtml)
+>>
+endobj
+54 0 obj
+[ 52 0 R  ]
+endobj
+55 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 51 0 R
+/Contents 49 0 R
+/Annots 54 0 R
+>>
+endobj
+56 0 obj
+<<
+/Length 57 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(pod2pdf) Tj
+1 0 0 1 312.42 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+/F00 10 Tf
+1 0 0 1 102.0 770.0 Tm
+1.3250 Tw
+(Additionally we could provide our guests with lunch coupons ranging from 4-7 EUR. The restaurant) Tj
+1 0 0 1 102.0 758.0 Tm
+0.0000 Tw
+(would collect them and bill us only for the sold food.    ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 746.0 Tm
+0.9985 Tw
+(The third option is to have a separated restaurant / hall and a special menu / buffet for 9-11 EUR per) Tj
+1 0 0 1 102.0 734.0 Tm
+0.0000 Tw
+(person. \(has to be booked in advance\) ) Tj
+/F21 10 Tf
+1 0 0 1 72.0 716.0 Tm
+0.7122 Tw
+(   Saalbau Titus seems to be the choice number 1;  however, other things being about equal,) Tj
+1 0 0 1 102.0 704.0 Tm
+1.3921 Tw
+(University of Frankfurt is cheaper and more centrally located;  what is the reason for) Tj
+1 0 0 1 102.0 692.0 Tm
+0.0000 Tw
+(prefering Saalbau Titus? ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 680.0 Tm
+0.0000 Tw
+(Our main contact to University is on holidays now, someone else had to step in and checked the details. ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 668.0 Tm
+0.0000 Tw
+(Initially we thought that Titus has a better infrastructure and it`s more modern! ) Tj
+/F00 10 Tf
+1 0 0 1 102.0 656.0 Tm
+0.9053 Tw
+(As it turns out we just asked for the cheapest, i.e. the old part of University \("Campus Bockenheim"\).) Tj
+1 0 0 1 102.0 644.0 Tm
+0.4279 Tw
+(But they acquired a pretty new campus with better infrastructure \("Campus Westend"\). The prices there) Tj
+1 0 0 1 102.0 632.0 Tm
+0.1284 Tw
+(may vary up to 30% more. But we might be able to apply for a big discount for non-profit organizations.) Tj
+/F00 10 Tf
+1 0 0 1 102.0 608.0 Tm
+0 Tw
+(You can check the locations with pictures here:) Tj
+1 0 0 1 102.0 596.0 Tm
+0.0000 Tw
+() Tj
+/F02 10 Tf
+0 0 0.8 rg
+0.0000 Tw
+(http://www.campuslocation-frankfurt.de/index.php?site=loc) Tj
+/F00 10 Tf
+0 g
+0.0000 Tw
+( ) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(16 July 2011) Tj
+1 0 0 1 517.44 37 Tm
+(9) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+57 0 obj
+2050
+endobj
+58 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F00 6 0 R
+/F02 8 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+59 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [101.0 593.0 343.9 603.6]
+/Border [0 0 1]
+/C [1 1 0]
+/A 60 0 R
+/H /I
+>>
+endobj
+60 0 obj
+<<
+/S /URI
+/URI (http://www.campuslocation-frankfurt.de/index.php?site=loc)
+>>
+endobj
+61 0 obj
+[ 59 0 R  ]
+endobj
+62 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 58 0 R
+/Contents 56 0 R
+/Annots 61 0 R
+>>
+endobj
+63 0 obj
+<<
+/Length 64 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+1 0 0 1 483.56 797 Tm
+(pod2pdf) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(10) Tj
+1 0 0 1 464.07 37 Tm
+(16 July 2011) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+64 0 obj
+266
+endobj
+65 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F21 15 0 R
+>>
+>>
+endobj
+66 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 65 0 R
+/Contents 63 0 R
+>>
+endobj
+67 0 obj
+<<
+/Length 68 0 R
+>>
+stream
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+/F20 24 Tf
+1 0 0 1 202.784 770 Tm
+(Table of Contents) Tj
+/F20 10 Tf
+ET
+q
+0.95 g
+72 680.6 451 12 re
+f
+Q
+BT
+1 0 0 1 102 683.6 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+1 0 0 1 487.44 683.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 668.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 671.6 Tm
+(Organizers) Tj
+1 0 0 1 487.44 671.6 Tm
+(1) Tj
+ET
+q
+0.95 g
+72 656.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 659.6 Tm
+(   Contact) Tj
+1 0 0 1 487.44 659.6 Tm
+(1) Tj
+ET
+q
+1 g
+72 644.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 647.6 Tm
+(Venue) Tj
+1 0 0 1 487.44 647.6 Tm
+(1) Tj
+ET
+q
+0.95 g
+72 632.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 635.6 Tm
+(   Catering) Tj
+1 0 0 1 487.44 635.6 Tm
+(2) Tj
+ET
+q
+1 g
+72 620.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 623.6 Tm
+(Conference Details) Tj
+1 0 0 1 487.44 623.6 Tm
+(2) Tj
+ET
+q
+0.95 g
+72 608.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 611.6 Tm
+(   Date) Tj
+1 0 0 1 487.44 611.6 Tm
+(2) Tj
+ET
+q
+1 g
+72 596.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 599.6 Tm
+(   Theme) Tj
+1 0 0 1 487.44 599.6 Tm
+(2) Tj
+ET
+q
+0.95 g
+72 584.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 587.6 Tm
+(Website) Tj
+1 0 0 1 487.44 587.6 Tm
+(2) Tj
+ET
+q
+1 g
+72 572.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 575.6 Tm
+(Auction) Tj
+1 0 0 1 487.44 575.6 Tm
+(2) Tj
+ET
+q
+0.95 g
+72 560.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 563.6 Tm
+(Promotion) Tj
+1 0 0 1 487.44 563.6 Tm
+(2) Tj
+ET
+q
+1 g
+72 548.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 551.6 Tm
+(Survey) Tj
+1 0 0 1 487.44 551.6 Tm
+(2) Tj
+ET
+q
+0.95 g
+72 536.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 539.6 Tm
+(Additional Program) Tj
+1 0 0 1 487.44 539.6 Tm
+(3) Tj
+ET
+q
+1 g
+72 524.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 527.6 Tm
+(   Additional Courses) Tj
+1 0 0 1 487.44 527.6 Tm
+(3) Tj
+ET
+q
+0.95 g
+72 512.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 515.6 Tm
+(   Partner Program) Tj
+1 0 0 1 487.44 515.6 Tm
+(3) Tj
+ET
+q
+1 g
+72 500.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 503.6 Tm
+(Budget) Tj
+1 0 0 1 487.44 503.6 Tm
+(3) Tj
+ET
+q
+0.95 g
+72 488.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 491.6 Tm
+(   Attendees) Tj
+1 0 0 1 487.44 491.6 Tm
+(3) Tj
+ET
+q
+1 g
+72 476.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 479.6 Tm
+(   Venue) Tj
+1 0 0 1 487.44 479.6 Tm
+(3) Tj
+ET
+q
+0.95 g
+72 464.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 467.6 Tm
+(   some calculations) Tj
+1 0 0 1 487.44 467.6 Tm
+(3) Tj
+ET
+q
+1 g
+72 452.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 455.6 Tm
+(Sponsors) Tj
+1 0 0 1 487.44 455.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 440.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 443.6 Tm
+(   Dt. Perl-Workshop GbR) Tj
+1 0 0 1 487.44 443.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 428.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 431.6 Tm
+(   $foo - Perl-Magazin) Tj
+1 0 0 1 487.44 431.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 416.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 419.6 Tm
+(   OTRS AG) Tj
+1 0 0 1 487.44 419.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 404.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 407.6 Tm
+(   others) Tj
+1 0 0 1 487.44 407.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 392.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 395.6 Tm
+(About Frankfurt) Tj
+1 0 0 1 487.44 395.6 Tm
+(4) Tj
+ET
+q
+1 g
+72 380.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 383.6 Tm
+(   Sightseeing) Tj
+1 0 0 1 487.44 383.6 Tm
+(4) Tj
+ET
+q
+0.95 g
+72 368.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 371.6 Tm
+(   Getting there) Tj
+1 0 0 1 487.44 371.6 Tm
+(5) Tj
+ET
+q
+1 g
+72 356.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 359.6 Tm
+(Getting around) Tj
+1 0 0 1 487.44 359.6 Tm
+(5) Tj
+ET
+q
+0.95 g
+72 344.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 347.6 Tm
+(Accomodations) Tj
+1 0 0 1 487.44 347.6 Tm
+(6) Tj
+ET
+q
+1 g
+72 332.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 335.6 Tm
+(Summary) Tj
+1 0 0 1 487.44 335.6 Tm
+(6) Tj
+ET
+q
+0.95 g
+72 320.6 451 12 re
+f
+Q
+BT
+1 0 0 1 132 323.6 Tm
+(Questions and Answers) Tj
+1 0 0 1 487.44 323.6 Tm
+(6) Tj
+ET
+q
+1 g
+72 308.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 311.6 Tm
+(   What`s the price of beer?) Tj
+1 0 0 1 487.44 311.6 Tm
+(6) Tj
+ET
+q
+0.95 g
+72 296.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 299.6 Tm
+(   What`s the weather like in August?) Tj
+1 0 0 1 487.44 299.6 Tm
+(6) Tj
+ET
+q
+1 g
+72 284.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 287.6 Tm
+(   Can people get receipts? \(Is that what`s meant with the OTRS...) Tj
+1 0 0 1 487.44 287.6 Tm
+(6) Tj
+ET
+q
+0.95 g
+72 272.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 275.6 Tm
+(   How easy is it for people to navigate the city without speaking...) Tj
+1 0 0 1 487.44 275.6 Tm
+(6) Tj
+ET
+q
+1 g
+72 260.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 263.6 Tm
+(   It would be nice to have more details on accomodation, with a...) Tj
+1 0 0 1 487.44 263.6 Tm
+(6) Tj
+ET
+q
+0.95 g
+72 248.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 251.6 Tm
+(   Are there any plans to stream or record talks?  If so, how will...) Tj
+1 0 0 1 487.44 251.6 Tm
+(6) Tj
+ET
+q
+1 g
+72 236.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 239.6 Tm
+(   Are any social events planned, other than the partner`s...) Tj
+1 0 0 1 487.44 239.6 Tm
+(7) Tj
+ET
+q
+0.95 g
+72 224.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 227.6 Tm
+(   Do you have any plans for an associated hackathon?) Tj
+1 0 0 1 487.44 227.6 Tm
+(7) Tj
+ET
+q
+1 g
+72 212.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 215.6 Tm
+(   Do you plan to provide anything to speakers? \(Such as water,...) Tj
+1 0 0 1 487.44 215.6 Tm
+(7) Tj
+ET
+q
+0.95 g
+72 200.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 203.6 Tm
+(   How many tracks are planned?) Tj
+1 0 0 1 487.44 203.6 Tm
+(7) Tj
+ET
+q
+1 g
+72 188.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 191.6 Tm
+(   How many days do you expect the event to run, and what days...) Tj
+1 0 0 1 487.44 191.6 Tm
+(7) Tj
+ET
+q
+0.95 g
+72 176.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 179.6 Tm
+(   What plans do you have concerning special diets for the coffee...) Tj
+1 0 0 1 487.44 179.6 Tm
+(7) Tj
+ET
+q
+1 g
+72 164.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 167.6 Tm
+(   Please give more details about modern the venues are in...) Tj
+1 0 0 1 487.44 167.6 Tm
+(7) Tj
+ET
+q
+0.95 g
+72 152.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 155.6 Tm
+(   How accessible are the venues to people in wheelchairs,...) Tj
+1 0 0 1 487.44 155.6 Tm
+(7) Tj
+ET
+q
+1 g
+72 140.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 143.6 Tm
+(   Will any wired connectivity be offered?) Tj
+1 0 0 1 487.44 143.6 Tm
+(7) Tj
+ET
+q
+0.95 g
+72 128.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 131.6 Tm
+(   Please tell us more about the wireless network.  How many...) Tj
+1 0 0 1 487.44 131.6 Tm
+(7) Tj
+ET
+q
+1 g
+72 116.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 119.6 Tm
+(   Is it possible to have a cloakroom?  Will there be a staffed help...) Tj
+1 0 0 1 487.44 119.6 Tm
+(8) Tj
+ET
+q
+0.95 g
+72 104.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 107.6 Tm
+(   Are there projectors in all rooms?) Tj
+1 0 0 1 487.44 107.6 Tm
+(8) Tj
+ET
+q
+1 g
+72 92.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 95.6 Tm
+(   Will there be provided interfacing connectors \(for Macs, for...) Tj
+1 0 0 1 487.44 95.6 Tm
+(8) Tj
+ET
+q
+0.95 g
+72 80.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 83.6 Tm
+(   Are microphones available for speakers?) Tj
+1 0 0 1 487.44 83.6 Tm
+(8) Tj
+ET
+q
+1 g
+72 68.6 451 12 re
+f
+Q
+BT
+1 0 0 1 162 71.6 Tm
+(   We do plan to make your proposal public.  Since it is a PDF...) Tj
+1 0 0 1 487.44 71.6 Tm
+(8) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(16 July 2011) Tj
+1 0 0 1 520.22 37 Tm
+(i) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+68 0 obj
+6725
+endobj
+69 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+70 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 69 0 R
+/Contents 67 0 R
+>>
+endobj
+71 0 obj
+<<
+/Length 72 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+1 0 0 1 438.55 797 Tm
+(Table of Contents) Tj
+/F20 10 Tf
+ET
+q
+0.95 g
+72 767 451 12 re
+f
+Q
+BT
+1 0 0 1 162 770 Tm
+(   Please indicate airline/train ticket prices from some major cities...) Tj
+1 0 0 1 487.44 770 Tm
+(8) Tj
+ET
+q
+1 g
+72 755 451 12 re
+f
+Q
+BT
+1 0 0 1 162 758 Tm
+(   Are the rooms in your proposed venue flat or auditorium-style...) Tj
+1 0 0 1 487.44 758 Tm
+(8) Tj
+ET
+q
+0.95 g
+72 743 451 12 re
+f
+Q
+BT
+1 0 0 1 162 746 Tm
+(   There are a number of different side activities which are...) Tj
+1 0 0 1 487.44 746 Tm
+(8) Tj
+ET
+q
+1 g
+72 731 451 12 re
+f
+Q
+BT
+1 0 0 1 162 734 Tm
+(   If lunch is not provided, please describe the possibilities for...) Tj
+1 0 0 1 487.44 734 Tm
+(8) Tj
+ET
+q
+0.95 g
+72 719 451 12 re
+f
+Q
+BT
+1 0 0 1 162 722 Tm
+(   Saalbau Titus seems to be the choice number 1;  however,...) Tj
+1 0 0 1 487.44 722 Tm
+(9) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(ii) Tj
+1 0 0 1 464.07 37 Tm
+(16 July 2011) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+72 0 obj
+1064
+endobj
+73 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F20 14 0 R
+/F21 15 0 R
+>>
+>>
+endobj
+74 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 73 0 R
+/Contents 71 0 R
+>>
+endobj
+75 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 78 0 R
+/Contents 76 0 R
+>>
+endobj
+76 0 obj
+<<
+/Length 77 0 R
+>>
+stream
+q
+1 0 0 rg
+180 626 8 130 re
+F
+Q
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+210 626 m
+523 626 l
+s
+BT
+/F21 30 Tf
+1 0 0 1 210 706 Tm
+0 -30 TD
+(POD Translation) Tj
+T* (by ) Tj
+0 0 0.8 rg
+/F22 30 Tf
+(pod2pdf) Tj
+/F21 9 Tf
+/F03 48 Tf
+0 g
+1 0 0 1 82.796 371 Tm
+T* ( Frankfurt.pm bid for) Tj
+T* ( ) Tj
+T* ( hosting YAPC::EU) Tj
+T* ( ) Tj
+T* (2012) Tj
+T* ( ) Tj
+ET
+endstream
+endobj
+77 0 obj
+346
+endobj
+78 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F03 9 0 R
+/F21 15 0 R
+/F22 16 0 R
+>>
+>>
+endobj
+79 0 obj
+<<
+/Length 80 0 R
+>>
+stream
+72 792 m
+523 792 l
+S
+BT
+0 G
+1 i 0 J 0 j 0.1 w 10 M []0 d
+/F21 10 Tf
+1 0 0 1 72 797 Tm
+(Title Page) Tj
+1 0 0 1 312.42 797 Tm
+(Frankfurt.pm bid for hosting YAPC::EU 2012) Tj
+/F21 10 Tf
+1 0 0 1 72 37 Tm
+(16 July 2011) Tj
+1 0 0 1 488.54 37 Tm
+(Fly leaf) Tj
+ET
+72 50 m
+523 50 l
+S
+endstream
+endobj
+80 0 obj
+275
+endobj
+81 0 obj
+<<
+/ProcSet [/PDF /Text]
+/ColorSpace <</DefaultRGB 1 0 R>>
+/Font
+<<
+/F21 15 0 R
+>>
+>>
+endobj
+82 0 obj
+<<
+/Type /Page
+/Parent 4 0 R
+/Resources 81 0 R
+/Contents 79 0 R
+>>
+endobj
+84 0 obj
+<<
+/Parent 83 0 R
+/Dest [70 0 R /Fit]
+/First 85 0 R
+/Last 85 0 R
+/Count 57 
+/Title (Table of Contents)
+>>
+endobj
+85 0 obj
+<<
+/Parent 84 0 R
+/Dest [21 0 R /FitH 778.4]
+/First 86 0 R
+/Last 115 0 R
+/Count 56 
+/Title (Frankfurt.pm bid for hosting YAPC::EU 2012)
+>>
+endobj
+86 0 obj
+<<
+/Parent 85 0 R
+/Dest [21 0 R /FitH 731.6]
+/Next 88 0 R
+/First 87 0 R
+/Last 87 0 R
+/Count 1 
+/Title (Organizers)
+>>
+endobj
+87 0 obj
+<<
+/Parent 86 0 R
+/Dest [21 0 R /FitH 356]
+/Title (   Contact)
+>>
+endobj
+88 0 obj
+<<
+/Parent 85 0 R
+/Dest [21 0 R /FitH 326]
+/Previous 86 0 R
+/Next 90 0 R
+/First 89 0 R
+/Last 89 0 R
+/Count 1 
+/Title (Venue)
+>>
+endobj
+89 0 obj
+<<
+/Parent 88 0 R
+/Dest [25 0 R /FitH 624.8]
+/Title (   Catering)
+>>
+endobj
+90 0 obj
+<<
+/Parent 85 0 R
+/Dest [25 0 R /FitH 570.8]
+/Previous 88 0 R
+/Next 93 0 R
+/First 91 0 R
+/Last 92 0 R
+/Count 2 
+/Title (Conference Details)
+>>
+endobj
+91 0 obj
+<<
+/Parent 90 0 R
+/Dest [25 0 R /FitH 540.8]
+/Next 92 0 R
+/Title (   Date)
+>>
+endobj
+92 0 obj
+<<
+/Parent 90 0 R
+/Dest [25 0 R /FitH 474.8]
+/Previous 91 0 R
+/Title (   Theme)
+>>
+endobj
+93 0 obj
+<<
+/Parent 85 0 R
+/Dest [25 0 R /FitH 396.8]
+/Previous 90 0 R
+/Next 94 0 R
+/Title (Website)
+>>
+endobj
+94 0 obj
+<<
+/Parent 85 0 R
+/Dest [25 0 R /FitH 354.8]
+/Previous 93 0 R
+/Next 95 0 R
+/Title (Auction)
+>>
+endobj
+95 0 obj
+<<
+/Parent 85 0 R
+/Dest [25 0 R /FitH 276.8]
+/Previous 94 0 R
+/Next 96 0 R
+/Title (Promotion)
+>>
+endobj
+96 0 obj
+<<
+/Parent 85 0 R
+/Dest [25 0 R /FitH 150.8]
+/Previous 95 0 R
+/Next 97 0 R
+/Title (Survey)
+>>
+endobj
+97 0 obj
+<<
+/Parent 85 0 R
+/Dest [29 0 R /FitH 782]
+/Previous 96 0 R
+/Next 100 0 R
+/First 98 0 R
+/Last 99 0 R
+/Count 2 
+/Title (Additional Program)
+>>
+endobj
+98 0 obj
+<<
+/Parent 97 0 R
+/Dest [29 0 R /FitH 728]
+/Next 99 0 R
+/Title (   Additional Courses)
+>>
+endobj
+99 0 obj
+<<
+/Parent 97 0 R
+/Dest [29 0 R /FitH 674]
+/Previous 98 0 R
+/Title (   Partner Program)
+>>
+endobj
+100 0 obj
+<<
+/Parent 85 0 R
+/Dest [29 0 R /FitH 548]
+/Previous 97 0 R
+/Next 104 0 R
+/First 101 0 R
+/Last 103 0 R
+/Count 3 
+/Title (Budget)
+>>
+endobj
+101 0 obj
+<<
+/Parent 100 0 R
+/Dest [29 0 R /FitH 518]
+/Next 102 0 R
+/Title (   Attendees)
+>>
+endobj
+102 0 obj
+<<
+/Parent 100 0 R
+/Dest [29 0 R /FitH 260]
+/Previous 101 0 R
+/Next 103 0 R
+/Title (   Venue)
+>>
+endobj
+103 0 obj
+<<
+/Parent 100 0 R
+/Dest [29 0 R /FitH 206]
+/Previous 102 0 R
+/Title (   some calculations)
+>>
+endobj
+104 0 obj
+<<
+/Parent 85 0 R
+/Dest [33 0 R /FitH 500]
+/Previous 100 0 R
+/Next 109 0 R
+/First 105 0 R
+/Last 108 0 R
+/Count 4 
+/Title (Sponsors)
+>>
+endobj
+105 0 obj
+<<
+/Parent 104 0 R
+/Dest [33 0 R /FitH 470]
+/Next 106 0 R
+/Title (   Dt. Perl-Workshop GbR)
+>>
+endobj
+106 0 obj
+<<
+/Parent 104 0 R
+/Dest [33 0 R /FitH 428]
+/Previous 105 0 R
+/Next 107 0 R
+/Title (   $foo - Perl-Magazin)
+>>
+endobj
+107 0 obj
+<<
+/Parent 104 0 R
+/Dest [33 0 R /FitH 398]
+/Previous 106 0 R
+/Next 108 0 R
+/Title (   OTRS AG)
+>>
+endobj
+108 0 obj
+<<
+/Parent 104 0 R
+/Dest [33 0 R /FitH 356]
+/Previous 107 0 R
+/Title (   others)
+>>
+endobj
+109 0 obj
+<<
+/Parent 85 0 R
+/Dest [33 0 R /FitH 314]
+/Previous 104 0 R
+/Next 112 0 R
+/First 110 0 R
+/Last 111 0 R
+/Count 2 
+/Title (About Frankfurt)
+>>
+endobj
+110 0 obj
+<<
+/Parent 109 0 R
+/Dest [33 0 R /FitH 188]
+/Next 111 0 R
+/Title (   Sightseeing)
+>>
+endobj
+111 0 obj
+<<
+/Parent 109 0 R
+/Dest [37 0 R /FitH 614]
+/Previous 110 0 R
+/Title (   Getting there)
+>>
+endobj
+112 0 obj
+<<
+/Parent 85 0 R
+/Dest [37 0 R /FitH 108.8]
+/Previous 109 0 R
+/Next 113 0 R
+/Title (Getting around)
+>>
+endobj
+113 0 obj
+<<
+/Parent 85 0 R
+/Dest [41 0 R /FitH 740]
+/Previous 112 0 R
+/Next 114 0 R
+/Title (Accomodations)
+>>
+endobj
+114 0 obj
+<<
+/Parent 85 0 R
+/Dest [41 0 R /FitH 674]
+/Previous 113 0 R
+/Next 115 0 R
+/Title (Summary)
+>>
+endobj
+115 0 obj
+<<
+/Parent 85 0 R
+/Dest [41 0 R /FitH 620]
+/Previous 114 0 R
+/First 116 0 R
+/Last 141 0 R
+/Count 26 
+/Title (Questions and Answers)
+>>
+endobj
+116 0 obj
+<<
+/Parent 115 0 R
+/Dest [41 0 R /FitH 542]
+/Next 117 0 R
+/Title (   What`s the price of beer?)
+>>
+endobj
+117 0 obj
+<<
+/Parent 115 0 R
+/Dest [41 0 R /FitH 459.2]
+/Previous 116 0 R
+/Next 118 0 R
+/Title (   What`s the weather like in August?)
+>>
+endobj
+118 0 obj
+<<
+/Parent 115 0 R
+/Dest [41 0 R /FitH 405.2]
+/Previous 117 0 R
+/Next 119 0 R
+/Title (   Can people get receipts? \(Is that what`s meant with the OTRS AG sponsorship?\))
+>>
+endobj
+119 0 obj
+<<
+/Parent 115 0 R
+/Dest [41 0 R /FitH 363.2]
+/Previous 118 0 R
+/Next 120 0 R
+/Title (   How easy is it for people to navigate the city without speaking German?)
+>>
+endobj
+120 0 obj
+<<
+/Parent 115 0 R
+/Dest [41 0 R /FitH 285.2]
+/Previous 119 0 R
+/Next 121 0 R
+/Title (   It would be nice to have more details on accomodation, with a range of the prices that can be expected for different levels of accomodation. Can most attendees fit in one hotel?  Is internet access widely available in accomodations?)
+>>
+endobj
+121 0 obj
+<<
+/Parent 115 0 R
+/Dest [41 0 R /FitH 171.2]
+/Previous 120 0 R
+/Next 122 0 R
+/Title (   Are there any plans to stream or record talks?  If so, how will the recordings be made and how will authorization be sought?)
+>>
+endobj
+122 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 692]
+/Previous 121 0 R
+/Next 123 0 R
+/Title (   Are any social events planned, other than the partner`s program?)
+>>
+endobj
+123 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 606.8]
+/Previous 122 0 R
+/Next 124 0 R
+/Title (   Do you have any plans for an associated hackathon?)
+>>
+endobj
+124 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 564.8]
+/Previous 123 0 R
+/Next 125 0 R
+/Title (   Do you plan to provide anything to speakers? \(Such as water, a person to time things and keep the schedule on track, etc\))
+>>
+endobj
+125 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 510.8]
+/Previous 124 0 R
+/Next 126 0 R
+/Title (   How many tracks are planned?)
+>>
+endobj
+126 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 480.8]
+/Previous 125 0 R
+/Next 127 0 R
+/Title (   How many days do you expect the event to run, and what days of the week are you considering?)
+>>
+endobj
+127 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 438.8]
+/Previous 126 0 R
+/Next 128 0 R
+/Title (   What plans do you have concerning special diets for the coffee breaks \(and lunch, if sponsored\)?)
+>>
+endobj
+128 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 384.8]
+/Previous 127 0 R
+/Next 129 0 R
+/Title (   Please give more details about modern the venues are in terms of power plugs. Are there many plugs in the rooms, or will you need to run extension cords?  Are there places outside of the rooms where people can charge equipment?)
+>>
+endobj
+129 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 294.8]
+/Previous 128 0 R
+/Next 130 0 R
+/Title (   How accessible are the venues to people in wheelchairs, people with hearing difficulties, etc?)
+>>
+endobj
+130 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 240.8]
+/Previous 129 0 R
+/Next 131 0 R
+/Title (   Will any wired connectivity be offered?)
+>>
+endobj
+131 0 obj
+<<
+/Parent 115 0 R
+/Dest [48 0 R /FitH 198.8]
+/Previous 130 0 R
+/Next 132 0 R
+/Title (   Please tell us more about the wireless network.  How many people can it support?  Is it part of the venue, or will you set it up?)
+>>
+endobj
+132 0 obj
+<<
+/Parent 115 0 R
+/Dest [55 0 R /FitH 782]
+/Previous 131 0 R
+/Next 133 0 R
+/Title (   Is it possible to have a cloakroom?  Will there be a staffed help desk?)
+>>
+endobj
+133 0 obj
+<<
+/Parent 115 0 R
+/Dest [55 0 R /FitH 752]
+/Previous 132 0 R
+/Next 134 0 R
+/Title (   Are there projectors in all rooms?)
+>>
+endobj
+134 0 obj
+<<
+/Parent 115 0 R
+/Dest [55 0 R /FitH 722]
+/Previous 133 0 R
+/Next 135 0 R
+/Title (   Will there be provided interfacing connectors \(for Macs, for example\)?)
+>>
+endobj
+135 0 obj
+<<
+/Parent 115 0 R
+/Dest [55 0 R /FitH 680]
+/Previous 134 0 R
+/Next 136 0 R
+/Title (   Are microphones available for speakers?)
+>>
+endobj
+136 0 obj
+<<
+/Parent 115 0 R
+/Dest [55 0 R /FitH 650]
+/Previous 135 0 R
+/Next 137 0 R
+/Title (   We do plan to make your proposal public.  Since it is a PDF document, could you please remove any information you don`t want included and send us a `for publication' copy of the proposal?)
+>>
+endobj
+137 0 obj
+<<
+/Parent 115 0 R
+/Dest [55 0 R /FitH 596]
+/Previous 136 0 R
+/Next 138 0 R
+/Title (   Please indicate airline/train ticket prices from some major cities for this August to give an indication of transportation costs.)
+>>
+endobj
+138 0 obj
+<<
+/Parent 115 0 R
+/Dest [55 0 R /FitH 422]
+/Previous 137 0 R
+/Next 139 0 R
+/Title (   Are the rooms in your proposed venue flat or auditorium-style \(or whatever you would use in English to describe an ascending seating\) If the rooms have different layouts, please tell us which are of which type)
+>>
+endobj
+139 0 obj
+<<
+/Parent 115 0 R
+/Dest [55 0 R /FitH 356]
+/Previous 138 0 R
+/Next 140 0 R
+/Title (   There are a number of different side activities which are sometimes organized in conjunction with Y::E, such as training courses, hackathons, partner`s program, welcome dinner, pub crawl, job fair, auction, and sight seeing trips.  Your application mentioned some of these.  If you have plans to also organize any of the other activities mentioned \(or not mentioned!\) please also tell us about them.)
+>>
+endobj
+140 0 obj
+<<
+/Parent 115 0 R
+/Dest [55 0 R /FitH 254]
+/Previous 139 0 R
+/Next 141 0 R
+/Title (   If lunch is not provided, please describe the possibilities for attendees to go out and find their own lunch. Take into account that one cafe or restaurant will not be able to feed 300 people arriving at the same time, and that conditions may differ significantly between weekdays \(Friday\) and weekend days \(e.g. Sunday\). Also please include the expected price range.)
+>>
+endobj
+141 0 obj
+<<
+/Parent 115 0 R
+/Dest [62 0 R /FitH 728]
+/Previous 140 0 R
+/Title (   Saalbau Titus seems to be the choice number 1;  however, other things being about equal, University of Frankfurt is cheaper and more centrally located;  what is the reason for prefering Saalbau Titus?)
+>>
+endobj
+83 0 obj
+<<
+/Type /Outlines
+/Count 58
+/First 84 0 R
+/Last 141 0 R
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 4 0 R
+/PageMode /UseOutlines
+/Outlines 83 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Pages
+/Kids [ 75 0 R 82 0 R 70 0 R 74 0 R 21 0 R 25 0 R 29 0 R 33 0 R 37 0 R 41 0 R 48 0 R 55 0 R 62 0 R 66 0 R ]
+/Count 14
+/MediaBox [0 0 595 842]
+>>
+endobj
+xref
+0 142
+0000000000 65535 f 
+0000000015 00000 n 
+0000000171 00000 n 
+0000077373 00000 n 
+0000077462 00000 n 
+0000000267 00000 n 
+0000002367 00000 n 
+0000002466 00000 n 
+0000002564 00000 n 
+0000002664 00000 n 
+0000002768 00000 n 
+0000002864 00000 n 
+0000002965 00000 n 
+0000003069 00000 n 
+0000003177 00000 n 
+0000003275 00000 n 
+0000003378 00000 n 
+0000003484 00000 n 
+0000003598 00000 n 
+0000009905 00000 n 
+0000009926 00000 n 
+0000010051 00000 n 
+0000010134 00000 n 
+0000016373 00000 n 
+0000016394 00000 n 
+0000016519 00000 n 
+0000016602 00000 n 
+0000022050 00000 n 
+0000022071 00000 n 
+0000022208 00000 n 
+0000022291 00000 n 
+0000028180 00000 n 
+0000028201 00000 n 
+0000028326 00000 n 
+0000028409 00000 n 
+0000035034 00000 n 
+0000035055 00000 n 
+0000035180 00000 n 
+0000035263 00000 n 
+0000041684 00000 n 
+0000041705 00000 n 
+0000041830 00000 n 
+0000041913 00000 n 
+0000047787 00000 n 
+0000047808 00000 n 
+0000047944 00000 n 
+0000048069 00000 n 
+0000048190 00000 n 
+0000048218 00000 n 
+0000048316 00000 n 
+0000054245 00000 n 
+0000054266 00000 n 
+0000054414 00000 n 
+0000054539 00000 n 
+0000054656 00000 n 
+0000054684 00000 n 
+0000054782 00000 n 
+0000056886 00000 n 
+0000056907 00000 n 
+0000057031 00000 n 
+0000057156 00000 n 
+0000057251 00000 n 
+0000057279 00000 n 
+0000057377 00000 n 
+0000057697 00000 n 
+0000057717 00000 n 
+0000057819 00000 n 
+0000057902 00000 n 
+0000064681 00000 n 
+0000064702 00000 n 
+0000064816 00000 n 
+0000064899 00000 n 
+0000066017 00000 n 
+0000066038 00000 n 
+0000066152 00000 n 
+0000066235 00000 n 
+0000066318 00000 n 
+0000066718 00000 n 
+0000066738 00000 n 
+0000066863 00000 n 
+0000067192 00000 n 
+0000067212 00000 n 
+0000067314 00000 n 
+0000077297 00000 n 
+0000067397 00000 n 
+0000067519 00000 n 
+0000067674 00000 n 
+0000067808 00000 n 
+0000067890 00000 n 
+0000068034 00000 n 
+0000068119 00000 n 
+0000068278 00000 n 
+0000068372 00000 n 
+0000068471 00000 n 
+0000068582 00000 n 
+0000068693 00000 n 
+0000068806 00000 n 
+0000068916 00000 n 
+0000069074 00000 n 
+0000069180 00000 n 
+0000069287 00000 n 
+0000069436 00000 n 
+0000069536 00000 n 
+0000069650 00000 n 
+0000069762 00000 n 
+0000069914 00000 n 
+0000070026 00000 n 
+0000070154 00000 n 
+0000070270 00000 n 
+0000070371 00000 n 
+0000070530 00000 n 
+0000070632 00000 n 
+0000070740 00000 n 
+0000070861 00000 n 
+0000070979 00000 n 
+0000071091 00000 n 
+0000071243 00000 n 
+0000071359 00000 n 
+0000071504 00000 n 
+0000071694 00000 n 
+0000071876 00000 n 
+0000072219 00000 n 
+0000072454 00000 n 
+0000072627 00000 n 
+0000072788 00000 n 
+0000073022 00000 n 
+0000073161 00000 n 
+0000073364 00000 n 
+0000073573 00000 n 
+0000073911 00000 n 
+0000074116 00000 n 
+0000074266 00000 n 
+0000074506 00000 n 
+0000074686 00000 n 
+0000074829 00000 n 
+0000075010 00000 n 
+0000075158 00000 n 
+0000075454 00000 n 
+0000075692 00000 n 
+0000076012 00000 n 
+0000076522 00000 n 
+0000077002 00000 n 
+trailer
+<<
+/Size 142
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+77638
+%%EOF
