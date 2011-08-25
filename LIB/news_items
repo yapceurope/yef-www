@@ -13,6 +13,24 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '22:50:00 25-08-2011'
+   title = 'Frankfurt selected for YAPC::Europe 2012'
+%]
+<p>
+YAPC::Europe Foundation is pleased to announce
+that Frankfurt am Main, Germany has been chosen as the site for the
+YAPC::Europe 2012.
+</p><p>
+We are confident that Frankfurt.pm's experienced team -- which was responsible
+for several German Perl Workshops -- will put
+together a wonderful conference.  The theme for the next YAPC::Europe
+will be 'Powerhouse Perl'.
+</p><p>
+We hope to see you in Frankfurt next summer!
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date = '12:30:00 06-07-2011'
    title = 'YAPC::Europe 2012 Proposals'
 %]
@@ -83,7 +101,7 @@ based on the <a href="[% ical_page %]">calendar of all Perl conferences</a>.
 <p>
 YAPC::Europe Foundation is pleased to announce
 that Riga, Latvia has been chosen as the site for the
-YAPC::Europe 2011</a>.
+YAPC::Europe 2011.
 </p><p>
 We are confident that Riga.pm's experienced team--which was responsible
 for several Perl Workshops in a number of different countries--will put
