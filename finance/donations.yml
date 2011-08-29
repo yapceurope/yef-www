@@ -64,6 +64,10 @@ to_yef:
     amount: 50
     who_url: http://www.2organize.com/
 from_yef:
+  - event: YAPC::Europe 2012
+    date: 0:0:0 15/08/2011
+    amount: 1000
+    event_url:
   - event: Perl Ecosystem Group
     date: 0:0:0 01/12/2010
     amount: 500
