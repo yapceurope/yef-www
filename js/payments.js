@@ -18,6 +18,7 @@ var conferences = {
  "npw2007":{"act_open":1170633600000,"begin":1177718400000,"conf_id":"npw2007","end":1177804800000,"fullname":"Nordic Perl Workshop 2007","name":"Nordic Perl Workshop","url":"http://conferences.yapceurope.org/npw2007/","year":"2007"},
  "ptpw2008":{"act_open":1202688000000,"begin":1212710400000,"conf_id":"ptpw2008","end":1212796800000,"fullname":"Portuguese Perl Workshop 2008","name":"Portuguese Perl Workshop","url":"http://workshop.perl.pt/ptpw2008/","year":"2008"},
  "tcpw2008":{"act_open":1220572800000,"begin":1226016000000,"conf_id":"tcpw2008","end":1226102400000,"fullname":"TwinCity Perl Workshop 2008","name":"TwinCity Perl Workshop","url":"http://conferences.yapceurope.org/tcpw2008/","year":"2008"},
+ "tcpw2011":{"act_open":1315872000000,"begin":1320364800000,"conf_id":"tcpw2011","end":1320451200000,"fullname":"TwinCity Perl Workshop 2011","name":"TwinCity Perl Workshop","url":"http://conferences.yapceurope.org/tcpw2011/","year":"2011"},
  "ye2005":{"act_open":1111449600000,"begin":1125446400000,"conf_id":"ye2005","end":1125619200000,"fullname":"YAPC Europe 2005","name":"YAPC Europe","url":"http://conferences.yapceurope.org/ye2005/","year":"2005"},
  "ye2007":{"act_open":1163548800000,"begin":1188259200000,"conf_id":"ye2007","end":1188432000000,"fullname":"YAPC Europe 2007","name":"YAPC Europe","url":"http://conferences.yapceurope.org/2007/","year":"2007"},
  "ye2009":{"act_open":1225324800000,"begin":1249257600000,"conf_id":"ye2009","end":1249430400000,"fullname":"YAPC Europe 2009","name":"YAPC Europe","url":"http://yapceurope2009.org/ye2009/","year":"2009"},
@@ -515,6 +516,14 @@ var payments = {
   [1226094101000,0,10],
   [1231372800000,1,710],
   [1231977600000,0,0]],
+ "tcpw2011":[
+  [1315872000000,0,0],
+  [1319471538000,0,10],
+  [1319472045000,0,10],
+  [1320217340000,0,10],
+  [1320310659000,0,30],
+  [1320624000000,0,30],
+  [1321228800000,0,0]],
  "ye2005":[
   [1111449600000,0,0],
   [1115835430000,0,89],
