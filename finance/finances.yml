@@ -413,13 +413,16 @@
     - Expenses
     -
       - Bank Account Charge
-      - 14.36
+      - 74.66
     -
       - Online Payment Charge
-      - 53.82
+      - 215.28
     -
       - Online Payment Fees
-      - 18.56
+      - 335.68
+    -
+      - Kickstart Donations
+      - 1500.00
   -
     - Liabilities
     -
@@ -429,19 +432,42 @@
       - Kickstart Donations
       - -500.00
     -
+      - Kickstart Donations
+      - 1000.00
+    -
       - Online Payment
-      - 1129.00
+      - 37815.00
     -
       - Online Payment (Transfer)
-      - 79.00
+      - 4111.00
+    -
+      - Online Payment Refunds
+      - -41802.00
   -
-    - Assets 2011-02-28
+    - Perl QA Hackathon 2011
+    -
+      - Donations
+      - 9740.00
+    -
+      - Accomodation
+      - -4336.13
+    -
+      - Attendees Sponsorship
+      - -3180.00
+    -
+      - Catering
+      - -311.12
+    -
+      - Bank fees
+      - -71.20
+  -
+    - Assets 2011-11-30
     -
       - Account 00010281201
-      - 253.45
+      - 234.02
     -
       - Account 00010281203
-      - 5493.17
+      - 5052.67
     -
       - Liabilities
-      - -581.00
+      - -2965.55
