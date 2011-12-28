@@ -68,6 +68,10 @@ from_yef:
     date: 0:0:0 15/08/2011
     amount: 1000
     event_url:
+  - event: Perl QA Hackathon 2011
+    date: 0:0:0 28/02/2011
+    amount: 500
+    event_url: http://2011.qa-hackathon.org/
   - event: Perl Ecosystem Group
     date: 0:0:0 01/12/2010
     amount: 500
