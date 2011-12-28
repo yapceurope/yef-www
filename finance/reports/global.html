@@ -27,7 +27,7 @@
          FOR row = section ;
            income.${row.0} = ( income.${row.0} || 0 ) + row.1;
          END ;
-       ELSIF title == 'Liabilities' ;
+       ELSIF title == 'Liabilities' || title == 'Perl QA Hackathon 2011';
          FOR row = section ;
            IF row.0.match( 'Online Payment' ) && ! row.0.match( 'Refund' );
              payment_total = payment_total + row.1 ;
