@@ -413,7 +413,7 @@
     - Expenses
     -
       - Bank Account Charge
-      - 79.78
+      - 85.78
     -
       - Online Payment Charge
       - 215.28
@@ -443,6 +443,9 @@
     -
       - Online Payment Refunds
       - -41802.00
+    -
+      - Donations
+      - -34.00
   -
     - Perl QA Hackathon 2011
     -
@@ -452,22 +455,37 @@
       - Accomodation
       - -4336.13
     -
-      - Attendees Sponsorship
-      - -3180.00
+      - Travel
+      - -3915.00
     -
       - Catering
       - -311.12
     -
       - Bank fees
-      - -71.20
+      - -96.44
+    -
+      - Donation QA Hackathon 2012
+      - -1061.31
   -
-    - Assets 2011-11-30
+    - Assets 2011-12-31
     -
       - Account 00010281201
-      - 234.02
+      - 228.02
     -
       - Account 00010281203
-      - 5052.67
+      - 3358.69
     -
       - Liabilities
-      - -2965.55
+      - -1090.00
+2012:
+  -
+    - Assets 2012-01-01
+    -
+      - Account 00010281201
+      - 228.02
+    -
+      - Account 00010281203
+      - 3358.69
+    -
+      - Liabilities
+      - -1090.00
