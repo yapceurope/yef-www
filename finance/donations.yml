@@ -1,5 +1,12 @@
 ---
 to_yef:
+  - who: YAPC Europe 2011
+    event: YAPC::Europe 2011
+    date: 0:0:0 27/12/2011
+    amount: 34
+    who_url:  http://www.yapceurope.org/2011/
+    event_url: http://www.yapceurope.org/2011/
+    news_url: 
   - who: Associazione di Promozione Sociale Perl.it
     event: YAPC::Europe 2010
     date: 0:0:0 25/11/2010
