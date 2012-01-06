@@ -13,6 +13,22 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '08:00:00 05-01-2012'
+   title = 'YEF Financials reports available'
+%]
+<p>
+YEF treasurer is pleased to present YEF's
+<a href="[% root %]/finance/reports/2011.html">financial report for 2011</a>.
+</p><p>
+Included at the bottom of the report are some <a href="[% root %]/finance/reports/2011.html#comment">treasurer comments</a> about the past year.
+</p><p>
+For those interested in the global picture of "what is YEF actually doing?",
+a <a href="[% root %]/finance/reports/global.html">global financial report</a>
+is also available.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '22:50:00 25-08-2011'
    title = 'Frankfurt selected for YAPC::Europe 2012'
 %]
