@@ -13,6 +13,46 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '10:45:00 09-03-2012'
+   title = 'Call for Venue for YAPC::Europe::2013'
+%]
+<p>
+Although YAPC::Europe::2012 preparations are well underway in Frankfurt,
+it is time for the venue committee of the YAPC::Europe Foundation (YEF)
+to think about the location of the 2013 conference.  YAPC::Europe wouldn't
+exist without dedicated teams of volunteers, and we are always excited
+to see the enthusiasm and learn about the new ideas the community has to
+offer.
+</p>
+<p>
+Further information about preparing a complete application can be
+found on <a href="[% organizers_page %]">our website</a>.  Proposals submitted
+to the venue committee will be added to this public repository (you
+may provide private information separately) to benefit future organizers.
+</p>
+The deadlines which apply to this portion of the procedure are:
+<ul>
+<li><em>Saturday, 7 April:</em>  Deadline for sending a letter of intent.  This
+  letter simply expresses interest in hosting the conference and provides
+  contact information (both email and telephone) for at least two organizers.
+  This is an optional step but it can be to your advantage to alert the
+  venue committee of your proposal.</li>
+<li><em>Thursday, 5 July:</em>  Deadline for sending proposals to 
+  host YAPC::Europe 2013.</li>
+</ul>
+</p>
+<p>
+If you do not receive a confirmation for your letter of intent or proposal
+within a couple of days, please personally contact a member of the venue
+committee.
+</p>
+<p>
+Please send your questions, letters of intent, and proposals to
+venue@yapceurope.org.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date = '08:00:00 05-01-2012'
    title = 'YEF Financials reports available'
 %]
