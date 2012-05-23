@@ -5,6 +5,7 @@ var conferences = {
  "fpw2006":{"act_open":1141257600000,"begin":1164412800000,"conf_id":"fpw2006","end":1164499200000,"fullname":"French Perl Workshop 2006","name":"French Perl Workshop","url":"http://journeesperl.fr/fpw2006/","year":"2006"},
  "fpw2007":{"act_open":1188345600000,"begin":1195171200000,"conf_id":"fpw2007","end":1195257600000,"fullname":"French Perl Workshop 2007","name":"French Perl Workshop","url":"http://journeesperl.fr/fpw2007/","year":"2007"},
  "fpw2008":{"act_open":1205712000000,"begin":1212105600000,"conf_id":"fpw2008","end":1212192000000,"fullname":"French Perl Workshop 2008","name":"French Perl Workshop","url":"http://journeesperl.fr/fpw2008/","year":"2008"},
+ "fpw2012":{"act_open":1345420800000,"begin":1340928000000,"conf_id":"fpw2012","end":1341014400000,"fullname":"French Perl Workshop 2012","name":"French Perl Workshop","url":"http://journeesperl.fr/fpw2012/","year":"2012"},
  "hack2007nl":{"act_open":1169856000000,"begin":1172793600000,"conf_id":"hack2007nl","end":1172966400000,"fullname":"European Perl Hackathon 2007","name":"European Perl Hackathon","url":"http://conferences.yapceurope.org/hack2007nl/","year":"2007"},
  "ipw2005":{"act_open":1113264000000,"begin":1119484800000,"conf_id":"ipw2005","end":1119571200000,"fullname":"Italian Perl Workshop 2005","name":"Italian Perl Workshop","url":"http://conferences.yapceurope.org/ipw2005/","year":"2005"},
  "ipw2006":{"act_open":1140912000000,"begin":1150934400000,"conf_id":"ipw2006","end":1151020800000,"fullname":"Italian Perl Workshop 2006","name":"Italian Perl Workshop","url":"http://conferences.yapceurope.org/ipw2006/","year":"2006"},
@@ -24,6 +25,7 @@ var conferences = {
  "ye2009":{"act_open":1225324800000,"begin":1249257600000,"conf_id":"ye2009","end":1249430400000,"fullname":"YAPC Europe 2009","name":"YAPC Europe","url":"http://yapceurope2009.org/ye2009/","year":"2009"},
  "ye2010":{"act_open":1258848000000,"begin":1280880000000,"conf_id":"ye2010","end":1281052800000,"fullname":"YAPC Europe 2010","name":"YAPC Europe","url":"http://conferences.yapceurope.org/ye2010/","year":"2010"},
  "ye2011":{"act_open":1295308800000,"begin":1313366400000,"conf_id":"ye2011","end":1313539200000,"fullname":"YAPC Europe 2011","name":"YAPC Europe","url":"http://yapceurope.lv/","year":"2011"},
+ "ye2012":{"act_open":1326153600000,"begin":1345420800000,"conf_id":"ye2012","end":1345593600000,"fullname":"YAPC Europe 2012","name":"YAPC Europe","url":"http://act.yapc.eu/ye2012/","year":"2012"},
  "yr2010":{"act_open":1266278400000,"begin":1276300800000,"conf_id":"yr2010","end":1276473600000,"fullname":"Perl Mova + YAPC Russia 2010","name":"Perl Mova + YAPC Russia","url":"http://social.yapcrussia.org/yr2010/","year":"2010"}};
 var payments = {
  "apw2005":[
@@ -182,6 +184,11 @@ var payments = {
   [1212019200000,0,30],
   [1229385600000,1,1260],
   [1229990400000,0,0]],
+ "fpw2012":[
+  [1345420800000,0,0],
+  [1336715038000,0,38],
+  [1337026285000,0,114],
+  [1341014400000,0,0]],
  "hack2007nl":[
   [1169856000000,0,0],
   [1170290630000,0,74],
@@ -1519,6 +1526,15 @@ var payments = {
   [1314835200000,1,2516],
   [1324944000000,1,34],
   [1325548800000,0,0]],
+ "ye2012":[
+  [1326153600000,0,0],
+  [1336982421000,0,450],
+  [1336983786000,0,450],
+  [1337160929000,0,110],
+  [1337195495000,0,80],
+  [1337242367000,0,80],
+  [1337729586000,0,80],
+  [1345593600000,0,0]],
  "yr2010":[
   [1266278400000,0,0],
   [1272738969000,0,1],
