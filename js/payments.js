@@ -12,6 +12,7 @@ var conferences = {
  "ipw2008":{"act_open":1205107200000,"begin":1221696000000,"conf_id":"ipw2008","end":1221782400000,"fullname":"Italian Perl Workshop 2008","name":"Italian Perl Workshop","url":"http://conferences.yapceurope.org/ipw2008/","year":"2008"},
  "ipw2009":{"act_open":1242604800000,"begin":1256169600000,"conf_id":"ipw2009","end":1256256000000,"fullname":"Italian Perl Workshop 2009","name":"Italian Perl Workshop","url":"http://conferences.yapceurope.org/ipw2009/","year":"2009"},
  "ipw2011":{"act_open":1293148800000,"begin":1315440000000,"conf_id":"ipw2011","end":1315526400000,"fullname":"Italian Perl Workshop 2011","name":"Italian Perl Workshop","url":"http://conferences.yapceurope.org/ipw2011/","year":"2011"},
+ "mtmh2012":{"act_open":1337904000000,"begin":1345939200000,"conf_id":"mtmh2012","end":1346284800000,"fullname":"Moving to Moose Hackathon 2012","name":"Moving to Moose Hackathon","url":"http://act.yapc.eu/mtmh2012/","year":"2012"},
  "nlpw2009":{"act_open":1231113600000,"begin":1236297600000,"conf_id":"nlpw2009","end":1236297600000,"fullname":"Dutch Perl Workshop 2009","name":"Dutch Perl Workshop","url":"http://www.perlworkshop.nl/nlpw2009/","year":"2009"},
  "nlpw2010":{"act_open":1257465600000,"begin":1267747200000,"conf_id":"nlpw2010","end":1267747200000,"fullname":"Dutch Perl Workshop 2010","name":"Dutch Perl Workshop","url":"http://www.perlworkshop.nl/nlpw2010/","year":"2010"},
  "npw2005":{"act_open":1128556800000,"begin":1129939200000,"conf_id":"npw2005","end":1130025600000,"fullname":"Nordic Perl Workshop 2005","name":"Nordic Perl Workshop","url":"http://www.perlworkshop.no/2005/","year":"2005"},
@@ -293,6 +294,11 @@ var payments = {
   [1315411313000,0,50],
   [1317427200000,1,1150],
   [1318032000000,0,0]],
+ "mtmh2012":[
+  [1337904000000,0,0],
+  [1337980554000,0,120],
+  [1337990667000,0,653],
+  [1346284800000,0,0]],
  "nlpw2009":[
   [1231113600000,0,0],
   [1232551069000,0,38],
@@ -1535,6 +1541,7 @@ var payments = {
   [1337242367000,0,80],
   [1337729586000,0,80],
   [1337791475000,0,80],
+  [1338043874000,0,80],
   [1345593600000,0,0]],
  "yr2010":[
   [1266278400000,0,0],
