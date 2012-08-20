@@ -13,7 +13,7 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
-   date  = '09:00:00 20-08-2011'
+   date  = '09:00:00 20-08-2012'
    title = 'Kiev selected for YAPC::Europe 2013'
 %]
 <p>
