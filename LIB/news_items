@@ -13,6 +13,25 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '09:00:00 20-08-2011'
+   title = 'Kiev selected for YAPC::Europe 2013'
+%]
+<p>
+YAPC::Europe Foundation is pleased to announce
+that Kiev, Ukraine has been chosen as the site for the
+YAPC::Europe 2013.
+</p><p>
+We are confident that Kiev.pm and Moscow.pm's experienced team -- which
+was responsible for many Perl events in Eastern Europe -- will put
+together a wonderful conference.  The theme for the next YAPC::Europe
+will be 'Future Perl'.
+</p><p>
+We hope to see you in Kiev next summer!
+</p>
+[% END %]
+
+
+[% WRAPPER add_news_item
    date  = '10:45:00 09-03-2012'
    title = 'Call for Venue for YAPC::Europe::2013'
 %]
