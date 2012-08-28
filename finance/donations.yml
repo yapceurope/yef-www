@@ -1,5 +1,12 @@
 ---
 to_yef:
+  - who: Vienna.pm - Verein zur Förderung der Programmiersprache Perl
+    event: Twin City Perl Workshop 2011
+    date: 0:0:0 28/08/2012
+    amount: 90
+    who_url: http://vienna.pm.org/
+    event_url: http://conferences.yapceurope.org/tcpw2011/
+    news_url: 
   - who: YAPC Europe 2011
     event: YAPC::Europe 2011
     date: 0:0:0 27/12/2011
