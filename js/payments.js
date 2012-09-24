@@ -20,6 +20,7 @@ var conferences = {
  "npw2006":{"act_open":1146700800000,"begin":1150329600000,"conf_id":"npw2006","end":1150416000000,"fullname":"Nordic Perl Workshop 2006","name":"Nordic Perl Workshop","url":"http://www.perlworkshop.no/npw2006/","year":"2006"},
  "npw2007":{"act_open":1170633600000,"begin":1177718400000,"conf_id":"npw2007","end":1177804800000,"fullname":"Nordic Perl Workshop 2007","name":"Nordic Perl Workshop","url":"http://conferences.yapceurope.org/npw2007/","year":"2007"},
  "ptpw2008":{"act_open":1202688000000,"begin":1212710400000,"conf_id":"ptpw2008","end":1212796800000,"fullname":"Portuguese Perl Workshop 2008","name":"Portuguese Perl Workshop","url":"http://workshop.perl.pt/ptpw2008/","year":"2008"},
+ "qh2012eu":{"act_open":1346803200000,"begin":1354838400000,"conf_id":"qh2012eu","end":1355011200000,"fullname":"Quack and Hack Europe 2012","name":"Quack and Hack Europe","url":"http://act.yapc.eu/qh2012eu/","year":"2012"},
  "tcpw2008":{"act_open":1220572800000,"begin":1226016000000,"conf_id":"tcpw2008","end":1226102400000,"fullname":"TwinCity Perl Workshop 2008","name":"TwinCity Perl Workshop","url":"http://conferences.yapceurope.org/tcpw2008/","year":"2008"},
  "tcpw2011":{"act_open":1315872000000,"begin":1320364800000,"conf_id":"tcpw2011","end":1320451200000,"fullname":"TwinCity Perl Workshop 2011","name":"TwinCity Perl Workshop","url":"http://conferences.yapceurope.org/tcpw2011/","year":"2011"},
  "ye2005":{"act_open":1111449600000,"begin":1125446400000,"conf_id":"ye2005","end":1125619200000,"fullname":"YAPC Europe 2005","name":"YAPC Europe","url":"http://conferences.yapceurope.org/ye2005/","year":"2005"},
@@ -301,6 +302,7 @@ var payments = {
  "ipw2012":[
   [1337040000000,0,0],
   [1346760127000,0,100],
+  [1347291296000,0,50],
   [1350000000000,0,0]],
  "mtmh2012":[
   [1337904000000,0,0],
@@ -532,6 +534,11 @@ var payments = {
   [1212683089000,0,20],
   [1215475200000,1,240],
   [1216080000000,0,0]],
+ "qh2012eu":[
+  [1346803200000,0,0],
+  [1347358422000,0,270],
+  [1347358611000,0,270],
+  [1355011200000,0,0]],
  "tcpw2008":[
   [1220572800000,0,0],
   [1220613950000,0,20],
