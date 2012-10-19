@@ -9,6 +9,7 @@ binmode = :utf8
 ignore = \b(CVS|RCS|LIB)\b
 ignore = ^#
 ignore = \.svn
+ignore = \.git
 ignore = \.swp$
 ignore = \.ttreerc
 ignore = domms_build
