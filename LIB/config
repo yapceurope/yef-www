@@ -1,5 +1,6 @@
 [%-
-    root        = root || "http://www.yapceurope.org"
+    root        = root  || "http://www.yapceurope.org"
+    lists       = lists || "http://lists.yapceurope.org"
 
     index_page              = "$root/index.html"
     act_page                = "$root/organizers/act.html"
@@ -31,7 +32,8 @@
     meets_page	            = "$root/meets.html"
     workshop_stories_page   = "$root/stories/workshops.html"
     ye_org_page             = "$root/organizers/conference.html"
-    ical_page   = "webcal://www.yapceurope.org/ical/conferences.ics"
+    ical_page               = "webcal://www.yapceurope.org/ical/conferences.ics"
+    mailman_page            = "$lists/mailman/listinfo"
     example_contracts_dir   = "$root/example_contracts/"
     contract_donation_page  = "$example_contracts_dir/donation.pdf"
     contract_payment_page   = "$example_contracts_dir/payment.pdf"
@@ -58,6 +60,8 @@
     venue_committee  = "<a href='$venue_page'>Venue Committee</a>"
     events      = "<a href='$events_page'>events</a>"
     organizers  = "<a href='$organizers_page'>organizers</a>"
+    organizers_mailing_list  = "<a href='$mailman_page/organizers'>organizers mailing list</a>"
+    conferences_mailing_list = "<a href='$mailman_page/conferences'>conferences mailing list</a>"
     ical_link   = "<img src=\"/img/ical.png\" />&nbsp;<a href=\"webcal://www.yapceurope.org/ical/conferences.ics\">Subscribe to all Perl conferences in iCal</a>"
 
 %][% USE date -%]
