@@ -13,6 +13,31 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '10:00:00 30-10-2012'
+   title = 'The YAPC Europe Organizers Mailing List'
+%]
+<p>
+The YAPC Europe Foundation (YEF) has created a dedicated Organizers Mailing
+List. The purpose is to share relevant information between organizers of Perl
+workshops, conferences and hackathons, in Europe, such that we can all benefit
+from each others rapidly accumulating knowledge. Here's the link:
+
+<pre>
+    <a href="[% organizers_mailing_list %]">[% organizers_mailing_list %]</a>
+</pre>
+
+By letting everyone else know where, what and when, an event is going to take
+place, and sharing our intentions, this might help to avoid the unfortunate
+case where two events happen at the same time, as well as helping to spread
+Perl events sensibly over the year. The list is intended as a one-stop shop for
+anyone interested to participate in helping to propose, ask for help, and to
+organize, all Perl-related events in the European sphere. Discussions have
+already started. Please join and help us to promote local, as well as
+nation-wide, events for the benefit of the larger Perl community in Europe.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '09:00:00 20-08-2012'
    title = 'Kiev selected for YAPC::Europe 2013'
 %]
@@ -29,7 +54,6 @@ will be 'Future Perl'.
 We hope to see you in Kiev next summer!
 </p>
 [% END %]
-
 
 [% WRAPPER add_news_item
    date  = '10:45:00 09-03-2012'
