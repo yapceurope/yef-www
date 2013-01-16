@@ -29,7 +29,7 @@ var conferences = {
  "ye2010":{"act_open":1258848000000,"begin":1280880000000,"conf_id":"ye2010","end":1281052800000,"fullname":"YAPC Europe 2010","name":"YAPC Europe","url":"http://conferences.yapceurope.org/ye2010/","year":"2010"},
  "ye2011":{"act_open":1295308800000,"begin":1313366400000,"conf_id":"ye2011","end":1313539200000,"fullname":"YAPC Europe 2011","name":"YAPC Europe","url":"http://yapceurope.lv/","year":"2011"},
  "ye2012":{"act_open":1326153600000,"begin":1345420800000,"conf_id":"ye2012","end":1345593600000,"fullname":"YAPC Europe 2012","name":"YAPC Europe","url":"http://act.yapc.eu/ye2012/","year":"2012"},
- "ye2013":{"act_open":1356048000000,"begin":1376265600000,"conf_id":"ye2013","end":1376438400000,"fullname":"YAPC Europe 2013","name":"YAPC Europe","url":null,"year":"2013"},
+ "ye2013":{"act_open":1356048000000,"begin":1376265600000,"conf_id":"ye2013","end":1376438400000,"fullname":"YAPC Europe 2013","name":"YAPC Europe","url":"http://yapc.eu/2013","year":"2013"},
  "yr2010":{"act_open":1266278400000,"begin":1276300800000,"conf_id":"yr2010","end":1276473600000,"fullname":"Perl Mova + YAPC Russia 2010","name":"Perl Mova + YAPC Russia","url":"http://social.yapcrussia.org/yr2010/","year":"2010"}};
 var payments = {
  "apw2005":[
@@ -1829,6 +1829,8 @@ var payments = {
   [1356436608000,0,100],
   [1356642046000,0,500],
   [1356885777000,0,90],
+  [1357909529000,0,500],
+  [1357992819000,0,90],
   [1376438400000,0,0]],
  "yr2010":[
   [1266278400000,0,0],
