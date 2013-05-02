@@ -699,7 +699,7 @@ mailing list</a> is another way to find out about the latest developments.
    title = 'Two proposals for YAPC::Europe::2009'
 %]
 
-<p>The <a href="[% root %]/venue_committee.html">YEF Venue Committee</a> would like to announce that we have received two
+<p>The [% venue_committee %] would like to announce that we have received two
 very interesting bids, from two great cities, to host YAPC::Europe 2009!
 The two capitals, <strong>Moscow</strong> and <strong>Lisbon</strong>, have submitted very strong
 proposals and the YEF Venue Commitee have a very hard task ahead of them
