@@ -13,6 +13,16 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '11:25:00 26-06-2013'
+   title = "The deadline to send your YAPC::Europe 2014 proposal is tomorrow"
+%]
+<p>
+If you are preparing a proposal to host YAPC::Europe conference in 2014,
+now is a good time to send your proposal to the venue committee!
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '11:20:00 06-06-2013'
    title = "Reminder: don't forget to send your YAPC::Europe 2014 proposal"
 %]
