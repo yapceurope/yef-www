@@ -183,7 +183,11 @@ $(document).ready(function() {
           $('#conferences li').css({'font-weight':'normal'});
           $(e.target).css({'font-weight':'bold'});
           graphData( [ e.target.id ] );
-          });
+          $('html, body').animate({
+            scrollTop: $('#content').offset().top,
+            scrollLeft: 0 });
+          window.location.hash = e.target.id;
+        });
     }
   }
   $('#conferences div').fadeIn(1000);
@@ -191,6 +195,9 @@ $(document).ready(function() {
   // show graph for the most recent conference
   graphData( [ recent.conf_id ] );
   $('#' + recent.conf_id).css({'font-weight':'bold'});
+
+  // simulate a click on the conference in the fragment
+  $(window.location.hash).click();
 });
   </script>
 
