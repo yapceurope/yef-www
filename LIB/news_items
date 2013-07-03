@@ -13,6 +13,35 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date = '00:10:00 04-07-2013'
+   title = "A new comer at YAPC Europe Foundation"
+%]
+<p>
+A new member joined YAPC Europe Foundation in May. The name's
+Laurent Boivin (aka elbeho).
+</p>
+<p>
+Born to Perl in 1999 for his job, he met the French Perl Mongers
+in 2004 for the 1st French Perl Workshop.<br />
+He started grenoble.pm right after that but failed in making it
+a successful Perl Monger Group.<br />
+After moving to Paris, he joined paris.pm, became Treasurer of the
+French Perl Mongers, organize several French Perl Workshop and
+was involved in OSDC.fr (a cross-language yearly conference).
+</p>
+<p>
+He has one only one useless module in CPAN
+While he is organizing parties for Mongers, while he is counting
+again and again the money of the French Perl Mongers, he's not
+writing any single line of Perl. 
+</p>
+<p>
+And now, he's joining YEF?
+Is it another excuse to avoid writing modules?
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '11:25:00 26-06-2013'
    title = "The deadline to send your YAPC::Europe 2014 proposal is tomorrow"
 %]
