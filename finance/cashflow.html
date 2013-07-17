@@ -71,6 +71,7 @@ function graphData ( confs ) {
   var total = 0;
   var refund_summary = [0];
   var payment_summary = [-2]; // source data off by two
+  var currency_sign = conferences[confs[0]]['currency'] == 'EUR' ? '&euro;' : '&pound;';
   // sort chronologically, then compute the running sums
   payment_data.sort( function(a,b) { return a[0] - b[0]; } );
   $.each( payment_data, function(j, val) {
@@ -105,7 +106,7 @@ function graphData ( confs ) {
   }
   // update text
   $('#graphed').html(
-    text + 'Total: &euro;' + total.toFixed(2) + '<br/><br/>'
+    text + 'Total: ' + currency_sign + total.toFixed(2) + '<br/><br/>'
     + formatSummary( 'payment',  payment_summary ) + '<br/>'
     + ( refund_summary[0] > 0 ? formatSummary( 'refund', refund_summary ) : '' )
   );
