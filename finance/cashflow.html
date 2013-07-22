@@ -16,7 +16,7 @@ Until now, <span id="count"></span> conferences have used the YAPC::Europe
 Foundation's <a href="[% payment_page %]">online payment</a> system
 and bank account to receive payments.
 </p><p>
-The graph below shows the cash flow (in Euro) from conference attendees to YEF,
+The graph below shows the cash flow (in Euro and British Pounds) from conference attendees to YEF,
 and from YEF to the organizers.
 (The origin of the date axis is set to the opening date of the conference
 website.)
@@ -71,6 +71,7 @@ function graphData ( confs ) {
   var total = 0;
   var refund_summary = [0];
   var payment_summary = [-2]; // source data off by two
+  var currency_sign = conferences[confs[0]]['currency'] == 'EUR' ? '&euro;' : '&pound;';
   // sort chronologically, then compute the running sums
   payment_data.sort( function(a,b) { return a[0] - b[0]; } );
   $.each( payment_data, function(j, val) {
@@ -105,7 +106,7 @@ function graphData ( confs ) {
   }
   // update text
   $('#graphed').html(
-    text + 'Total: &euro;' + total.toFixed(2) + '<br/><br/>'
+    text + 'Total: ' + currency_sign + total.toFixed(2) + '<br/><br/>'
     + formatSummary( 'payment',  payment_summary ) + '<br/>'
     + ( refund_summary[0] > 0 ? formatSummary( 'refund', refund_summary ) : '' )
   );
@@ -183,7 +184,11 @@ $(document).ready(function() {
           $('#conferences li').css({'font-weight':'normal'});
           $(e.target).css({'font-weight':'bold'});
           graphData( [ e.target.id ] );
-          });
+          $('html, body').animate({
+            scrollTop: $('#content').offset().top,
+            scrollLeft: 0 });
+          window.location.hash = e.target.id;
+        });
     }
   }
   $('#conferences div').fadeIn(1000);
@@ -191,6 +196,9 @@ $(document).ready(function() {
   // show graph for the most recent conference
   graphData( [ recent.conf_id ] );
   $('#' + recent.conf_id).css({'font-weight':'bold'});
+
+  // simulate a click on the conference in the fragment
+  $(window.location.hash).click();
 });
   </script>
 
