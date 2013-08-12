@@ -13,6 +13,24 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '07:00:00 12-08-2013'
+   title = 'Sofia selected for YAPC::Europe 2014'
+%]
+<p>
+YAPC::Europe Foundation is pleased to announce
+that Sofia, Bulgaria has been chosen as the site for the
+YAPC::Europe 2014.
+</p><p>
+We are confident that Sofia team 
+will put
+together a wonderful conference.  The theme for the next YAPC::Europe
+will be 'Distributed Perl'.
+</p><p>
+We hope to see you in Sofia next summer!
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date = '00:10:00 04-07-2013'
    title = "A newcomer at YAPC Europe Foundation"
 %]
