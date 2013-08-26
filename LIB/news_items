@@ -13,6 +13,17 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '09:50:00 26-08-2013'
+   title = 'Proposals to host YAPC::Europe 2014 published'
+%]
+<p>
+YAPC::Europe Foundation is making accessible
+<a href="http://www.yapceurope.org/yapc_proposals/index.html">public versions of submitted proposals to host YAPC::Europe 2014</a>,
+kindly provided by Cluj-Napoca, Granada, and Sofia teams.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '07:00:00 12-08-2013'
    title = 'Sofia selected for YAPC::Europe 2014'
 %]
