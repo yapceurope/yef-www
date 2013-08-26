@@ -1,0 +1,244 @@
+YAPC::Europe 2014 Proposal::Sofia
+
+Organizers: 
+
+    OpenProjectsFroundation and Sofia.pm propose to organize YAPC::Europe 2014 in Sofia, the capitol of Bulgaria.
+
+    Events that we have previously organized:
+
+      Perl Bulgaria workshops: Sofia 2009-2013
+      OpenFest 2004-2013 - http://openfest.org
+      P2P conference 2006-2010
+      
+    Contact:
+       Marian Marinov - Chairman of the management board of Open Projects Foundation
+       mm < * > yuhu.biz
+	   ICQ: 7556201
+	   Jabber: hackman@jabber.org
+       +359 666 0270
+  
+  
+ 
+Dates:
+  The conference is proposed to take place from Friday August 22th through Sunday August 23th, 2014.
+  
+Venue:
+  The conference will be held in the Inter Expo Center (http://www.iec.bg)
+
+  We are considering the following rooms:
+    Vitosha - 320 seats
+    Musala  - 150 seats
+    Vihren  - 100 seats
+    Rodopi  - 100 seats
+    
+  If needed we can book 3 small(50 seats) rooms.
+  The venue has its own coffee and has a hotel near it.
+
+  It is possible to organize multiple tracks of talks and a number of smaller BOFs, classes and hackathons.
+
+  IEC is situated in the south-eastern part of Sofia, 3 km away from Sofia Airport, directly on the E80 road, 6 km 
+  from the city center and 15 minutes away from the central railway station and the international bus station. 
+  There is a Metro(subway) station just in front of the entrance of IEC.
+  
+  Venue equipment that we will provide is:
+    * Multimedia projectors and screens.
+    * Audio equipment.
+    * It is possible to organize both audio and video recordings from each room.
+    * Wi-Fi access.
+    * Coffee breaks in the cafe or in hall.
+    * Place in front the Vitosha hall for job fair.
+    * Place for O'Reilly's book table.
+    * AC sockets available in the hall areas, small rooms and back walls of the main rooms.
+
+  The center also has a parking with 700 places.       
+                                        
+    
+  We also have an alternate location, Sofia Event Center (http://www.secevents.bg/en/), where we can book even bigger halls.
+
+Accessibility: 
+  Both proposed venues and the city as a whole are not well equipped for people with disabilities. There are some parts of the proposed venues that are accessible but not everything.
+
+Theme:
+  If Sofia is elected to host next year's YAPC, the Conference Theme is likely "Distributed Perl". 
+  Distributed computing is not something new to the Perl people, but there is not enough out there promoting distributed computing with Perl. We hope this Theme will facilitate more people make presentations about the performance and functionality that Perl brings to their distributed architectures. 
+
+Website:
+  The conference's site will be a traditional Act-based site with wiki pages, along with pages about Sofia (and information on how not to become lost there). The Act base makes it possible for attendees at previous events to have an easy log-in process and allows online payments. We have used Act system (both centrally hosted and manually installed) a few times during the last three years.
+
+
+Audio and video recordings:
+  Recordings of Perl events have become more popular recently; they should become a standard feature of any event. We are going to organize video and audio recordings from every talk, and publish them afterwards on the yapc.tv and perl.fm websites. 
+ 
+Online broadcasting
+  We are also going to organize live audio streaming on perl.fm during the conference.
+  Depending on local internet facilities, video broadcasting (of those talks whose authors allow streaming and recording) can be organized.
+
+Wireless internet
+  Wi-Fi access will be available free of charge for every attendee. It will be provided either by the venue or by the organization team. To help users setting up their laptops there will be information both on site's wiki pages, and in a separate printed material handled over to the attendees when they check in.
+  The network will be opened (no filtered ports) and we will provide IPv6 support.
+  We'll also provide a separate switches in the lobby with a few cables.
+  We will first look at the venue's wifi and if it is not suitable we will deploy our own solution. We already have experience with that as we are doing it every year for the OpenFest conference(with more then 800 connected devices).
+  
+  
+Electricity
+  Bulgaria is being reported to use both C and F types of power outlets, although you may find the ones of C type the F type is more common. The venue is equipped with standard European F type outlets, 220 V and 50 Hz. All halls have outlets every 10 or so meters. The organization team will be providing power extenders. The Electrical system at IEC can handle the load, we have checked that.
+ 
+
+  As some of us are Mac users, we will have enough VGA converters of all types for speakers coming with Macbooks.
+ 
+Catering
+  We'd like to provide two coffee breaks every day. We'd also like to supply drinking water, tee and coffee during the entire conference.
+ 
+  Two daily coffee breaks will include
+
+    * tea, coffee cans and sugar;
+    * snacks or sandwiches (including options for vegetarians). We have already spoke with Subway to help us with that.
+    * juices and still drinking water.
+    
+  The price of the beer is between 1 and 2.5 EUR depending on the brands and bars.
+ 
+ 
+Expenses
+The main expenses are:
+
+    * Venue rent
+    * Paid speakers
+    * coffee brakes
+
+ 
+We believe that it is possible to cover that minimum with our own resources. Our colleagues suggested that we ask small 
+local catering companies to prepare the food for attendees, which drastically reduces the cost of coffee breaks.
+ 
+We also will either rent video equipment or use the one we already have to make video recordings of all the talks during 
+the conference (making sure the speakers agree to be recorded and published).
+ 
+Attendance fee levels:
+  Remembering the facts from the previous section, and trying to follow the spirit of YAPCs, we estimate the standard attendance fee to be 99 Euro, and set additional levels for those who meet specific conditions:
+
+    * 59 Euro for students (proof of enrollment and/or other documentation required: scanned copy after registration and/or original at check in);
+    * 79 Euro for early-bird registrations (the option will expire four months before the conference);
+    * 499, 999 and 1999 Euro (no typos in numbers) for business registrations (good explanations of this price are available in a Newsletter issued by YAPC::Europe 2009's organizers: http://yapceurope2009.org/ye2009/wiki?node=newsletter3).    
+ 
+Attendees paying any of these fees will receive:
+
+    * The ability to attend any talk during the main conference time (three days);
+    * Coffee-breaks
+    * A commemorative t-shirt and stickers with conference symbolics
+    * A personal badge
+ 
+Additional levels of fee for countries with lower standards:
+
+To help promote Perl to local users from Bulgaria, Romania and Baltic states (Latvia, Lithuania and Estonia) and to allow more people to hear Perl stars, we propose that additional levels of attendance fee be made available: 
+
+    * 59.99 Euro for everyone;
+    * 34.99 Euro for students.
+
+Attendees at these levels will receive the same as regular attendees, except they need to proof they are citizens of those three states. We hope this low-level fee will discourage people from registering but not then attending.
+ 
+Zero fee
+Two categories of attendees may enter the conference free:
+
+    * Speakers (except those who give lightning talk(s) only);
+    * A person who brings the sponsor. To match this option the sponsorship must result in a donation of at least 300 Euro; every other 300 Euro allow additional free attendee this person may invite.
+    * Person representing a sponsor. Every sponsor will have 2 attendee passes for free.
+
+Sponsors:
+  We have already talked with cPanel and they confirmed their willingness to support us.
+  
+Registration process:
+  Each approved attendee receives a link to a page with personal barcode, which should be printed and brought to the conference. This barcode will speed up the registration process and eliminate the possibility of misunderstanding foreign names that exists in a crowded (and therefore noisy) registration hall. The barcode technique has been tested a few times on previous conferences. The barcode is not the only proof of registration that will be accepted; attendees with no printout will also be served.
+ 
+Attendance fee receipts will be available on request.
+
+Budget:
+  
+  I'll try to get more sponsors for the event. I currently have HP, Google, Facebook, Amazon and VMware in mind. I'll have separate talks with them.
+  I hope lunch will be covered by sponsors and possibly some of the trips or tours.
+
+  
+Talk schedule:
+  Our initial goal is two main talk tracks filled up with 20-minute talk slots (thus allowing 20, 40 and 60 minute talks and 1 hour keynotes). It is possible to organize a third track if enough good talk proposals are submitted. Two lightning talk sessions (not overlapping with other talks) will be reserved at the end of the first two days. The traks should be separated, one for advanced topics and one for beginners.
+ 
+Speaker's honour:
+  Speakers giving full-length talks receive badges of different type so that they are notable not only when they stand on the stage. We provide a speakers room in the venue with quiet atmosphere where they will be able to prepare, complete or fix their talks if they need it, and always find free power outlets to charge laptops.
+  Every speaker will receive a bottle of fine Bulgarian white wine. If possible, we will brand them especially for the conference.
+ 
+There will be free drinking water at the stage available for the speakers, and a dedicated person in every room for technical help such as connecting the laptop, both video and sound, if needed. They will also serve as a countdown service providing a smooth way to having firm schedule. We considering the possibility of usuing volunteers for these positions and may be we will consider additional gifts for them.
+ 
+Attendees relaxation:
+  We provide a reception desk in the venue which will work all time during the conference, so that attendees receive any help when they need.
+  We will bring table soccer and darts games.
+ 
+We also think out the registration process (described in a separate section of this document) and will let both early (at the pre-conference meeting) and late (during the whole first day of the conference) registration.
+ 
+Pre-conference meeting:
+  On the day before the conference, in the evening, we suggest attendees to attend a pre-conference beer/food meeting. Current candidate is Krivoto "Beer house" in the center of Sofia. We held two meetings there after the OpenFest conferences. We ask conference attendees to indicate their desire to be at the meeting, and can move the site to a bigger bar (RockIt) which is big enough to server up to 400 people. We can find bigger bar if needed.
+ 
+Workshops, seminars and classes:
+  We propose that the conference be organized so that it ends on Sunday. This would allow us to organize additional seminars (paid or not), workshops, hackathons and master classes on Monday and Tuesday, as well as on the weekend. We have two places(not within the venue) ready for courses and hackathons. Both are at no cost during the weekend and one of them is free for the whole week.
+  
+  We will focus both on Perl 5 modern techniques as well as Perl 6 basics and practical usage. Classes primarily supposed to be paid to allow cover the expenses of invited teachers.
+ 
+  The number, pricing, and schedule of such events depend on the class trainers, hackathon leaders, and others who would like to volunteer to organize such events.
+ 
+Additional program:
+  We will organize free tours of Sofia for all attendies. We will also have propsals for trips to the Rila Monastary (the oldest monastery on the Balkans) and trips to Old town Plovdiv. For the attendees that come with families we can also propose SPA vactions in cities 2 hours from Sofia.
+ 
+
+Auction:
+  At the end of the conference we plan to hold an auction of Perl-(non)related stuff. All the talks will be done to that moment, and the large room is big enough to have all attendees and their auction goods together, well, as well as money. Public offensive sexual-related activity will not be allowed during the action (that doesn't mean it is allowed in the conference itself though). Possible auction profit is not included in the initial budget.
+
+ 
+Promotion:
+  The proposed event will be promoted through standard Perl-related websites such as use.perl.org, livejournal.com communities, Perl community ad server, and also in mailing lists of PM-groups participating in the organizational process. Twitter, friendfeed.com, facebook and RSS feeds of the process will be launched as well.
+ 
+Those of us who attend Perl-related (and not only) events may give lightning talks of what YAPC is and where it will happen next time.
+ 
+We will also promote the event among local people via local Bulgarian IT sites and online magazines.
+ 
+Survey:
+  We do not plan to make preliminary voting for the talks (letting approval right to the organizers), but there will be standard option which allows to build up a personal schedule, marking talks with a star.
+ 
+  What we really want to do is to publish the number of people really attended the conference. Such figures are not publicly available for the past two YAPCs.
+ 
+  After the conference is completed we'll send e-mails proposing to take part in the YAPC Survey questionnaire (http://yapc-surveys.org/).
+
+Accommodation:
+  You can find hotel rooms in sofia as cheap as 19 euros a night. If we have time we will try to setup a couch serfing site only for the conference.
+  The Best Western Hotel Expo which is situated 100 meters from IEC will be providing 50% discount on rooms for the attendees. We will workout the reservation process with them. The prices there are 55 for single room and 65 for double. 
+
+  In Bulgaria it is common for the hotels to have free internet access although there are some that require payment.
+
+  You can find a very good (at least 3 star) hotel for around 100 EUR for three nights.
+
+  Usually in August there are no other event organized in Sofia, since most of the people are going to the see side or the mountains.
+    
+Average Airline ticket prices(20-120 EUR):
+  from Madrid 60 EUR
+  from Barcelona 80 EUR
+  from Brussels 20 EUR
+  from Paris 80 EUR
+  from Berlin 100 EUR
+  from Frnakfurt 30 EUR
+  from Zurich 120 EUR
+  from Vienna 50 EUR
+  from Prague 90 EUR
+  from Rome 80 EUR
+  from Milan 20 EUR
+  
+  Average flight time from major Europe cities 2 hours.
+    
+Average Train ticket prices:
+  a train from Vienna to Sofia costs around 60 EUR. Average travel time is 22 hours.
+  a train from Budapest to Sofia costs around 50 EUR. Average travel time is 17 hours.
+
+Travel by Car, average times:
+  from Vienna to Sofia is 12 hours.
+  from Berlin to Sofia is 19 hours.
+  from Barcelona to Sofia 26 hours.
+  from Riga to Sofia 32 hours.
+  
+We will have more detailed travel plans available on the site, in order to make the travel as smooth as possible.
+We will also try to arrange pickup from the Airport to the hotel for speakers.  
+  
+
