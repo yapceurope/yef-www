@@ -1,0 +1,22 @@
+Instructions to create a local YEF website from the repo.
+
+# Download the yef website repo.
+$> git clone https://github.com/yapceurope/yef-www/
+
+# Change location.
+$> cd yef-www/
+
+# Make sure you have Template::Plugin::YAML installed.
+# Run the Template Toolkit commandline tool to build the site.
+$> ttree  -a -v -l LIB -f .ttreerc -s . -d /tmp/yef
+
+# Point your browser at the newly created (local) site.
+$> firefox file:///tmp/yef/index.html
+
+# Not sure why, but on my box, all links point to /home/yapc/public_html
+# (explanation welcome), so I had to link to this location explicitly.
+$> ln -s /tmp/yef/ /home/yapc/public_html
+
+# The fully functional site is now here:
+$> firefox file:///home/yapc/public_html/index.html
+
