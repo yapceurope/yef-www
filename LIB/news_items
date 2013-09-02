@@ -12,17 +12,15 @@
 
 [%# add new item just below, in reverse chronological order %]
 
-<!-- do not release before the page is ready
-[%# WRAPPER add_news_item
-   date = '13:02:56 27-08-2013'
+[% WRAPPER add_news_item
+   date = '18:02:56 02-09-2013'
    title = 'YEF on Facebook'
 %]
 <p>
-We have added <a href="http://www.facebook.com/YapcEurope/">Facebook</a> as a
-networking channel for YEF.
+<a href="http://www.facebook.com/YapcEurope/">Facebook</a> has been added as a
+social networking and information channel for YEF.
 </p>
-[%# END %]
--->
+[% END %]
 
 [% WRAPPER add_news_item
    date  = '09:50:00 26-08-2013'
