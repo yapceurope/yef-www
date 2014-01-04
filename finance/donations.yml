@@ -7,6 +7,23 @@ to_yef:
     who_url: http://yapc.eu/2013
     event_url: http://yapc.eu/2013
     news_url: 
+  - who: David Fernández
+    date: 0:0:0 07/08/2013
+    amount: 110
+  - who: Les Mongueurs de Perl
+    date: 0:0:0 25/05/2013
+    amount: 200
+    who_url: http://www.mongueurs.net/
+  - who: Anonymous
+    date: 0:0:0 17/05/2013
+    amount: 4500
+  - who: Henk van Oers
+    date: 0:0:0 18/02/2013
+    amount: 50
+  - who: Dijkmat B.V.
+    date: 0:0:0 08/01/2013
+    amount: 25
+    who_url: http://www.dijkmat.nl/
   - who: Vienna.pm - Verein zur Förderung der Programmiersprache Perl
     event: Twin City Perl Workshop 2011
     date: 0:0:0 28/08/2012
@@ -85,10 +102,14 @@ to_yef:
     amount: 50
     who_url: http://www.2organize.com/
 from_yef:
+  - event: YAPC::Europe 2013
+    date: 0:0:0 22/08/2012
+    amount: 1000
+    event_url: http://www.yapceurope.org/2013/
   - event: YAPC::Europe 2012
     date: 0:0:0 15/08/2011
     amount: 1000
-    event_url:
+    event_url: http://www.yapceurope.org/2012/
   - event: Perl QA Hackathon 2011
     date: 0:0:0 28/02/2011
     amount: 500
