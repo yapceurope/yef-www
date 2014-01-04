@@ -2,6 +2,13 @@
 to_yef:
   - who: YAPC::Europe 2013 in Kiev
     event: YAPC::Europe 2013 in Kiev
+    date: 0:0:0 04/01/2014
+    amount: 60
+    who_url: http://yapc.eu/2013
+    event_url: http://yapc.eu/2013
+    news_url: 
+  - who: YAPC::Europe 2013 in Kiev
+    event: YAPC::Europe 2013 in Kiev
     date: 0:0:0 22/08/2013
     amount: 1000
     who_url: http://yapc.eu/2013
@@ -102,6 +109,10 @@ to_yef:
     amount: 50
     who_url: http://www.2organize.com/
 from_yef:
+  - event: YAPC::Europe 2014
+    date: 0:0:0 14/08/2013
+    amount: 1000
+    event_url: 
   - event: YAPC::Europe 2013
     date: 0:0:0 22/08/2012
     amount: 1000
