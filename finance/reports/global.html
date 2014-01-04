@@ -10,102 +10,115 @@
 [% END %]
 | <b>Global</b>
 </p>
-[% payment_total = 0;
-   liabilities  = 0;
+[% payment_total = {};
+   income = {};
+   expenses = {};
+   liabilities  = {};
    FOR year = finances.keys.sort ;
-     FOR section = finances.$year ;
+    FOR currency = finances.$year.keys ;
+     FOR section = finances.$year.$currency ;
        title = section.shift ;
        IF title == 'Expenses';
          FOR row = section ;
            IF row.0.match( 'Online Payment' ) ;
-             expenses.${'Online Payment'} = ( expenses.${'Online Payment'} || 0 ) + row.1 ;
+             expenses.$currency.${'Online Payment'} = ( expenses.$currency.${'Online Payment'} || 0 ) + row.1 ;
            ELSE ;
-             expenses.${row.0} = ( expenses.${row.0} || 0 ) + row.1;
+             expenses.$currency.${row.0} = ( expenses.$currency.${row.0} || 0 ) + row.1;
            END ;
          END ;
        ELSIF title == 'Income';
          FOR row = section ;
-           income.${row.0} = ( income.${row.0} || 0 ) + row.1;
+           income.$currency.${row.0} = ( income.$currency.${row.0} || 0 ) + row.1;
          END ;
        ELSIF title == 'Liabilities' || title == 'Perl QA Hackathon 2011';
          FOR row = section ;
            IF row.0.match( 'Online Payment' ) && ! row.0.match( 'Refund' );
-             payment_total = payment_total + row.1 ;
+             payment_total.$currency = ( payment_total.$currency || 0 ) + row.1 ;
            END ;
            IF ! row.0.match( 'Liabilities' ) ;
              IF row.0.match( '^Online' ) ;
-               online_payment.${row.0} = ( online_payment.${row.0} || 0 ) + row.1;
+               online_payment.$currency.${row.0} = ( online_payment.$currency.${row.0} || 0 ) + row.1;
              END;
-             liabilities = liabilities + row.1;
+             liabilities.$currency = ( liabilities.$currency || 0 ) + row.1;
            END;
          END ;
        ELSIF title.match( 'Assets \d+' ) ;
-         assets = {};
-         assets_title = title;
+         assets.$currency = {};
+         assets_title.$currency = title;
          FOR row = section ;
            NEXT IF ! row.0.match( 'Account' ) ;
-           assets.${row.0} = ( assets.${row.0} || 0 ) + row.1;
+           assets.$currency.${row.0} = ( assets.$currency.${row.0} || 0 ) + row.1;
          END ;
        END ;
      END ;
-   END;
-   assets.Liabilities = liabilities * -1;
+    END ;
+   END ;
+   FOR currency = expenses.keys.sort ;
+     assets.$currency.Liabilities = liabilities.$currency * -1;
+   END ;
 %]
 
-<h2><a name="report"></a>Global Financial Report (Euros)</h2>
+<a name="report"></a>
 <p>
-The following report presents the global activity of the YAPC Europe
+The following reports presents the global activity of the YAPC Europe
 Foundation since its creation in 2004.
 </p>
 
+[% FOR currency = expenses.keys.sort %]
+<h2><a name="report"></a>Global Financial Report ([% currency %])</h2>
 <table class="financial_report">
-<tr class="financial_section"><th class="financial_section">Income</th></tr>
+[% IF income.$currency %]
+<tr class="financial_section"><th class="financial_section">Income ([% currency %])</th></tr>
 [% total = 0 %]
-[% FOR key = income.keys.sort %]
+[% FOR key = income.$currency.keys.sort %]
 <tr><td>[% key %]</td>
-    <td class="amount" >[% income.$key | format('%.2f') %]</td>
-    <th class="amount" >[% total = total + income.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
+    <td class="amount" >[% income.$currency.$key | format('%.2f') %]</td>
+    <th class="amount" >[% total = total + income.$currency.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
 </tr>
 [% END %]
-<tr class="financial_section"><th class="financial_section">Expenses</th></tr>
+[% END %]
+<tr class="financial_section"><th class="financial_section">Expenses ([% currency %])</th></tr>
 [% total = 0 %]
-[% FOR key = expenses.keys %]
+[% FOR key = expenses.$currency.keys %]
 <tr><td>[% key %]</td>
-    <td class="amount" >[% expenses.$key | format('%.2f') %]</td>
-    <th class="amount" >[% total = total + expenses.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
+    <td class="amount" >[% expenses.$currency.$key | format('%.2f') %]</td>
+    <th class="amount" >[% total = total + expenses.$currency.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
 </tr>
 [% END %]
-<tr class="financial_section"><th class="financial_section">[% assets_title %]</th></tr>
+<tr class="financial_section"><th class="financial_section">[% assets_title.$currency %] ([% currency %])</th></tr>
 [% total = 0 %]
-[% FOR key = assets.keys.sort %]
+[% FOR key = assets.$currency.keys.sort %]
 <tr><td>[% key %]</td>
-    <td class="amount" >[% assets.$key | format('%.2f') %]</td>
-    <th class="amount" >[% total = total + assets.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
+    <td class="amount" >[% assets.$currency.$key | format('%.2f') %]</td>
+    <th class="amount" >[% total = total + assets.$currency.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
 </tr>
 [% END %]
-
 </table>
+[% END %]
 
 <p>
-Over the years, a total of <b>&euro;[% payment_total %]</b> were received
+Over the years, a total of
+[% FOR currency = payment_total.keys.sort %][% loop.first ? '' : loop.last ? ' and ' : ', ' %]<b>[% currency %]&nbsp;[% payment_total.$currency %]</b>[% END %]
+were received
 by the Foundation on behalf of conference organizers
 through its <a href="[% payment_page %]">online payment system</a>
 and direct money transfers from conference attendees.
 </p>
 <p>
-The table below gives some details (in bold, the amount YEF had yet
+The tables below give some details (in bold, the amount YEF had yet
 to refund to conference organizers as of [% matches = assets_title.match('(\d.*)'); matches.0 %]).
 Additional details about individual conferences are available on the
 <a href="[% conf_cashflow_page %]">conference cashflow charts</a>.
 </p>
 <table class="financial_report">
-<tr class="financial_section"><th class="financial_section">Online Payment</th></tr>
+[% FOR currency = online_payment.keys.sort %]
+<tr class="financial_section"><th class="financial_section">Online Payment ([% currency %])</th></tr>
 [% total = 0 %]
-[% FOR key = online_payment.keys %]
+  [% FOR key = online_payment.$currency.keys %]
 <tr><td>[% key %]</td>
-    <td class="amount" >[% online_payment.$key | format('%.2f') %]</td>
-    <th class="amount" >[% total = total + online_payment.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
+    <td class="amount" >[% online_payment.$currency.$key | format('%.2f') %]</td>
+    <th class="amount" >[% total = total + online_payment.$currency.$key %][% IF loop.last %][% total | format('%.2f') %][% END %]</th>
 </tr>
-[% END %]
+[% END ; END %]
 </table>
 [% END %]

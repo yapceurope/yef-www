@@ -22,49 +22,58 @@
 </dl>
 [% finances = YAML.undumpfile("finance/finances.yml") %]
 [% FOR year = finances.keys ;
-     FOR section = finances.$year ;
+    FOR currency = finances.$year.keys ;
+     FOR section = finances.$year.$currency ;
        title = section.shift ;
        IF title == 'Expenses';
           FOR row = section ;
             IF row.0.match( 'Online Payment' ) ;
-              payment.$year = ( payment.$year || 0 ) + row.1 ;
-              payment_total = ( payment_total || 0 ) + row.1 ;
+              payment.$year.$currency = ( payment.$year.$currency || 0 ) + row.1 ;
+              payment_total.$currency = ( payment_total.$currency || 0 ) + row.1 ;
             END ;
           END ;
        ELSIF title == 'Liabilities' ;
           FOR row = section ;
             IF row.0 == 'Online Payment Refunds' ;
-              refund_total = ( refund_total || 0 ) - row.1 ;
+              refund_total.$currency = ( refund_total.$currency || 0 ) - row.1 ;
             ELSIF row.0.match( 'Online Payment' ) ;
-              online.$year.${row.0} = ( online.$year.${row.0} || 0 ) + row.1 ;
-              online.total.${row.0} = ( online.total.${row.0} || 0 ) + row.1 ;
-              online_total = ( online_total || 0 ) + row.1 ;
+              online.$year.$currency.${row.0} = ( online.$year.$currency.${row.0} || 0 ) + row.1 ;
+              online.total.$currency.${row.0} = ( online.total.$currency.${row.0} || 0 ) + row.1 ;
+              online_total.$currency = ( online_total.$currency || 0 ) + row.1 ;
             END ;
           END ;
        END ;
      END ;
+    END ;
    END %]
 
     <p>
     The YAPC Europe Foundation also sponsors the
     <a href="[% payment_page %]">online payment system</a> used by several
     Perl conferences. This sponsoring amounts to a total of
-    <b>&euro;[% payment_total %]</b> since 2005:</p>
+    [% FOR currency = payment_total.keys.sort %][% loop.first ? '' : loop.last ? ' and ' : ', ' %]<b>[% currency %]&nbsp;[% payment_total.$currency | format('%.2f') %]</b>[% END %]
+    since 2005:</p>
     <ul>
     [% FOR year = payment.keys.sort.reverse %]
-    [% NEXT IF payment.$year == 0 %]
-    <li>&euro;[% payment.$year | format('%.2f') %] in [% year %]
-    (for &euro;[% online.$year.${'Online Payment'} | format('%.2f') %] of online payment)</li>
+     [% FOR currency = payment.$year.keys.sort %]
+      [% NEXT IF payment.$year.$currency == 0 %]
+    <li>[% currency %] [% payment.$year.$currency | format('%.2f') %] in [% year %]
+    (for [% currency %] [% online.$year.$currency.${'Online Payment'} | format('%.2f') %] of online payment)</li>
+     [% END %]
     [% END %]
     </ul>
-    <p>This represents [% payment_total / online.total.${'Online Payment'} * 100 | format('%.2f') %]%
-    of the total of <b>&euro;[% online.total.${'Online Payment'} | format('%.2f') %]</b>
+    <p>This represents
+    [% FOR currency = payment_total.keys.sort %][% loop.first ? '' : loop.last ? ' and ' : ', ' %]
+    [% payment_total.$currency / online.total.$currency.${'Online Payment'} * 100 | format('%.2f') %]% of the total of <b>[% currency %]&nbsp;[% online.total.$currency.${'Online Payment'} | format('%.2f') %]</b>[% END %]
     that was received through YEF's
     <a href="[% payment_page %]">online payment system</a>.
     </p><p>
-    Including the &euro;[% online.total.${'Online Payment (Transfer)'} | format('%.2f') %]
+    Including the
+    [% FOR currency = online.total.keys.sort %]
+    [% IF online.total.$currency.${'Online Payment (Transfer)'} > 0 %]
+    [% loop.first ? '' : loop.last ? ' and ' : ', ' %]<b>[% currency %]&nbsp;[% online.total.$currency.${'Online Payment (Transfer)'} | format('%.2f')  %]</b>[% END ; END %]
     received via direct money transfer from conference attendees, a total of 
-    <b>&euro;[% online_total | format('%.2f') %]</b>
+    [% FOR currency = online_total.keys.sort %][% loop.first ? '' : loop.last ? ' and ' : ', ' %]<b>[% currency %]&nbsp;[% online_total.$currency %]</b>[% END %]
     transited through the YAPC Europe Foundation's bank
     account to the various conferences organizers accounts.</p>
 

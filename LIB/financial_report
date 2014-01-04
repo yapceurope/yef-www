@@ -10,9 +10,12 @@
 | <a href="global.html">Global</a>
 </p>
 
-<h2><a name="report"></a>Financial Report (Euros)</h2>
+<a name="report"></a>
+[% FOR currency = finances.$year.keys.sort %]
+[% total = {} %]
+<h2><a name="report_[% currency %]"></a>Financial Report ([% currency %])</h2>
 <table class="financial_report">
-[% FOR section = finances.$year %]
+[% FOR section = finances.$year.$currency %]
 [% title = section.shift %]
 <tr class="financial_section"><th class="financial_section">[% title %]</th></tr>
 [% total.$title = 0 %]
@@ -21,8 +24,9 @@
     <td class="amount" >[% row.1 | format('%.2f') %]</td>
     <th class="amount" >[% total.$title = total.$title + row.1 %][% IF loop.last %][% total.$title | format('%.2f') %][% END %]</th>
 </tr>
-[% END; END %]
+[% END; END  %]
 <tr class="financial_section"><th class="financial_section">Balance [% year %]</th></tr>
 <tr><td>Income - Expenses</td><td></td><th class="amount">[% ( total.Income || 0 ) - ( total.Expenses || 0 ) | format('%.2f') %]</th></tr>
-</table> 
+</table>
+[% END %]
 
