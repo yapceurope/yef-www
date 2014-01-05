@@ -7,6 +7,9 @@ to_yef:
     who_url: http://yapc.eu/2013
     event_url: http://yapc.eu/2013
     news_url: 
+  - who: Dirk De Nijs
+    date: 0:0:0 17/12/2013
+    amount: 100
   - who: YAPC::Europe 2013 in Kiev
     event: YAPC::Europe 2013 in Kiev
     date: 0:0:0 22/08/2013
