@@ -32,7 +32,7 @@
   conf_id: ye2014
   continent: Europe
   country: Bulgaria
-  end: 20:00:00 24/08/2014
+  end: 20:0:0 24/08/2014
   genre: yapc
   languages:
     - English
