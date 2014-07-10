@@ -13,6 +13,28 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '14:00:00 10-07-2014'
+   title = 'Where will YAPC::Europe 2015 take place?'
+%]
+<p>
+The deadline for submitting proposals to host YAPC::Europe 2015 has passed on Monday.</p>
+
+<p>We are happy to announce that two Perl Monger groups took the time and effort to prepare some good-looking proposals and submit them in time:</p>
+
+<ul>
+<li><a href="http://cluj.pm.org">Cluj.pm</a> (Romania)
+<li><a href="http://www.pm.org/groups/283.html">Granada.pm</a> (Spain)
+</ul>
+
+<p>The <a href="/venue.html">YEF Venue Commitee</a> will now review the proposals, get some more information from the submitters (if needed), and finally decide which city wins on Friday, August 8th.</p>
+
+<p>As usual, the winner will be announced during <a href="http://act.yapc.eu/ye2014/">YAPC::Europe 2014 in Sofia</a>, so you will have to wait a bit longer for the secret to be unveiled!</p>
+
+[% END %]
+
+
+
+[% WRAPPER add_news_item
    date  = '11:30:00 11-03-2014'
    title = 'Call for Venue for YAPC::Europe::2015'
 %]
