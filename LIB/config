@@ -37,6 +37,7 @@
     example_contracts_dir   = "$root/example_contracts/"
     contract_donation_page  = "$example_contracts_dir/donation.pdf"
     contract_payment_page   = "$example_contracts_dir/payment.pdf"
+    contract_permanent_payment_page   = "$example_contracts_dir/permanent-payment.pdf"
     old_proposals_dir       = "$root/yapc_proposals/"
     old_proposals_page      = "$old_proposals_dir/index.html"
     newsfeed_page           = "$root/feeds/news.rss"
