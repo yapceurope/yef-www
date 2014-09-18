@@ -1,6 +1,7 @@
 var conferences = {
  "apw2005":{"act_open":1111449600000,"begin":1118275200000,"conf_id":"apw2005","currency":"EUR","end":1118361600000,"fullname":"Austrian Perl Workshop 2005","name":"Austrian Perl Workshop","url":"http://conferences.yapceurope.org/apw2005/","year":"2005"},
  "apw2006":{"act_open":1147132800000,"begin":1149724800000,"conf_id":"apw2006","currency":"EUR","end":1149811200000,"fullname":"Austrian Perl Workshop 2006","name":"Austrian Perl Workshop","url":"http://conferences.yapceurope.org/apw2006/","year":"2006"},
+ "apw2014":{"act_open":1401753600000,"begin":1412899200000,"conf_id":"apw2014","currency":"EUR","end":1413158400000,"fullname":"Austrian Perl Workshop 2014","name":"Austrian Perl Workshop","url":"http://act.useperl.at/apw2014/","year":"2014"},
  "fpw2005":{"act_open":1111449600000,"begin":1118275200000,"conf_id":"fpw2005","currency":"EUR","end":1118361600000,"fullname":"French Perl Workshop 2005","name":"French Perl Workshop","url":"http://conferences.mongueurs.net/2005/","year":"2005"},
  "fpw2006":{"act_open":1141257600000,"begin":1164412800000,"conf_id":"fpw2006","currency":"EUR","end":1164499200000,"fullname":"French Perl Workshop 2006","name":"French Perl Workshop","url":"http://journeesperl.fr/fpw2006/","year":"2006"},
  "fpw2007":{"act_open":1188345600000,"begin":1195171200000,"conf_id":"fpw2007","currency":"EUR","end":1195257600000,"fullname":"French Perl Workshop 2007","name":"French Perl Workshop","url":"http://journeesperl.fr/fpw2007/","year":"2007"},
@@ -63,6 +64,11 @@ var payments = {
   [1149605840000,0,75],
   [1170288000000,1,265],
   [1170892800000,0,0]],
+ "apw2014":[
+  [1401753600000,0,0],
+  [1410955818000,0,90],
+  [1410956176000,0,90],
+  [1413158400000,0,0]],
  "fpw2005":[
   [1111449600000,0,0],
   [1116248378000,0,25],
@@ -373,6 +379,9 @@ var payments = {
   [1406887664000,0,35],
   [1408040518000,0,30],
   [1408627905000,0,25],
+  [1409228735000,0,25],
+  [1409393536000,0,15],
+  [1410164439000,0,200],
   [1415404800000,0,0]],
  "mojo2014":[
   [1391904000000,0,0],
@@ -2351,7 +2360,9 @@ var payments = {
   [1408604303000,0,100],
   [1408606918000,0,100],
   [1408608287000,0,100],
-  [1409213087000,0,0]],
+  [1410998400000,1,3205],
+  [1410998400000,1,3000],
+  [1411603200000,0,0]],
  "yr2010":[
   [1266278400000,0,0],
   [1272738969000,0,1],
