@@ -122,10 +122,18 @@ to_yef:
     amount: 50
     who_url: http://www.2organize.com/
 from_yef:
+  - event: Act Fund
+    date: 0:0:0 29/09/2014
+    amount: 1000
+    event_url: http://act.mongueurs.net/fund.html
+  - event: YAPC::Europe 2015
+    date: 0:0:0 24/08/2014
+    amount: 1000
+    event_url: 
   - event: YAPC::Europe 2014
     date: 0:0:0 14/08/2013
     amount: 1000
-    event_url: 
+    event_url:  http://www.yapceurope.org/2014/
   - event: YAPC::Europe 2013
     date: 0:0:0 22/08/2012
     amount: 1000
