@@ -13,7 +13,7 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
-   date  = '10:00:00 09-03-2014'
+   date  = '10:00:00 09-03-2015'
    title = 'Call for Venue for YAPC::Europe::2016'
 %]
 <p>
@@ -27,7 +27,7 @@ offer.
 <p>
 Further information about preparing a complete application can be
 found on <a href="[% organizers_page %]">our website</a>.  Proposals submitted
-to the venue committee will be added to this public repository (you
+to the venue committee will be added to <a href="http://www.yapceurope.org/yapc_proposals/">this public repository</a> (you
 may provide private information separately) to benefit future organizers.
 </p>
 The deadlines which apply to this portion of the procedure are:
