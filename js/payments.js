@@ -24,6 +24,7 @@ var conferences = {
  "nlpw2010":{"act_open":1257465600000,"begin":1267747200000,"conf_id":"nlpw2010","currency":"EUR","end":1267747200000,"fullname":"Dutch Perl Workshop 2010","name":"Dutch Perl Workshop","url":"http://www.perlworkshop.nl/nlpw2010/","year":"2010"},
  "nlpw2013":{"act_open":1359331200000,"begin":1366329600000,"conf_id":"nlpw2013","currency":"EUR","end":1366329600000,"fullname":"Dutch Perl Workshop 2013","name":"Dutch Perl Workshop","url":"http://www.perlworkshop.nl/nlpw2013/","year":"2013"},
  "nlpw2014":{"act_open":1390262400000,"begin":1398384000000,"conf_id":"nlpw2014","currency":"EUR","end":1398384000000,"fullname":"Dutch Perl Workshop 2014","name":"Dutch Perl Workshop","url":"http://www.perlworkshop.nl/nlpw2014/","year":"2014"},
+ "nlpw2015":{"act_open":1388880000000,"begin":1428624000000,"conf_id":"nlpw2015","currency":"EUR","end":1428624000000,"fullname":"Dutch Perl Workshop 2015","name":"Dutch Perl Workshop","url":"http://www.perlworkshop.nl/nlpw2015/","year":"2015"},
  "npw2005":{"act_open":1128556800000,"begin":1129939200000,"conf_id":"npw2005","currency":"EUR","end":1130025600000,"fullname":"Nordic Perl Workshop 2005","name":"Nordic Perl Workshop","url":"http://www.perlworkshop.no/2005/","year":"2005"},
  "npw2006":{"act_open":1146700800000,"begin":1150329600000,"conf_id":"npw2006","currency":"EUR","end":1150416000000,"fullname":"Nordic Perl Workshop 2006","name":"Nordic Perl Workshop","url":"http://www.perlworkshop.no/npw2006/","year":"2006"},
  "npw2007":{"act_open":1170633600000,"begin":1177718400000,"conf_id":"npw2007","currency":"EUR","end":1177804800000,"fullname":"Nordic Perl Workshop 2007","name":"Nordic Perl Workshop","url":"http://conferences.yapceurope.org/npw2007/","year":"2007"},
@@ -590,6 +591,17 @@ var payments = {
   [1398364220000,0,80],
   [1402876800000,1,1065],
   [1403481600000,0,0]],
+ "nlpw2015":[
+  [1388880000000,0,0],
+  [1425380379000,0,80],
+  [1426030944000,0,80],
+  [1427289907000,0,215],
+  [1427355235000,0,80],
+  [1427364007000,0,80],
+  [1427399295000,0,80],
+  [1427399992000,0,80],
+  [1427619782000,0,215],
+  [1428624000000,0,0]],
  "npw2005":[
   [1128556800000,0,0],
   [1129285095000,0,50],
@@ -2443,6 +2455,7 @@ var payments = {
   [1418688000000,0,0],
   [1422453950000,0,170],
   [1422624834000,0,90],
+  [1425137521000,0,90],
   [1441324800000,0,0]],
  "yr2010":[
   [1266278400000,0,0],
