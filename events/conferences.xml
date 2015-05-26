@@ -11,6 +11,7 @@
  FOR conf = confs ;
      NEXT IF conf.begin.match( 'xx' );
      NEXT IF conf.end.match( 'xx' );
+     NEXT IF conf.status == 'canceled';
 %]
   <event
     start="[% date.format(conf.begin, '%Y-%m-%dT00:00:00Z') %]"
