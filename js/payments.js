@@ -18,6 +18,7 @@ var conferences = {
  "ipw2012":{"act_open":1337040000000,"begin":1349913600000,"conf_id":"ipw2012","currency":"EUR","end":1350000000000,"fullname":"Italian Perl Workshop 2012","name":"Italian Perl Workshop","url":"http://conferences.yapceurope.org/ipw2012/","year":"2012"},
  "lpw2013":{"act_open":1372118400000,"begin":1385769600000,"conf_id":"lpw2013","currency":"GBP","end":1385769600000,"fullname":"London Perl Workshop 2013","name":"London Perl Workshop","url":"http://act.yapc.eu/lpw2013/","year":"2013"},
  "lpw2014":{"act_open":1405814400000,"begin":1415404800000,"conf_id":"lpw2014","currency":"GBP","end":1415404800000,"fullname":"London Perl Workshop 2014","name":"London Perl Workshop","url":"http://act.yapc.eu/lpw2014/","year":"2014"},
+ "lpw2015":{"act_open":1435536000000,"begin":1449878400000,"conf_id":"lpw2015","currency":"GBP","end":1449878400000,"fullname":"London Perl Workshop 2015","name":"London Perl Workshop","url":"http://act.yapc.eu/lpw2015/","year":"2015"},
  "mojo2014":{"act_open":1391904000000,"begin":1400803200000,"conf_id":"mojo2014","currency":"EUR","end":1400976000000,"fullname":"Mojoconf 2014","name":"Mojoconf","url":"http://act.yapc.eu/mojo2014/","year":"2014"},
  "mtmh2012":{"act_open":1337904000000,"begin":1345939200000,"conf_id":"mtmh2012","currency":"EUR","end":1346284800000,"fullname":"Moving to Moose Hackathon 2012","name":"Moving to Moose Hackathon","url":"http://act.yapc.eu/mtmh2012/","year":"2012"},
  "nlpw2009":{"act_open":1231113600000,"begin":1236297600000,"conf_id":"nlpw2009","currency":"EUR","end":1236297600000,"fullname":"Dutch Perl Workshop 2009","name":"Dutch Perl Workshop","url":"http://www.perlworkshop.nl/nlpw2009/","year":"2009"},
@@ -461,6 +462,10 @@ var payments = {
   [1415388095000,0,25],
   [1417996800000,1,1485],
   [1418601600000,0,0]],
+ "lpw2015":[
+  [1435536000000,0,0],
+  [1435742819000,0,100],
+  [1449878400000,0,0]],
  "mojo2014":[
   [1391904000000,0,0],
   [1393503541000,0,20],
@@ -2611,6 +2616,11 @@ var payments = {
   [1435588165000,0,200],
   [1435708800000,1,5000],
   [1435795200000,1,5000],
+  [1435831523000,0,120],
+  [1435861376000,0,120],
+  [1435881600000,1,2270],
+  [1436003858000,0,120],
+  [1436174918000,0,960],
   [1441324800000,0,0]],
  "yr2010":[
   [1266278400000,0,0],
