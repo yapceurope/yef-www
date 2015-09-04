@@ -742,3 +742,96 @@
       -
         - Liabilities
         - -923.73
+2015:
+  EUR:
+    -
+      - Assets 2015-01-01
+      -
+        - Account 00010281201
+        - 125.56
+      -
+        - Account 00010281203
+        - 7296.08
+      -
+        - Liabilities
+        - 0.00
+    -
+      - Income
+      -
+        - Interest Income
+        - 0.00
+      -
+        - Donations
+        - 1000.00
+    -
+      - Expenses
+      -
+        - Bank Account Charge
+        - 99.00
+      -
+        - Online Payment Charge
+        - 165.58
+      -
+        - Online Payment Fees
+        - 368.94
+      -
+        - Kickstart Donations
+        - 500.00
+    -
+      - Liabilities
+      -
+        - Liabilities 2015-01-01
+        - 0.00
+      -
+        - Online Payment
+        - 30295.00
+      -
+        - Online Payment (Transfer)
+        - 2020.00
+      -
+        - Online Payment Refunds
+        - -27265.00
+    -
+      - Assets 2015-08-31
+      -
+        - Account 00010281201
+        - 677.04
+      -
+        - Account 00010281203
+        - 11781.08
+      -
+        - Liabilities
+        - -5050.00
+  GBP:
+    -
+      - Assets 2015-01-01
+      -
+        - Account 00010281204
+        - 859.74
+      -
+        - Liabilities
+        - -923.73
+    -
+      - Expenses
+      -
+        - Online Payment Fees
+        - 1.81
+    -
+      - Liabilities
+      -
+        - Liabilities 2014-01-01
+        - 923.73
+      -
+        - Online Payment
+        - 100.00
+      -
+        - Online Payment Refunds
+        - 0.00
+    -
+      - Assets 2015-08-31
+      -
+        - Account 00010281204
+        - 957.93
+      -
+        - Liabilities
+        - -1023.73
