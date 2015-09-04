@@ -1,6 +1,9 @@
 ---
 to_yef:
-  - who: Wendy van Dijk
+  - who: Wendy van Dijk & Liz Mattijsen
+    date: 0:0:0 22/01/2015
+    amount: 1000
+  - who: Wendy van Dijk & Liz Mattijsen
     date: 0:0:0 26/11/2014
     amount: 1000
   - who: YAPC::Europe 2014 in Sofia
@@ -132,6 +135,10 @@ to_yef:
     amount: 50
     who_url: http://www.2organize.com/
 from_yef:
+  - event: Perl QA Hackathon 2015
+    date: 0:0:0 23/02/2015
+    amount: 500
+    event_url: http://2015.qa-hackathon.org/
   - event: Act Fund
     date: 0:0:0 29/09/2014
     amount: 1000
