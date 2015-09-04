@@ -1,5 +1,8 @@
 ---
 to_yef:
+  - who: Wendy van Dijk
+    date: 0:0:0 26/11/2014
+    amount: 1000
   - who: YAPC::Europe 2014 in Sofia
     event: YAPC::Europe 2014 in Sofia
     date: 0:0:0 18/09/2014
@@ -10,6 +13,13 @@ to_yef:
   - who: Irene Nasaduke
     date: 0:0:0 18/08/2014
     amount: 75
+  - who: German Perl Workshop 2014
+    event: German Perl Workshop 2014
+    date: 0:0:0 05/05/2014
+    amount: 1000
+    who_url: http://act.yapc.eu/gpw2014/
+    event_url: http://act.yapc.eu/gpw2014/
+    news_url: 
   - who: YAPC::Europe 2013 in Kiev
     event: YAPC::Europe 2013 in Kiev
     date: 0:0:0 04/01/2014
