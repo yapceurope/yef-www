@@ -762,18 +762,18 @@
         - 0.00
       -
         - Donations
-        - 1000.00
+        - 2110.00
     -
       - Expenses
       -
         - Bank Account Charge
-        - 99.00
+        - 105.75
       -
         - Online Payment Charge
-        - 165.58
+        - 162.00
       -
         - Online Payment Fees
-        - 368.94
+        - 379.66
       -
         - Kickstart Donations
         - 500.00
@@ -784,24 +784,24 @@
         - 0.00
       -
         - Online Payment
-        - 30295.00
+        - 30805.00
       -
         - Online Payment (Transfer)
         - 2020.00
       -
         - Online Payment Refunds
-        - -27265.00
+        - -32945.00
     -
-      - Assets 2015-08-31
+      - Assets 2015-09-30
       -
         - Account 00010281201
-        - 677.04
+        - 173.15
       -
         - Account 00010281203
-        - 11781.08
+        - 8211.08
       -
         - Liabilities
-        - -5050.00
+        - 0.00
   GBP:
     -
       - Assets 2015-01-01
@@ -815,7 +815,7 @@
       - Expenses
       -
         - Online Payment Fees
-        - 1.81
+        - 21.38
     -
       - Liabilities
       -
@@ -823,7 +823,7 @@
         - 923.73
       -
         - Online Payment
-        - 100.00
+        - 1375.00
       -
         - Online Payment Refunds
         - 0.00
@@ -831,7 +831,7 @@
       - Assets 2015-08-31
       -
         - Account 00010281204
-        - 957.93
+        - 2213.36
       -
         - Liabilities
-        - -1023.73
+        - -2298.73
