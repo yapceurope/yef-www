@@ -1,5 +1,12 @@
 ---
 to_yef:
+  - who: YAPC::Europe 2015 in Granada
+    event: YAPC::Europe 2015 in Granada
+    date: 0:0:0 08/09/2015
+    amount: 1110
+    who_url: http://yapc.eu/2015
+    event_url: http://yapc.eu/2015
+    news_url: 
   - who: Wendy van Dijk & Liz Mattijsen
     date: 0:0:0 22/01/2015
     amount: 1000
