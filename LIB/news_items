@@ -13,6 +13,24 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '14:00:00 20-01-2016'
+   title = 'Cluj-Napoca in Romania selected for YAPC::Europe 2016'
+%]
+<p>
+YAPC::Europe Foundation is pleased to announce
+that the city of Cluj-Napoca in Romania has been chosen as the site for
+YAPC::Europe 2016.
+</p><p>
+We are confident that Cluj team 
+will put
+together a wonderful conference. The theme for the next YAPC::Europe
+will possibly be "well known Counts of Tranylvania...", we'll keep you posted.
+</p><p>
+We hope to see you in Cluj this year!
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '10:00:00 09-03-2015'
    title = 'Call for Venue for YAPC::Europe::2016'
 %]
