@@ -13,6 +13,23 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '20:40:00 01-03-2016'
+   title = 'New members at the YAPC Europe Foundation'
+%]
+<p>
+Two new members joined YAPC Europe Foundation in January.
+They are J. J. Merelo (JMERELO) and Alex Muntada (ALEXM).
+</p>
+<p>
+JJ lives in Granada and is working with Perl since early 90s.
+</p>
+<p>
+Alex lives in Barcelona and learned Perl while studying at
+the university in mid 90s and has been using it ever since.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '14:00:00 20-01-2016'
    title = 'Cluj-Napoca in Romania selected for YAPC::Europe 2016'
 %]
