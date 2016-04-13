@@ -13,6 +13,46 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '13:00:00 13-04-2016'
+   title = 'Call for Venue for YAPC::Europe::2017'
+%]
+<p>
+Although YAPC::Europe::2016 preparations are well underway in Cluj,
+it is time for the venue committee of the YAPC::Europe Foundation (YEF)
+to think about the location of the 2017 conference.  YAPC::Europe wouldn't
+exist without dedicated teams of volunteers, and we are always excited
+to see the enthusiasm and learn about the new ideas the community has to
+offer.
+</p>
+<p>
+Further information about preparing a complete application can be
+found on <a href="[% organizers_page %]">our website</a>.  Proposals submitted
+to the venue committee will be added to <a href="http://www.yapceurope.org/yapc_proposals/">this public repository</a> (you
+may provide private information separately) to benefit future organizers.
+</p>
+The deadlines which apply to this portion of the procedure are:
+<ul>
+<li><em>Friday, 20 May:</em>  Deadline for sending a letter of intent.  This
+  letter simply expresses interest in hosting the conference and provides
+  contact information (both email and telephone) for at least two organizers.
+  This is an optional step but it can be to your advantage to alert the
+  venue committee of your proposal.</li>
+<li><em>Thursday, 7 July:</em>  Deadline for sending proposals to 
+  host YAPC::Europe 2017.</li>
+</ul>
+</p>
+<p>
+If you do not receive a confirmation for your letter of intent or proposal
+within a couple of days, please personally contact a member of the venue
+committee.
+</p>
+<p>
+Please send your questions, letters of intent, and proposals to
+venue@yapceurope.org.
+</p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '20:40:00 01-03-2016'
    title = 'New members at the YAPC Europe Foundation'
 %]
