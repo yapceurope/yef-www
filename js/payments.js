@@ -32,6 +32,7 @@ var conferences = {
  "npw2007":{"act_open":1170633600000,"begin":1177718400000,"conf_id":"npw2007","currency":"EUR","end":1177804800000,"fullname":"Nordic Perl Workshop 2007","name":"Nordic Perl Workshop","url":"http://conferences.yapceurope.org/npw2007/","year":"2007"},
  "osdc2015no":{"act_open":1409011200000,"begin":1431043200000,"conf_id":"osdc2015no","currency":"EUR","end":1431216000000,"fullname":"OSDC.no 2015","name":"OSDC.no","url":"http://act.osdc.no/osdc2015no/","year":"2015"},
  "ptpw2008":{"act_open":1202688000000,"begin":1212710400000,"conf_id":"ptpw2008","currency":"EUR","end":1212796800000,"fullname":"Portuguese Perl Workshop 2008","name":"Portuguese Perl Workshop","url":"http://workshop.perl.pt/ptpw2008/","year":"2008"},
+ "qa2016":{"act_open":1454976000000,"begin":1461196800000,"conf_id":"qa2016","currency":"EUR","end":1461456000000,"fullname":"Perl QA Hackathon 2016","name":"Perl QA Hackathon","url":"http://act.qa-hackathon.org/qa2016/","year":"2016"},
  "qh2012eu":{"act_open":1346803200000,"begin":1354838400000,"conf_id":"qh2012eu","currency":"EUR","end":1355011200000,"fullname":"Quack and Hack Europe 2012","name":"Quack and Hack Europe","url":"http://act.yapc.eu/qh2012eu/","year":"2012"},
  "tcpw2008":{"act_open":1220572800000,"begin":1226016000000,"conf_id":"tcpw2008","currency":"EUR","end":1226102400000,"fullname":"TwinCity Perl Workshop 2008","name":"TwinCity Perl Workshop","url":"http://conferences.yapceurope.org/tcpw2008/","year":"2008"},
  "tcpw2011":{"act_open":1315872000000,"begin":1320364800000,"conf_id":"tcpw2011","currency":"EUR","end":1320451200000,"fullname":"TwinCity Perl Workshop 2011","name":"TwinCity Perl Workshop","url":"http://conferences.yapceurope.org/tcpw2011/","year":"2011"},
@@ -878,6 +879,12 @@ var payments = {
   [1212683089000,0,20],
   [1215475200000,1,240],
   [1216080000000,0,0]],
+ "qa2016":[
+  [1454976000000,0,0],
+  [1455665053000,0,250],
+  [1455665286000,0,250],
+  [1460627109000,0,30],
+  [1461456000000,0,0]],
  "qh2012eu":[
   [1346803200000,0,0],
   [1347358422000,0,270],
