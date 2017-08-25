@@ -40,6 +40,7 @@ mailing list.
 
 [% FOREACH item = conferences %]
 [% IF item.name == 'YAPC Europe' OR (item.genre == 'yapc' AND item.continent == 'Europe') %]
+<!-- name=[%item.name%], genre=[%item.genre%], continent=[%item.continent%] -->
 [%IF item.begin.match('xx') || date.format( item.begin, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
 <tr><td colspan=4 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
 [% ELSE %]
