@@ -39,7 +39,7 @@ mailing list.
 [% SET prev_header_printed = 0 %]
 
 [% FOREACH item = conferences %]
-[% IF item.name == 'YAPC Europe' OR (item.name.match('The Perl Conference in') AND item.continent == 'Europe') %]
+[% IF item.name == 'YAPC Europe' OR (item.genre == 'yapc' AND item.continent == 'Europe') %]
 [%IF item.begin.match('xx') || date.format( item.begin, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
 <tr><td colspan=4 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
 [% ELSE %]
