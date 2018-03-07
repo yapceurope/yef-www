@@ -13,6 +13,41 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '21:00:00 07-03-2017'
+   title = 'Call for Venue for the Perl Conference in Europe 2019'
+%]
+<p>
+While the <a href="http://act.perlconference.org/tpc-2018-glasgow">Glasgow Team</a> is already <a href="http://act.perlconference.org/tpc-2018-glasgow/newtalk">accepting talk proposals</a> for the Perl Conference in Europe 2018, we at YEF have our mind set for 2019. So if you always wanted to invite the European (and International) Perl Community to your hometown for three days of massive Perl, drop us a line at venue@yapceurope.org.</p>
+<p>
+Further information about preparing a complete application can be
+found on <a href="[% organizers_page %]">our website</a>.  Proposals submitted
+to the venue committee will be added to <a href="http://www.yapceurope.org/yapc_proposals/">this public repository</a> (you
+may provide private information separately) to benefit future organizers.
+</p>
+The deadlines which apply to this portion of the procedure are:
+<ul>
+<li><em>31st May:</em>  Deadline for sending a letter of intent.  This
+  letter simply expresses interest in hosting the conference and provides
+  contact information (both email and telephone) for at least two organizers.
+  This is an optional step but it can be to your advantage to alert the
+  venue committee of your proposal.</li>
+<li><em>30th June:</em>  Deadline for sending proposals to
+  host the Perl Conference in Europe 2019.</li>
+</ul>
+</p>
+<p>
+If you do not receive a confirmation for your letter of intent or proposal
+within a couple of days, please personally contact a member of the venue
+committee.
+</p>
+<p>
+Please send your questions, letters of intent, and proposals to
+venue@yapceurope.org.
+</p>
+[% END %]
+
+
+[% WRAPPER add_news_item
    date  = '10:00:00 03-04-2017'
    title = 'Call for Venue for the Perl Conference in Europe 2018 (formerly know as YAPC::Europe)'
 %]
@@ -31,8 +66,8 @@ The deadlines which apply to this portion of the procedure are:
   contact information (both email and telephone) for at least two organizers.
   This is an optional step but it can be to your advantage to alert the
   venue committee of your proposal.</li>
-<li><em>Firday, 30th June:</em>  Deadline for sending proposals to
-  host the Perl Conference in Europe 2018.</li>
+<li><em>Friday, 30th June:</em>  Deadline for sending proposals to
+  host the Perl Conference in Europe 2019.</li>
 </ul>
 </p>
 <p>
