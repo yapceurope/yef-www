@@ -28,6 +28,46 @@
 ---
 - act_instance: mongueurs.net
   act_open: 0:0:0 xx/xx/2018
+  begin: 0:0:0 16/02/2018
+  cc: es
+  city: Granada
+  conf_id: granada2018
+  continent: Europe
+  country: Spain
+  end: 0:0:0 17/02/2018
+  genre: workshop
+  languages:
+    - Spanish
+    - English
+  lc:
+    - es
+    - en
+  name: Granada Perl Workshop
+  status: ok
+  type: grassroot
+  url: http://workshop.granada.pm/granada2018/
+- act_instance: mongueurs.net
+  act_open: 0:0:0 xx/xx/2018
+  begin: 10:0:0 18/05/2018
+  cc: fr
+  city: Paris
+  conf_id: jp2018
+  continent: Europe
+  country: France
+  end: 20:0:0 19/05/2018
+  genre: workshop
+  languages:
+    - French
+    - English
+  lc:
+    - fr
+    - en
+  name: French Perl Workshop
+  status: ok
+  type: grassroot
+  url: http://journeesperl.fr/jp2018/
+- act_instance: mongueurs.net
+  act_open: 0:0:0 xx/xx/2018
   begin: 0:0:0 07/09/2018
   cc: ch
   city: Bern
