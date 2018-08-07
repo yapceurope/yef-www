@@ -26,6 +26,24 @@
 # - type: grassroot | business
 # - url: main conference website
 ---
+- act_instance: other
+  act_open: 0:0:0 01/01/2019
+  begin: 0:0:0 07/08/2019
+  cc: tba
+  city: tba
+  conf_id: tpc-2019-in-tba
+  continent: Europe
+  country: tba
+  end: 0:0:0 09/08/2019
+  genre: yapc
+  languages:
+    - English
+  lc:
+    - en
+  name: The Perl Conference in Europe 2019
+  status: ok
+  type: grassroot
+  url:
 - act_instance: mongueurs.net
   act_open: 0:0:0 xx/xx/2018
   begin: 0:0:0 07/09/2018
