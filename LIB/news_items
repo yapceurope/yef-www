@@ -34,6 +34,7 @@ Meanwhile you can follow the
 </p><p>
 We hope to see you in Riga next summer!
 </p>
+[% END %]
 
 [% WRAPPER add_news_item
    date  = '21:00:00 07-03-2017'
