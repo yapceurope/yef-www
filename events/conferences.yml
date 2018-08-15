@@ -43,7 +43,8 @@
   name: The Perl Conference in Riga 2019
   status: ok
   type: grassroot
-  url:
+  url: https://www.facebook.com/tpconf.eu/
+  theme: Make Perl great again
 - act_instance: mongueurs.net
   act_open: 0:0:0 xx/xx/2018
   begin: 0:0:0 07/09/2018
