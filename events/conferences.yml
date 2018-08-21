@@ -99,6 +99,7 @@
   status: ok
   type: grassroot
   url: http://act.perlconference.org/tpc-2018-glasgow/
+  attendees: 185
 - act_instance: mongueurs.net
   act_open: 0:0:0 13/02/2018
   begin: 0:0:0 07/07/2018
