@@ -265,6 +265,7 @@
     - en
   name: The Perl Conference in Amsterdam
   status: ok
+  theme: High End Perl
   type: grassroot
   url: http://perlconference.amsterdam/
 - act_instance: mongueurs.net
