@@ -41,7 +41,7 @@ We hope to see you in Riga next summer!
    title = 'Reboot Perl Conference organization in Europe'
 %]
 <p>
-After 15 years of work, the current YEF setup is not working to well anymore. Therefore, we would like to invite all people who want to continue to have informative, fun, cool (and maybe slightly crazy) Perl conferences and events in Europe to help us.
+After 15 years of work, the current YEF setup is not working too well anymore. Therefore, we would like to invite all people who want to continue to have informative, fun, cool (and maybe slightly crazy) Perl conferences and events in Europe to help us.
 </p><p>
 <a href="/reboot.html">Do you want to join the fun?</a></p>
 [% END %]
