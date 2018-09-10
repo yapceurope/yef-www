@@ -38,7 +38,7 @@ We hope to see you in Riga next summer!
 
 [% WRAPPER add_news_item
    date  = '12:00:00 10-09-2018'
-   title = 'Reboot Perl Conference organisation in Europe'
+   title = 'Reboot Perl Conference organization in Europe'
 %]
 <p>
 After 15 years of work, the current YEF setup is not working to well anymore. Therefore, we would like to invite all people who want to continue to have informative, fun, cool (and maybe slightly crazy) Perl conferences and events in Europe to help us.
