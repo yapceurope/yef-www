@@ -13,6 +13,16 @@
 [%# add new item just below, in reverse chronological order %]
 
 [% WRAPPER add_news_item
+   date  = '12:00:00 10-09-2018'
+   title = 'Reboot Perl Conference organization in Europe'
+%]
+<p>
+After 15 years of work, the current YEF setup is not working too well anymore. Therefore, we would like to invite all people who want to continue to have informative, fun, cool (and maybe slightly crazy) Perl conferences and events in Europe to help us.
+</p><p>
+<a href="/reboot.html">Do you want to join the fun?</a></p>
+[% END %]
+
+[% WRAPPER add_news_item
    date  = '12:00:00 15-08-2018'
    title = 'Riga selected for the European Perl Conference 2019'
 %]
@@ -35,17 +45,6 @@ Meanwhile you can follow the
 We hope to see you in Riga next summer!
 </p>
 [% END %]
-
-[% WRAPPER add_news_item
-   date  = '12:00:00 10-09-2018'
-   title = 'Reboot Perl Conference organization in Europe'
-%]
-<p>
-After 15 years of work, the current YEF setup is not working too well anymore. Therefore, we would like to invite all people who want to continue to have informative, fun, cool (and maybe slightly crazy) Perl conferences and events in Europe to help us.
-</p><p>
-<a href="/reboot.html">Do you want to join the fun?</a></p>
-[% END %]
-
 
 [% WRAPPER add_news_item
    date  = '21:00:00 07-03-2017'
