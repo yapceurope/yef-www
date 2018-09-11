@@ -70,7 +70,7 @@
     </p><p>
     Including the
     [% FOR currency = online.total.keys.sort %]
-    % IF online.total.$currency.${'Online Payment (Transfer)'} eq '' %][% online.total.$currency.${'Online Payment (Transfer)'} = 0 %][%END%]
+    [% IF online.total.$currency.${'Online Payment (Transfer)'} == '' %][% online.total.$currency.${'Online Payment (Transfer)'} = 0 %][%END%]
     [% IF online.total.$currency.${'Online Payment (Transfer)'} > 0 %]
     [% loop.first ? '' : loop.last ? ' and ' : ', ' %]<b>[% currency %]&nbsp;[% online.total.$currency.${'Online Payment (Transfer)'} | format('%.2f')  %]</b>[% END ; END %]
     received via direct money transfer from conference attendees, a total of 
