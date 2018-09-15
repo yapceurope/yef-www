@@ -31,7 +31,7 @@
   begin: 0:0:0 07/08/2019
   cc: lv
   city: Riga
-  conf_id: tpc-2019-riga
+  conf_id: perlcon2019
   continent: Europe
   country: Latvia
   end: 0:0:0 09/08/2019
@@ -40,11 +40,11 @@
     - English
   lc:
     - en
-  name: The Perl Conference in Riga 2019
+  name: PerlCon Riga 2019
   status: ok
   type: grassroot
   url: https://www.facebook.com/perlcon.eu/
-  theme: 
+  theme: The New Era of Perl
 - act_instance: mongueurs.net
   act_open: 0:0:0 xx/xx/2018
   begin: 0:0:0 07/09/2018
