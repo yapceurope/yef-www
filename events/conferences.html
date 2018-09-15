@@ -31,7 +31,7 @@ mailing list.
 
 
 <p>
-<h2>YAPC::Europe and The Perl Conference in Europe</h2>
+<h2>PerlCon, YAPC::Europe and The Perl Conferences in Europe</h2>
 
 [% PROCESS conference_items %]
 <table border=1 cellpadding=4>
@@ -39,15 +39,16 @@ mailing list.
 [% SET prev_header_printed = 0 %]
 
 [% FOREACH item = conferences %]
-[% NEXT IF item.name != 'YAPC Europe' AND !(item.name.match('The Perl Conference in')) AND !(item.name.match('PerlCon')) AND item.genre == 'yapc' AND item.continent == 'Europe') %]
+[% NEXT IF item.genre != 'yapc' OR item.continent != 'Europe' %]
 [%IF item.begin.match('xx') || date.format( item.begin, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
 <tr><td colspan=4 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
 [% ELSE %]
 [% IF prev_header_printed < 1 %]
-<tr><td colspan=4 align=left bgcolor=eeeeee><b>Previous Conferences</b></td></tr>
-[% SET prev_header_printed = 1 %]
+    <tr><td colspan=4 align=left bgcolor=eeeeee><b>Previous Conferences</b></td></tr>
+    [% SET prev_header_printed = 1 %]
 [% END %]
 [% END %]
+
 <tr>
   <td valign="top">
 [% IF item.begin.match('xx') %][% ELSE %]
