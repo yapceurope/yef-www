@@ -39,7 +39,7 @@ mailing list.
 [% SET prev_header_printed = 0 %]
 
 [% FOREACH item = conferences %]
-[% NEXT IF item.genre != 'yapc' OR item.continent != 'Europe' %]
+[% NEXT IF item.genre != 'yapc' OR item.continent != 'Europe' OR item.country == 'Russia' %]
 [%IF item.begin.match('xx') || date.format( item.begin, '%Y%m%d' ) >= date.format(date.now, '%Y%m%d') %]
 <tr><td colspan=4 align=left bgcolor=eeeeee><b>Upcoming</b></td></tr>
 [% ELSE %]
@@ -81,7 +81,7 @@ mailing list.
 <tr><td valign="top"><a href="http://www.osdc.com.au/">YAPC::Australia</a> (part of OSDC.au)</td></tr>
 <tr><td valign="top"><a href="http://yapc.org/America">YAPC::NA (North America)</a></td></tr>
 <tr><td valign="top"><a href="http://perl.org.br/bin/view/YAPC/WebHome">YAPC::SA (South America)</a></td></tr>
-<tr><td valign="top"><a href="http://yapcrussia.org/">YAPC Russia</a></td></tr>
+<tr><td valign="top"><a href="http://yapcrussia.org/">YAPC::Russia</a></td></tr>
 </table>
 </p>
 
