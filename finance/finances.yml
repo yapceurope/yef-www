@@ -759,24 +759,24 @@
       - Income
       -
         - Interest Income
-        - 0.00
+        - 80.71
       -
         - Donations
-        - 2110.00
+        - 2205.85
     -
       - Expenses
       -
         - Bank Account Charge
-        - 105.75
+        - 119.25
       -
         - Online Payment Charge
-        - 162.00
+        - 216.00
       -
         - Online Payment Fees
         - 379.66
       -
         - Kickstart Donations
-        - 500.00
+        - 1500.00
     -
       - Liabilities
       -
@@ -784,21 +784,21 @@
         - 0.00
       -
         - Online Payment
-        - 30805.00
+        - 28915.00
       -
         - Online Payment (Transfer)
-        - 2020.00
+        - 4030.00
       -
         - Online Payment Refunds
         - -32945.00
     -
-      - Assets 2015-09-30
+      - Assets 2015-12-31
       -
         - Account 00010281201
-        - 173.15
+        - 194.75
       -
         - Account 00010281203
-        - 8211.08
+        - 7291.79
       -
         - Liabilities
         - 0.00
@@ -815,7 +815,7 @@
       - Expenses
       -
         - Online Payment Fees
-        - 21.38
+        - 38.84
     -
       - Liabilities
       -
@@ -823,15 +823,15 @@
         - 923.73
       -
         - Online Payment
-        - 1375.00
+        - 1915.00
       -
         - Online Payment Refunds
         - 0.00
     -
-      - Assets 2015-08-31
+      - Assets 2015-12-31
       -
         - Account 00010281204
-        - 2213.36
+        - 2735.90
       -
         - Liabilities
-        - -2298.73
+        - -2838.73
