@@ -819,7 +819,7 @@
     -
       - Liabilities
       -
-        - Liabilities 2014-01-01
+        - Liabilities 2015-01-01
         - 923.73
       -
         - Online Payment
@@ -835,3 +835,93 @@
       -
         - Liabilities
         - -2838.73
+2016:
+  EUR:
+    -
+      - Assets 2016-01-01
+      -
+        - Account 00010281201
+        - 194.75
+      -
+        - Account 00010281203
+        - 7291.79
+      -
+        - Liabilities
+        - 0.00
+    -
+      - Income
+      -
+        - Interest Income
+        - 59.89
+      -
+        - Donations
+        - 685.48
+    -
+      - Expenses
+      -
+        - Bank Account Charge
+        - 141.00
+      -
+        - Online Payment Charge
+        - 216.00
+      -
+        - Online Payment Fees
+        - 283.06
+    -
+      - Liabilities
+      -
+        - Liabilities 2016-01-01
+        - 0.00
+      -
+        - Online Payment
+        - 21904.00
+      -
+        - Online Payment (Transfer)
+        - 1165.00
+      -
+        - Online Payment Refunds
+        - -22539.00
+    -
+      - Assets 2016-12-31
+      -
+        - Account 00010281201
+        - 59.17
+      -
+        - Account 00010281203
+        - 8062.68
+      -
+        - Liabilities
+        - -530.00
+  GBP:
+    -
+      - Assets 2016-01-01
+      -
+        - Account 00010281204
+        - 2735.90
+      -
+        - Liabilities
+        - -2838.73
+    -
+      - Expenses
+      -
+        - Online Payment Fees
+        - 24.23
+    -
+      - Liabilities
+      -
+        - Liabilities 2016-01-01
+        - 2838.73
+      -
+        - Online Payment
+        - 1155.00
+      -
+        - Online Payment Refunds
+        - 0.00
+    -
+      - Assets 2015-12-31
+      -
+        - Account 00010281204
+        - 3866.67
+      -
+        - Liabilities
+        - -3993.73
