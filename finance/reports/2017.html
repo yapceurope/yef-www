@@ -1,0 +1,15 @@
+[% year = 2017 %]
+[% WRAPPER html_page
+   title = "Financial report for $year"
+%]
+[% PROCESS 'financial_report'
+   year = year
+%]
+
+<h2><a name="refundees"></a>Online payment refundees</h2>
+<ul>
+<li>YAPC Europe 2017</li>
+<li>London Perl Workshop 2017 (GBP)</li>
+</ul>
+
+[% END %]
