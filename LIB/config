@@ -1,6 +1,6 @@
 [%-
-    root        = root  || "http://www.yapceurope.org"
-    lists       = "http://lists.yapceurope.org"
+    root        = root  || "https://www.yapceurope.org"
+    lists       = "https://lists.yapceurope.org"
 
     index_page              = "$root/index.html"
     act_page                = "$root/organizers/act.html"
