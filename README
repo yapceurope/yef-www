@@ -6,6 +6,9 @@ $> git clone https://github.com/yapceurope/yef-www/
 # Change location.
 $> cd yef-www/
 
+# Install dependencies
+$> cpanm --installdeps .
+
 # Make sure you have Template::Plugin::YAML installed.
 # Run the Template Toolkit commandline tool to build the site.
 $> ttree  -a -v -l LIB -f .ttreerc -s . -d /tmp/yef
