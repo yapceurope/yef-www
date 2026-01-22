@@ -6,11 +6,15 @@ $> git clone https://github.com/yapceurope/yef-www/
 # Change location.
 $> cd yef-www/
 
-# Make sure you have Template::Plugin::YAML installed.
-# Run the Template Toolkit commandline tool to build the site.
+# Build the site
+$> make site
+or
 $> ttree  -a -v -l LIB -f .ttreerc -s . -d /tmp/yef
 
-# Point your browser at the newly created (local) site.
+# View the local site in Firefox
+$> make show-site
+
+# Alternatively, point your browser at the newly created (local) site directly
 $> firefox file:///tmp/yef/index.html
 
 # Not sure why, but on my box, all links point to /home/yapc/public_html
